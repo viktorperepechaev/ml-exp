@@ -1,0 +1,32 @@
+{
+  "registered_utc": "2026-09-26T19:54:53.646315+00:00",
+  "scope": "New user hypothesis: topology is useful under a strict small-neural-model budget; not a claim over unconstrained networks.",
+  "timing": "After MLP exploration, while compact CNN grid remains running; before reading unused official wdep member. Primary512budget was declared before all tiny MLP fits.",
+  "budget": 512,
+  "development": "Official TRA1934/CV946; keep all completed feasible MLP configurations and all registered compactCNN configurations.",
+  "selection": "Global best topology and global best non-topology by mean3seed CVaccuracy, then meanCE, fewer parameters, lexical family+id. No selection on TEST.",
+  "confirmation_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "refit": "All2880TRA+CV, same selected optimizer and architecture; fixed median3development-selected epochs. Refit all scalers on fullTRAIN; no further stopping/tuning.",
+  "held_out": "optdigits-orig.wdep.Z,943images from writers already represented in training. Previously excluded from this research. This is a new-image test, NOT a new-writer test.",
+  "primary": "Mean accuracy of individual <=512parameter models across10fixed seeds. No ensemble classifier; deploying one network uses its single-model weight count.",
+  "uncertainty": "Paired image sign-flip test on10seed-averaged per-image correctness differences; crossed paired-seed/image bootstrap95% CI. Images, not seed-image pairs, are permutation units. Writer identities unavailable, so no writer-independent confidence claim.",
+  "multiple_testing": "Bonferroni6: old OptDigits-windep, PenDigits, CharacterTrajectories, USPS, RIM-ONE DL and this new OptDigits-wdep comparison. p_adjusted=min(1,6*p). Any prior5test family claim needs reevaluation at6for a combined-series claim.",
+  "success": "Positive mean accuracy difference, adjustedp<=.05, crossed-bootstrap95% lower bound>0, at least8/10positive seed pairs. Report failures. No SOTA/priority or total-latency reduction inferred from fewer trained weights.",
+  "statistics": {
+    "bootstrap_repetitions": 20000,
+    "signflip_draws": 99999,
+    "seed": 20260930
+  },
+  "test_read": false
+}

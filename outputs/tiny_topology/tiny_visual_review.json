@@ -1,0 +1,14 @@
+{
+  "reviewed_utc": "2026-09-26T20:38:44.714872+00:00",
+  "passed": true,
+  "figures": {
+    "tiny_train_topology.png": "206549ec9cd29b2b5929f16fd49959db3105e6359aef2eaaae0fe9f489f21aaa",
+    "tiny_test_results.png": "ba98a98754967140b09a25d18b4ad83bf78fe4959c277b4c39d793d9d1a9c597"
+  },
+  "checks": [
+    "All axes, units, legends and captions visible",
+    "Main512test separated from descriptive size curve",
+    "No ensemble-versus-single-model ambiguity",
+    "Mean accuracy and interval match frozen numerical results"
+  ]
+}

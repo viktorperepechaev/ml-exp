@@ -1,0 +1,55 @@
+{
+  "created_utc": "2026-09-26T20:35:39.688512+00:00",
+  "test_read": false,
+  "checks": [
+    {
+      "pipeline": "topology",
+      "model": "b512_pixels_topology_early_d1_o0_s0",
+      "validation_predictions_replayed": true,
+      "accuracy": 0.9587737843551797
+    },
+    {
+      "pipeline": "baseline",
+      "model": "b512_pixels_geometry_early_d1_o1_s0",
+      "validation_predictions_replayed": true,
+      "accuracy": 0.9534883720930233
+    },
+    {
+      "pipeline": "b256_topology",
+      "model": "b256_pixels_topology_late_d1_o1_s0",
+      "validation_predictions_replayed": true,
+      "accuracy": 0.872093023255814
+    },
+    {
+      "pipeline": "b256_baseline",
+      "model": "b256_pixels_d1_o1_s0",
+      "validation_predictions_replayed": true,
+      "accuracy": 0.8551797040169133
+    },
+    {
+      "pipeline": "b1024_topology",
+      "model": "b1024_pixels_topology_early_d1_o1_s0",
+      "validation_predictions_replayed": true,
+      "accuracy": 0.9725158562367865
+    },
+    {
+      "pipeline": "b1024_baseline",
+      "model": "b1024_pixels_geometry_early_d1_o1_s0",
+      "validation_predictions_replayed": true,
+      "accuracy": 0.9630021141649049
+    },
+    {
+      "pipeline": "b2048_topology",
+      "model": "b2048_hog_topology_early_d1_o0_s0",
+      "validation_predictions_replayed": true,
+      "accuracy": 0.9820295983086681
+    },
+    {
+      "pipeline": "b2048_baseline",
+      "model": "b2048_hog_geometry_late_d1_o0_s0",
+      "validation_predictions_replayed": true,
+      "accuracy": 0.9735729386892178
+    }
+  ],
+  "passed": true
+}

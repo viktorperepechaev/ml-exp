@@ -1,0 +1,81 @@
+{
+  "created_utc": "2026-09-26T20:55:39.039793+00:00",
+  "passed": true,
+  "code_sha256": "57ed31d7c62e4a202af423b1589b6da79547b4daa293cef08b056a5bc057a3d4",
+  "binary_topology_cases": 512,
+  "hard_binary_euler_values_exact": true,
+  "sharp_soft_limit_matches_to_tolerance": true,
+  "logistic_expectation_matches_independent_exact_integration": true,
+  "finite_difference_gradcheck": true,
+  "classification_gradient_norms": {
+    "front.thresholds": 0.009848561137914658,
+    "front.conv.weight": 0.025958528742194176,
+    "front.conv.bias": 0.014962028712034225
+  },
+  "input_gradient_nonzero": true,
+  "parameter_counts": {
+    "euler_learned": {
+      "trainable": 469,
+      "stored": 469,
+      "hidden": 5
+    },
+    "euler_frozen": {
+      "trainable": 441,
+      "stored": 469,
+      "hidden": 5
+    },
+    "area_learned": {
+      "trainable": 469,
+      "stored": 469,
+      "hidden": 5
+    },
+    "perimeter_learned": {
+      "trainable": 469,
+      "stored": 469,
+      "hidden": 5
+    },
+    "geometry_learned": {
+      "trainable": 465,
+      "stored": 465,
+      "hidden": 5
+    },
+    "mlp": {
+      "trainable": 460,
+      "stored": 460,
+      "hidden": 6
+    },
+    "cnn_c1": {
+      "trainable": 508,
+      "stored": 508,
+      "hidden": 18
+    },
+    "cnn_c2": {
+      "trainable": 507,
+      "stored": 507,
+      "hidden": 11
+    },
+    "cnn_c4": {
+      "trainable": 508,
+      "stored": 508,
+      "hidden": 6
+    },
+    "cnn_skip_c1": {
+      "trainable": 477,
+      "stored": 477,
+      "hidden": 5
+    },
+    "cnn_skip_c2": {
+      "trainable": 462,
+      "stored": 462,
+      "hidden": 4
+    },
+    "cnn_skip_c4": {
+      "trainable": 475,
+      "stored": 475,
+      "hidden": 3
+    }
+  },
+  "forward_backward_batch256_seconds": 0.009897295851260424,
+  "test_data_read": false,
+  "warning": "The soft output is an expectation of Euler characteristic, not an integer Betti number. Differentiability in max-based face extensions is almost everywhere."
+}

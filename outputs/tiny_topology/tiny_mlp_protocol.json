@@ -1,0 +1,109 @@
+{
+  "registered_utc": "2026-09-26T19:43:03.111754+00:00",
+  "question": "Does explicit topology help especially when neural trainable-parameter budgets are256/512/1024/2048?",
+  "scope": "Exploratory development only. OptDigits TRA1934/CV946, repeatedly observed development data. Neither official test read; no new confirmatory claim from this pilot.",
+  "primary_budget_for_future_confirmation": 512,
+  "budgets": [
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "branches": {
+    "pixels": {
+      "base": "pixels",
+      "side": null,
+      "fusion": "early"
+    },
+    "pixels_hog": {
+      "base": "hog",
+      "side": null,
+      "fusion": "early"
+    },
+    "pixels_geometry_early": {
+      "base": "pixels",
+      "side": "geometry",
+      "fusion": "early"
+    },
+    "pixels_topology_early": {
+      "base": "pixels",
+      "side": "topology",
+      "fusion": "early"
+    },
+    "pixels_geometry_late": {
+      "base": "pixels",
+      "side": "geometry",
+      "fusion": "late"
+    },
+    "pixels_topology_late": {
+      "base": "pixels",
+      "side": "topology",
+      "fusion": "late"
+    },
+    "hog_geometry_early": {
+      "base": "hog",
+      "side": "geometry",
+      "fusion": "early"
+    },
+    "hog_topology_early": {
+      "base": "hog",
+      "side": "topology",
+      "fusion": "early"
+    },
+    "hog_geometry_late": {
+      "base": "hog",
+      "side": "geometry",
+      "fusion": "late"
+    },
+    "hog_topology_late": {
+      "base": "hog",
+      "side": "topology",
+      "fusion": "late"
+    }
+  },
+  "features": "Pixels64:4x4block means of original32x32binary input. HOG128: existing corrected spatial unsigned gradients. Topology8: beta0,beta1 at padded disk closing radii0/1/2/3. Geometry8: area/perimeter of the same masks. No invariants added to geometry branches.",
+  "side_layer": "Late fusion logits=B ReLU(Ax+a)+C phi+b; all C weights counted. Early fusion allows nonlinear interactions before hidden bottleneck. Geometry has identical fusion alternatives and feature dimension.",
+  "normalization": "Fit per-feature mean/std on TRA only; columns with std<1e-10 set0 in both TRA and CV. Pixelweight1; HOG and side features weight0.3.",
+  "architectures": {
+    "depths": [
+      1,
+      2
+    ],
+    "hidden_width": "Largest positive integer under the declared total parameter budget, with all hidden layers same width.",
+    "early_count": "(base_dim+side_dim+11)*h+10+(depth-1)*(h*h+h)",
+    "late_count": "(base_dim+11)*h+10+(depth-1)*(h*h+h)+10*side_dim"
+  },
+  "optimizers": [
+    {
+      "lr": 0.003,
+      "weight_decay": 0.01
+    },
+    {
+      "lr": 0.01,
+      "weight_decay": 0.01
+    }
+  ],
+  "optimizer": "AdamW",
+  "max_epochs": 250,
+  "patience": 30,
+  "batch_size": 256,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "checkpoint": "Lowest CV cross-entropy, improvement>1e-8, earliest tie; patience30. Same criterion for all branches.",
+  "rng": "Model initialization seed=s; independent torch permutation generator seed2026092800+s shared across all representations and budgets.",
+  "selection": "Within each budget and topology status: maximum mean3seed CVaccuracy, then meanCE, fewer parameters, lexicalid. Keep every result. No significance inference after CVselection.",
+  "limitations": "MLPs only in this first pilot. A tiny CNN can be a stronger resource-matched control and must be checked before a broad claim. Feature computation, scalers and fixed preprocessing are not free and require separate memory/latency accounting.",
+  "fits": 480,
+  "code_sha256": "c2e278474e4b4dffe034b39e3e2d2cd7314707fb33861b45f714822f2977f7c0",
+  "feature_cache_sha256": "1561dcb2709d4e878f1a36a20b3fea225cd0724a1340be335594d7695433a3de",
+  "upstream_protocol_sha256": "15d5d56023d0d15e7e2d5790a4acec41836ba5bfe29d1b043e8fdc4d16be4f29",
+  "upstream_code_sha256": {
+    "outputs/topology_complement/optdigits_complement_v1.py": "a46e2d28424c6ed6200ac253b4c0af66f09532d3eb41533b7e47626a90ced42c",
+    "outputs/real_topology/optdigits_pilot.py": "e3c65756022bbabfc254b32914141b32ef4d4af521db645f2d81a51eb8f74a85",
+    "outputs/real_topology/optdigits_ablation.py": "4fd32b012448ee9e4e72919bbc7f8b34d3bb6c318b42a18e123cbf737788dfe7"
+  },
+  "test_read": false
+}

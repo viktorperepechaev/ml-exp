@@ -1,0 +1,414 @@
+{
+  "analyzed_utc": "2026-09-26T20:36:23.853289+00:00",
+  "protocol_sha256": "73442b8db15697d01c51bce2daf4b8ef3137660c537c2020025a13680d56cedc",
+  "test_n": 943,
+  "test": "Official writer-dependent wdep, new images of training writers; no claim on unseen writers.",
+  "primary": {
+    "topology_mean_accuracy": 0.963626723223754,
+    "baseline_mean_accuracy": 0.9541887592788971,
+    "mean_accuracy_difference": 0.00943796394485684,
+    "crossed_seed_image_bootstrap95": [
+      0.0023329798515376457,
+      0.01664899257688229
+    ],
+    "one_sided_paired_image_permutation_p": 0.00017231517132492894,
+    "permutation_computation": "Exact weighted sign-flip via subset-sum dynamic programming, not Monte Carlo; image units.",
+    "bonferroni6_p": 0.0010338910279495735,
+    "relative_mean_error_reduction": 0.20601851851851877
+  },
+  "seeds": {
+    "topology_accuracy": [
+      0.9703075291622482,
+      0.9554612937433722,
+      0.9639448568398727,
+      0.9639448568398727,
+      0.9650053022269353,
+      0.968186638388123,
+      0.9650053022269353,
+      0.9692470837751855,
+      0.9544008483563097,
+      0.9607635206786851
+    ],
+    "baseline_accuracy": [
+      0.9544008483563097,
+      0.9544008483563097,
+      0.9618239660657476,
+      0.9469777306468717,
+      0.9544008483563097,
+      0.9575821845174973,
+      0.953340402969247,
+      0.9597030752916225,
+      0.953340402969247,
+      0.9459172852598091
+    ],
+    "paired_differences": [
+      0.015906680805938492,
+      0.0010604453870625664,
+      0.0021208907741251328,
+      0.016967126193001062,
+      0.010604453870625663,
+      0.010604453870625663,
+      0.01166489925768823,
+      0.009544008483563097,
+      0.0010604453870625664,
+      0.014846235418875928
+    ],
+    "positive_pairs": 10
+  },
+  "pipelines": {
+    "topology": {
+      "budget": 512,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 508,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 6,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_topology_early_d1_o0",
+      "mean_accuracy": 0.9605355884425651,
+      "mean_ce": 0.14949699739615122,
+      "seed_accuracy": [
+        0.9587737843551797,
+        0.9577167019027484,
+        0.9651162790697675
+      ],
+      "selected_epochs": [
+        108,
+        105,
+        104
+      ],
+      "model_family": "mlp",
+      "weight_decay": 0.01,
+      "final_epochs": 105
+    },
+    "baseline": {
+      "budget": 512,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 508,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 6,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_geometry_early_d1_o1",
+      "mean_accuracy": 0.9510218463706837,
+      "mean_ce": 0.18383470674355826,
+      "seed_accuracy": [
+        0.9534883720930233,
+        0.9482029598308668,
+        0.9513742071881607
+      ],
+      "selected_epochs": [
+        30,
+        33,
+        42
+      ],
+      "model_family": "mlp",
+      "weight_decay": 0.01,
+      "final_epochs": 33
+    },
+    "b256_topology": {
+      "budget": 256,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 240,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 2,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b256_pixels_topology_late_d1_o1",
+      "mean_accuracy": 0.8685694150810429,
+      "mean_ce": 0.507636954387029,
+      "seed_accuracy": [
+        0.872093023255814,
+        0.8805496828752643,
+        0.8530655391120507
+      ],
+      "selected_epochs": [
+        80,
+        174,
+        79
+      ],
+      "model_family": "mlp",
+      "weight_decay": 0.01,
+      "final_epochs": 80
+    },
+    "b256_baseline": {
+      "budget": 256,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 235,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 3,
+      "base_dim": 64,
+      "side_dim": 0,
+      "id": "b256_pixels_d1_o1",
+      "mean_accuracy": 0.8643410852713179,
+      "mean_ce": 0.5069398979345957,
+      "seed_accuracy": [
+        0.8551797040169133,
+        0.8858350951374208,
+        0.8520084566596194
+      ],
+      "selected_epochs": [
+        233,
+        247,
+        170
+      ],
+      "model_family": "mlp",
+      "weight_decay": 0.01,
+      "final_epochs": 233
+    },
+    "b1024_topology": {
+      "budget": 1024,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 1006,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 12,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_topology_early_d1_o1",
+      "mean_accuracy": 0.9763918252290344,
+      "mean_ce": 0.09908190866311391,
+      "seed_accuracy": [
+        0.9725158562367865,
+        0.9767441860465116,
+        0.9799154334038055
+      ],
+      "selected_epochs": [
+        26,
+        32,
+        25
+      ],
+      "model_family": "mlp",
+      "weight_decay": 0.01,
+      "final_epochs": 26
+    },
+    "b1024_baseline": {
+      "budget": 1024,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 1006,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 12,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_geometry_early_d1_o1",
+      "mean_accuracy": 0.970754052149401,
+      "mean_ce": 0.11095193276802699,
+      "seed_accuracy": [
+        0.9630021141649049,
+        0.9778012684989429,
+        0.9714587737843552
+      ],
+      "selected_epochs": [
+        19,
+        32,
+        25
+      ],
+      "model_family": "mlp",
+      "weight_decay": 0.01,
+      "final_epochs": 25
+    },
+    "b2048_topology": {
+      "budget": 2048,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 1909,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_topology_early_d1_o0",
+      "mean_accuracy": 0.9830866807610995,
+      "mean_ce": 0.061847981065511703,
+      "seed_accuracy": [
+        0.9820295983086681,
+        0.9820295983086681,
+        0.985200845665962
+      ],
+      "selected_epochs": [
+        140,
+        82,
+        160
+      ],
+      "model_family": "mlp",
+      "weight_decay": 0.01,
+      "final_epochs": 140
+    },
+    "b2048_baseline": {
+      "budget": 2048,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 1917,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_geometry_late_d1_o0",
+      "mean_accuracy": 0.9820295983086681,
+      "mean_ce": 0.058401125172773995,
+      "seed_accuracy": [
+        0.9735729386892178,
+        0.9862579281183932,
+        0.9862579281183932
+      ],
+      "selected_epochs": [
+        70,
+        142,
+        227
+      ],
+      "model_family": "mlp",
+      "weight_decay": 0.01,
+      "final_epochs": 142
+    }
+  },
+  "secondary_budget_curve": [
+    {
+      "budget": 256,
+      "topology_mean_accuracy": 0.8644750795334041,
+      "baseline_mean_accuracy": 0.8724284199363733,
+      "mean_difference": -0.007953340402969244,
+      "topology_seed_accuracy": [
+        0.8844114528101803,
+        0.8865323435843054,
+        0.8366914103923648,
+        0.7985153764581124,
+        0.8769883351007424,
+        0.8642629904559915,
+        0.8897136797454931,
+        0.8547189819724285,
+        0.8632025450689289,
+        0.8897136797454931
+      ],
+      "baseline_seed_accuracy": [
+        0.83881230116649,
+        0.8981972428419936,
+        0.8674443266171792,
+        0.8589607635206787,
+        0.8748674443266172,
+        0.8928950159066809,
+        0.8536585365853658,
+        0.8738069989395546,
+        0.8939554612937434,
+        0.8716861081654295
+      ],
+      "scope": "Prespecified secondary MLP-only descriptive point, not an alternative primary test"
+    },
+    {
+      "budget": 512,
+      "topology_mean_accuracy": 0.963626723223754,
+      "baseline_mean_accuracy": 0.9541887592788971,
+      "mean_difference": 0.00943796394485683,
+      "topology_seed_accuracy": [
+        0.9703075291622482,
+        0.9554612937433722,
+        0.9639448568398727,
+        0.9639448568398727,
+        0.9650053022269353,
+        0.968186638388123,
+        0.9650053022269353,
+        0.9692470837751855,
+        0.9544008483563097,
+        0.9607635206786851
+      ],
+      "baseline_seed_accuracy": [
+        0.9544008483563097,
+        0.9544008483563097,
+        0.9618239660657476,
+        0.9469777306468717,
+        0.9544008483563097,
+        0.9575821845174973,
+        0.953340402969247,
+        0.9597030752916225,
+        0.953340402969247,
+        0.9459172852598091
+      ],
+      "scope": "Primary globalMLP/CNN comparison"
+    },
+    {
+      "budget": 1024,
+      "topology_mean_accuracy": 0.9776246023329799,
+      "baseline_mean_accuracy": 0.9745493107104984,
+      "mean_difference": 0.0030752916224814574,
+      "topology_seed_accuracy": [
+        0.9777306468716861,
+        0.9809119830328739,
+        0.9777306468716861,
+        0.9809119830328739,
+        0.9766702014846236,
+        0.9787910922587487,
+        0.975609756097561,
+        0.9766702014846236,
+        0.9724284199363733,
+        0.9787910922587487
+      ],
+      "baseline_seed_accuracy": [
+        0.9745493107104984,
+        0.9777306468716861,
+        0.9798515376458112,
+        0.9766702014846236,
+        0.968186638388123,
+        0.9713679745493107,
+        0.9713679745493107,
+        0.9766702014846236,
+        0.9745493107104984,
+        0.9745493107104984
+      ],
+      "scope": "Prespecified secondary MLP-only descriptive point, not an alternative primary test"
+    },
+    {
+      "budget": 2048,
+      "topology_mean_accuracy": 0.9826086956521738,
+      "baseline_mean_accuracy": 0.9796394485683987,
+      "mean_difference": 0.002969247083775173,
+      "topology_seed_accuracy": [
+        0.9872746553552492,
+        0.9809119830328739,
+        0.9840933191940615,
+        0.9830328738069989,
+        0.9819724284199364,
+        0.9809119830328739,
+        0.9798515376458112,
+        0.985153764581124,
+        0.9830328738069989,
+        0.9798515376458112
+      ],
+      "baseline_seed_accuracy": [
+        0.9766702014846236,
+        0.9819724284199364,
+        0.985153764581124,
+        0.9787910922587487,
+        0.9734888653234358,
+        0.9777306468716861,
+        0.9809119830328739,
+        0.9787910922587487,
+        0.9830328738069989,
+        0.9798515376458112
+      ],
+      "scope": "Prespecified secondary MLP-only descriptive point, not an alternative primary test"
+    }
+  ],
+  "success_gate_passed": true,
+  "success_gate": "Positive mean accuracy difference, adjustedp<=.05, crossed-bootstrap95% lower bound>0, at least8/10positive seed pairs. Report failures. No SOTA/priority or total-latency reduction inferred from fewer trained weights.",
+  "single_model_not_ensemble": true,
+  "scope": "Finite declared <=512parameter MLP/CNN families. No SOTA/novelty claim. Preprocessing and scaler cost additional; learned parameter count alone is not total compute cost."
+}

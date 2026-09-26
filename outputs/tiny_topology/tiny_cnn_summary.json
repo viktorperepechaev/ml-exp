@@ -1,0 +1,2655 @@
+{
+  "protocol_sha256": "8358a20546f8b1713d26101695da694fc74ff8641c6cd21288d93f522404831b",
+  "test_read": false,
+  "all_configurations": [
+    {
+      "family": "hidden",
+      "branch": "topology",
+      "channels": 2,
+      "hidden_width": 4,
+      "feature_dim": 8,
+      "parameters": 486,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "hidden_c2_topology_none_o1",
+      "mean_accuracy": 0.9365750528541227,
+      "mean_ce": 0.2190593828757604,
+      "seed_accuracy": [
+        0.9619450317124736,
+        0.9482029598308668,
+        0.8995771670190275
+      ],
+      "selected_epochs": [
+        229,
+        250,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "topology",
+      "channels": 2,
+      "hidden_width": 4,
+      "feature_dim": 8,
+      "parameters": 486,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "hidden_c2_topology_bank5_o1",
+      "mean_accuracy": 0.9242424242424243,
+      "mean_ce": 0.2609110325574875,
+      "seed_accuracy": [
+        0.9619450317124736,
+        0.8974630021141649,
+        0.9133192389006343
+      ],
+      "selected_epochs": [
+        246,
+        250,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "geometry",
+      "channels": 2,
+      "hidden_width": 4,
+      "feature_dim": 8,
+      "parameters": 486,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c2_geometry_bank5_o1",
+      "mean_accuracy": 0.923185341789993,
+      "mean_ce": 0.23597870270411173,
+      "seed_accuracy": [
+        0.9534883720930233,
+        0.945031712473573,
+        0.8710359408033826
+      ],
+      "selected_epochs": [
+        246,
+        248,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "topology",
+      "channels": 2,
+      "hidden_width": 4,
+      "feature_dim": 8,
+      "parameters": 486,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "hidden_c2_topology_none_o0",
+      "mean_accuracy": 0.8981677237491191,
+      "mean_ce": 0.3618848572174708,
+      "seed_accuracy": [
+        0.9291754756871036,
+        0.9059196617336153,
+        0.8594080338266384
+      ],
+      "selected_epochs": [
+        246,
+        250,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "geometry",
+      "channels": 2,
+      "hidden_width": 4,
+      "feature_dim": 8,
+      "parameters": 486,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c2_geometry_none_o1",
+      "mean_accuracy": 0.8833685694150811,
+      "mean_ce": 0.3717070569594701,
+      "seed_accuracy": [
+        0.9503171247357294,
+        0.8456659619450317,
+        0.854122621564482
+      ],
+      "selected_epochs": [
+        226,
+        249,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "geometry",
+      "channels": 2,
+      "hidden_width": 4,
+      "feature_dim": 8,
+      "parameters": 486,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c2_geometry_bank5_o0",
+      "mean_accuracy": 0.8794926004228331,
+      "mean_ce": 0.40763605137666065,
+      "seed_accuracy": [
+        0.9302325581395349,
+        0.7928118393234672,
+        0.9154334038054969
+      ],
+      "selected_epochs": [
+        250,
+        250,
+        249
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "raw",
+      "channels": 2,
+      "hidden_width": 5,
+      "feature_dim": 0,
+      "parameters": 481,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c2_raw_bank5_o0",
+      "mean_accuracy": 0.8759689922480621,
+      "mean_ce": 0.4170709252357483,
+      "seed_accuracy": [
+        0.8742071881606766,
+        0.8784355179704016,
+        0.8752642706131079
+      ],
+      "selected_epochs": [
+        247,
+        249,
+        244
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "geometry",
+      "channels": 2,
+      "hidden_width": 4,
+      "feature_dim": 8,
+      "parameters": 486,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c2_geometry_none_o0",
+      "mean_accuracy": 0.8742071881606766,
+      "mean_ce": 0.42947765191396076,
+      "seed_accuracy": [
+        0.9281183932346723,
+        0.8911205073995772,
+        0.8033826638477801
+      ],
+      "selected_epochs": [
+        246,
+        250,
+        249
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "topology",
+      "channels": 2,
+      "hidden_width": 4,
+      "feature_dim": 8,
+      "parameters": 486,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "hidden_c2_topology_bank5_o2",
+      "mean_accuracy": 0.8671599718111346,
+      "mean_ce": 0.39239682257175446,
+      "seed_accuracy": [
+        0.9429175475687104,
+        0.7241014799154334,
+        0.9344608879492601
+      ],
+      "selected_epochs": [
+        227,
+        250,
+        207
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "geometry",
+      "channels": 2,
+      "hidden_width": 4,
+      "feature_dim": 8,
+      "parameters": 486,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c2_geometry_bank5_o2",
+      "mean_accuracy": 0.8668076109936576,
+      "mean_ce": 0.4055800884962082,
+      "seed_accuracy": [
+        0.9566596194503171,
+        0.7198731501057083,
+        0.9238900634249472
+      ],
+      "selected_epochs": [
+        249,
+        250,
+        240
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "raw",
+      "channels": 2,
+      "hidden_width": 5,
+      "feature_dim": 0,
+      "parameters": 481,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c2_raw_none_o0",
+      "mean_accuracy": 0.8657505285412261,
+      "mean_ce": 0.4492287337779999,
+      "seed_accuracy": [
+        0.861522198731501,
+        0.86892177589852,
+        0.8668076109936576
+      ],
+      "selected_epochs": [
+        249,
+        250,
+        248
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "topology",
+      "channels": 2,
+      "hidden_width": 4,
+      "feature_dim": 8,
+      "parameters": 486,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "hidden_c2_topology_none_o2",
+      "mean_accuracy": 0.8583509513742072,
+      "mean_ce": 0.4299362897872925,
+      "seed_accuracy": [
+        0.9482029598308668,
+        0.7093023255813954,
+        0.9175475687103594
+      ],
+      "selected_epochs": [
+        114,
+        246,
+        158
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "raw",
+      "channels": 2,
+      "hidden_width": 5,
+      "feature_dim": 0,
+      "parameters": 481,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c2_raw_bank5_o2",
+      "mean_accuracy": 0.85799859055673,
+      "mean_ce": 0.46159518758455914,
+      "seed_accuracy": [
+        0.7917547568710359,
+        0.927061310782241,
+        0.8551797040169133
+      ],
+      "selected_epochs": [
+        250,
+        248,
+        247
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "geometry",
+      "channels": 2,
+      "hidden_width": 4,
+      "feature_dim": 8,
+      "parameters": 486,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c2_geometry_none_o2",
+      "mean_accuracy": 0.843199436222692,
+      "mean_ce": 0.46336861948172253,
+      "seed_accuracy": [
+        0.9513742071881607,
+        0.7019027484143763,
+        0.8763213530655392
+      ],
+      "selected_epochs": [
+        77,
+        246,
+        123
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "topology",
+      "channels": 2,
+      "hidden_width": 4,
+      "feature_dim": 8,
+      "parameters": 486,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "hidden_c2_topology_bank5_o0",
+      "mean_accuracy": 0.8421423537702607,
+      "mean_ce": 0.4915497799714406,
+      "seed_accuracy": [
+        0.8921775898520085,
+        0.7706131078224101,
+        0.8636363636363636
+      ],
+      "selected_epochs": [
+        250,
+        250,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "raw",
+      "channels": 2,
+      "hidden_width": 5,
+      "feature_dim": 0,
+      "parameters": 481,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c2_raw_none_o2",
+      "mean_accuracy": 0.8375616631430586,
+      "mean_ce": 0.5173378189404806,
+      "seed_accuracy": [
+        0.718816067653277,
+        0.8583509513742071,
+        0.9355179704016914
+      ],
+      "selected_epochs": [
+        158,
+        245,
+        175
+      ]
+    },
+    {
+      "family": "linear_head",
+      "branch": "geometry",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 440,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "linear_head_c1_geometry_bank5_o2",
+      "mean_accuracy": 0.8097251585623679,
+      "mean_ce": 0.5689059669772784,
+      "seed_accuracy": [
+        0.9830866807610994,
+        0.9862579281183932,
+        0.459830866807611
+      ],
+      "selected_epochs": [
+        55,
+        138,
+        249
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "geometry",
+      "channels": 1,
+      "hidden_width": 9,
+      "feature_dim": 8,
+      "parameters": 507,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c1_geometry_bank5_o2",
+      "mean_accuracy": 0.8093727977448908,
+      "mean_ce": 0.5814419860641161,
+      "seed_accuracy": [
+        0.9830866807610994,
+        0.9767441860465116,
+        0.4682875264270613
+      ],
+      "selected_epochs": [
+        117,
+        99,
+        248
+      ]
+    },
+    {
+      "family": "linear_head",
+      "branch": "geometry",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 440,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "linear_head_c1_geometry_none_o2",
+      "mean_accuracy": 0.8044397463002113,
+      "mean_ce": 0.5999457413951556,
+      "seed_accuracy": [
+        0.9682875264270613,
+        0.9767441860465116,
+        0.4682875264270613
+      ],
+      "selected_epochs": [
+        27,
+        54,
+        249
+      ]
+    },
+    {
+      "family": "linear_head",
+      "branch": "geometry",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 440,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "linear_head_c1_geometry_bank5_o1",
+      "mean_accuracy": 0.8037350246652571,
+      "mean_ce": 0.5993582146863142,
+      "seed_accuracy": [
+        0.9830866807610994,
+        0.9830866807610994,
+        0.4450317124735729
+      ],
+      "selected_epochs": [
+        165,
+        222,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "geometry",
+      "channels": 1,
+      "hidden_width": 9,
+      "feature_dim": 8,
+      "parameters": 507,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c1_geometry_none_o2",
+      "mean_accuracy": 0.8030303030303031,
+      "mean_ce": 0.6013117035230001,
+      "seed_accuracy": [
+        0.9693446088794926,
+        0.9714587737843552,
+        0.4682875264270613
+      ],
+      "selected_epochs": [
+        54,
+        72,
+        248
+      ]
+    },
+    {
+      "family": "linear_head",
+      "branch": "geometry",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 440,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "linear_head_c1_geometry_none_o1",
+      "mean_accuracy": 0.7970401691331924,
+      "mean_ce": 0.6200975428024927,
+      "seed_accuracy": [
+        0.9704016913319239,
+        0.9746300211416491,
+        0.44608879492600423
+      ],
+      "selected_epochs": [
+        84,
+        95,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "geometry",
+      "channels": 1,
+      "hidden_width": 9,
+      "feature_dim": 8,
+      "parameters": 507,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c1_geometry_bank5_o1",
+      "mean_accuracy": 0.7963354474982381,
+      "mean_ce": 0.6141237914562225,
+      "seed_accuracy": [
+        0.9756871035940803,
+        0.9714587737843552,
+        0.4418604651162791
+      ],
+      "selected_epochs": [
+        156,
+        148,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "geometry",
+      "channels": 1,
+      "hidden_width": 9,
+      "feature_dim": 8,
+      "parameters": 507,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c1_geometry_none_o1",
+      "mean_accuracy": 0.7924594785059901,
+      "mean_ce": 0.6385018353660902,
+      "seed_accuracy": [
+        0.9682875264270613,
+        0.9682875264270613,
+        0.4408033826638478
+      ],
+      "selected_epochs": [
+        86,
+        99,
+        250
+      ]
+    },
+    {
+      "family": "linear_head",
+      "branch": "geometry",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 440,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "linear_head_c1_geometry_bank5_o0",
+      "mean_accuracy": 0.7832980972515856,
+      "mean_ce": 0.6551941856741905,
+      "seed_accuracy": [
+        0.9756871035940803,
+        0.9778012684989429,
+        0.3964059196617336
+      ],
+      "selected_epochs": [
+        247,
+        244,
+        250
+      ]
+    },
+    {
+      "family": "linear_head",
+      "branch": "geometry",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 440,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "linear_head_c1_geometry_none_o0",
+      "mean_accuracy": 0.7815362931642001,
+      "mean_ce": 0.6690608287851015,
+      "seed_accuracy": [
+        0.9704016913319239,
+        0.9725158562367865,
+        0.40169133192389006
+      ],
+      "selected_epochs": [
+        239,
+        243,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "geometry",
+      "channels": 1,
+      "hidden_width": 9,
+      "feature_dim": 8,
+      "parameters": 507,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c1_geometry_bank5_o0",
+      "mean_accuracy": 0.7790697674418605,
+      "mean_ce": 0.6721473683913549,
+      "seed_accuracy": [
+        0.9714587737843552,
+        0.9693446088794926,
+        0.3964059196617336
+      ],
+      "selected_epochs": [
+        247,
+        247,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "geometry",
+      "channels": 1,
+      "hidden_width": 9,
+      "feature_dim": 8,
+      "parameters": 507,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c1_geometry_none_o0",
+      "mean_accuracy": 0.7790697674418604,
+      "mean_ce": 0.6896358753244082,
+      "seed_accuracy": [
+        0.9630021141649049,
+        0.96723044397463,
+        0.4069767441860465
+      ],
+      "selected_epochs": [
+        228,
+        178,
+        250
+      ]
+    },
+    {
+      "family": "linear_head",
+      "branch": "topology",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 440,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "linear_head_c1_topology_bank5_o2",
+      "mean_accuracy": 0.7776603241719521,
+      "mean_ce": 0.5731262850264708,
+      "seed_accuracy": [
+        0.9894291754756871,
+        0.9820295983086681,
+        0.36152219873150104
+      ],
+      "selected_epochs": [
+        98,
+        102,
+        245
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "topology",
+      "channels": 1,
+      "hidden_width": 9,
+      "feature_dim": 8,
+      "parameters": 507,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "hidden_c1_topology_bank5_o2",
+      "mean_accuracy": 0.7727272727272728,
+      "mean_ce": 0.5856852605938911,
+      "seed_accuracy": [
+        0.9799154334038055,
+        0.9778012684989429,
+        0.36046511627906974
+      ],
+      "selected_epochs": [
+        56,
+        109,
+        229
+      ]
+    },
+    {
+      "family": "linear_head",
+      "branch": "topology",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 440,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "linear_head_c1_topology_none_o2",
+      "mean_accuracy": 0.7727272727272726,
+      "mean_ce": 0.5956587940454483,
+      "seed_accuracy": [
+        0.9788583509513742,
+        0.9778012684989429,
+        0.36152219873150104
+      ],
+      "selected_epochs": [
+        45,
+        57,
+        245
+      ]
+    },
+    {
+      "family": "linear_head",
+      "branch": "topology",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 440,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "linear_head_c1_topology_bank5_o1",
+      "mean_accuracy": 0.7695560253699788,
+      "mean_ce": 0.5910013491908709,
+      "seed_accuracy": [
+        0.985200845665962,
+        0.9830866807610994,
+        0.3403805496828753
+      ],
+      "selected_epochs": [
+        136,
+        125,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "topology",
+      "channels": 1,
+      "hidden_width": 9,
+      "feature_dim": 8,
+      "parameters": 507,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "hidden_c1_topology_none_o2",
+      "mean_accuracy": 0.7677942212825934,
+      "mean_ce": 0.598932666083177,
+      "seed_accuracy": [
+        0.9735729386892178,
+        0.9693446088794926,
+        0.36046511627906974
+      ],
+      "selected_epochs": [
+        67,
+        70,
+        229
+      ]
+    },
+    {
+      "family": "linear_head",
+      "branch": "topology",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 440,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "linear_head_c1_topology_bank5_o0",
+      "mean_accuracy": 0.766384778012685,
+      "mean_ce": 0.6435738305250803,
+      "seed_accuracy": [
+        0.9799154334038055,
+        0.9830866807610994,
+        0.3361522198731501
+      ],
+      "selected_epochs": [
+        247,
+        244,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "topology",
+      "channels": 1,
+      "hidden_width": 9,
+      "feature_dim": 8,
+      "parameters": 507,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "hidden_c1_topology_bank5_o1",
+      "mean_accuracy": 0.7646229739252995,
+      "mean_ce": 0.6027950569987297,
+      "seed_accuracy": [
+        0.9820295983086681,
+        0.9714587737843552,
+        0.3403805496828753
+      ],
+      "selected_epochs": [
+        220,
+        127,
+        250
+      ]
+    },
+    {
+      "family": "linear_head",
+      "branch": "topology",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 440,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "linear_head_c1_topology_none_o1",
+      "mean_accuracy": 0.7646229739252995,
+      "mean_ce": 0.607684962451458,
+      "seed_accuracy": [
+        0.9725158562367865,
+        0.9809725158562368,
+        0.3403805496828753
+      ],
+      "selected_epochs": [
+        84,
+        95,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "topology",
+      "channels": 1,
+      "hidden_width": 9,
+      "feature_dim": 8,
+      "parameters": 507,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "hidden_c1_topology_none_o1",
+      "mean_accuracy": 0.7628611698379141,
+      "mean_ce": 0.6222028334935507,
+      "seed_accuracy": [
+        0.9735729386892178,
+        0.9746300211416491,
+        0.3403805496828753
+      ],
+      "selected_epochs": [
+        82,
+        95,
+        250
+      ]
+    },
+    {
+      "family": "linear_head",
+      "branch": "topology",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 440,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "linear_head_c1_topology_none_o0",
+      "mean_accuracy": 0.7603946441155743,
+      "mean_ce": 0.656109094619751,
+      "seed_accuracy": [
+        0.9704016913319239,
+        0.9746300211416491,
+        0.3361522198731501
+      ],
+      "selected_epochs": [
+        233,
+        206,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "topology",
+      "channels": 1,
+      "hidden_width": 9,
+      "feature_dim": 8,
+      "parameters": 507,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "hidden_c1_topology_bank5_o0",
+      "mean_accuracy": 0.7547568710359407,
+      "mean_ce": 0.6565038536985716,
+      "seed_accuracy": [
+        0.9725158562367865,
+        0.9767441860465116,
+        0.3150105708245243
+      ],
+      "selected_epochs": [
+        247,
+        241,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "topology",
+      "channels": 1,
+      "hidden_width": 9,
+      "feature_dim": 8,
+      "parameters": 507,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "hidden_c1_topology_none_o0",
+      "mean_accuracy": 0.7508809020436926,
+      "mean_ce": 0.6752714241544405,
+      "seed_accuracy": [
+        0.9682875264270613,
+        0.9693446088794926,
+        0.3150105708245243
+      ],
+      "selected_epochs": [
+        233,
+        176,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "raw",
+      "channels": 2,
+      "hidden_width": 5,
+      "feature_dim": 0,
+      "parameters": 481,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c2_raw_bank5_o1",
+      "mean_accuracy": 0.7167019027484144,
+      "mean_ce": 0.7610052848855654,
+      "seed_accuracy": [
+        0.7484143763213531,
+        0.4355179704016913,
+        0.9661733615221987
+      ],
+      "selected_epochs": [
+        248,
+        250,
+        246
+      ]
+    },
+    {
+      "family": "linear_head",
+      "branch": "raw",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 0,
+      "parameters": 360,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "linear_head_c1_raw_bank5_o1",
+      "mean_accuracy": 0.6941508104298801,
+      "mean_ce": 0.8188895980517069,
+      "seed_accuracy": [
+        0.9788583509513742,
+        0.9830866807610994,
+        0.12050739957716702
+      ],
+      "selected_epochs": [
+        151,
+        236,
+        5
+      ]
+    },
+    {
+      "family": "linear_head",
+      "branch": "raw",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 0,
+      "parameters": 360,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "linear_head_c1_raw_bank5_o0",
+      "mean_accuracy": 0.6895701198026779,
+      "mean_ce": 0.8301123554507891,
+      "seed_accuracy": [
+        0.9767441860465116,
+        0.9714587737843552,
+        0.12050739957716702
+      ],
+      "selected_epochs": [
+        247,
+        247,
+        14
+      ]
+    },
+    {
+      "family": "linear_head",
+      "branch": "raw",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 0,
+      "parameters": 360,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "linear_head_c1_raw_bank5_o2",
+      "mean_accuracy": 0.686398872445384,
+      "mean_ce": 0.8447885339458784,
+      "seed_accuracy": [
+        0.9534883720930233,
+        0.985200845665962,
+        0.12050739957716702
+      ],
+      "selected_epochs": [
+        146,
+        150,
+        1
+      ]
+    },
+    {
+      "family": "linear_head",
+      "branch": "raw",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 0,
+      "parameters": 360,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "linear_head_c1_raw_none_o0",
+      "mean_accuracy": 0.6856941508104298,
+      "mean_ce": 0.8473826746145884,
+      "seed_accuracy": [
+        0.9693446088794926,
+        0.96723044397463,
+        0.12050739957716702
+      ],
+      "selected_epochs": [
+        211,
+        176,
+        14
+      ]
+    },
+    {
+      "family": "linear_head",
+      "branch": "raw",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 0,
+      "parameters": 360,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "linear_head_c1_raw_none_o1",
+      "mean_accuracy": 0.6846370683579984,
+      "mean_ce": 0.8483406826853752,
+      "seed_accuracy": [
+        0.96723044397463,
+        0.9661733615221987,
+        0.12050739957716702
+      ],
+      "selected_epochs": [
+        84,
+        73,
+        5
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "raw",
+      "channels": 1,
+      "hidden_width": 10,
+      "feature_dim": 0,
+      "parameters": 470,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c1_raw_bank5_o1",
+      "mean_accuracy": 0.6835799859055672,
+      "mean_ce": 0.8262786542375883,
+      "seed_accuracy": [
+        0.9809725158562368,
+        0.9756871035940803,
+        0.09408033826638477
+      ],
+      "selected_epochs": [
+        156,
+        250,
+        33
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "raw",
+      "channels": 1,
+      "hidden_width": 10,
+      "feature_dim": 0,
+      "parameters": 470,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c1_raw_bank5_o2",
+      "mean_accuracy": 0.6818181818181818,
+      "mean_ce": 0.8328448707858721,
+      "seed_accuracy": [
+        0.9746300211416491,
+        0.9693446088794926,
+        0.1014799154334038
+      ],
+      "selected_epochs": [
+        57,
+        160,
+        30
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "raw",
+      "channels": 1,
+      "hidden_width": 10,
+      "feature_dim": 0,
+      "parameters": 470,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c1_raw_bank5_o0",
+      "mean_accuracy": 0.6782945736434108,
+      "mean_ce": 0.8396338149905205,
+      "seed_accuracy": [
+        0.9735729386892178,
+        0.96723044397463,
+        0.09408033826638477
+      ],
+      "selected_epochs": [
+        247,
+        250,
+        35
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "raw",
+      "channels": 1,
+      "hidden_width": 10,
+      "feature_dim": 0,
+      "parameters": 470,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c1_raw_none_o2",
+      "mean_accuracy": 0.6765327695560254,
+      "mean_ce": 0.8498016968369484,
+      "seed_accuracy": [
+        0.9640591966173362,
+        0.9640591966173362,
+        0.1014799154334038
+      ],
+      "selected_epochs": [
+        38,
+        72,
+        30
+      ]
+    },
+    {
+      "family": "linear_head",
+      "branch": "raw",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 0,
+      "parameters": 360,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "linear_head_c1_raw_none_o2",
+      "mean_accuracy": 0.6765327695560254,
+      "mean_ce": 0.8701425567269325,
+      "seed_accuracy": [
+        0.9418604651162791,
+        0.96723044397463,
+        0.12050739957716702
+      ],
+      "selected_epochs": [
+        83,
+        31,
+        1
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "raw",
+      "channels": 1,
+      "hidden_width": 10,
+      "feature_dim": 0,
+      "parameters": 470,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c1_raw_none_o0",
+      "mean_accuracy": 0.6740662438336856,
+      "mean_ce": 0.8602971906463305,
+      "seed_accuracy": [
+        0.9704016913319239,
+        0.9577167019027484,
+        0.09408033826638477
+      ],
+      "selected_epochs": [
+        247,
+        232,
+        35
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "raw",
+      "channels": 2,
+      "hidden_width": 0,
+      "feature_dim": 0,
+      "parameters": 376,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c2_raw_bank5_o0",
+      "mean_accuracy": 0.6730091613812544,
+      "mean_ce": 0.8531793802976608,
+      "seed_accuracy": [
+        0.0919661733615222,
+        0.9577167019027484,
+        0.9693446088794926
+      ],
+      "selected_epochs": [
+        37,
+        250,
+        247
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "raw",
+      "channels": 2,
+      "hidden_width": 0,
+      "feature_dim": 0,
+      "parameters": 376,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c2_raw_bank5_o1",
+      "mean_accuracy": 0.6723044397463003,
+      "mean_ce": 0.8482521250844002,
+      "seed_accuracy": [
+        0.0919661733615222,
+        0.9460887949260042,
+        0.9788583509513742
+      ],
+      "selected_epochs": [
+        10,
+        164,
+        170
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "raw",
+      "channels": 2,
+      "hidden_width": 5,
+      "feature_dim": 0,
+      "parameters": 481,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c2_raw_none_o1",
+      "mean_accuracy": 0.6708949964763917,
+      "mean_ce": 0.8750593562920889,
+      "seed_accuracy": [
+        0.7283298097251586,
+        0.3858350951374207,
+        0.8985200845665962
+      ],
+      "selected_epochs": [
+        248,
+        249,
+        249
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "raw",
+      "channels": 1,
+      "hidden_width": 10,
+      "feature_dim": 0,
+      "parameters": 470,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c1_raw_none_o1",
+      "mean_accuracy": 0.6691331923890064,
+      "mean_ce": 0.8749662588040034,
+      "seed_accuracy": [
+        0.9471458773784355,
+        0.9661733615221987,
+        0.09408033826638477
+      ],
+      "selected_epochs": [
+        93,
+        104,
+        33
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "raw",
+      "channels": 2,
+      "hidden_width": 0,
+      "feature_dim": 0,
+      "parameters": 376,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c2_raw_none_o1",
+      "mean_accuracy": 0.6659619450317125,
+      "mean_ce": 0.8858671188354492,
+      "seed_accuracy": [
+        0.0919661733615222,
+        0.9386892177589852,
+        0.96723044397463
+      ],
+      "selected_epochs": [
+        10,
+        108,
+        174
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "raw",
+      "channels": 2,
+      "hidden_width": 0,
+      "feature_dim": 0,
+      "parameters": 376,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c2_raw_none_o0",
+      "mean_accuracy": 0.6620859760394645,
+      "mean_ce": 0.8898540337880453,
+      "seed_accuracy": [
+        0.0919661733615222,
+        0.9545454545454546,
+        0.9397463002114165
+      ],
+      "selected_epochs": [
+        37,
+        232,
+        233
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "raw",
+      "channels": 2,
+      "hidden_width": 0,
+      "feature_dim": 0,
+      "parameters": 376,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c2_raw_none_o2",
+      "mean_accuracy": 0.657152924594785,
+      "mean_ce": 0.9099719276030859,
+      "seed_accuracy": [
+        0.09408033826638477,
+        0.9175475687103594,
+        0.959830866807611
+      ],
+      "selected_epochs": [
+        20,
+        37,
+        96
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "geometry",
+      "channels": 2,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 456,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c2_geometry_none_o2",
+      "mean_accuracy": 0.6324876673713883,
+      "mean_ce": 1.1047290712594986,
+      "seed_accuracy": [
+        0.4725158562367865,
+        0.9566596194503171,
+        0.4682875264270613
+      ],
+      "selected_epochs": [
+        249,
+        159,
+        248
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "geometry",
+      "channels": 2,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 456,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c2_geometry_bank5_o2",
+      "mean_accuracy": 0.6233262861169838,
+      "mean_ce": 1.127059022585551,
+      "seed_accuracy": [
+        0.4682875264270613,
+        0.9365750528541226,
+        0.46511627906976744
+      ],
+      "selected_epochs": [
+        249,
+        177,
+        250
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "geometry",
+      "channels": 2,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 456,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c2_geometry_bank5_o1",
+      "mean_accuracy": 0.6155743481324877,
+      "mean_ce": 1.1522484024365742,
+      "seed_accuracy": [
+        0.4418604651162791,
+        0.959830866807611,
+        0.4450317124735729
+      ],
+      "selected_epochs": [
+        250,
+        242,
+        250
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "geometry",
+      "channels": 2,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 456,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c2_geometry_none_o1",
+      "mean_accuracy": 0.6131078224101479,
+      "mean_ce": 1.162000596523285,
+      "seed_accuracy": [
+        0.4408033826638478,
+        0.9566596194503171,
+        0.4418604651162791
+      ],
+      "selected_epochs": [
+        250,
+        234,
+        250
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "geometry",
+      "channels": 2,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 456,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c2_geometry_bank5_o0",
+      "mean_accuracy": 0.5894996476391825,
+      "mean_ce": 1.2567373563845952,
+      "seed_accuracy": [
+        0.4048625792811839,
+        0.9534883720930233,
+        0.41014799154334036
+      ],
+      "selected_epochs": [
+        250,
+        250,
+        250
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "geometry",
+      "channels": 2,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 456,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c2_geometry_none_o0",
+      "mean_accuracy": 0.5894996476391825,
+      "mean_ce": 1.2610215991735458,
+      "seed_accuracy": [
+        0.4090909090909091,
+        0.9471458773784355,
+        0.41226215644820297
+      ],
+      "selected_epochs": [
+        250,
+        242,
+        250
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "topology",
+      "channels": 2,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 456,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "depthwise_c2_topology_none_o2",
+      "mean_accuracy": 0.554968287526427,
+      "mean_ce": 1.1298356304566066,
+      "seed_accuracy": [
+        0.3477801268498943,
+        0.9566596194503171,
+        0.36046511627906974
+      ],
+      "selected_epochs": [
+        212,
+        246,
+        229
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "topology",
+      "channels": 2,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 456,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "depthwise_c2_topology_bank5_o1",
+      "mean_accuracy": 0.554263565891473,
+      "mean_ce": 1.1331643735369046,
+      "seed_accuracy": [
+        0.35412262156448204,
+        0.9640591966173362,
+        0.34460887949260044
+      ],
+      "selected_epochs": [
+        250,
+        242,
+        250
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "topology",
+      "channels": 2,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 456,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "depthwise_c2_topology_bank5_o2",
+      "mean_accuracy": 0.5535588442565187,
+      "mean_ce": 1.1337184061606724,
+      "seed_accuracy": [
+        0.346723044397463,
+        0.9534883720930233,
+        0.36046511627906974
+      ],
+      "selected_epochs": [
+        212,
+        160,
+        229
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "topology",
+      "channels": 2,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 456,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "depthwise_c2_topology_none_o1",
+      "mean_accuracy": 0.5525017618040874,
+      "mean_ce": 1.1399800380071003,
+      "seed_accuracy": [
+        0.35412262156448204,
+        0.9587737843551797,
+        0.34460887949260044
+      ],
+      "selected_epochs": [
+        250,
+        224,
+        250
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "topology",
+      "channels": 2,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 456,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "depthwise_c2_topology_none_o0",
+      "mean_accuracy": 0.5384073291050036,
+      "mean_ce": 1.2362495064735413,
+      "seed_accuracy": [
+        0.3372093023255814,
+        0.9545454545454546,
+        0.32346723044397463
+      ],
+      "selected_epochs": [
+        250,
+        245,
+        250
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "topology",
+      "channels": 2,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 456,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "depthwise_c2_topology_bank5_o0",
+      "mean_accuracy": 0.5380549682875264,
+      "mean_ce": 1.2334357798099518,
+      "seed_accuracy": [
+        0.3372093023255814,
+        0.9534883720930233,
+        0.32346723044397463
+      ],
+      "selected_epochs": [
+        250,
+        249,
+        250
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "geometry",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 272,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c1_geometry_none_o2",
+      "mean_accuracy": 0.4668780831571529,
+      "mean_ce": 1.5850546757380168,
+      "seed_accuracy": [
+        0.46511627906976744,
+        0.4693446088794926,
+        0.46617336152219874
+      ],
+      "selected_epochs": [
+        243,
+        250,
+        249
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "geometry",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 272,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c1_geometry_bank5_o2",
+      "mean_accuracy": 0.46300211416490483,
+      "mean_ce": 1.5875600179036458,
+      "seed_accuracy": [
+        0.4608879492600423,
+        0.46617336152219874,
+        0.4619450317124736
+      ],
+      "selected_epochs": [
+        243,
+        250,
+        249
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "geometry",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 272,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c1_geometry_none_o1",
+      "mean_accuracy": 0.4404510218463707,
+      "mean_ce": 1.6654425462086995,
+      "seed_accuracy": [
+        0.4365750528541226,
+        0.4418604651162791,
+        0.4429175475687104
+      ],
+      "selected_epochs": [
+        250,
+        250,
+        250
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "geometry",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 272,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c1_geometry_bank5_o1",
+      "mean_accuracy": 0.4383368569415081,
+      "mean_ce": 1.667218804359436,
+      "seed_accuracy": [
+        0.4376321353065539,
+        0.4365750528541226,
+        0.4408033826638478
+      ],
+      "selected_epochs": [
+        250,
+        250,
+        250
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "geometry",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 272,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c1_geometry_none_o0",
+      "mean_accuracy": 0.40803382663847776,
+      "mean_ce": 1.8052758773167927,
+      "seed_accuracy": [
+        0.4154334038054968,
+        0.3985200845665962,
+        0.41014799154334036
+      ],
+      "selected_epochs": [
+        250,
+        250,
+        250
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "geometry",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 272,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c1_geometry_bank5_o0",
+      "mean_accuracy": 0.4023960535588442,
+      "mean_ce": 1.8064891497294109,
+      "seed_accuracy": [
+        0.4048625792811839,
+        0.3974630021141649,
+        0.4048625792811839
+      ],
+      "selected_epochs": [
+        250,
+        250,
+        250
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "raw",
+      "channels": 2,
+      "hidden_width": 0,
+      "feature_dim": 0,
+      "parameters": 376,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c2_raw_bank5_o2",
+      "mean_accuracy": 0.3798449612403101,
+      "mean_ce": 1.5808468063672383,
+      "seed_accuracy": [
+        0.09408033826638477,
+        0.9556025369978859,
+        0.08985200845665962
+      ],
+      "selected_epochs": [
+        20,
+        231,
+        1
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "raw",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 0,
+      "parameters": 192,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c1_raw_none_o1",
+      "mean_accuracy": 0.3773784355179704,
+      "mean_ce": 1.602217157681783,
+      "seed_accuracy": [
+        0.9439746300211417,
+        0.09408033826638477,
+        0.09408033826638477
+      ],
+      "selected_epochs": [
+        241,
+        45,
+        35
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "topology",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 272,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "depthwise_c1_topology_none_o2",
+      "mean_accuracy": 0.3523608174770965,
+      "mean_ce": 1.6052488088607788,
+      "seed_accuracy": [
+        0.3477801268498943,
+        0.3477801268498943,
+        0.36152219873150104
+      ],
+      "selected_epochs": [
+        220,
+        219,
+        245
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "topology",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 272,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "depthwise_c1_topology_bank5_o2",
+      "mean_accuracy": 0.3523608174770965,
+      "mean_ce": 1.6052768230438232,
+      "seed_accuracy": [
+        0.3477801268498943,
+        0.3477801268498943,
+        0.36152219873150104
+      ],
+      "selected_epochs": [
+        220,
+        219,
+        245
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "topology",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 272,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "depthwise_c1_topology_bank5_o1",
+      "mean_accuracy": 0.34355179704016914,
+      "mean_ce": 1.639284372329712,
+      "seed_accuracy": [
+        0.339323467230444,
+        0.35095137420718814,
+        0.3403805496828753
+      ],
+      "selected_epochs": [
+        250,
+        250,
+        250
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "topology",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 272,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "depthwise_c1_topology_none_o1",
+      "mean_accuracy": 0.34355179704016914,
+      "mean_ce": 1.6393038431803386,
+      "seed_accuracy": [
+        0.339323467230444,
+        0.35095137420718814,
+        0.3403805496828753
+      ],
+      "selected_epochs": [
+        250,
+        250,
+        250
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "topology",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 272,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "depthwise_c1_topology_bank5_o0",
+      "mean_accuracy": 0.3178294573643411,
+      "mean_ce": 1.7748173077901204,
+      "seed_accuracy": [
+        0.3192389006342495,
+        0.3181818181818182,
+        0.31606765327695563
+      ],
+      "selected_epochs": [
+        250,
+        250,
+        250
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "topology",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 8,
+      "parameters": 272,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "depthwise_c1_topology_none_o0",
+      "mean_accuracy": 0.3178294573643411,
+      "mean_ce": 1.7748796939849854,
+      "seed_accuracy": [
+        0.3192389006342495,
+        0.3181818181818182,
+        0.31606765327695563
+      ],
+      "selected_epochs": [
+        250,
+        250,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "raw",
+      "channels": 4,
+      "hidden_width": 1,
+      "feature_dim": 0,
+      "parameters": 485,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c4_raw_bank5_o1",
+      "mean_accuracy": 0.2797744890768146,
+      "mean_ce": 1.7464390993118286,
+      "seed_accuracy": [
+        0.3572938689217759,
+        0.09408033826638477,
+        0.3879492600422833
+      ],
+      "selected_epochs": [
+        244,
+        128,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "raw",
+      "channels": 4,
+      "hidden_width": 1,
+      "feature_dim": 0,
+      "parameters": 485,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c4_raw_none_o2",
+      "mean_accuracy": 0.2787174066243834,
+      "mean_ce": 1.725095311800639,
+      "seed_accuracy": [
+        0.37209302325581395,
+        0.09408033826638477,
+        0.3699788583509514
+      ],
+      "selected_epochs": [
+        83,
+        42,
+        163
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "raw",
+      "channels": 4,
+      "hidden_width": 1,
+      "feature_dim": 0,
+      "parameters": 485,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c4_raw_none_o1",
+      "mean_accuracy": 0.2660324171952079,
+      "mean_ce": 1.803835113843282,
+      "seed_accuracy": [
+        0.3403805496828753,
+        0.09408033826638477,
+        0.36363636363636365
+      ],
+      "selected_epochs": [
+        171,
+        128,
+        237
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "raw",
+      "channels": 4,
+      "hidden_width": 1,
+      "feature_dim": 0,
+      "parameters": 485,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c4_raw_none_o0",
+      "mean_accuracy": 0.2339675828047921,
+      "mean_ce": 1.8650780121485393,
+      "seed_accuracy": [
+        0.2938689217758985,
+        0.09408033826638477,
+        0.313953488372093
+      ],
+      "selected_epochs": [
+        247,
+        250,
+        250
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "raw",
+      "channels": 4,
+      "hidden_width": 1,
+      "feature_dim": 0,
+      "parameters": 485,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c4_raw_bank5_o2",
+      "mean_accuracy": 0.233615221987315,
+      "mean_ce": 1.93280824025472,
+      "seed_accuracy": [
+        0.5052854122621564,
+        0.09408033826638477,
+        0.1014799154334038
+      ],
+      "selected_epochs": [
+        244,
+        42,
+        33
+      ]
+    },
+    {
+      "family": "hidden",
+      "branch": "raw",
+      "channels": 4,
+      "hidden_width": 1,
+      "feature_dim": 0,
+      "parameters": 485,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c4_raw_bank5_o0",
+      "mean_accuracy": 0.23291050035236083,
+      "mean_ce": 1.8586215178171794,
+      "seed_accuracy": [
+        0.2917547568710359,
+        0.09408033826638477,
+        0.3128964059196617
+      ],
+      "selected_epochs": [
+        249,
+        250,
+        250
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "raw",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 0,
+      "parameters": 192,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c1_raw_bank5_o2",
+      "mean_accuracy": 0.09689922480620156,
+      "mean_ce": 2.303772290547689,
+      "seed_accuracy": [
+        0.10253699788583509,
+        0.09408033826638477,
+        0.09408033826638477
+      ],
+      "selected_epochs": [
+        20,
+        6,
+        30
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "raw",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 0,
+      "parameters": 192,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 2,
+      "lr": 0.01,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c1_raw_none_o2",
+      "mean_accuracy": 0.09689922480620156,
+      "mean_ce": 2.303772290547689,
+      "seed_accuracy": [
+        0.10253699788583509,
+        0.09408033826638477,
+        0.09408033826638477
+      ],
+      "selected_epochs": [
+        20,
+        6,
+        30
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "raw",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 0,
+      "parameters": 192,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c1_raw_none_o0",
+      "mean_accuracy": 0.09584214235377025,
+      "mean_ce": 2.3042472998301187,
+      "seed_accuracy": [
+        0.1014799154334038,
+        0.09408033826638477,
+        0.0919661733615222
+      ],
+      "selected_epochs": [
+        20,
+        156,
+        39
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "raw",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 0,
+      "parameters": 192,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c1_raw_bank5_o0",
+      "mean_accuracy": 0.09584214235377025,
+      "mean_ce": 2.3042475382486978,
+      "seed_accuracy": [
+        0.1014799154334038,
+        0.09408033826638477,
+        0.0919661733615222
+      ],
+      "selected_epochs": [
+        20,
+        156,
+        39
+      ]
+    },
+    {
+      "family": "depthwise",
+      "branch": "raw",
+      "channels": 1,
+      "hidden_width": 0,
+      "feature_dim": 0,
+      "parameters": 192,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "depthwise_c1_raw_bank5_o1",
+      "mean_accuracy": 0.09408033826638477,
+      "mean_ce": 2.303796370824178,
+      "seed_accuracy": [
+        0.09408033826638477,
+        0.09408033826638477,
+        0.09408033826638477
+      ],
+      "selected_epochs": [
+        95,
+        45,
+        35
+      ]
+    }
+  ],
+  "selected": {
+    "topology": {
+      "family": "hidden",
+      "branch": "topology",
+      "channels": 2,
+      "hidden_width": 4,
+      "feature_dim": 8,
+      "parameters": 486,
+      "budget": 512,
+      "augmentation": "none",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": true,
+      "id": "hidden_c2_topology_none_o1",
+      "mean_accuracy": 0.9365750528541227,
+      "mean_ce": 0.2190593828757604,
+      "seed_accuracy": [
+        0.9619450317124736,
+        0.9482029598308668,
+        0.8995771670190275
+      ],
+      "selected_epochs": [
+        229,
+        250,
+        250
+      ]
+    },
+    "baseline": {
+      "family": "hidden",
+      "branch": "geometry",
+      "channels": 2,
+      "hidden_width": 4,
+      "feature_dim": 8,
+      "parameters": 486,
+      "budget": 512,
+      "augmentation": "bank5",
+      "optimizer_index": 1,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "topological": false,
+      "id": "hidden_c2_geometry_bank5_o1",
+      "mean_accuracy": 0.923185341789993,
+      "mean_ce": 0.23597870270411173,
+      "seed_accuracy": [
+        0.9534883720930233,
+        0.945031712473573,
+        0.8710359408033826
+      ],
+      "selected_epochs": [
+        246,
+        248,
+        250
+      ]
+    }
+  },
+  "scope": "Development only, budget512; no test evidence."
+}

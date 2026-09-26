@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-09-26T20:07:26.026897+00:00",
+  "scope": "Finish current authorized finite experiment, no recurring task.",
+  "steps": [
+    "Wait for all288existing CNN fits; do not restart training",
+    "Audit all744development prediction files",
+    "Replay selected checkpoints and freeze primary plus descriptive capacity curve",
+    "Train all80fixed final models before WDEPaccess",
+    "Seal predictions, then compute preregistered statistics"
+  ],
+  "code_sha256": {
+    "tiny_continue.py": "4079050e024b30986b21455e1027d93d04dd88b262fa70fcb73504ba5ea65b31",
+    "tiny_confirmation.py": "91cacc674d7b374f5c8d36aae21a5e81367c7086588d92996a19b9f7fd6b360d",
+    "tiny_audit.py": "0d24f473a68b2e44ed39902b8f9438bcc5c8f3bb292025f8f52bf8fb363637c2"
+  },
+  "test_read": false
+}

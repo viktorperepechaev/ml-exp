@@ -1,0 +1,19 @@
+{
+  "updated_utc": "2026-09-26T20:36:24.560756+00:00",
+  "pid": 53630,
+  "stage": "completed",
+  "success_gate_passed": true,
+  "primary": {
+    "topology_mean_accuracy": 0.963626723223754,
+    "baseline_mean_accuracy": 0.9541887592788971,
+    "mean_accuracy_difference": 0.00943796394485684,
+    "crossed_seed_image_bootstrap95": [
+      0.0023329798515376457,
+      0.01664899257688229
+    ],
+    "one_sided_paired_image_permutation_p": 0.00017231517132492894,
+    "permutation_computation": "Exact weighted sign-flip via subset-sum dynamic programming, not Monte Carlo; image units.",
+    "bonferroni6_p": 0.0010338910279495735,
+    "relative_mean_error_reduction": 0.20601851851851877
+  }
+}

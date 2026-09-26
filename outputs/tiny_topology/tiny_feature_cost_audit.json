@@ -1,0 +1,78 @@
+{
+  "created_utc": "2026-09-26T20:08:59.941868+00:00",
+  "test_read": false,
+  "data": "Official TRA1934 only",
+  "descriptor_equivalence_verified": true,
+  "topology_present": {
+    "any_raw_hole_fraction": 0.4105480868665977,
+    "multiple_components_fraction": 0.001034126163391934,
+    "betti0_values_counts": {
+      "1": 1932,
+      "2": 2
+    },
+    "betti1_values_counts": {
+      "0": 1140,
+      "1": 578,
+      "2": 185,
+      "3": 19,
+      "4": 7,
+      "5": 4,
+      "6": 1
+    },
+    "class_hole_fraction": {
+      "0": 0.9523809523809523,
+      "1": 0.030303030303030304,
+      "2": 0.035897435897435895,
+      "3": 0.05527638190954774,
+      "4": 0.12903225806451613,
+      "5": 0.0427807486631016,
+      "6": 0.9435897435897436,
+      "7": 0.029850746268656716,
+      "8": 0.9722222222222222,
+      "9": 0.946078431372549
+    }
+  },
+  "timing": {
+    "batch_size": 256,
+    "alternating_repeats": 12,
+    "milliseconds_per_image": {
+      "topology": 0.46504817737513804,
+      "geometry": 0.3494937341201876
+    },
+    "raw_batch_seconds": {
+      "topology": [
+        0.11908554192632437,
+        0.19162691617384553,
+        0.11035995814017951,
+        0.11781983310356736,
+        0.0995233750436455,
+        0.11901912488974631,
+        0.09749050019308925,
+        0.14233483304269612,
+        0.12927704211324453,
+        0.17973595787771046,
+        0.13859041593968868,
+        0.10188549989834428
+      ],
+      "geometry": [
+        0.11688316590152681,
+        0.10718120797537267,
+        0.0976099579129368,
+        0.09375416697002947,
+        0.0707130420487374,
+        0.08518662489950657,
+        0.11273570894263685,
+        0.1706230000127107,
+        0.07384720793925226,
+        0.07325066695921123,
+        0.06111962487921119,
+        0.08190141594968736
+      ]
+    },
+    "platform": "macOS-15.6-arm64-arm-64bit",
+    "processor": "arm64",
+    "concurrent_load": "Other CPU training workers running. Batched throughput includes four mask profiles; single-query latency and embedded energy are unmeasured.",
+    "topology_speedup_claim": false
+  },
+  "memory": "A 508parameter float32 network has2032bytes of numerical weights. Current stored checkpoints also include normalization/statistics and metadata. A fixed descriptor extractor, working arrays and code are additional memory; they are not represented by the weight count."
+}

@@ -1,0 +1,313 @@
+{
+  "frozen_utc": "2026-09-26T20:35:39.690880+00:00",
+  "rule": {
+    "registered_utc": "2026-09-26T19:54:53.646315+00:00",
+    "scope": "New user hypothesis: topology is useful under a strict small-neural-model budget; not a claim over unconstrained networks.",
+    "timing": "After MLP exploration, while compact CNN grid remains running; before reading unused official wdep member. Primary512budget was declared before all tiny MLP fits.",
+    "budget": 512,
+    "development": "Official TRA1934/CV946; keep all completed feasible MLP configurations and all registered compactCNN configurations.",
+    "selection": "Global best topology and global best non-topology by mean3seed CVaccuracy, then meanCE, fewer parameters, lexical family+id. No selection on TEST.",
+    "confirmation_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "refit": "All2880TRA+CV, same selected optimizer and architecture; fixed median3development-selected epochs. Refit all scalers on fullTRAIN; no further stopping/tuning.",
+    "held_out": "optdigits-orig.wdep.Z,943images from writers already represented in training. Previously excluded from this research. This is a new-image test, NOT a new-writer test.",
+    "primary": "Mean accuracy of individual <=512parameter models across10fixed seeds. No ensemble classifier; deploying one network uses its single-model weight count.",
+    "uncertainty": "Paired image sign-flip test on10seed-averaged per-image correctness differences; crossed paired-seed/image bootstrap95% CI. Images, not seed-image pairs, are permutation units. Writer identities unavailable, so no writer-independent confidence claim.",
+    "multiple_testing": "Bonferroni6: old OptDigits-windep, PenDigits, CharacterTrajectories, USPS, RIM-ONE DL and this new OptDigits-wdep comparison. p_adjusted=min(1,6*p). Any prior5test family claim needs reevaluation at6for a combined-series claim.",
+    "success": "Positive mean accuracy difference, adjustedp<=.05, crossed-bootstrap95% lower bound>0, at least8/10positive seed pairs. Report failures. No SOTA/priority or total-latency reduction inferred from fewer trained weights.",
+    "statistics": {
+      "bootstrap_repetitions": 20000,
+      "signflip_draws": 99999,
+      "seed": 20260930
+    },
+    "test_read": false,
+    "exact_test_amendment": {
+      "registered_utc": "2026-09-26T19:58:27.988237+00:00",
+      "timing": "Before any WDEPaccess and before final configuration/weights freeze; CNN development still running.",
+      "change": "Compute the same paired-image sign-flip test exactly by dynamic programming on integer10seed correctness sums, replacing the planned Monte Carlo approximation. No change to hypothesis, statistic, unit, direction oralpha.",
+      "reason": "Integer correctness differences permit an exact finite weighted-Rademacher tail. Avoid Monte Carlo uncertainty at the rejection threshold.",
+      "checks": "Known5image all-positive tail1/32; zero effects1; balanced pair.75; duplicated10seeds on one image stillp=.5; arbitraryweighted case matches exhaustiveenumeration.",
+      "passed": true,
+      "test_read": false,
+      "assumptions": "Conditional exactness under paired algorithm-exchangeability at image level. Repeated writers are not identified, so this does not establish writer-independent inference."
+    },
+    "secondary_curve_amendment": {
+      "registered_utc": "2026-09-26T20:01:47.477337+00:00",
+      "test_read": false,
+      "timing": "Before any WDEP TEST access and before final freeze; after exploratory MLP size curve, while CNN controls run.",
+      "primary": "Unchanged: global best topology versus global best non-topology under512weights.",
+      "secondary": "Also refit the six TRAIN/CV-selected MLP configurations at256/1024/2048weights,10seeds each, to report a fixed held-out capacity curve. These are descriptive secondary points and cannot replace a failed512primary test or support independent significance claims.",
+      "total_refits": 80,
+      "no_ensemble": true,
+      "reason": "Show whether the apparent dependence on size survives on held-out images; do not infer it only from exploratory CV."
+    }
+  },
+  "pipelines": {
+    "topology": {
+      "budget": 512,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 508,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 6,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_topology_early_d1_o0",
+      "mean_accuracy": 0.9605355884425651,
+      "mean_ce": 0.14949699739615122,
+      "seed_accuracy": [
+        0.9587737843551797,
+        0.9577167019027484,
+        0.9651162790697675
+      ],
+      "selected_epochs": [
+        108,
+        105,
+        104
+      ],
+      "model_family": "mlp",
+      "weight_decay": 0.01,
+      "final_epochs": 105
+    },
+    "baseline": {
+      "budget": 512,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 508,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 6,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_geometry_early_d1_o1",
+      "mean_accuracy": 0.9510218463706837,
+      "mean_ce": 0.18383470674355826,
+      "seed_accuracy": [
+        0.9534883720930233,
+        0.9482029598308668,
+        0.9513742071881607
+      ],
+      "selected_epochs": [
+        30,
+        33,
+        42
+      ],
+      "model_family": "mlp",
+      "weight_decay": 0.01,
+      "final_epochs": 33
+    },
+    "b256_topology": {
+      "budget": 256,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 240,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 2,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b256_pixels_topology_late_d1_o1",
+      "mean_accuracy": 0.8685694150810429,
+      "mean_ce": 0.507636954387029,
+      "seed_accuracy": [
+        0.872093023255814,
+        0.8805496828752643,
+        0.8530655391120507
+      ],
+      "selected_epochs": [
+        80,
+        174,
+        79
+      ],
+      "model_family": "mlp",
+      "weight_decay": 0.01,
+      "final_epochs": 80
+    },
+    "b256_baseline": {
+      "budget": 256,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 235,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 3,
+      "base_dim": 64,
+      "side_dim": 0,
+      "id": "b256_pixels_d1_o1",
+      "mean_accuracy": 0.8643410852713179,
+      "mean_ce": 0.5069398979345957,
+      "seed_accuracy": [
+        0.8551797040169133,
+        0.8858350951374208,
+        0.8520084566596194
+      ],
+      "selected_epochs": [
+        233,
+        247,
+        170
+      ],
+      "model_family": "mlp",
+      "weight_decay": 0.01,
+      "final_epochs": 233
+    },
+    "b1024_topology": {
+      "budget": 1024,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 1006,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 12,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_topology_early_d1_o1",
+      "mean_accuracy": 0.9763918252290344,
+      "mean_ce": 0.09908190866311391,
+      "seed_accuracy": [
+        0.9725158562367865,
+        0.9767441860465116,
+        0.9799154334038055
+      ],
+      "selected_epochs": [
+        26,
+        32,
+        25
+      ],
+      "model_family": "mlp",
+      "weight_decay": 0.01,
+      "final_epochs": 26
+    },
+    "b1024_baseline": {
+      "budget": 1024,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 1006,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 12,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_geometry_early_d1_o1",
+      "mean_accuracy": 0.970754052149401,
+      "mean_ce": 0.11095193276802699,
+      "seed_accuracy": [
+        0.9630021141649049,
+        0.9778012684989429,
+        0.9714587737843552
+      ],
+      "selected_epochs": [
+        19,
+        32,
+        25
+      ],
+      "model_family": "mlp",
+      "weight_decay": 0.01,
+      "final_epochs": 25
+    },
+    "b2048_topology": {
+      "budget": 2048,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 1909,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_topology_early_d1_o0",
+      "mean_accuracy": 0.9830866807610995,
+      "mean_ce": 0.061847981065511703,
+      "seed_accuracy": [
+        0.9820295983086681,
+        0.9820295983086681,
+        0.985200845665962
+      ],
+      "selected_epochs": [
+        140,
+        82,
+        160
+      ],
+      "model_family": "mlp",
+      "weight_decay": 0.01,
+      "final_epochs": 140
+    },
+    "b2048_baseline": {
+      "budget": 2048,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 1917,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_geometry_late_d1_o0",
+      "mean_accuracy": 0.9820295983086681,
+      "mean_ce": 0.058401125172773995,
+      "seed_accuracy": [
+        0.9735729386892178,
+        0.9862579281183932,
+        0.9862579281183932
+      ],
+      "selected_epochs": [
+        70,
+        142,
+        227
+      ],
+      "model_family": "mlp",
+      "weight_decay": 0.01,
+      "final_epochs": 142
+    }
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "source_sha256": {
+    "tiny_confirmation.py": "91cacc674d7b374f5c8d36aae21a5e81367c7086588d92996a19b9f7fd6b360d",
+    "tiny_confirmation_rule.json": "776f61c20157ef4ce26aba1dd34cc3ea29d6101e67703626912e0b95e2413682",
+    "tiny_mlp_pilot.py": "c2e278474e4b4dffe034b39e3e2d2cd7314707fb33861b45f714822f2977f7c0",
+    "tiny_cnn_pilot.py": "9bb2756aaa7907a5996e397f50ff19f7480e262a87bdef5ddf6e538a5a22bb6b",
+    "tiny_mlp_summary.json": "712496f302f6de35b1ba8dc4a028a0e4a3cad0e8c56a0490140c54ee5d8d4494",
+    "tiny_cnn_summary.json": "08453d92c6671e43a43a57949095be1fa4bd91e3ab212ddb6ba46d2dfa3012ec",
+    "tiny_cnn_protocol.json": "8358a20546f8b1713d26101695da694fc74ff8641c6cd21288d93f522404831b",
+    "tiny_mlp_protocol.json": "fc0c991c914d117f418f60a61f5bcb0785bacb90a1884b92ef9767a6c4a6de5a",
+    "tiny_selected_development_audit.json": "61d72593119e477175bdc1c2e8e6418189eabddc4b12c1275ab68b8bbd2886d1",
+    "tiny_exact_test_amendment.json": "fa0d318fdc285a6f4b7434845c1d2e738e984332c89e1b736335bb74032500c7",
+    "tiny_secondary_curve_amendment.json": "d6e75e5cb2089536ed47d3ddd9755aa594ea291579d4c3d3d90845508f996989"
+  },
+  "data_sha256": "0d7b054fea010270e9b3f06411c654c5e59547732ad626381980baffe0a23fb0",
+  "upstream_features_sha256": "1561dcb2709d4e878f1a36a20b3fea225cd0724a1340be335594d7695433a3de",
+  "upstream_code_sha256": {
+    "optdigits_pilot.py": "e3c65756022bbabfc254b32914141b32ef4d4af521db645f2d81a51eb8f74a85",
+    "optdigits_ablation.py": "4fd32b012448ee9e4e72919bbc7f8b34d3bb6c318b42a18e123cbf737788dfe7"
+  },
+  "test_read": false
+}

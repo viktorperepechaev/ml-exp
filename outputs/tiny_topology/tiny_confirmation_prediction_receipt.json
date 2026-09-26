@@ -1,0 +1,146 @@
+{
+  "predicted_utc": "2026-09-26T20:36:19.246622+00:00",
+  "protocol_sha256": "73442b8db15697d01c51bce2daf4b8ef3137660c537c2020025a13680d56cedc",
+  "predictions_sha256": "17704152c5daa47173254d53806f63c89b0a2407fdf0282e315ddeacaeef103a",
+  "member_sha256": "a00344425906c79e59b9903a738249863805da67cfeeb27b3a2f4125e7c4926f",
+  "timing": [
+    {
+      "pipeline": "topology",
+      "preprocessing_seconds": 0.33263837499544024,
+      "individual_network_seconds": [
+        0.011039417004212737,
+        0.0020063749980181456,
+        0.0003173339646309614,
+        0.0002722919452935457,
+        0.0002919160760939121,
+        0.0003082919865846634,
+        0.0002737089525908232,
+        0.0013752079103142023,
+        0.0003737499937415123,
+        0.000366708030924201
+      ],
+      "caveat": "Exploratory shared-extraction timing; scale_features computes both topology and geometry, so this does NOT isolate necessary per-pipeline feature cost or establish speed savings."
+    },
+    {
+      "pipeline": "baseline",
+      "preprocessing_seconds": 0.31444591702893376,
+      "individual_network_seconds": [
+        0.0004952908493578434,
+        0.000994000118225813,
+        0.0003105001524090767,
+        0.0004530828446149826,
+        0.00045354198664426804,
+        0.0014724580105394125,
+        0.000450334046036005,
+        0.00030345888808369637,
+        0.0013082500081509352,
+        0.0008014161139726639
+      ],
+      "caveat": "Exploratory shared-extraction timing; scale_features computes both topology and geometry, so this does NOT isolate necessary per-pipeline feature cost or establish speed savings."
+    },
+    {
+      "pipeline": "b256_topology",
+      "preprocessing_seconds": 0.32584933401085436,
+      "individual_network_seconds": [
+        0.0003186250105500221,
+        0.00026216707192361355,
+        0.00022354093380272388,
+        0.00021225004456937313,
+        0.00021466705948114395,
+        0.00021500000730156898,
+        0.00022224988788366318,
+        0.00021862494759261608,
+        0.00023775012232363224,
+        0.00029158289544284344
+      ],
+      "caveat": "Exploratory shared-extraction timing; scale_features computes both topology and geometry, so this does NOT isolate necessary per-pipeline feature cost or establish speed savings."
+    },
+    {
+      "pipeline": "b256_baseline",
+      "preprocessing_seconds": 0.003960874862968922,
+      "individual_network_seconds": [
+        0.00029983394779264927,
+        0.0002837921492755413,
+        0.00025200005620718,
+        0.00025299983099102974,
+        0.00025970907881855965,
+        0.0002656669821590185,
+        0.00024408288300037384,
+        0.00022958382032811642,
+        0.000242958078160882,
+        0.0002615000121295452
+      ],
+      "caveat": "Exploratory shared-extraction timing; scale_features computes both topology and geometry, so this does NOT isolate necessary per-pipeline feature cost or establish speed savings."
+    },
+    {
+      "pipeline": "b1024_topology",
+      "preprocessing_seconds": 0.2992845841217786,
+      "individual_network_seconds": [
+        0.0002727911341935396,
+        0.00021249987185001373,
+        0.00021295901387929916,
+        0.0002752498257905245,
+        0.00021620793268084526,
+        0.0001997910439968109,
+        0.00019745784811675549,
+        0.00020158407278358936,
+        0.0002201248425990343,
+        0.00021491595543920994
+      ],
+      "caveat": "Exploratory shared-extraction timing; scale_features computes both topology and geometry, so this does NOT isolate necessary per-pipeline feature cost or establish speed savings."
+    },
+    {
+      "pipeline": "b1024_baseline",
+      "preprocessing_seconds": 0.3003589999862015,
+      "individual_network_seconds": [
+        0.0003849589265882969,
+        0.0003317079972475767,
+        0.0002933328505605459,
+        0.0003042919561266899,
+        0.00023312494158744812,
+        0.0002727499231696129,
+        0.00026787491515278816,
+        0.00023920787498354912,
+        0.00026333308778703213,
+        0.000257750041782856
+      ],
+      "caveat": "Exploratory shared-extraction timing; scale_features computes both topology and geometry, so this does NOT isolate necessary per-pipeline feature cost or establish speed savings."
+    },
+    {
+      "pipeline": "b2048_topology",
+      "preprocessing_seconds": 0.5368172500748187,
+      "individual_network_seconds": [
+        0.0007062091026455164,
+        0.0004986668936908245,
+        0.00047770794481039047,
+        0.0005914168432354927,
+        0.0004677500110119581,
+        0.0013549160212278366,
+        0.0005025002174079418,
+        0.0004182080738246441,
+        0.0003307091537863016,
+        0.0008935828227549791
+      ],
+      "caveat": "Exploratory shared-extraction timing; scale_features computes both topology and geometry, so this does NOT isolate necessary per-pipeline feature cost or establish speed savings."
+    },
+    {
+      "pipeline": "b2048_baseline",
+      "preprocessing_seconds": 0.4168554169591516,
+      "individual_network_seconds": [
+        0.0008852910250425339,
+        0.0006139168981462717,
+        0.00036137504503130913,
+        0.0009546668734401464,
+        0.0003398749977350235,
+        0.0009067910723388195,
+        0.0003474161494523287,
+        0.0004324160981923342,
+        0.00034908298403024673,
+        0.0004539170768111944
+      ],
+      "caveat": "Exploratory shared-extraction timing; scale_features computes both topology and geometry, so this does NOT isolate necessary per-pipeline feature cost or establish speed savings."
+    }
+  ],
+  "note": "Parser reads fixed-format labels along with images, but prediction function never uses labels or computes metrics; saved predictions precede analysis.",
+  "metrics_computed": false
+}

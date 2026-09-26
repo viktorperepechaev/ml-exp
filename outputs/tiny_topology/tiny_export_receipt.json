@@ -1,0 +1,90 @@
+{
+  "created_utc": "2026-09-26T20:36:46.429508+00:00",
+  "purpose": "Numerically checked deployment export, not another experiment",
+  "protocol_sha256": "73442b8db15697d01c51bce2daf4b8ef3137660c537c2020025a13680d56cedc",
+  "models": [
+    {
+      "pipeline": "topology",
+      "seed": 0,
+      "selection": "Seed0 fixed, no test-seed selection",
+      "file": "topology_seed0_raw_features.npz",
+      "sha256": "786f4a41e08818f98b69098ecfd8b281d83163ef9e56565f7bb74d7b067f69b9",
+      "architecture": {
+        "budget": 512,
+        "branch": "pixels_topology_early",
+        "depth": 1,
+        "lr": 0.003,
+        "parameters": 508,
+        "topological": true,
+        "fusion": "early",
+        "hidden_width": 6,
+        "base_dim": 64,
+        "side_dim": 8,
+        "id": "b512_pixels_topology_early_d1_o0",
+        "mean_accuracy": 0.9605355884425651,
+        "mean_ce": 0.14949699739615122,
+        "seed_accuracy": [
+          0.9587737843551797,
+          0.9577167019027484,
+          0.9651162790697675
+        ],
+        "selected_epochs": [
+          108,
+          105,
+          104
+        ],
+        "model_family": "mlp",
+        "weight_decay": 0.01,
+        "final_epochs": 105
+      },
+      "numerical_float32_weight_bytes": 2032,
+      "stored_scalar_count": 508,
+      "independent_scaler_storage_required": false,
+      "reference_probability_max_abs_difference": 1.3113021850585938e-06,
+      "all946_development_argmaxes_identical": true,
+      "extraction": "Raw64 block means + raw8Betti/geometry profile; no per-feature normalization or branch0.3 scaling at runtime, absorbed in first affine map."
+    },
+    {
+      "pipeline": "baseline",
+      "seed": 0,
+      "selection": "Seed0 fixed, no test-seed selection",
+      "file": "baseline_seed0_raw_features.npz",
+      "sha256": "a1cfe335ad2c10d39dc9ff8727dd030ac6e8977f88e4426414529cf5d1ab2f32",
+      "architecture": {
+        "budget": 512,
+        "branch": "pixels_geometry_early",
+        "depth": 1,
+        "lr": 0.01,
+        "parameters": 508,
+        "topological": false,
+        "fusion": "early",
+        "hidden_width": 6,
+        "base_dim": 64,
+        "side_dim": 8,
+        "id": "b512_pixels_geometry_early_d1_o1",
+        "mean_accuracy": 0.9510218463706837,
+        "mean_ce": 0.18383470674355826,
+        "seed_accuracy": [
+          0.9534883720930233,
+          0.9482029598308668,
+          0.9513742071881607
+        ],
+        "selected_epochs": [
+          30,
+          33,
+          42
+        ],
+        "model_family": "mlp",
+        "weight_decay": 0.01,
+        "final_epochs": 33
+      },
+      "numerical_float32_weight_bytes": 2032,
+      "stored_scalar_count": 508,
+      "independent_scaler_storage_required": false,
+      "reference_probability_max_abs_difference": 1.3113021850585938e-06,
+      "all946_development_argmaxes_identical": true,
+      "extraction": "Raw64 block means + raw8Betti/geometry profile; no per-feature normalization or branch0.3 scaling at runtime, absorbed in first affine map."
+    }
+  ],
+  "limitation": "Descriptor extraction code, morphology and component-labeling workspace remain additional. Numerical weight bytes are not whole-program memory or a latency claim."
+}

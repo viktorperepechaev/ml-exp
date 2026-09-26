@@ -1,0 +1,4020 @@
+{
+  "created_utc": "2026-09-26T19:46:28.812559+00:00",
+  "protocol_sha256": "fc0c991c914d117f418f60a61f5bcb0785bacb90a1884b92ef9767a6c4a6de5a",
+  "test_read": false,
+  "scope": "Exploratory TRAIN/CV results, no independent-test confirmation; not all tiny NN families yet.",
+  "fits": 456,
+  "configurations": 152,
+  "selected": {
+    "256": {
+      "topology": {
+        "budget": 256,
+        "branch": "pixels_topology_late",
+        "depth": 1,
+        "lr": 0.01,
+        "parameters": 240,
+        "topological": true,
+        "fusion": "late",
+        "hidden_width": 2,
+        "base_dim": 64,
+        "side_dim": 8,
+        "id": "b256_pixels_topology_late_d1_o1",
+        "mean_accuracy": 0.8685694150810429,
+        "mean_ce": 0.507636954387029,
+        "seed_accuracy": [
+          0.872093023255814,
+          0.8805496828752643,
+          0.8530655391120507
+        ],
+        "selected_epochs": [
+          80,
+          174,
+          79
+        ]
+      },
+      "baseline": {
+        "budget": 256,
+        "branch": "pixels",
+        "depth": 1,
+        "lr": 0.01,
+        "parameters": 235,
+        "topological": false,
+        "fusion": "early",
+        "hidden_width": 3,
+        "base_dim": 64,
+        "side_dim": 0,
+        "id": "b256_pixels_d1_o1",
+        "mean_accuracy": 0.8643410852713179,
+        "mean_ce": 0.5069398979345957,
+        "seed_accuracy": [
+          0.8551797040169133,
+          0.8858350951374208,
+          0.8520084566596194
+        ],
+        "selected_epochs": [
+          233,
+          247,
+          170
+        ]
+      }
+    },
+    "512": {
+      "topology": {
+        "budget": 512,
+        "branch": "pixels_topology_early",
+        "depth": 1,
+        "lr": 0.003,
+        "parameters": 508,
+        "topological": true,
+        "fusion": "early",
+        "hidden_width": 6,
+        "base_dim": 64,
+        "side_dim": 8,
+        "id": "b512_pixels_topology_early_d1_o0",
+        "mean_accuracy": 0.9605355884425651,
+        "mean_ce": 0.14949699739615122,
+        "seed_accuracy": [
+          0.9587737843551797,
+          0.9577167019027484,
+          0.9651162790697675
+        ],
+        "selected_epochs": [
+          108,
+          105,
+          104
+        ]
+      },
+      "baseline": {
+        "budget": 512,
+        "branch": "pixels_geometry_early",
+        "depth": 1,
+        "lr": 0.01,
+        "parameters": 508,
+        "topological": false,
+        "fusion": "early",
+        "hidden_width": 6,
+        "base_dim": 64,
+        "side_dim": 8,
+        "id": "b512_pixels_geometry_early_d1_o1",
+        "mean_accuracy": 0.9510218463706837,
+        "mean_ce": 0.18383470674355826,
+        "seed_accuracy": [
+          0.9534883720930233,
+          0.9482029598308668,
+          0.9513742071881607
+        ],
+        "selected_epochs": [
+          30,
+          33,
+          42
+        ]
+      }
+    },
+    "1024": {
+      "topology": {
+        "budget": 1024,
+        "branch": "pixels_topology_early",
+        "depth": 1,
+        "lr": 0.01,
+        "parameters": 1006,
+        "topological": true,
+        "fusion": "early",
+        "hidden_width": 12,
+        "base_dim": 64,
+        "side_dim": 8,
+        "id": "b1024_pixels_topology_early_d1_o1",
+        "mean_accuracy": 0.9763918252290344,
+        "mean_ce": 0.09908190866311391,
+        "seed_accuracy": [
+          0.9725158562367865,
+          0.9767441860465116,
+          0.9799154334038055
+        ],
+        "selected_epochs": [
+          26,
+          32,
+          25
+        ]
+      },
+      "baseline": {
+        "budget": 1024,
+        "branch": "pixels_geometry_early",
+        "depth": 1,
+        "lr": 0.01,
+        "parameters": 1006,
+        "topological": false,
+        "fusion": "early",
+        "hidden_width": 12,
+        "base_dim": 64,
+        "side_dim": 8,
+        "id": "b1024_pixels_geometry_early_d1_o1",
+        "mean_accuracy": 0.970754052149401,
+        "mean_ce": 0.11095193276802699,
+        "seed_accuracy": [
+          0.9630021141649049,
+          0.9778012684989429,
+          0.9714587737843552
+        ],
+        "selected_epochs": [
+          19,
+          32,
+          25
+        ]
+      }
+    },
+    "2048": {
+      "topology": {
+        "budget": 2048,
+        "branch": "hog_topology_early",
+        "depth": 1,
+        "lr": 0.003,
+        "parameters": 1909,
+        "topological": true,
+        "fusion": "early",
+        "hidden_width": 9,
+        "base_dim": 192,
+        "side_dim": 8,
+        "id": "b2048_hog_topology_early_d1_o0",
+        "mean_accuracy": 0.9830866807610995,
+        "mean_ce": 0.061847981065511703,
+        "seed_accuracy": [
+          0.9820295983086681,
+          0.9820295983086681,
+          0.985200845665962
+        ],
+        "selected_epochs": [
+          140,
+          82,
+          160
+        ]
+      },
+      "baseline": {
+        "budget": 2048,
+        "branch": "hog_geometry_late",
+        "depth": 1,
+        "lr": 0.003,
+        "parameters": 1917,
+        "topological": false,
+        "fusion": "late",
+        "hidden_width": 9,
+        "base_dim": 192,
+        "side_dim": 8,
+        "id": "b2048_hog_geometry_late_d1_o0",
+        "mean_accuracy": 0.9820295983086681,
+        "mean_ce": 0.058401125172773995,
+        "seed_accuracy": [
+          0.9735729386892178,
+          0.9862579281183932,
+          0.9862579281183932
+        ],
+        "selected_epochs": [
+          70,
+          142,
+          227
+        ]
+      }
+    }
+  },
+  "all_configurations": [
+    {
+      "budget": 1024,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 854,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b1024_hog_geometry_early_d1_o0",
+      "mean_accuracy": 0.9400986610288936,
+      "mean_ce": 0.21190673112869263,
+      "seed_accuracy": [
+        0.9492600422832981,
+        0.9355179704016914,
+        0.9355179704016914
+      ],
+      "selected_epochs": [
+        120,
+        128,
+        104
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 854,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b1024_hog_geometry_early_d1_o1",
+      "mean_accuracy": 0.9471458773784356,
+      "mean_ce": 0.20353378852208456,
+      "seed_accuracy": [
+        0.9513742071881607,
+        0.9376321353065539,
+        0.952431289640592
+      ],
+      "selected_epochs": [
+        35,
+        39,
+        28
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 874,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b1024_hog_geometry_early_d2_o0",
+      "mean_accuracy": 0.9119097956307258,
+      "mean_ce": 0.35293150941530865,
+      "seed_accuracy": [
+        0.9080338266384778,
+        0.9260042283298098,
+        0.9016913319238901
+      ],
+      "selected_epochs": [
+        78,
+        82,
+        116
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 874,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b1024_hog_geometry_early_d2_o1",
+      "mean_accuracy": 0.9182522903453135,
+      "mean_ce": 0.3432180881500244,
+      "seed_accuracy": [
+        0.9175475687103594,
+        0.9260042283298098,
+        0.9112050739957717
+      ],
+      "selected_epochs": [
+        27,
+        27,
+        56
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 902,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b1024_hog_geometry_late_d1_o0",
+      "mean_accuracy": 0.9580690627202255,
+      "mean_ce": 0.18525812526543936,
+      "seed_accuracy": [
+        0.96723044397463,
+        0.9545454545454546,
+        0.952431289640592
+      ],
+      "selected_epochs": [
+        165,
+        163,
+        156
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 902,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b1024_hog_geometry_late_d1_o1",
+      "mean_accuracy": 0.9541930937279774,
+      "mean_ce": 0.19408718248208365,
+      "seed_accuracy": [
+        0.9630021141649049,
+        0.952431289640592,
+        0.9471458773784355
+      ],
+      "selected_epochs": [
+        58,
+        50,
+        36
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 922,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b1024_hog_geometry_late_d2_o0",
+      "mean_accuracy": 0.8971106412966878,
+      "mean_ce": 0.3856111963589986,
+      "seed_accuracy": [
+        0.9154334038054969,
+        0.8456659619450317,
+        0.9302325581395349
+      ],
+      "selected_epochs": [
+        79,
+        106,
+        130
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 922,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b1024_hog_geometry_late_d2_o1",
+      "mean_accuracy": 0.9076814658210007,
+      "mean_ce": 0.30920610825220746,
+      "seed_accuracy": [
+        0.9312896405919662,
+        0.8636363636363636,
+        0.9281183932346723
+      ],
+      "selected_epochs": [
+        32,
+        52,
+        40
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 854,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b1024_hog_topology_early_d1_o0",
+      "mean_accuracy": 0.9436222692036645,
+      "mean_ce": 0.20940004289150238,
+      "seed_accuracy": [
+        0.9418604651162791,
+        0.9418604651162791,
+        0.9471458773784355
+      ],
+      "selected_epochs": [
+        116,
+        114,
+        125
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 854,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b1024_hog_topology_early_d1_o1",
+      "mean_accuracy": 0.9418604651162791,
+      "mean_ce": 0.22627908984820047,
+      "seed_accuracy": [
+        0.9418604651162791,
+        0.9408033826638478,
+        0.9429175475687104
+      ],
+      "selected_epochs": [
+        41,
+        55,
+        35
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 874,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b1024_hog_topology_early_d2_o0",
+      "mean_accuracy": 0.8844256518675123,
+      "mean_ce": 0.38423749804496765,
+      "seed_accuracy": [
+        0.904862579281184,
+        0.854122621564482,
+        0.8942917547568711
+      ],
+      "selected_epochs": [
+        110,
+        80,
+        123
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 874,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b1024_hog_topology_early_d2_o1",
+      "mean_accuracy": 0.9062720225510924,
+      "mean_ce": 0.3553981085618337,
+      "seed_accuracy": [
+        0.8900634249471459,
+        0.9228329809725159,
+        0.9059196617336153
+      ],
+      "selected_epochs": [
+        23,
+        37,
+        50
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 902,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b1024_hog_topology_late_d1_o0",
+      "mean_accuracy": 0.9563072586328402,
+      "mean_ce": 0.16032499571641287,
+      "seed_accuracy": [
+        0.9513742071881607,
+        0.9619450317124736,
+        0.9556025369978859
+      ],
+      "selected_epochs": [
+        133,
+        174,
+        167
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 902,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b1024_hog_topology_late_d1_o1",
+      "mean_accuracy": 0.9538407329105003,
+      "mean_ce": 0.17103482286135355,
+      "seed_accuracy": [
+        0.9513742071881607,
+        0.9630021141649049,
+        0.9471458773784355
+      ],
+      "selected_epochs": [
+        47,
+        48,
+        34
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 922,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b1024_hog_topology_late_d2_o0",
+      "mean_accuracy": 0.9097956307258633,
+      "mean_ce": 0.31320345401763916,
+      "seed_accuracy": [
+        0.9355179704016914,
+        0.8551797040169133,
+        0.9386892177589852
+      ],
+      "selected_epochs": [
+        103,
+        159,
+        89
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 922,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b1024_hog_topology_late_d2_o1",
+      "mean_accuracy": 0.9101479915433403,
+      "mean_ce": 0.29797496398289997,
+      "seed_accuracy": [
+        0.9460887949260042,
+        0.854122621564482,
+        0.9302325581395349
+      ],
+      "selected_epochs": [
+        26,
+        49,
+        36
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 985,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 13,
+      "base_dim": 64,
+      "side_dim": 0,
+      "id": "b1024_pixels_d1_o0",
+      "mean_accuracy": 0.963354474982382,
+      "mean_ce": 0.12827866524457932,
+      "seed_accuracy": [
+        0.9651162790697675,
+        0.959830866807611,
+        0.9651162790697675
+      ],
+      "selected_epochs": [
+        73,
+        70,
+        83
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 985,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 13,
+      "base_dim": 64,
+      "side_dim": 0,
+      "id": "b1024_pixels_d1_o1",
+      "mean_accuracy": 0.963354474982382,
+      "mean_ce": 0.13412525753180185,
+      "seed_accuracy": [
+        0.9640591966173362,
+        0.9630021141649049,
+        0.9630021141649049
+      ],
+      "selected_epochs": [
+        22,
+        27,
+        25
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 967,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 11,
+      "base_dim": 64,
+      "side_dim": 0,
+      "id": "b1024_pixels_d2_o0",
+      "mean_accuracy": 0.9640591966173361,
+      "mean_ce": 0.13183670242627463,
+      "seed_accuracy": [
+        0.959830866807611,
+        0.9661733615221987,
+        0.9661733615221987
+      ],
+      "selected_epochs": [
+        48,
+        65,
+        50
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 967,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 11,
+      "base_dim": 64,
+      "side_dim": 0,
+      "id": "b1024_pixels_d2_o1",
+      "mean_accuracy": 0.9598308668076111,
+      "mean_ce": 0.15055682261784872,
+      "seed_accuracy": [
+        0.9577167019027484,
+        0.9619450317124736,
+        0.959830866807611
+      ],
+      "selected_epochs": [
+        14,
+        22,
+        16
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 1006,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 12,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_geometry_early_d1_o0",
+      "mean_accuracy": 0.9700493305144469,
+      "mean_ce": 0.10379739602406819,
+      "seed_accuracy": [
+        0.9630021141649049,
+        0.9746300211416491,
+        0.9725158562367865
+      ],
+      "selected_epochs": [
+        51,
+        86,
+        74
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 1006,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 12,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_geometry_early_d1_o1",
+      "mean_accuracy": 0.970754052149401,
+      "mean_ce": 0.11095193276802699,
+      "seed_accuracy": [
+        0.9630021141649049,
+        0.9778012684989429,
+        0.9714587737843552
+      ],
+      "selected_epochs": [
+        19,
+        32,
+        25
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 950,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 10,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_geometry_early_d2_o0",
+      "mean_accuracy": 0.955954897815363,
+      "mean_ce": 0.1693954567114512,
+      "seed_accuracy": [
+        0.9545454545454546,
+        0.9577167019027484,
+        0.9556025369978859
+      ],
+      "selected_epochs": [
+        62,
+        49,
+        48
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 950,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 10,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_geometry_early_d2_o1",
+      "mean_accuracy": 0.9570119802677942,
+      "mean_ce": 0.187418465813001,
+      "seed_accuracy": [
+        0.9534883720930233,
+        0.9577167019027484,
+        0.959830866807611
+      ],
+      "selected_epochs": [
+        20,
+        23,
+        20
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 990,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 12,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_geometry_late_d1_o0",
+      "mean_accuracy": 0.9637068357998592,
+      "mean_ce": 0.12058327843745549,
+      "seed_accuracy": [
+        0.9608879492600423,
+        0.9651162790697675,
+        0.9651162790697675
+      ],
+      "selected_epochs": [
+        75,
+        70,
+        83
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 990,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 12,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_geometry_late_d1_o1",
+      "mean_accuracy": 0.966878083157153,
+      "mean_ce": 0.12225839992364247,
+      "seed_accuracy": [
+        0.9640591966173362,
+        0.96723044397463,
+        0.9693446088794926
+      ],
+      "selected_epochs": [
+        36,
+        21,
+        25
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 950,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 10,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_geometry_late_d2_o0",
+      "mean_accuracy": 0.9566596194503171,
+      "mean_ce": 0.16046502192815146,
+      "seed_accuracy": [
+        0.9608879492600423,
+        0.9608879492600423,
+        0.9482029598308668
+      ],
+      "selected_epochs": [
+        60,
+        58,
+        57
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 950,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 10,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_geometry_late_d2_o1",
+      "mean_accuracy": 0.9573643410852712,
+      "mean_ce": 0.16316180427869162,
+      "seed_accuracy": [
+        0.9587737843551797,
+        0.9587737843551797,
+        0.9545454545454546
+      ],
+      "selected_epochs": [
+        15,
+        19,
+        24
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 822,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 0,
+      "id": "b1024_pixels_hog_d1_o0",
+      "mean_accuracy": 0.9450317124735729,
+      "mean_ce": 0.20935004949569702,
+      "seed_accuracy": [
+        0.9386892177589852,
+        0.9471458773784355,
+        0.9492600422832981
+      ],
+      "selected_epochs": [
+        165,
+        146,
+        157
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 822,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 0,
+      "id": "b1024_pixels_hog_d1_o1",
+      "mean_accuracy": 0.9408033826638479,
+      "mean_ce": 0.21595812340577444,
+      "seed_accuracy": [
+        0.9323467230443975,
+        0.9429175475687104,
+        0.9471458773784355
+      ],
+      "selected_epochs": [
+        47,
+        49,
+        45
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 842,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 0,
+      "id": "b1024_pixels_hog_d2_o0",
+      "mean_accuracy": 0.9108527131782945,
+      "mean_ce": 0.37156938513120014,
+      "seed_accuracy": [
+        0.9154334038054969,
+        0.8900634249471459,
+        0.927061310782241
+      ],
+      "selected_epochs": [
+        77,
+        76,
+        82
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 842,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 4,
+      "base_dim": 192,
+      "side_dim": 0,
+      "id": "b1024_pixels_hog_d2_o1",
+      "mean_accuracy": 0.9062720225510924,
+      "mean_ce": 0.3934888144334157,
+      "seed_accuracy": [
+        0.8964059196617337,
+        0.8826638477801269,
+        0.9397463002114165
+      ],
+      "selected_epochs": [
+        26,
+        40,
+        33
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 1006,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 12,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_topology_early_d1_o0",
+      "mean_accuracy": 0.9746300211416491,
+      "mean_ce": 0.09268495440483093,
+      "seed_accuracy": [
+        0.9735729386892178,
+        0.9767441860465116,
+        0.9735729386892178
+      ],
+      "selected_epochs": [
+        70,
+        93,
+        96
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 1006,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 12,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_topology_early_d1_o1",
+      "mean_accuracy": 0.9763918252290344,
+      "mean_ce": 0.09908190866311391,
+      "seed_accuracy": [
+        0.9725158562367865,
+        0.9767441860465116,
+        0.9799154334038055
+      ],
+      "selected_epochs": [
+        26,
+        32,
+        25
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 950,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 10,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_topology_early_d2_o0",
+      "mean_accuracy": 0.9651162790697674,
+      "mean_ce": 0.15278972685337067,
+      "seed_accuracy": [
+        0.9630021141649049,
+        0.9630021141649049,
+        0.9693446088794926
+      ],
+      "selected_epochs": [
+        44,
+        73,
+        53
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 950,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 10,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_topology_early_d2_o1",
+      "mean_accuracy": 0.9612403100775193,
+      "mean_ce": 0.1736132949590683,
+      "seed_accuracy": [
+        0.9651162790697675,
+        0.9545454545454546,
+        0.9640591966173362
+      ],
+      "selected_epochs": [
+        18,
+        26,
+        18
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 990,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 12,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_topology_late_d1_o0",
+      "mean_accuracy": 0.9686398872445384,
+      "mean_ce": 0.1116457258661588,
+      "seed_accuracy": [
+        0.9651162790697675,
+        0.96723044397463,
+        0.9735729386892178
+      ],
+      "selected_epochs": [
+        82,
+        70,
+        75
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 990,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 12,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_topology_late_d1_o1",
+      "mean_accuracy": 0.9686398872445384,
+      "mean_ce": 0.11023229360580444,
+      "seed_accuracy": [
+        0.9682875264270613,
+        0.9682875264270613,
+        0.9693446088794926
+      ],
+      "selected_epochs": [
+        36,
+        21,
+        26
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 950,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 10,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_topology_late_d2_o0",
+      "mean_accuracy": 0.9577167019027484,
+      "mean_ce": 0.14866547286510468,
+      "seed_accuracy": [
+        0.9577167019027484,
+        0.9661733615221987,
+        0.9492600422832981
+      ],
+      "selected_epochs": [
+        51,
+        58,
+        57
+      ]
+    },
+    {
+      "budget": 1024,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 950,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 10,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b1024_pixels_topology_late_d2_o1",
+      "mean_accuracy": 0.9619450317124736,
+      "mean_ce": 0.14462230602900186,
+      "seed_accuracy": [
+        0.9651162790697675,
+        0.9608879492600423,
+        0.959830866807611
+      ],
+      "selected_epochs": [
+        19,
+        20,
+        24
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 1909,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_geometry_early_d1_o0",
+      "mean_accuracy": 0.9802677942212826,
+      "mean_ce": 0.06571984539429347,
+      "seed_accuracy": [
+        0.9809725158562368,
+        0.9820295983086681,
+        0.9778012684989429
+      ],
+      "selected_epochs": [
+        140,
+        82,
+        158
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 1909,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_geometry_early_d1_o1",
+      "mean_accuracy": 0.9795630725863284,
+      "mean_ce": 0.07065927733977635,
+      "seed_accuracy": [
+        0.9799154334038055,
+        0.9809725158562368,
+        0.9778012684989429
+      ],
+      "selected_epochs": [
+        39,
+        24,
+        38
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 1999,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_geometry_early_d2_o0",
+      "mean_accuracy": 0.9763918252290346,
+      "mean_ce": 0.09313492476940155,
+      "seed_accuracy": [
+        0.9778012684989429,
+        0.9767441860465116,
+        0.9746300211416491
+      ],
+      "selected_epochs": [
+        70,
+        56,
+        50
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 1999,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_geometry_early_d2_o1",
+      "mean_accuracy": 0.9735729386892178,
+      "mean_ce": 0.09760915239651997,
+      "seed_accuracy": [
+        0.9746300211416491,
+        0.9767441860465116,
+        0.9693446088794926
+      ],
+      "selected_epochs": [
+        19,
+        24,
+        14
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 1917,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_geometry_late_d1_o0",
+      "mean_accuracy": 0.9820295983086681,
+      "mean_ce": 0.058401125172773995,
+      "seed_accuracy": [
+        0.9735729386892178,
+        0.9862579281183932,
+        0.9862579281183932
+      ],
+      "selected_epochs": [
+        70,
+        142,
+        227
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 1917,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_geometry_late_d1_o1",
+      "mean_accuracy": 0.9802677942212826,
+      "mean_ce": 0.06463625406225522,
+      "seed_accuracy": [
+        0.9735729386892178,
+        0.9830866807610994,
+        0.9841437632135307
+      ],
+      "selected_epochs": [
+        23,
+        32,
+        57
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 2007,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_geometry_late_d2_o0",
+      "mean_accuracy": 0.9763918252290346,
+      "mean_ce": 0.08948356658220291,
+      "seed_accuracy": [
+        0.9799154334038055,
+        0.9746300211416491,
+        0.9746300211416491
+      ],
+      "selected_epochs": [
+        55,
+        74,
+        89
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 2007,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_geometry_late_d2_o1",
+      "mean_accuracy": 0.9746300211416491,
+      "mean_ce": 0.09871125717957814,
+      "seed_accuracy": [
+        0.9767441860465116,
+        0.9746300211416491,
+        0.9725158562367865
+      ],
+      "selected_epochs": [
+        20,
+        42,
+        18
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 1909,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_topology_early_d1_o0",
+      "mean_accuracy": 0.9830866807610995,
+      "mean_ce": 0.061847981065511703,
+      "seed_accuracy": [
+        0.9820295983086681,
+        0.9820295983086681,
+        0.985200845665962
+      ],
+      "selected_epochs": [
+        140,
+        82,
+        160
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 1909,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_topology_early_d1_o1",
+      "mean_accuracy": 0.9823819591261452,
+      "mean_ce": 0.06548714141050975,
+      "seed_accuracy": [
+        0.9809725158562368,
+        0.9830866807610994,
+        0.9830866807610994
+      ],
+      "selected_epochs": [
+        59,
+        32,
+        43
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 1999,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_topology_early_d2_o0",
+      "mean_accuracy": 0.9788583509513741,
+      "mean_ce": 0.08907634764909744,
+      "seed_accuracy": [
+        0.9788583509513742,
+        0.9788583509513742,
+        0.9788583509513742
+      ],
+      "selected_epochs": [
+        118,
+        62,
+        42
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 1999,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_topology_early_d2_o1",
+      "mean_accuracy": 0.9763918252290344,
+      "mean_ce": 0.09122924755016963,
+      "seed_accuracy": [
+        0.9756871035940803,
+        0.9767441860465116,
+        0.9767441860465116
+      ],
+      "selected_epochs": [
+        23,
+        25,
+        14
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 1917,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_topology_late_d1_o0",
+      "mean_accuracy": 0.9827343199436221,
+      "mean_ce": 0.05425788958867391,
+      "seed_accuracy": [
+        0.9735729386892178,
+        0.9873150105708245,
+        0.9873150105708245
+      ],
+      "selected_epochs": [
+        70,
+        144,
+        250
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 1917,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_topology_late_d1_o1",
+      "mean_accuracy": 0.9823819591261452,
+      "mean_ce": 0.06073773776491483,
+      "seed_accuracy": [
+        0.9778012684989429,
+        0.985200845665962,
+        0.9841437632135307
+      ],
+      "selected_epochs": [
+        28,
+        40,
+        79
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 2007,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_topology_late_d2_o0",
+      "mean_accuracy": 0.9770965468639887,
+      "mean_ce": 0.09254248936971028,
+      "seed_accuracy": [
+        0.9841437632135307,
+        0.9725158562367865,
+        0.9746300211416491
+      ],
+      "selected_epochs": [
+        52,
+        71,
+        106
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 2007,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b2048_hog_topology_late_d2_o1",
+      "mean_accuracy": 0.97815362931642,
+      "mean_ce": 0.09309862802426021,
+      "seed_accuracy": [
+        0.9841437632135307,
+        0.9778012684989429,
+        0.9725158562367865
+      ],
+      "selected_epochs": [
+        21,
+        23,
+        37
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 2035,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 27,
+      "base_dim": 64,
+      "side_dim": 0,
+      "id": "b2048_pixels_d1_o0",
+      "mean_accuracy": 0.9721634954193094,
+      "mean_ce": 0.09963599095741908,
+      "seed_accuracy": [
+        0.9735729386892178,
+        0.9693446088794926,
+        0.9735729386892178
+      ],
+      "selected_epochs": [
+        81,
+        60,
+        50
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 2035,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 27,
+      "base_dim": 64,
+      "side_dim": 0,
+      "id": "b2048_pixels_d1_o1",
+      "mean_accuracy": 0.9728682170542635,
+      "mean_ce": 0.105934443573157,
+      "seed_accuracy": [
+        0.9756871035940803,
+        0.9714587737843552,
+        0.9714587737843552
+      ],
+      "selected_epochs": [
+        21,
+        23,
+        16
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 2047,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 21,
+      "base_dim": 64,
+      "side_dim": 0,
+      "id": "b2048_pixels_d2_o0",
+      "mean_accuracy": 0.9689922480620154,
+      "mean_ce": 0.11736121277014415,
+      "seed_accuracy": [
+        0.9725158562367865,
+        0.9682875264270613,
+        0.9661733615221987
+      ],
+      "selected_epochs": [
+        40,
+        40,
+        36
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 2047,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 21,
+      "base_dim": 64,
+      "side_dim": 0,
+      "id": "b2048_pixels_d2_o1",
+      "mean_accuracy": 0.9711064129668782,
+      "mean_ce": 0.13106000671784082,
+      "seed_accuracy": [
+        0.9725158562367865,
+        0.9704016913319239,
+        0.9704016913319239
+      ],
+      "selected_epochs": [
+        12,
+        14,
+        14
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 2002,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 24,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b2048_pixels_geometry_early_d1_o0",
+      "mean_accuracy": 0.9735729386892178,
+      "mean_ce": 0.0893390526374181,
+      "seed_accuracy": [
+        0.9735729386892178,
+        0.9704016913319239,
+        0.9767441860465116
+      ],
+      "selected_epochs": [
+        49,
+        67,
+        71
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 2002,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 24,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b2048_pixels_geometry_early_d1_o1",
+      "mean_accuracy": 0.9725158562367865,
+      "mean_ce": 0.09721473107735316,
+      "seed_accuracy": [
+        0.9746300211416491,
+        0.9693446088794926,
+        0.9735729386892178
+      ],
+      "selected_epochs": [
+        14,
+        20,
+        18
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 1967,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 19,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b2048_pixels_geometry_early_d2_o0",
+      "mean_accuracy": 0.9725158562367865,
+      "mean_ce": 0.10579082121451695,
+      "seed_accuracy": [
+        0.9767441860465116,
+        0.9714587737843552,
+        0.9693446088794926
+      ],
+      "selected_epochs": [
+        52,
+        34,
+        36
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 1967,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 19,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b2048_pixels_geometry_early_d2_o1",
+      "mean_accuracy": 0.9696969696969697,
+      "mean_ce": 0.1183487797776858,
+      "seed_accuracy": [
+        0.9704016913319239,
+        0.96723044397463,
+        0.9714587737843552
+      ],
+      "selected_epochs": [
+        15,
+        9,
+        15
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 2040,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 26,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b2048_pixels_geometry_late_d1_o0",
+      "mean_accuracy": 0.9675828047921072,
+      "mean_ce": 0.10285777846972148,
+      "seed_accuracy": [
+        0.9704016913319239,
+        0.9630021141649049,
+        0.9693446088794926
+      ],
+      "selected_epochs": [
+        96,
+        49,
+        59
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 2040,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 26,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b2048_pixels_geometry_late_d1_o1",
+      "mean_accuracy": 0.967582804792107,
+      "mean_ce": 0.10635832945505778,
+      "seed_accuracy": [
+        0.9693446088794926,
+        0.9651162790697675,
+        0.9682875264270613
+      ],
+      "selected_epochs": [
+        26,
+        16,
+        18
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 2010,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 20,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b2048_pixels_geometry_late_d2_o0",
+      "mean_accuracy": 0.9732205778717407,
+      "mean_ce": 0.10613075147072475,
+      "seed_accuracy": [
+        0.9767441860465116,
+        0.9725158562367865,
+        0.9704016913319239
+      ],
+      "selected_epochs": [
+        35,
+        50,
+        36
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 2010,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 20,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b2048_pixels_geometry_late_d2_o1",
+      "mean_accuracy": 0.9711064129668782,
+      "mean_ce": 0.11814732104539871,
+      "seed_accuracy": [
+        0.9746300211416491,
+        0.9693446088794926,
+        0.9693446088794926
+      ],
+      "selected_epochs": [
+        12,
+        16,
+        15
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 2040,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 10,
+      "base_dim": 192,
+      "side_dim": 0,
+      "id": "b2048_pixels_hog_d1_o0",
+      "mean_accuracy": 0.981677237491191,
+      "mean_ce": 0.07103145867586136,
+      "seed_accuracy": [
+        0.9830866807610994,
+        0.9820295983086681,
+        0.9799154334038055
+      ],
+      "selected_epochs": [
+        98,
+        101,
+        88
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 2040,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 10,
+      "base_dim": 192,
+      "side_dim": 0,
+      "id": "b2048_pixels_hog_d1_o1",
+      "mean_accuracy": 0.9813248766737139,
+      "mean_ce": 0.0771010195215543,
+      "seed_accuracy": [
+        0.9830866807610994,
+        0.9830866807610994,
+        0.9778012684989429
+      ],
+      "selected_epochs": [
+        39,
+        67,
+        36
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 1927,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 0,
+      "id": "b2048_pixels_hog_d2_o0",
+      "mean_accuracy": 0.9785059901338972,
+      "mean_ce": 0.09475850313901901,
+      "seed_accuracy": [
+        0.9767441860465116,
+        0.9820295983086681,
+        0.9767441860465116
+      ],
+      "selected_epochs": [
+        97,
+        73,
+        89
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 1927,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 9,
+      "base_dim": 192,
+      "side_dim": 0,
+      "id": "b2048_pixels_hog_d2_o1",
+      "mean_accuracy": 0.9739252995066949,
+      "mean_ce": 0.11676439394553502,
+      "seed_accuracy": [
+        0.9746300211416491,
+        0.9746300211416491,
+        0.9725158562367865
+      ],
+      "selected_epochs": [
+        29,
+        25,
+        18
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 2002,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 24,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b2048_pixels_topology_early_d1_o0",
+      "mean_accuracy": 0.97815362931642,
+      "mean_ce": 0.0784422035018603,
+      "seed_accuracy": [
+        0.9778012684989429,
+        0.9756871035940803,
+        0.9809725158562368
+      ],
+      "selected_epochs": [
+        54,
+        67,
+        82
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 2002,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 24,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b2048_pixels_topology_early_d1_o1",
+      "mean_accuracy": 0.9770965468639887,
+      "mean_ce": 0.08455899606148402,
+      "seed_accuracy": [
+        0.9767441860465116,
+        0.9746300211416491,
+        0.9799154334038055
+      ],
+      "selected_epochs": [
+        17,
+        36,
+        28
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 1967,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 19,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b2048_pixels_topology_early_d2_o0",
+      "mean_accuracy": 0.9753347427766034,
+      "mean_ce": 0.09096796065568924,
+      "seed_accuracy": [
+        0.9756871035940803,
+        0.9788583509513742,
+        0.9714587737843552
+      ],
+      "selected_epochs": [
+        66,
+        48,
+        36
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 1967,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 19,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b2048_pixels_topology_early_d2_o1",
+      "mean_accuracy": 0.9753347427766034,
+      "mean_ce": 0.10056464870770772,
+      "seed_accuracy": [
+        0.9778012684989429,
+        0.9735729386892178,
+        0.9746300211416491
+      ],
+      "selected_epochs": [
+        30,
+        9,
+        14
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 2040,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 26,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b2048_pixels_topology_late_d1_o0",
+      "mean_accuracy": 0.9718111346018322,
+      "mean_ce": 0.09418205420176189,
+      "seed_accuracy": [
+        0.9725158562367865,
+        0.9704016913319239,
+        0.9725158562367865
+      ],
+      "selected_epochs": [
+        96,
+        66,
+        59
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 2040,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 26,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b2048_pixels_topology_late_d1_o1",
+      "mean_accuracy": 0.9735729386892178,
+      "mean_ce": 0.09908395012219746,
+      "seed_accuracy": [
+        0.9746300211416491,
+        0.9735729386892178,
+        0.9725158562367865
+      ],
+      "selected_epochs": [
+        22,
+        16,
+        18
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 2010,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 20,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b2048_pixels_topology_late_d2_o0",
+      "mean_accuracy": 0.974277660324172,
+      "mean_ce": 0.10053672393163045,
+      "seed_accuracy": [
+        0.9778012684989429,
+        0.9725158562367865,
+        0.9725158562367865
+      ],
+      "selected_epochs": [
+        40,
+        50,
+        36
+      ]
+    },
+    {
+      "budget": 2048,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 2010,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 20,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b2048_pixels_topology_late_d2_o1",
+      "mean_accuracy": 0.9728682170542635,
+      "mean_ce": 0.10957179715236028,
+      "seed_accuracy": [
+        0.9756871035940803,
+        0.9735729386892178,
+        0.9693446088794926
+      ],
+      "selected_epochs": [
+        15,
+        16,
+        15
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 221,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 1,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b256_hog_geometry_early_d1_o0",
+      "mean_accuracy": 0.3241719520789288,
+      "mean_ce": 1.5866759220759075,
+      "seed_accuracy": [
+        0.35200845665961944,
+        0.27906976744186046,
+        0.34143763213530653
+      ],
+      "selected_epochs": [
+        246,
+        178,
+        248
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 221,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 1,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b256_hog_geometry_early_d1_o1",
+      "mean_accuracy": 0.3424947145877379,
+      "mean_ce": 1.5594775676727295,
+      "seed_accuracy": [
+        0.36152219873150104,
+        0.2959830866807611,
+        0.3699788583509514
+      ],
+      "selected_epochs": [
+        89,
+        143,
+        168
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 223,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 1,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b256_hog_geometry_early_d2_o0",
+      "mean_accuracy": 0.20507399577167018,
+      "mean_ce": 1.8939789533615112,
+      "seed_accuracy": [
+        0.3276955602536998,
+        0.193446088794926,
+        0.09408033826638477
+      ],
+      "selected_epochs": [
+        102,
+        224,
+        123
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 223,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 1,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b256_hog_geometry_early_d2_o1",
+      "mean_accuracy": 0.19661733615221988,
+      "mean_ce": 1.8895540237426758,
+      "seed_accuracy": [
+        0.3086680761099366,
+        0.18710359408033828,
+        0.09408033826638477
+      ],
+      "selected_epochs": [
+        33,
+        84,
+        56
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 221,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 1,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b256_hog_topology_early_d1_o0",
+      "mean_accuracy": 0.3269908386187456,
+      "mean_ce": 1.592569351196289,
+      "seed_accuracy": [
+        0.3594080338266385,
+        0.2769556025369979,
+        0.34460887949260044
+      ],
+      "selected_epochs": [
+        247,
+        178,
+        242
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 221,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 1,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b256_hog_topology_early_d1_o1",
+      "mean_accuracy": 0.33262861169837915,
+      "mean_ce": 1.5738774538040161,
+      "seed_accuracy": [
+        0.36363636363636365,
+        0.28858350951374206,
+        0.3456659619450317
+      ],
+      "selected_epochs": [
+        150,
+        52,
+        101
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 223,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 1,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b256_hog_topology_early_d2_o0",
+      "mean_accuracy": 0.20507399577167018,
+      "mean_ce": 1.887485186258952,
+      "seed_accuracy": [
+        0.32452431289640593,
+        0.19661733615221988,
+        0.09408033826638477
+      ],
+      "selected_epochs": [
+        102,
+        208,
+        123
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 223,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 1,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b256_hog_topology_early_d2_o1",
+      "mean_accuracy": 0.1927413671599718,
+      "mean_ce": 1.8828978141148884,
+      "seed_accuracy": [
+        0.29915433403805497,
+        0.1849894291754757,
+        0.09408033826638477
+      ],
+      "selected_epochs": [
+        36,
+        76,
+        56
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 235,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 3,
+      "base_dim": 64,
+      "side_dim": 0,
+      "id": "b256_pixels_d1_o0",
+      "mean_accuracy": 0.8460183227625088,
+      "mean_ce": 0.5584042469660441,
+      "seed_accuracy": [
+        0.8477801268498943,
+        0.8435517970401691,
+        0.846723044397463
+      ],
+      "selected_epochs": [
+        249,
+        250,
+        249
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 235,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 3,
+      "base_dim": 64,
+      "side_dim": 0,
+      "id": "b256_pixels_d1_o1",
+      "mean_accuracy": 0.8643410852713179,
+      "mean_ce": 0.5069398979345957,
+      "seed_accuracy": [
+        0.8551797040169133,
+        0.8858350951374208,
+        0.8520084566596194
+      ],
+      "selected_epochs": [
+        233,
+        247,
+        170
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 247,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 3,
+      "base_dim": 64,
+      "side_dim": 0,
+      "id": "b256_pixels_d2_o0",
+      "mean_accuracy": 0.8298097251585622,
+      "mean_ce": 0.6215021014213562,
+      "seed_accuracy": [
+        0.7917547568710359,
+        0.8826638477801269,
+        0.8150105708245243
+      ],
+      "selected_epochs": [
+        222,
+        240,
+        138
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 247,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 3,
+      "base_dim": 64,
+      "side_dim": 0,
+      "id": "b256_pixels_d2_o1",
+      "mean_accuracy": 0.8259337561663141,
+      "mean_ce": 0.6161667903264364,
+      "seed_accuracy": [
+        0.773784355179704,
+        0.8932346723044398,
+        0.8107822410147991
+      ],
+      "selected_epochs": [
+        46,
+        95,
+        46
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 176,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b256_pixels_geometry_early_d1_o0",
+      "mean_accuracy": 0.6737138830162085,
+      "mean_ce": 0.9258752465248108,
+      "seed_accuracy": [
+        0.6448202959830867,
+        0.6818181818181818,
+        0.6945031712473573
+      ],
+      "selected_epochs": [
+        217,
+        247,
+        250
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 176,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b256_pixels_geometry_early_d1_o1",
+      "mean_accuracy": 0.7170542635658914,
+      "mean_ce": 0.8653391202290853,
+      "seed_accuracy": [
+        0.6564482029598309,
+        0.7515856236786469,
+        0.7431289640591966
+      ],
+      "selected_epochs": [
+        72,
+        177,
+        249
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 182,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b256_pixels_geometry_early_d2_o0",
+      "mean_accuracy": 0.5014094432699084,
+      "mean_ce": 1.2580278317133586,
+      "seed_accuracy": [
+        0.313953488372093,
+        0.7283298097251586,
+        0.4619450317124736
+      ],
+      "selected_epochs": [
+        246,
+        250,
+        113
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 182,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b256_pixels_geometry_early_d2_o1",
+      "mean_accuracy": 0.52184637068358,
+      "mean_ce": 1.2571685910224915,
+      "seed_accuracy": [
+        0.346723044397463,
+        0.7748414376321353,
+        0.4439746300211416
+      ],
+      "selected_epochs": [
+        41,
+        249,
+        38
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 240,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 2,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b256_pixels_geometry_late_d1_o0",
+      "mean_accuracy": 0.8188865398167723,
+      "mean_ce": 0.6112460494041443,
+      "seed_accuracy": [
+        0.8044397463002114,
+        0.8298097251585623,
+        0.8224101479915433
+      ],
+      "selected_epochs": [
+        167,
+        250,
+        250
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 240,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 2,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b256_pixels_geometry_late_d1_o1",
+      "mean_accuracy": 0.8298097251585624,
+      "mean_ce": 0.5778225064277649,
+      "seed_accuracy": [
+        0.8086680761099366,
+        0.8329809725158562,
+        0.8477801268498943
+      ],
+      "selected_epochs": [
+        47,
+        97,
+        244
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 246,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 2,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b256_pixels_geometry_late_d2_o0",
+      "mean_accuracy": 0.759337561663143,
+      "mean_ce": 0.7444918155670166,
+      "seed_accuracy": [
+        0.6606765327695561,
+        0.7991543340380549,
+        0.8181818181818182
+      ],
+      "selected_epochs": [
+        250,
+        193,
+        231
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 246,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 2,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b256_pixels_geometry_late_d2_o1",
+      "mean_accuracy": 0.7847075405214939,
+      "mean_ce": 0.6958906451861063,
+      "seed_accuracy": [
+        0.7420718816067653,
+        0.7928118393234672,
+        0.8192389006342494
+      ],
+      "selected_epochs": [
+        245,
+        69,
+        90
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 213,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 1,
+      "base_dim": 192,
+      "side_dim": 0,
+      "id": "b256_pixels_hog_d1_o0",
+      "mean_accuracy": 0.33932346723044393,
+      "mean_ce": 1.5483795801798503,
+      "seed_accuracy": [
+        0.3477801268498943,
+        0.3287526427061311,
+        0.34143763213530653
+      ],
+      "selected_epochs": [
+        249,
+        173,
+        250
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 213,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 1,
+      "base_dim": 192,
+      "side_dim": 0,
+      "id": "b256_pixels_hog_d1_o1",
+      "mean_accuracy": 0.35306553911205074,
+      "mean_ce": 1.5393439928690593,
+      "seed_accuracy": [
+        0.37420718816067655,
+        0.34355179704016914,
+        0.34143763213530653
+      ],
+      "selected_epochs": [
+        122,
+        61,
+        141
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 215,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 1,
+      "base_dim": 192,
+      "side_dim": 0,
+      "id": "b256_pixels_hog_d2_o0",
+      "mean_accuracy": 0.24453840732910503,
+      "mean_ce": 1.888636628786723,
+      "seed_accuracy": [
+        0.09408033826638477,
+        0.32558139534883723,
+        0.313953488372093
+      ],
+      "selected_epochs": [
+        75,
+        164,
+        85
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 215,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 1,
+      "base_dim": 192,
+      "side_dim": 0,
+      "id": "b256_pixels_hog_d2_o1",
+      "mean_accuracy": 0.23854827343199436,
+      "mean_ce": 1.8871051867802937,
+      "seed_accuracy": [
+        0.09408033826638477,
+        0.3298097251585624,
+        0.2917547568710359
+      ],
+      "selected_epochs": [
+        74,
+        65,
+        27
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 176,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b256_pixels_topology_early_d1_o0",
+      "mean_accuracy": 0.6687808315715292,
+      "mean_ce": 0.9342067042986552,
+      "seed_accuracy": [
+        0.6342494714587738,
+        0.741014799154334,
+        0.63107822410148
+      ],
+      "selected_epochs": [
+        217,
+        247,
+        250
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 176,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b256_pixels_topology_early_d1_o1",
+      "mean_accuracy": 0.7311486962649753,
+      "mean_ce": 0.8763084212938944,
+      "seed_accuracy": [
+        0.6638477801268499,
+        0.758985200845666,
+        0.7706131078224101
+      ],
+      "selected_epochs": [
+        95,
+        115,
+        248
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 182,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b256_pixels_topology_early_d2_o0",
+      "mean_accuracy": 0.5049330514446794,
+      "mean_ce": 1.2101938724517822,
+      "seed_accuracy": [
+        0.36257928118393234,
+        0.7050739957716702,
+        0.44714587737843553
+      ],
+      "selected_epochs": [
+        250,
+        155,
+        121
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 182,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b256_pixels_topology_early_d2_o1",
+      "mean_accuracy": 0.49894291754756875,
+      "mean_ce": 1.2496373256047566,
+      "seed_accuracy": [
+        0.35095137420718814,
+        0.6966173361522199,
+        0.4492600422832981
+      ],
+      "selected_epochs": [
+        46,
+        53,
+        40
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 240,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 2,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b256_pixels_topology_late_d1_o0",
+      "mean_accuracy": 0.8520084566596194,
+      "mean_ce": 0.53484708070755,
+      "seed_accuracy": [
+        0.861522198731501,
+        0.8509513742071881,
+        0.8435517970401691
+      ],
+      "selected_epochs": [
+        230,
+        249,
+        250
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 240,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 2,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b256_pixels_topology_late_d1_o1",
+      "mean_accuracy": 0.8685694150810429,
+      "mean_ce": 0.507636954387029,
+      "seed_accuracy": [
+        0.872093023255814,
+        0.8805496828752643,
+        0.8530655391120507
+      ],
+      "selected_epochs": [
+        80,
+        174,
+        79
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 246,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 2,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b256_pixels_topology_late_d2_o0",
+      "mean_accuracy": 0.7138830162085976,
+      "mean_ce": 0.8332728743553162,
+      "seed_accuracy": [
+        0.6363636363636364,
+        0.7219873150105708,
+        0.7832980972515856
+      ],
+      "selected_epochs": [
+        247,
+        190,
+        250
+      ]
+    },
+    {
+      "budget": 256,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 246,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 2,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b256_pixels_topology_late_d2_o1",
+      "mean_accuracy": 0.7438336856941508,
+      "mean_ce": 0.7494173645973206,
+      "seed_accuracy": [
+        0.6522198731501057,
+        0.7600422832980972,
+        0.8192389006342494
+      ],
+      "selected_epochs": [
+        99,
+        54,
+        206
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 432,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b512_hog_geometry_early_d1_o0",
+      "mean_accuracy": 0.6596194503171248,
+      "mean_ce": 0.8882930477460226,
+      "seed_accuracy": [
+        0.6575052854122622,
+        0.63107822410148,
+        0.6902748414376322
+      ],
+      "selected_epochs": [
+        236,
+        240,
+        250
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 432,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b512_hog_geometry_early_d1_o1",
+      "mean_accuracy": 0.6631430584918957,
+      "mean_ce": 0.8691536585489908,
+      "seed_accuracy": [
+        0.6733615221987315,
+        0.6966173361522199,
+        0.6194503171247357
+      ],
+      "selected_epochs": [
+        71,
+        74,
+        83
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 438,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b512_hog_geometry_early_d2_o0",
+      "mean_accuracy": 0.4203664552501762,
+      "mean_ce": 1.5017265677452087,
+      "seed_accuracy": [
+        0.6405919661733616,
+        0.09408033826638477,
+        0.5264270613107822
+      ],
+      "selected_epochs": [
+        173,
+        32,
+        137
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 438,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b512_hog_geometry_early_d2_o1",
+      "mean_accuracy": 0.41966173361522197,
+      "mean_ce": 1.4946253697077434,
+      "seed_accuracy": [
+        0.6321353065539113,
+        0.09408033826638477,
+        0.53276955602537
+      ],
+      "selected_epochs": [
+        68,
+        14,
+        25
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 496,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b512_hog_geometry_late_d1_o0",
+      "mean_accuracy": 0.7706131078224101,
+      "mean_ce": 0.6415455341339111,
+      "seed_accuracy": [
+        0.7505285412262156,
+        0.8403805496828752,
+        0.7209302325581395
+      ],
+      "selected_epochs": [
+        201,
+        249,
+        189
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 496,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b512_hog_geometry_late_d1_o1",
+      "mean_accuracy": 0.810077519379845,
+      "mean_ce": 0.5780693689982096,
+      "seed_accuracy": [
+        0.7822410147991543,
+        0.8435517970401691,
+        0.8044397463002114
+      ],
+      "selected_epochs": [
+        91,
+        97,
+        85
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 502,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b512_hog_geometry_late_d2_o0",
+      "mean_accuracy": 0.6416490486257928,
+      "mean_ce": 1.0117331941922505,
+      "seed_accuracy": [
+        0.7378435517970402,
+        0.6014799154334038,
+        0.5856236786469344
+      ],
+      "selected_epochs": [
+        107,
+        97,
+        241
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 502,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b512_hog_geometry_late_d2_o1",
+      "mean_accuracy": 0.6846370683579986,
+      "mean_ce": 0.8879976073900858,
+      "seed_accuracy": [
+        0.7452431289640592,
+        0.718816067653277,
+        0.5898520084566596
+      ],
+      "selected_epochs": [
+        40,
+        81,
+        74
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 432,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b512_hog_topology_early_d1_o0",
+      "mean_accuracy": 0.6694855532064835,
+      "mean_ce": 0.8460847735404968,
+      "seed_accuracy": [
+        0.6765327695560254,
+        0.6765327695560254,
+        0.6553911205073996
+      ],
+      "selected_epochs": [
+        198,
+        232,
+        217
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 432,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b512_hog_topology_early_d1_o1",
+      "mean_accuracy": 0.6923890063424946,
+      "mean_ce": 0.8127598365147909,
+      "seed_accuracy": [
+        0.6638477801268499,
+        0.678646934460888,
+        0.7346723044397463
+      ],
+      "selected_epochs": [
+        69,
+        78,
+        139
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 438,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b512_hog_topology_early_d2_o0",
+      "mean_accuracy": 0.4186046511627907,
+      "mean_ce": 1.4667494694391887,
+      "seed_accuracy": [
+        0.6321353065539113,
+        0.09408033826638477,
+        0.5295983086680761
+      ],
+      "selected_epochs": [
+        164,
+        32,
+        116
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 438,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b512_hog_topology_early_d2_o1",
+      "mean_accuracy": 0.41261451726568005,
+      "mean_ce": 1.5183692574501038,
+      "seed_accuracy": [
+        0.6289640591966174,
+        0.09408033826638477,
+        0.514799154334038
+      ],
+      "selected_epochs": [
+        64,
+        14,
+        28
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 496,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b512_hog_topology_late_d1_o0",
+      "mean_accuracy": 0.8389711064129669,
+      "mean_ce": 0.5133260687192281,
+      "seed_accuracy": [
+        0.806553911205074,
+        0.8403805496828752,
+        0.8699788583509513
+      ],
+      "selected_epochs": [
+        216,
+        221,
+        243
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 496,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b512_hog_topology_late_d1_o1",
+      "mean_accuracy": 0.8460183227625088,
+      "mean_ce": 0.494390328725179,
+      "seed_accuracy": [
+        0.8181818181818182,
+        0.8551797040169133,
+        0.864693446088795
+      ],
+      "selected_epochs": [
+        77,
+        59,
+        62
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 502,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b512_hog_topology_late_d2_o0",
+      "mean_accuracy": 0.6782945736434108,
+      "mean_ce": 0.783661683400472,
+      "seed_accuracy": [
+        0.7241014799154334,
+        0.7875264270613108,
+        0.5232558139534884
+      ],
+      "selected_epochs": [
+        118,
+        174,
+        244
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 502,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 8,
+      "id": "b512_hog_topology_late_d2_o1",
+      "mean_accuracy": 0.6652572233967583,
+      "mean_ce": 0.820749839146932,
+      "seed_accuracy": [
+        0.733615221987315,
+        0.7283298097251586,
+        0.5338266384778013
+      ],
+      "selected_epochs": [
+        57,
+        50,
+        82
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 460,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 6,
+      "base_dim": 64,
+      "side_dim": 0,
+      "id": "b512_pixels_d1_o0",
+      "mean_accuracy": 0.9429175475687104,
+      "mean_ce": 0.2023665557305018,
+      "seed_accuracy": [
+        0.9376321353065539,
+        0.9471458773784355,
+        0.9439746300211417
+      ],
+      "selected_epochs": [
+        152,
+        202,
+        93
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 460,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 6,
+      "base_dim": 64,
+      "side_dim": 0,
+      "id": "b512_pixels_d1_o1",
+      "mean_accuracy": 0.9432699083861875,
+      "mean_ce": 0.20940121014912924,
+      "seed_accuracy": [
+        0.9418604651162791,
+        0.9429175475687104,
+        0.945031712473573
+      ],
+      "selected_epochs": [
+        51,
+        48,
+        36
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 502,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 6,
+      "base_dim": 64,
+      "side_dim": 0,
+      "id": "b512_pixels_d2_o0",
+      "mean_accuracy": 0.9365750528541227,
+      "mean_ce": 0.2506105105082194,
+      "seed_accuracy": [
+        0.9281183932346723,
+        0.9556025369978859,
+        0.9260042283298098
+      ],
+      "selected_epochs": [
+        76,
+        151,
+        93
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 502,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 6,
+      "base_dim": 64,
+      "side_dim": 0,
+      "id": "b512_pixels_d2_o1",
+      "mean_accuracy": 0.9344608879492601,
+      "mean_ce": 0.2751781642436981,
+      "seed_accuracy": [
+        0.9281183932346723,
+        0.9460887949260042,
+        0.9291754756871036
+      ],
+      "selected_epochs": [
+        31,
+        42,
+        22
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 508,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 6,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_geometry_early_d1_o0",
+      "mean_accuracy": 0.9506694855532065,
+      "mean_ce": 0.1746585617462794,
+      "seed_accuracy": [
+        0.9534883720930233,
+        0.9471458773784355,
+        0.9513742071881607
+      ],
+      "selected_epochs": [
+        106,
+        94,
+        126
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 508,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 6,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_geometry_early_d1_o1",
+      "mean_accuracy": 0.9510218463706837,
+      "mean_ce": 0.18383470674355826,
+      "seed_accuracy": [
+        0.9534883720930233,
+        0.9482029598308668,
+        0.9513742071881607
+      ],
+      "selected_epochs": [
+        30,
+        33,
+        42
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 455,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 5,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_geometry_early_d2_o0",
+      "mean_accuracy": 0.9224806201550387,
+      "mean_ce": 0.3045378526051839,
+      "seed_accuracy": [
+        0.9355179704016914,
+        0.9186046511627907,
+        0.9133192389006343
+      ],
+      "selected_epochs": [
+        81,
+        102,
+        111
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 455,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 5,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_geometry_early_d2_o1",
+      "mean_accuracy": 0.9252995066948554,
+      "mean_ce": 0.32186885674794513,
+      "seed_accuracy": [
+        0.9291754756871036,
+        0.9249471458773785,
+        0.9217758985200846
+      ],
+      "selected_epochs": [
+        31,
+        56,
+        39
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 465,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 5,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_geometry_late_d1_o0",
+      "mean_accuracy": 0.9369274136715996,
+      "mean_ce": 0.24267618854840597,
+      "seed_accuracy": [
+        0.9429175475687104,
+        0.9365750528541226,
+        0.9312896405919662
+      ],
+      "selected_epochs": [
+        124,
+        75,
+        149
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 465,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 5,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_geometry_late_d1_o1",
+      "mean_accuracy": 0.9351656095842142,
+      "mean_ce": 0.2420486162106196,
+      "seed_accuracy": [
+        0.9429175475687104,
+        0.9281183932346723,
+        0.9344608879492601
+      ],
+      "selected_epochs": [
+        43,
+        24,
+        46
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 495,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 5,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_geometry_late_d2_o0",
+      "mean_accuracy": 0.9341085271317829,
+      "mean_ce": 0.2804328302542369,
+      "seed_accuracy": [
+        0.9376321353065539,
+        0.9344608879492601,
+        0.9302325581395349
+      ],
+      "selected_epochs": [
+        97,
+        108,
+        81
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 495,
+      "topological": false,
+      "fusion": "late",
+      "hidden_width": 5,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_geometry_late_d2_o1",
+      "mean_accuracy": 0.9344608879492601,
+      "mean_ce": 0.2643059889475505,
+      "seed_accuracy": [
+        0.9312896405919662,
+        0.9312896405919662,
+        0.9408033826638478
+      ],
+      "selected_epochs": [
+        23,
+        41,
+        55
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 416,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 0,
+      "id": "b512_pixels_hog_d1_o0",
+      "mean_accuracy": 0.7036645525017619,
+      "mean_ce": 0.7954306999842325,
+      "seed_accuracy": [
+        0.6871035940803383,
+        0.6839323467230444,
+        0.7399577167019028
+      ],
+      "selected_epochs": [
+        195,
+        177,
+        243
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 416,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 0,
+      "id": "b512_pixels_hog_d1_o1",
+      "mean_accuracy": 0.6983791402396053,
+      "mean_ce": 0.8169451753298441,
+      "seed_accuracy": [
+        0.7082452431289641,
+        0.6818181818181818,
+        0.7050739957716702
+      ],
+      "selected_epochs": [
+        79,
+        67,
+        68
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 422,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 0,
+      "id": "b512_pixels_hog_d2_o0",
+      "mean_accuracy": 0.48872445384073293,
+      "mean_ce": 1.1948291063308716,
+      "seed_accuracy": [
+        0.6416490486257929,
+        0.6035940803382663,
+        0.22093023255813954
+      ],
+      "selected_epochs": [
+        103,
+        134,
+        194
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 422,
+      "topological": false,
+      "fusion": "early",
+      "hidden_width": 2,
+      "base_dim": 192,
+      "side_dim": 0,
+      "id": "b512_pixels_hog_d2_o1",
+      "mean_accuracy": 0.5031712473572939,
+      "mean_ce": 1.1771142681439717,
+      "seed_accuracy": [
+        0.6405919661733616,
+        0.5909090909090909,
+        0.27801268498942916
+      ],
+      "selected_epochs": [
+        40,
+        36,
+        107
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 508,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 6,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_topology_early_d1_o0",
+      "mean_accuracy": 0.9605355884425651,
+      "mean_ce": 0.14949699739615122,
+      "seed_accuracy": [
+        0.9587737843551797,
+        0.9577167019027484,
+        0.9651162790697675
+      ],
+      "selected_epochs": [
+        108,
+        105,
+        104
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 508,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 6,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_topology_early_d1_o1",
+      "mean_accuracy": 0.959478505990134,
+      "mean_ce": 0.15512975056966147,
+      "seed_accuracy": [
+        0.9566596194503171,
+        0.9566596194503171,
+        0.9651162790697675
+      ],
+      "selected_epochs": [
+        30,
+        36,
+        38
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 455,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 5,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_topology_early_d2_o0",
+      "mean_accuracy": 0.9281183932346723,
+      "mean_ce": 0.3014871080716451,
+      "seed_accuracy": [
+        0.9365750528541226,
+        0.9186046511627907,
+        0.9291754756871036
+      ],
+      "selected_epochs": [
+        100,
+        97,
+        116
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 455,
+      "topological": true,
+      "fusion": "early",
+      "hidden_width": 5,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_topology_early_d2_o1",
+      "mean_accuracy": 0.9242424242424242,
+      "mean_ce": 0.2870597491661708,
+      "seed_accuracy": [
+        0.9312896405919662,
+        0.9302325581395349,
+        0.9112050739957717
+      ],
+      "selected_epochs": [
+        37,
+        43,
+        49
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "parameters": 465,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 5,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_topology_late_d1_o0",
+      "mean_accuracy": 0.948555320648344,
+      "mean_ce": 0.21453926463921866,
+      "seed_accuracy": [
+        0.9619450317124736,
+        0.9397463002114165,
+        0.9439746300211417
+      ],
+      "selected_epochs": [
+        113,
+        86,
+        126
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "parameters": 465,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 5,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_topology_late_d1_o1",
+      "mean_accuracy": 0.9478505990133895,
+      "mean_ce": 0.2141197919845581,
+      "seed_accuracy": [
+        0.9587737843551797,
+        0.9365750528541226,
+        0.9482029598308668
+      ],
+      "selected_epochs": [
+        46,
+        24,
+        38
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "parameters": 495,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 5,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_topology_late_d2_o0",
+      "mean_accuracy": 0.9355179704016914,
+      "mean_ce": 0.24717466533184052,
+      "seed_accuracy": [
+        0.945031712473573,
+        0.9281183932346723,
+        0.9334038054968288
+      ],
+      "selected_epochs": [
+        121,
+        85,
+        101
+      ]
+    },
+    {
+      "budget": 512,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "parameters": 495,
+      "topological": true,
+      "fusion": "late",
+      "hidden_width": 5,
+      "base_dim": 64,
+      "side_dim": 8,
+      "id": "b512_pixels_topology_late_d2_o1",
+      "mean_accuracy": 0.9436222692036645,
+      "mean_ce": 0.23596767087777457,
+      "seed_accuracy": [
+        0.9418604651162791,
+        0.9429175475687104,
+        0.9460887949260042
+      ],
+      "selected_epochs": [
+        28,
+        64,
+        38
+      ]
+    }
+  ]
+}

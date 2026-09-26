@@ -1,0 +1,73 @@
+{
+  "registered_at_utc": "2026-09-26T18:39:18.426486+00:00",
+  "purpose": "Development-only search for Betti features complementary to a strong gradient NN. Old OptDigits test is not reused; any claim requires a future untouched external dataset.",
+  "data": "Official original OptDigits binary32x32: tra1934 fitting, cv946 validation. wdep and windep members never read.",
+  "data_archive_sha256": "0d7b054fea010270e9b3f06411c654c5e59547732ad626381980baffe0a23fb0",
+  "code_sha256": {
+    "outputs/topology_complement/optdigits_complement_v1.py": "a46e2d28424c6ed6200ac253b4c0af66f09532d3eb41533b7e47626a90ced42c",
+    "outputs/real_topology/optdigits_pilot.py": "e3c65756022bbabfc254b32914141b32ef4d4af521db645f2d81a51eb8f74a85",
+    "outputs/real_topology/optdigits_ablation.py": "4fd32b012448ee9e4e72919bbc7f8b34d3bb6c318b42a18e123cbf737788dfe7"
+  },
+  "features": {
+    "pixels": "64 block-averaged pixel values, each4x4 block.",
+    "gradient": "128 unsigned-gradient cell-histogram values (4x4 spatial cells,8bins), image-independent Sobel; preexisting corrected implementation.",
+    "global_topology": "beta0,beta1 at padded disk closing radii0,1,2,3:8features.",
+    "global_geometry": "area,4-edge perimeter of exactly the same four masks:8features.",
+    "local_topology": "Four disjoint16x16 quadrants, cropped BEFORE radius0,1,2,3 padded disk closing; beta0,beta1:32features.",
+    "local_geometry": "area,4-edge perimeter of the identical quadrant masks:32features.",
+    "connectivity": "closed foreground pixel squares;8-connectedforeground, beta1=beta0\u2212(V\u2212E+F); equivalent4-connectedbackground."
+  },
+  "scaling": "StandardScaler fitted independently per feature group to tra only. Pixelweight1; gradient and all appended topology/geometry groups weight0.3. No feature-weight search.",
+  "branches": {
+    "gradient_base": [],
+    "global_topology": [
+      "global_topology"
+    ],
+    "global_geometry": [
+      "global_geometry"
+    ],
+    "global_both": [
+      "global_topology",
+      "global_geometry"
+    ],
+    "local_topology": [
+      "local_topology"
+    ],
+    "local_geometry": [
+      "local_geometry"
+    ],
+    "local_both": [
+      "local_topology",
+      "local_geometry"
+    ]
+  },
+  "parameter_budgets": [
+    2500,
+    5000
+  ],
+  "architectures": {
+    "one_hidden": "Linear(d,h)-ReLU-Linear(h,10); largest integer h satisfying(d+11)h+10<=budget",
+    "two_hidden": "Linear(d,h)-ReLU-Linear(h,h)-ReLU-Linear(h,10); largest integer h satisfyingh\u00b2+(d+12)h+10<=budget"
+  },
+  "training": {
+    "optimizer": "AdamW",
+    "learning_rate": 0.01,
+    "weight_decay": 0.01,
+    "batch_size": 256,
+    "epochs": 250,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "checkpoint": "maximum cv accuracy; minimum cv crossentropy breaks ties; earliest epoch breaks exact remaining tie; same rule and250epochs for every run"
+  },
+  "analysis": "Report all140runs (7representations\u00d72budgets\u00d72depths\u00d75seeds), all paired validation differences. Best validation scores are development estimates, not untouched-test confirmation.",
+  "selection_for_future_transfer": "Use validation only; no test access or test-driven feature/architecture changes.",
+  "software": {
+    "numpy": "2.3.5",
+    "torch": "2.14.0"
+  }
+}

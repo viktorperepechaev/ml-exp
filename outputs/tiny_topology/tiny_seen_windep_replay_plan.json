@@ -1,0 +1,8 @@
+{
+  "registered_utc": "2026-09-26T20:33:16.420145+00:00",
+  "primary_wdep_test_read": false,
+  "scope": "Descriptive reuse of old, previously evaluated writer-independent WIND\u0415P. It is NOT an untouched validation set and cannot rescue the primary WDEP comparison.",
+  "rule": "Evaluate the exact two primary-selected pipelines, all10seeds, with weights fixed on TRA+CV. No model choice, calibration, refit, hypothesis test, or confidence/novelty claim from this reuse.",
+  "reason": "Original UCI metadata calls writer-independent testing the main generalization measure. Check the new models for transfer, while explicitly retaining the prior test-use limitation.",
+  "code_sha256": "02bdbe9b4852e946b877a9c9880388c8f62bd42cba65995e41697751ba152d5b"
+}

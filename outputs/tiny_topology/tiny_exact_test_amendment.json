@@ -1,0 +1,10 @@
+{
+  "registered_utc": "2026-09-26T19:58:27.988237+00:00",
+  "timing": "Before any WDEPaccess and before final configuration/weights freeze; CNN development still running.",
+  "change": "Compute the same paired-image sign-flip test exactly by dynamic programming on integer10seed correctness sums, replacing the planned Monte Carlo approximation. No change to hypothesis, statistic, unit, direction oralpha.",
+  "reason": "Integer correctness differences permit an exact finite weighted-Rademacher tail. Avoid Monte Carlo uncertainty at the rejection threshold.",
+  "checks": "Known5image all-positive tail1/32; zero effects1; balanced pair.75; duplicated10seeds on one image stillp=.5; arbitraryweighted case matches exhaustiveenumeration.",
+  "passed": true,
+  "test_read": false,
+  "assumptions": "Conditional exactness under paired algorithm-exchangeability at image level. Repeated writers are not identified, so this does not establish writer-independent inference."
+}

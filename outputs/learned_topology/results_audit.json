@@ -1,0 +1,527 @@
+{
+  "created_utc": "2026-09-26T21:06:14.453079+00:00",
+  "passed": true,
+  "runs_replayed": 102,
+  "max_probability_error": 0.0,
+  "max_cross_entropy_error": 0.0,
+  "train_size": 1934,
+  "validation_size": 946,
+  "parameter_caps_and_source_hashes_verified": true,
+  "learned_frozen_initializations_identical": true,
+  "all_learned_euler_runs_have_gradient_and_parameter_changes": true,
+  "all_frozen_euler_fronts_unchanged": true,
+  "hardcap_unresolved": 0,
+  "test_read": false,
+  "runs": [
+    {
+      "id": "euler_learned_o1_s0",
+      "accuracy": 0.9249471458773785,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "euler_learned_o0_s0",
+      "accuracy": 0.9386892177589852,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "euler_learned_o0_s1",
+      "accuracy": 0.9545454545454546,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "euler_learned_o1_s1",
+      "accuracy": 0.9471458773784355,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "euler_learned_o0_s2",
+      "accuracy": 0.9503171247357294,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "euler_frozen_o0_s0",
+      "accuracy": 0.9408033826638478,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "euler_learned_o1_s2",
+      "accuracy": 0.9376321353065539,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "euler_frozen_o1_s0",
+      "accuracy": 0.9408033826638478,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "euler_frozen_o1_s1",
+      "accuracy": 0.9429175475687104,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "euler_frozen_o0_s1",
+      "accuracy": 0.9397463002114165,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "euler_frozen_o0_s2",
+      "accuracy": 0.9482029598308668,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "euler_frozen_o1_s2",
+      "accuracy": 0.9482029598308668,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "area_learned_o0_s0",
+      "accuracy": 0.9418604651162791,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "area_learned_o1_s0",
+      "accuracy": 0.927061310782241,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "area_learned_o0_s1",
+      "accuracy": 0.9408033826638478,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "area_learned_o1_s1",
+      "accuracy": 0.9397463002114165,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "area_learned_o0_s2",
+      "accuracy": 0.9439746300211417,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "area_learned_o1_s2",
+      "accuracy": 0.9344608879492601,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "perimeter_learned_o1_s0",
+      "accuracy": 0.9460887949260042,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "perimeter_learned_o0_s0",
+      "accuracy": 0.9355179704016914,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "perimeter_learned_o0_s1",
+      "accuracy": 0.9503171247357294,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "perimeter_learned_o1_s1",
+      "accuracy": 0.9503171247357294,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "perimeter_learned_o0_s2",
+      "accuracy": 0.9408033826638478,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "perimeter_learned_o1_s2",
+      "accuracy": 0.9302325581395349,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "geometry_learned_o0_s0",
+      "accuracy": 0.9386892177589852,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "geometry_learned_o1_s0",
+      "accuracy": 0.9429175475687104,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "geometry_learned_o0_s1",
+      "accuracy": 0.9545454545454546,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "mlp_o0_s0",
+      "accuracy": 0.9397463002114165,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "mlp_o0_s1",
+      "accuracy": 0.9492600422832981,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "geometry_learned_o0_s2",
+      "accuracy": 0.9545454545454546,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "mlp_o1_s0",
+      "accuracy": 0.945031712473573,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "mlp_o0_s2",
+      "accuracy": 0.9397463002114165,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "geometry_learned_o1_s1",
+      "accuracy": 0.9556025369978859,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "mlp_o1_s1",
+      "accuracy": 0.9482029598308668,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "mlp_o1_s2",
+      "accuracy": 0.9386892177589852,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "geometry_learned_o1_s2",
+      "accuracy": 0.9471458773784355,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_c1_o0_s2",
+      "accuracy": 0.9640591966173362,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_c1_o0_s0",
+      "accuracy": 0.9619450317124736,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_c1_o1_s0",
+      "accuracy": 0.9630021141649049,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_c1_o0_s1",
+      "accuracy": 0.959830866807611,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_c1_o1_s2",
+      "accuracy": 0.9545454545454546,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_c1_o1_s1",
+      "accuracy": 0.952431289640592,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_c2_o0_s1",
+      "accuracy": 0.9566596194503171,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_c2_o1_s0",
+      "accuracy": 0.9714587737843552,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_c2_o0_s0",
+      "accuracy": 0.9714587737843552,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_c2_o0_s2",
+      "accuracy": 0.9640591966173362,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_c2_o1_s1",
+      "accuracy": 0.9630021141649049,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_c2_o1_s2",
+      "accuracy": 0.9608879492600423,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_c4_o0_s1",
+      "accuracy": 0.9334038054968288,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_c4_o1_s0",
+      "accuracy": 0.9577167019027484,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_c4_o0_s0",
+      "accuracy": 0.9260042283298098,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_c4_o1_s1",
+      "accuracy": 0.9355179704016914,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_skip_c1_o0_s1",
+      "accuracy": 0.9302325581395349,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_skip_c1_o0_s0",
+      "accuracy": 0.9492600422832981,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_skip_c1_o1_s0",
+      "accuracy": 0.945031712473573,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_skip_c1_o0_s2",
+      "accuracy": 0.9429175475687104,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_skip_c1_o1_s1",
+      "accuracy": 0.9334038054968288,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_skip_c1_o1_s2",
+      "accuracy": 0.9492600422832981,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_skip_c2_o0_s1",
+      "accuracy": 0.9429175475687104,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_c4_o0_s2",
+      "accuracy": 0.9471458773784355,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_skip_c2_o0_s0",
+      "accuracy": 0.9471458773784355,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_c4_o1_s2",
+      "accuracy": 0.8731501057082452,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_skip_c2_o1_s0",
+      "accuracy": 0.9418604651162791,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_skip_c2_o1_s1",
+      "accuracy": 0.9566596194503171,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_skip_c2_o0_s2",
+      "accuracy": 0.9471458773784355,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_skip_c2_o1_s2",
+      "accuracy": 0.9397463002114165,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_skip_c4_o1_s0",
+      "accuracy": 0.9133192389006343,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_skip_c4_o0_s2",
+      "accuracy": 0.9344608879492601,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_skip_c4_o0_s0",
+      "accuracy": 0.9186046511627907,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_skip_c4_o1_s2",
+      "accuracy": 0.9090909090909091,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_skip_c4_o0_s1",
+      "accuracy": 0.9312896405919662,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "cnn_skip_c4_o1_s1",
+      "accuracy": 0.9471458773784355,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_euler_learned_o0_s1",
+      "accuracy": 0.9566596194503171,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_euler_learned_o0_s0",
+      "accuracy": 0.9534883720930233,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_euler_learned_o1_s0",
+      "accuracy": 0.9323467230443975,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_euler_learned_o0_s2",
+      "accuracy": 0.9513742071881607,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_euler_learned_o1_s1",
+      "accuracy": 0.952431289640592,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_euler_learned_o1_s2",
+      "accuracy": 0.9482029598308668,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_euler_frozen_o0_s0",
+      "accuracy": 0.9471458773784355,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_euler_frozen_o0_s1",
+      "accuracy": 0.9545454545454546,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_euler_frozen_o0_s2",
+      "accuracy": 0.9482029598308668,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_euler_frozen_o1_s0",
+      "accuracy": 0.9386892177589852,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_euler_frozen_o1_s1",
+      "accuracy": 0.9492600422832981,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_euler_frozen_o1_s2",
+      "accuracy": 0.9503171247357294,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_area_learned_o0_s0",
+      "accuracy": 0.9556025369978859,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_area_learned_o0_s1",
+      "accuracy": 0.952431289640592,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_area_learned_o1_s0",
+      "accuracy": 0.9492600422832981,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_area_learned_o0_s2",
+      "accuracy": 0.9566596194503171,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_area_learned_o1_s1",
+      "accuracy": 0.9492600422832981,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_area_learned_o1_s2",
+      "accuracy": 0.945031712473573,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_perimeter_learned_o0_s1",
+      "accuracy": 0.9556025369978859,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_perimeter_learned_o0_s0",
+      "accuracy": 0.9460887949260042,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_perimeter_learned_o1_s0",
+      "accuracy": 0.9418604651162791,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_perimeter_learned_o0_s2",
+      "accuracy": 0.952431289640592,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_perimeter_learned_o1_s1",
+      "accuracy": 0.9545454545454546,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_perimeter_learned_o1_s2",
+      "accuracy": 0.9513742071881607,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_geometry_learned_o0_s0",
+      "accuracy": 0.9534883720930233,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_geometry_learned_o0_s1",
+      "accuracy": 0.9556025369978859,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_geometry_learned_o1_s0",
+      "accuracy": 0.9534883720930233,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_geometry_learned_o0_s2",
+      "accuracy": 0.9619450317124736,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_geometry_learned_o1_s1",
+      "accuracy": 0.9545454545454546,
+      "hardcap_unresolved": false
+    },
+    {
+      "id": "single_geometry_learned_o1_s2",
+      "accuracy": 0.9545454545454546,
+      "hardcap_unresolved": false
+    }
+  ]
+}

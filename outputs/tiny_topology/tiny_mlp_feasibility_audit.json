@@ -1,0 +1,4380 @@
+{
+  "created_utc": "2026-09-26T19:44:26.885194+00:00",
+  "protocol_sha256": "fc0c991c914d117f418f60a61f5bcb0785bacb90a1884b92ef9767a6c4a6de5a",
+  "rule": "Exclude only algebraically impossible configurations before metric comparison; original training code and all feasible fits remain unchanged.",
+  "nominal_fits": 480,
+  "feasible_fits": 456,
+  "infeasible_fits": 24,
+  "skipped": [
+    {
+      "id": "b256_hog_geometry_late_d1_o0_s0",
+      "budget": 256,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0,
+      "minimum_parameters": 293,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_geometry_late_d1_o0_s1",
+      "budget": 256,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1,
+      "minimum_parameters": 293,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_geometry_late_d1_o0_s2",
+      "budget": 256,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2,
+      "minimum_parameters": 293,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_geometry_late_d1_o1_s0",
+      "budget": 256,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0,
+      "minimum_parameters": 293,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_geometry_late_d1_o1_s1",
+      "budget": 256,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1,
+      "minimum_parameters": 293,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_geometry_late_d1_o1_s2",
+      "budget": 256,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2,
+      "minimum_parameters": 293,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_geometry_late_d2_o0_s0",
+      "budget": 256,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0,
+      "minimum_parameters": 295,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_geometry_late_d2_o0_s1",
+      "budget": 256,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1,
+      "minimum_parameters": 295,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_geometry_late_d2_o0_s2",
+      "budget": 256,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2,
+      "minimum_parameters": 295,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_geometry_late_d2_o1_s0",
+      "budget": 256,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0,
+      "minimum_parameters": 295,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_geometry_late_d2_o1_s1",
+      "budget": 256,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1,
+      "minimum_parameters": 295,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_geometry_late_d2_o1_s2",
+      "budget": 256,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2,
+      "minimum_parameters": 295,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_topology_late_d1_o0_s0",
+      "budget": 256,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0,
+      "minimum_parameters": 293,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_topology_late_d1_o0_s1",
+      "budget": 256,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1,
+      "minimum_parameters": 293,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_topology_late_d1_o0_s2",
+      "budget": 256,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2,
+      "minimum_parameters": 293,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_topology_late_d1_o1_s0",
+      "budget": 256,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0,
+      "minimum_parameters": 293,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_topology_late_d1_o1_s1",
+      "budget": 256,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1,
+      "minimum_parameters": 293,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_topology_late_d1_o1_s2",
+      "budget": 256,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2,
+      "minimum_parameters": 293,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_topology_late_d2_o0_s0",
+      "budget": 256,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0,
+      "minimum_parameters": 295,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_topology_late_d2_o0_s1",
+      "budget": 256,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1,
+      "minimum_parameters": 295,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_topology_late_d2_o0_s2",
+      "budget": 256,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2,
+      "minimum_parameters": 295,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_topology_late_d2_o1_s0",
+      "budget": 256,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0,
+      "minimum_parameters": 295,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_topology_late_d2_o1_s1",
+      "budget": 256,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1,
+      "minimum_parameters": 295,
+      "reason": "Even one hidden unit exceeds declared budget"
+    },
+    {
+      "id": "b256_hog_topology_late_d2_o1_s2",
+      "budget": 256,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2,
+      "minimum_parameters": 295,
+      "reason": "Even one hidden unit exceeds declared budget"
+    }
+  ],
+  "valid_configurations": [
+    {
+      "id": "b256_pixels_d1_o0_s0",
+      "budget": 256,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_d1_o0_s1",
+      "budget": 256,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_d1_o0_s2",
+      "budget": 256,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_d1_o1_s0",
+      "budget": 256,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_d1_o1_s1",
+      "budget": 256,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_d1_o1_s2",
+      "budget": 256,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_d2_o0_s0",
+      "budget": 256,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_d2_o0_s1",
+      "budget": 256,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_d2_o0_s2",
+      "budget": 256,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_d2_o1_s0",
+      "budget": 256,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_d2_o1_s1",
+      "budget": 256,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_d2_o1_s2",
+      "budget": 256,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_hog_d1_o0_s0",
+      "budget": 256,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_hog_d1_o0_s1",
+      "budget": 256,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_hog_d1_o0_s2",
+      "budget": 256,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_hog_d1_o1_s0",
+      "budget": 256,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_hog_d1_o1_s1",
+      "budget": 256,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_hog_d1_o1_s2",
+      "budget": 256,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_hog_d2_o0_s0",
+      "budget": 256,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_hog_d2_o0_s1",
+      "budget": 256,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_hog_d2_o0_s2",
+      "budget": 256,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_hog_d2_o1_s0",
+      "budget": 256,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_hog_d2_o1_s1",
+      "budget": 256,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_hog_d2_o1_s2",
+      "budget": 256,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_geometry_early_d1_o0_s0",
+      "budget": 256,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_geometry_early_d1_o0_s1",
+      "budget": 256,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_geometry_early_d1_o0_s2",
+      "budget": 256,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_geometry_early_d1_o1_s0",
+      "budget": 256,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_geometry_early_d1_o1_s1",
+      "budget": 256,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_geometry_early_d1_o1_s2",
+      "budget": 256,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_geometry_early_d2_o0_s0",
+      "budget": 256,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_geometry_early_d2_o0_s1",
+      "budget": 256,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_geometry_early_d2_o0_s2",
+      "budget": 256,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_geometry_early_d2_o1_s0",
+      "budget": 256,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_geometry_early_d2_o1_s1",
+      "budget": 256,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_geometry_early_d2_o1_s2",
+      "budget": 256,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_topology_early_d1_o0_s0",
+      "budget": 256,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_topology_early_d1_o0_s1",
+      "budget": 256,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_topology_early_d1_o0_s2",
+      "budget": 256,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_topology_early_d1_o1_s0",
+      "budget": 256,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_topology_early_d1_o1_s1",
+      "budget": 256,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_topology_early_d1_o1_s2",
+      "budget": 256,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_topology_early_d2_o0_s0",
+      "budget": 256,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_topology_early_d2_o0_s1",
+      "budget": 256,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_topology_early_d2_o0_s2",
+      "budget": 256,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_topology_early_d2_o1_s0",
+      "budget": 256,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_topology_early_d2_o1_s1",
+      "budget": 256,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_topology_early_d2_o1_s2",
+      "budget": 256,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_geometry_late_d1_o0_s0",
+      "budget": 256,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_geometry_late_d1_o0_s1",
+      "budget": 256,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_geometry_late_d1_o0_s2",
+      "budget": 256,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_geometry_late_d1_o1_s0",
+      "budget": 256,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_geometry_late_d1_o1_s1",
+      "budget": 256,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_geometry_late_d1_o1_s2",
+      "budget": 256,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_geometry_late_d2_o0_s0",
+      "budget": 256,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_geometry_late_d2_o0_s1",
+      "budget": 256,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_geometry_late_d2_o0_s2",
+      "budget": 256,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_geometry_late_d2_o1_s0",
+      "budget": 256,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_geometry_late_d2_o1_s1",
+      "budget": 256,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_geometry_late_d2_o1_s2",
+      "budget": 256,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_topology_late_d1_o0_s0",
+      "budget": 256,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_topology_late_d1_o0_s1",
+      "budget": 256,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_topology_late_d1_o0_s2",
+      "budget": 256,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_topology_late_d1_o1_s0",
+      "budget": 256,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_topology_late_d1_o1_s1",
+      "budget": 256,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_topology_late_d1_o1_s2",
+      "budget": 256,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_topology_late_d2_o0_s0",
+      "budget": 256,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_topology_late_d2_o0_s1",
+      "budget": 256,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_topology_late_d2_o0_s2",
+      "budget": 256,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b256_pixels_topology_late_d2_o1_s0",
+      "budget": 256,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b256_pixels_topology_late_d2_o1_s1",
+      "budget": 256,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b256_pixels_topology_late_d2_o1_s2",
+      "budget": 256,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b256_hog_geometry_early_d1_o0_s0",
+      "budget": 256,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b256_hog_geometry_early_d1_o0_s1",
+      "budget": 256,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b256_hog_geometry_early_d1_o0_s2",
+      "budget": 256,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b256_hog_geometry_early_d1_o1_s0",
+      "budget": 256,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b256_hog_geometry_early_d1_o1_s1",
+      "budget": 256,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b256_hog_geometry_early_d1_o1_s2",
+      "budget": 256,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b256_hog_geometry_early_d2_o0_s0",
+      "budget": 256,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b256_hog_geometry_early_d2_o0_s1",
+      "budget": 256,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b256_hog_geometry_early_d2_o0_s2",
+      "budget": 256,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b256_hog_geometry_early_d2_o1_s0",
+      "budget": 256,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b256_hog_geometry_early_d2_o1_s1",
+      "budget": 256,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b256_hog_geometry_early_d2_o1_s2",
+      "budget": 256,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b256_hog_topology_early_d1_o0_s0",
+      "budget": 256,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b256_hog_topology_early_d1_o0_s1",
+      "budget": 256,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b256_hog_topology_early_d1_o0_s2",
+      "budget": 256,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b256_hog_topology_early_d1_o1_s0",
+      "budget": 256,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b256_hog_topology_early_d1_o1_s1",
+      "budget": 256,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b256_hog_topology_early_d1_o1_s2",
+      "budget": 256,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b256_hog_topology_early_d2_o0_s0",
+      "budget": 256,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b256_hog_topology_early_d2_o0_s1",
+      "budget": 256,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b256_hog_topology_early_d2_o0_s2",
+      "budget": 256,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b256_hog_topology_early_d2_o1_s0",
+      "budget": 256,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b256_hog_topology_early_d2_o1_s1",
+      "budget": 256,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b256_hog_topology_early_d2_o1_s2",
+      "budget": 256,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_d1_o0_s0",
+      "budget": 512,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_d1_o0_s1",
+      "budget": 512,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_d1_o0_s2",
+      "budget": 512,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_d1_o1_s0",
+      "budget": 512,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_d1_o1_s1",
+      "budget": 512,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_d1_o1_s2",
+      "budget": 512,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_d2_o0_s0",
+      "budget": 512,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_d2_o0_s1",
+      "budget": 512,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_d2_o0_s2",
+      "budget": 512,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_d2_o1_s0",
+      "budget": 512,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_d2_o1_s1",
+      "budget": 512,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_d2_o1_s2",
+      "budget": 512,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_hog_d1_o0_s0",
+      "budget": 512,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_hog_d1_o0_s1",
+      "budget": 512,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_hog_d1_o0_s2",
+      "budget": 512,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_hog_d1_o1_s0",
+      "budget": 512,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_hog_d1_o1_s1",
+      "budget": 512,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_hog_d1_o1_s2",
+      "budget": 512,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_hog_d2_o0_s0",
+      "budget": 512,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_hog_d2_o0_s1",
+      "budget": 512,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_hog_d2_o0_s2",
+      "budget": 512,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_hog_d2_o1_s0",
+      "budget": 512,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_hog_d2_o1_s1",
+      "budget": 512,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_hog_d2_o1_s2",
+      "budget": 512,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_geometry_early_d1_o0_s0",
+      "budget": 512,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_geometry_early_d1_o0_s1",
+      "budget": 512,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_geometry_early_d1_o0_s2",
+      "budget": 512,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_geometry_early_d1_o1_s0",
+      "budget": 512,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_geometry_early_d1_o1_s1",
+      "budget": 512,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_geometry_early_d1_o1_s2",
+      "budget": 512,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_geometry_early_d2_o0_s0",
+      "budget": 512,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_geometry_early_d2_o0_s1",
+      "budget": 512,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_geometry_early_d2_o0_s2",
+      "budget": 512,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_geometry_early_d2_o1_s0",
+      "budget": 512,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_geometry_early_d2_o1_s1",
+      "budget": 512,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_geometry_early_d2_o1_s2",
+      "budget": 512,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_topology_early_d1_o0_s0",
+      "budget": 512,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_topology_early_d1_o0_s1",
+      "budget": 512,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_topology_early_d1_o0_s2",
+      "budget": 512,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_topology_early_d1_o1_s0",
+      "budget": 512,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_topology_early_d1_o1_s1",
+      "budget": 512,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_topology_early_d1_o1_s2",
+      "budget": 512,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_topology_early_d2_o0_s0",
+      "budget": 512,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_topology_early_d2_o0_s1",
+      "budget": 512,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_topology_early_d2_o0_s2",
+      "budget": 512,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_topology_early_d2_o1_s0",
+      "budget": 512,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_topology_early_d2_o1_s1",
+      "budget": 512,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_topology_early_d2_o1_s2",
+      "budget": 512,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_geometry_late_d1_o0_s0",
+      "budget": 512,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_geometry_late_d1_o0_s1",
+      "budget": 512,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_geometry_late_d1_o0_s2",
+      "budget": 512,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_geometry_late_d1_o1_s0",
+      "budget": 512,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_geometry_late_d1_o1_s1",
+      "budget": 512,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_geometry_late_d1_o1_s2",
+      "budget": 512,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_geometry_late_d2_o0_s0",
+      "budget": 512,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_geometry_late_d2_o0_s1",
+      "budget": 512,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_geometry_late_d2_o0_s2",
+      "budget": 512,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_geometry_late_d2_o1_s0",
+      "budget": 512,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_geometry_late_d2_o1_s1",
+      "budget": 512,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_geometry_late_d2_o1_s2",
+      "budget": 512,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_topology_late_d1_o0_s0",
+      "budget": 512,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_topology_late_d1_o0_s1",
+      "budget": 512,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_topology_late_d1_o0_s2",
+      "budget": 512,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_topology_late_d1_o1_s0",
+      "budget": 512,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_topology_late_d1_o1_s1",
+      "budget": 512,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_topology_late_d1_o1_s2",
+      "budget": 512,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_topology_late_d2_o0_s0",
+      "budget": 512,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_topology_late_d2_o0_s1",
+      "budget": 512,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_topology_late_d2_o0_s2",
+      "budget": 512,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_pixels_topology_late_d2_o1_s0",
+      "budget": 512,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_pixels_topology_late_d2_o1_s1",
+      "budget": 512,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_pixels_topology_late_d2_o1_s2",
+      "budget": 512,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_hog_geometry_early_d1_o0_s0",
+      "budget": 512,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_hog_geometry_early_d1_o0_s1",
+      "budget": 512,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_hog_geometry_early_d1_o0_s2",
+      "budget": 512,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_hog_geometry_early_d1_o1_s0",
+      "budget": 512,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_hog_geometry_early_d1_o1_s1",
+      "budget": 512,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_hog_geometry_early_d1_o1_s2",
+      "budget": 512,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_hog_geometry_early_d2_o0_s0",
+      "budget": 512,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_hog_geometry_early_d2_o0_s1",
+      "budget": 512,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_hog_geometry_early_d2_o0_s2",
+      "budget": 512,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_hog_geometry_early_d2_o1_s0",
+      "budget": 512,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_hog_geometry_early_d2_o1_s1",
+      "budget": 512,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_hog_geometry_early_d2_o1_s2",
+      "budget": 512,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_hog_topology_early_d1_o0_s0",
+      "budget": 512,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_hog_topology_early_d1_o0_s1",
+      "budget": 512,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_hog_topology_early_d1_o0_s2",
+      "budget": 512,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_hog_topology_early_d1_o1_s0",
+      "budget": 512,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_hog_topology_early_d1_o1_s1",
+      "budget": 512,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_hog_topology_early_d1_o1_s2",
+      "budget": 512,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_hog_topology_early_d2_o0_s0",
+      "budget": 512,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_hog_topology_early_d2_o0_s1",
+      "budget": 512,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_hog_topology_early_d2_o0_s2",
+      "budget": 512,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_hog_topology_early_d2_o1_s0",
+      "budget": 512,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_hog_topology_early_d2_o1_s1",
+      "budget": 512,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_hog_topology_early_d2_o1_s2",
+      "budget": 512,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_hog_geometry_late_d1_o0_s0",
+      "budget": 512,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_hog_geometry_late_d1_o0_s1",
+      "budget": 512,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_hog_geometry_late_d1_o0_s2",
+      "budget": 512,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_hog_geometry_late_d1_o1_s0",
+      "budget": 512,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_hog_geometry_late_d1_o1_s1",
+      "budget": 512,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_hog_geometry_late_d1_o1_s2",
+      "budget": 512,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_hog_geometry_late_d2_o0_s0",
+      "budget": 512,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_hog_geometry_late_d2_o0_s1",
+      "budget": 512,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_hog_geometry_late_d2_o0_s2",
+      "budget": 512,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_hog_geometry_late_d2_o1_s0",
+      "budget": 512,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_hog_geometry_late_d2_o1_s1",
+      "budget": 512,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_hog_geometry_late_d2_o1_s2",
+      "budget": 512,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_hog_topology_late_d1_o0_s0",
+      "budget": 512,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_hog_topology_late_d1_o0_s1",
+      "budget": 512,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_hog_topology_late_d1_o0_s2",
+      "budget": 512,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_hog_topology_late_d1_o1_s0",
+      "budget": 512,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_hog_topology_late_d1_o1_s1",
+      "budget": 512,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_hog_topology_late_d1_o1_s2",
+      "budget": 512,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b512_hog_topology_late_d2_o0_s0",
+      "budget": 512,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b512_hog_topology_late_d2_o0_s1",
+      "budget": 512,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b512_hog_topology_late_d2_o0_s2",
+      "budget": 512,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b512_hog_topology_late_d2_o1_s0",
+      "budget": 512,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b512_hog_topology_late_d2_o1_s1",
+      "budget": 512,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b512_hog_topology_late_d2_o1_s2",
+      "budget": 512,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_d1_o0_s0",
+      "budget": 1024,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_d1_o0_s1",
+      "budget": 1024,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_d1_o0_s2",
+      "budget": 1024,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_d1_o1_s0",
+      "budget": 1024,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_d1_o1_s1",
+      "budget": 1024,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_d1_o1_s2",
+      "budget": 1024,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_d2_o0_s0",
+      "budget": 1024,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_d2_o0_s1",
+      "budget": 1024,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_d2_o0_s2",
+      "budget": 1024,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_d2_o1_s0",
+      "budget": 1024,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_d2_o1_s1",
+      "budget": 1024,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_d2_o1_s2",
+      "budget": 1024,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_hog_d1_o0_s0",
+      "budget": 1024,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_hog_d1_o0_s1",
+      "budget": 1024,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_hog_d1_o0_s2",
+      "budget": 1024,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_hog_d1_o1_s0",
+      "budget": 1024,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_hog_d1_o1_s1",
+      "budget": 1024,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_hog_d1_o1_s2",
+      "budget": 1024,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_hog_d2_o0_s0",
+      "budget": 1024,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_hog_d2_o0_s1",
+      "budget": 1024,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_hog_d2_o0_s2",
+      "budget": 1024,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_hog_d2_o1_s0",
+      "budget": 1024,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_hog_d2_o1_s1",
+      "budget": 1024,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_hog_d2_o1_s2",
+      "budget": 1024,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_geometry_early_d1_o0_s0",
+      "budget": 1024,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_geometry_early_d1_o0_s1",
+      "budget": 1024,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_geometry_early_d1_o0_s2",
+      "budget": 1024,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_geometry_early_d1_o1_s0",
+      "budget": 1024,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_geometry_early_d1_o1_s1",
+      "budget": 1024,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_geometry_early_d1_o1_s2",
+      "budget": 1024,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_geometry_early_d2_o0_s0",
+      "budget": 1024,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_geometry_early_d2_o0_s1",
+      "budget": 1024,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_geometry_early_d2_o0_s2",
+      "budget": 1024,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_geometry_early_d2_o1_s0",
+      "budget": 1024,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_geometry_early_d2_o1_s1",
+      "budget": 1024,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_geometry_early_d2_o1_s2",
+      "budget": 1024,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_topology_early_d1_o0_s0",
+      "budget": 1024,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_topology_early_d1_o0_s1",
+      "budget": 1024,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_topology_early_d1_o0_s2",
+      "budget": 1024,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_topology_early_d1_o1_s0",
+      "budget": 1024,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_topology_early_d1_o1_s1",
+      "budget": 1024,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_topology_early_d1_o1_s2",
+      "budget": 1024,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_topology_early_d2_o0_s0",
+      "budget": 1024,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_topology_early_d2_o0_s1",
+      "budget": 1024,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_topology_early_d2_o0_s2",
+      "budget": 1024,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_topology_early_d2_o1_s0",
+      "budget": 1024,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_topology_early_d2_o1_s1",
+      "budget": 1024,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_topology_early_d2_o1_s2",
+      "budget": 1024,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_geometry_late_d1_o0_s0",
+      "budget": 1024,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_geometry_late_d1_o0_s1",
+      "budget": 1024,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_geometry_late_d1_o0_s2",
+      "budget": 1024,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_geometry_late_d1_o1_s0",
+      "budget": 1024,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_geometry_late_d1_o1_s1",
+      "budget": 1024,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_geometry_late_d1_o1_s2",
+      "budget": 1024,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_geometry_late_d2_o0_s0",
+      "budget": 1024,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_geometry_late_d2_o0_s1",
+      "budget": 1024,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_geometry_late_d2_o0_s2",
+      "budget": 1024,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_geometry_late_d2_o1_s0",
+      "budget": 1024,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_geometry_late_d2_o1_s1",
+      "budget": 1024,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_geometry_late_d2_o1_s2",
+      "budget": 1024,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_topology_late_d1_o0_s0",
+      "budget": 1024,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_topology_late_d1_o0_s1",
+      "budget": 1024,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_topology_late_d1_o0_s2",
+      "budget": 1024,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_topology_late_d1_o1_s0",
+      "budget": 1024,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_topology_late_d1_o1_s1",
+      "budget": 1024,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_topology_late_d1_o1_s2",
+      "budget": 1024,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_topology_late_d2_o0_s0",
+      "budget": 1024,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_topology_late_d2_o0_s1",
+      "budget": 1024,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_topology_late_d2_o0_s2",
+      "budget": 1024,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_pixels_topology_late_d2_o1_s0",
+      "budget": 1024,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_pixels_topology_late_d2_o1_s1",
+      "budget": 1024,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_pixels_topology_late_d2_o1_s2",
+      "budget": 1024,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_hog_geometry_early_d1_o0_s0",
+      "budget": 1024,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_hog_geometry_early_d1_o0_s1",
+      "budget": 1024,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_hog_geometry_early_d1_o0_s2",
+      "budget": 1024,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_hog_geometry_early_d1_o1_s0",
+      "budget": 1024,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_hog_geometry_early_d1_o1_s1",
+      "budget": 1024,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_hog_geometry_early_d1_o1_s2",
+      "budget": 1024,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_hog_geometry_early_d2_o0_s0",
+      "budget": 1024,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_hog_geometry_early_d2_o0_s1",
+      "budget": 1024,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_hog_geometry_early_d2_o0_s2",
+      "budget": 1024,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_hog_geometry_early_d2_o1_s0",
+      "budget": 1024,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_hog_geometry_early_d2_o1_s1",
+      "budget": 1024,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_hog_geometry_early_d2_o1_s2",
+      "budget": 1024,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_hog_topology_early_d1_o0_s0",
+      "budget": 1024,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_hog_topology_early_d1_o0_s1",
+      "budget": 1024,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_hog_topology_early_d1_o0_s2",
+      "budget": 1024,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_hog_topology_early_d1_o1_s0",
+      "budget": 1024,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_hog_topology_early_d1_o1_s1",
+      "budget": 1024,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_hog_topology_early_d1_o1_s2",
+      "budget": 1024,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_hog_topology_early_d2_o0_s0",
+      "budget": 1024,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_hog_topology_early_d2_o0_s1",
+      "budget": 1024,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_hog_topology_early_d2_o0_s2",
+      "budget": 1024,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_hog_topology_early_d2_o1_s0",
+      "budget": 1024,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_hog_topology_early_d2_o1_s1",
+      "budget": 1024,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_hog_topology_early_d2_o1_s2",
+      "budget": 1024,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_hog_geometry_late_d1_o0_s0",
+      "budget": 1024,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_hog_geometry_late_d1_o0_s1",
+      "budget": 1024,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_hog_geometry_late_d1_o0_s2",
+      "budget": 1024,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_hog_geometry_late_d1_o1_s0",
+      "budget": 1024,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_hog_geometry_late_d1_o1_s1",
+      "budget": 1024,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_hog_geometry_late_d1_o1_s2",
+      "budget": 1024,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_hog_geometry_late_d2_o0_s0",
+      "budget": 1024,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_hog_geometry_late_d2_o0_s1",
+      "budget": 1024,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_hog_geometry_late_d2_o0_s2",
+      "budget": 1024,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_hog_geometry_late_d2_o1_s0",
+      "budget": 1024,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_hog_geometry_late_d2_o1_s1",
+      "budget": 1024,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_hog_geometry_late_d2_o1_s2",
+      "budget": 1024,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_hog_topology_late_d1_o0_s0",
+      "budget": 1024,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_hog_topology_late_d1_o0_s1",
+      "budget": 1024,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_hog_topology_late_d1_o0_s2",
+      "budget": 1024,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_hog_topology_late_d1_o1_s0",
+      "budget": 1024,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_hog_topology_late_d1_o1_s1",
+      "budget": 1024,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_hog_topology_late_d1_o1_s2",
+      "budget": 1024,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b1024_hog_topology_late_d2_o0_s0",
+      "budget": 1024,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b1024_hog_topology_late_d2_o0_s1",
+      "budget": 1024,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b1024_hog_topology_late_d2_o0_s2",
+      "budget": 1024,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b1024_hog_topology_late_d2_o1_s0",
+      "budget": 1024,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b1024_hog_topology_late_d2_o1_s1",
+      "budget": 1024,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b1024_hog_topology_late_d2_o1_s2",
+      "budget": 1024,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_d1_o0_s0",
+      "budget": 2048,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_d1_o0_s1",
+      "budget": 2048,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_d1_o0_s2",
+      "budget": 2048,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_d1_o1_s0",
+      "budget": 2048,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_d1_o1_s1",
+      "budget": 2048,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_d1_o1_s2",
+      "budget": 2048,
+      "branch": "pixels",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_d2_o0_s0",
+      "budget": 2048,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_d2_o0_s1",
+      "budget": 2048,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_d2_o0_s2",
+      "budget": 2048,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_d2_o1_s0",
+      "budget": 2048,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_d2_o1_s1",
+      "budget": 2048,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_d2_o1_s2",
+      "budget": 2048,
+      "branch": "pixels",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_hog_d1_o0_s0",
+      "budget": 2048,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_hog_d1_o0_s1",
+      "budget": 2048,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_hog_d1_o0_s2",
+      "budget": 2048,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_hog_d1_o1_s0",
+      "budget": 2048,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_hog_d1_o1_s1",
+      "budget": 2048,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_hog_d1_o1_s2",
+      "budget": 2048,
+      "branch": "pixels_hog",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_hog_d2_o0_s0",
+      "budget": 2048,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_hog_d2_o0_s1",
+      "budget": 2048,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_hog_d2_o0_s2",
+      "budget": 2048,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_hog_d2_o1_s0",
+      "budget": 2048,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_hog_d2_o1_s1",
+      "budget": 2048,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_hog_d2_o1_s2",
+      "budget": 2048,
+      "branch": "pixels_hog",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_geometry_early_d1_o0_s0",
+      "budget": 2048,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_geometry_early_d1_o0_s1",
+      "budget": 2048,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_geometry_early_d1_o0_s2",
+      "budget": 2048,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_geometry_early_d1_o1_s0",
+      "budget": 2048,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_geometry_early_d1_o1_s1",
+      "budget": 2048,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_geometry_early_d1_o1_s2",
+      "budget": 2048,
+      "branch": "pixels_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_geometry_early_d2_o0_s0",
+      "budget": 2048,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_geometry_early_d2_o0_s1",
+      "budget": 2048,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_geometry_early_d2_o0_s2",
+      "budget": 2048,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_geometry_early_d2_o1_s0",
+      "budget": 2048,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_geometry_early_d2_o1_s1",
+      "budget": 2048,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_geometry_early_d2_o1_s2",
+      "budget": 2048,
+      "branch": "pixels_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_topology_early_d1_o0_s0",
+      "budget": 2048,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_topology_early_d1_o0_s1",
+      "budget": 2048,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_topology_early_d1_o0_s2",
+      "budget": 2048,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_topology_early_d1_o1_s0",
+      "budget": 2048,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_topology_early_d1_o1_s1",
+      "budget": 2048,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_topology_early_d1_o1_s2",
+      "budget": 2048,
+      "branch": "pixels_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_topology_early_d2_o0_s0",
+      "budget": 2048,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_topology_early_d2_o0_s1",
+      "budget": 2048,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_topology_early_d2_o0_s2",
+      "budget": 2048,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_topology_early_d2_o1_s0",
+      "budget": 2048,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_topology_early_d2_o1_s1",
+      "budget": 2048,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_topology_early_d2_o1_s2",
+      "budget": 2048,
+      "branch": "pixels_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_geometry_late_d1_o0_s0",
+      "budget": 2048,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_geometry_late_d1_o0_s1",
+      "budget": 2048,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_geometry_late_d1_o0_s2",
+      "budget": 2048,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_geometry_late_d1_o1_s0",
+      "budget": 2048,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_geometry_late_d1_o1_s1",
+      "budget": 2048,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_geometry_late_d1_o1_s2",
+      "budget": 2048,
+      "branch": "pixels_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_geometry_late_d2_o0_s0",
+      "budget": 2048,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_geometry_late_d2_o0_s1",
+      "budget": 2048,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_geometry_late_d2_o0_s2",
+      "budget": 2048,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_geometry_late_d2_o1_s0",
+      "budget": 2048,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_geometry_late_d2_o1_s1",
+      "budget": 2048,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_geometry_late_d2_o1_s2",
+      "budget": 2048,
+      "branch": "pixels_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_topology_late_d1_o0_s0",
+      "budget": 2048,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_topology_late_d1_o0_s1",
+      "budget": 2048,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_topology_late_d1_o0_s2",
+      "budget": 2048,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_topology_late_d1_o1_s0",
+      "budget": 2048,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_topology_late_d1_o1_s1",
+      "budget": 2048,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_topology_late_d1_o1_s2",
+      "budget": 2048,
+      "branch": "pixels_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_topology_late_d2_o0_s0",
+      "budget": 2048,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_topology_late_d2_o0_s1",
+      "budget": 2048,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_topology_late_d2_o0_s2",
+      "budget": 2048,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_pixels_topology_late_d2_o1_s0",
+      "budget": 2048,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_pixels_topology_late_d2_o1_s1",
+      "budget": 2048,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_pixels_topology_late_d2_o1_s2",
+      "budget": 2048,
+      "branch": "pixels_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_hog_geometry_early_d1_o0_s0",
+      "budget": 2048,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_hog_geometry_early_d1_o0_s1",
+      "budget": 2048,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_hog_geometry_early_d1_o0_s2",
+      "budget": 2048,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_hog_geometry_early_d1_o1_s0",
+      "budget": 2048,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_hog_geometry_early_d1_o1_s1",
+      "budget": 2048,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_hog_geometry_early_d1_o1_s2",
+      "budget": 2048,
+      "branch": "hog_geometry_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_hog_geometry_early_d2_o0_s0",
+      "budget": 2048,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_hog_geometry_early_d2_o0_s1",
+      "budget": 2048,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_hog_geometry_early_d2_o0_s2",
+      "budget": 2048,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_hog_geometry_early_d2_o1_s0",
+      "budget": 2048,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_hog_geometry_early_d2_o1_s1",
+      "budget": 2048,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_hog_geometry_early_d2_o1_s2",
+      "budget": 2048,
+      "branch": "hog_geometry_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_hog_topology_early_d1_o0_s0",
+      "budget": 2048,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_hog_topology_early_d1_o0_s1",
+      "budget": 2048,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_hog_topology_early_d1_o0_s2",
+      "budget": 2048,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_hog_topology_early_d1_o1_s0",
+      "budget": 2048,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_hog_topology_early_d1_o1_s1",
+      "budget": 2048,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_hog_topology_early_d1_o1_s2",
+      "budget": 2048,
+      "branch": "hog_topology_early",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_hog_topology_early_d2_o0_s0",
+      "budget": 2048,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_hog_topology_early_d2_o0_s1",
+      "budget": 2048,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_hog_topology_early_d2_o0_s2",
+      "budget": 2048,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_hog_topology_early_d2_o1_s0",
+      "budget": 2048,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_hog_topology_early_d2_o1_s1",
+      "budget": 2048,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_hog_topology_early_d2_o1_s2",
+      "budget": 2048,
+      "branch": "hog_topology_early",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_hog_geometry_late_d1_o0_s0",
+      "budget": 2048,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_hog_geometry_late_d1_o0_s1",
+      "budget": 2048,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_hog_geometry_late_d1_o0_s2",
+      "budget": 2048,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_hog_geometry_late_d1_o1_s0",
+      "budget": 2048,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_hog_geometry_late_d1_o1_s1",
+      "budget": 2048,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_hog_geometry_late_d1_o1_s2",
+      "budget": 2048,
+      "branch": "hog_geometry_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_hog_geometry_late_d2_o0_s0",
+      "budget": 2048,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_hog_geometry_late_d2_o0_s1",
+      "budget": 2048,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_hog_geometry_late_d2_o0_s2",
+      "budget": 2048,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_hog_geometry_late_d2_o1_s0",
+      "budget": 2048,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_hog_geometry_late_d2_o1_s1",
+      "budget": 2048,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_hog_geometry_late_d2_o1_s2",
+      "budget": 2048,
+      "branch": "hog_geometry_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_hog_topology_late_d1_o0_s0",
+      "budget": 2048,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_hog_topology_late_d1_o0_s1",
+      "budget": 2048,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_hog_topology_late_d1_o0_s2",
+      "budget": 2048,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_hog_topology_late_d1_o1_s0",
+      "budget": 2048,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_hog_topology_late_d1_o1_s1",
+      "budget": 2048,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_hog_topology_late_d1_o1_s2",
+      "budget": 2048,
+      "branch": "hog_topology_late",
+      "depth": 1,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    },
+    {
+      "id": "b2048_hog_topology_late_d2_o0_s0",
+      "budget": 2048,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 0
+    },
+    {
+      "id": "b2048_hog_topology_late_d2_o0_s1",
+      "budget": 2048,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 1
+    },
+    {
+      "id": "b2048_hog_topology_late_d2_o0_s2",
+      "budget": 2048,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.003,
+      "optimizer_index": 0,
+      "seed": 2
+    },
+    {
+      "id": "b2048_hog_topology_late_d2_o1_s0",
+      "budget": 2048,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 0
+    },
+    {
+      "id": "b2048_hog_topology_late_d2_o1_s1",
+      "budget": 2048,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 1
+    },
+    {
+      "id": "b2048_hog_topology_late_d2_o1_s2",
+      "budget": 2048,
+      "branch": "hog_topology_late",
+      "depth": 2,
+      "lr": 0.01,
+      "optimizer_index": 1,
+      "seed": 2
+    }
+  ]
+}

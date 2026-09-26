@@ -1,0 +1,540 @@
+{
+  "registered_utc": "2026-09-26T20:57:58.216494+00:00",
+  "scope": "Exploratory development only on previously used TRA/CV. WDEP/WINDEP/USPS TEST are already seen in earlier research and will not be relabeled as untouched evidence.",
+  "input": "Identical8x8 block means from original32x32 for EVERY branch. Layer, ordinaryCNN and pixel skip all receive this same tensor; no full-resolution side information.",
+  "layer": "Two learned3x3 filters, four learned threshold levels per field; logistic smoothingT=.1; cubical superlevel face-height extension by max. Output8Euler values inside the autodiff graph; no cached topological features.",
+  "geometry": "Same trainable filter/threshold setup using expected area or perimeter. Combined geometry uses2thresholds per field, giving4area+4perimeter values. BN8 and classifier width5 shared.",
+  "frozen": "Same Euler-layer initialization and identical classifier width;28filter/threshold parameters held fixed, giving441trainable and469storedparameters. Explicit ablation, not an equal-trainable-capacity baseline.",
+  "cnn": "One learned3x3 conv with1/2/4channels, BN/ReLU, adaptive pooling4x4; with or without the same64pixel skip. Largest dense hidden width under512including all biases and BNaffine.",
+  "initialization": "Common identity/blur/sharpen filter initialization plus Gaussian.005jitter for all learnable image filters; independent common seeded model RNG and minibatch permutation RNG.",
+  "budgets": "All stored scalar parameters <=512, frozen Euler also counted in storage; BNrunning-stat buffers and program operations additional. Not a FLOP/time budget.",
+  "selection": "Per-kind maximum mean3seed CVaccuracy, then meanCE, fewer trainableparameters, lexicalID. Record all fits. Strongest control is the best selected non-Euler kind; no TEST-based choice.",
+  "optimizer": "AdamW",
+  "learning_rates": [
+    0.003,
+    0.01
+  ],
+  "weight_decay": 0.01,
+  "batch_size": 256,
+  "initial_max_epochs": 500,
+  "patience": 80,
+  "convergence_rule": "Same for every model: if not early-stopped and best CVCE epoch>=450at500, automatically extend cap to1000. Stop after80epochs without CEimprovement>1e-8. Mark unresolved if final best lies within50epochs of hardcap.",
+  "seed_rule": "model seed0/1/2; independent shared permutation generator2026092700+seed.",
+  "checkpoints": "Minimum CVCE, ties keep earliest. All final model states and validation probabilities saved; parameter-change and feature-change diagnostics are taken from selected checkpoints.",
+  "configs": [
+    {
+      "id": "euler_learned_o0_s0",
+      "kind": "euler_learned",
+      "lr": 0.003,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "euler_learned_o0_s1",
+      "kind": "euler_learned",
+      "lr": 0.003,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "euler_learned_o0_s2",
+      "kind": "euler_learned",
+      "lr": 0.003,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "euler_learned_o1_s0",
+      "kind": "euler_learned",
+      "lr": 0.01,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "euler_learned_o1_s1",
+      "kind": "euler_learned",
+      "lr": 0.01,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "euler_learned_o1_s2",
+      "kind": "euler_learned",
+      "lr": 0.01,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "euler_frozen_o0_s0",
+      "kind": "euler_frozen",
+      "lr": 0.003,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "euler_frozen_o0_s1",
+      "kind": "euler_frozen",
+      "lr": 0.003,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "euler_frozen_o0_s2",
+      "kind": "euler_frozen",
+      "lr": 0.003,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "euler_frozen_o1_s0",
+      "kind": "euler_frozen",
+      "lr": 0.01,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "euler_frozen_o1_s1",
+      "kind": "euler_frozen",
+      "lr": 0.01,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "euler_frozen_o1_s2",
+      "kind": "euler_frozen",
+      "lr": 0.01,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "area_learned_o0_s0",
+      "kind": "area_learned",
+      "lr": 0.003,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "area_learned_o0_s1",
+      "kind": "area_learned",
+      "lr": 0.003,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "area_learned_o0_s2",
+      "kind": "area_learned",
+      "lr": 0.003,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "area_learned_o1_s0",
+      "kind": "area_learned",
+      "lr": 0.01,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "area_learned_o1_s1",
+      "kind": "area_learned",
+      "lr": 0.01,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "area_learned_o1_s2",
+      "kind": "area_learned",
+      "lr": 0.01,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "perimeter_learned_o0_s0",
+      "kind": "perimeter_learned",
+      "lr": 0.003,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "perimeter_learned_o0_s1",
+      "kind": "perimeter_learned",
+      "lr": 0.003,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "perimeter_learned_o0_s2",
+      "kind": "perimeter_learned",
+      "lr": 0.003,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "perimeter_learned_o1_s0",
+      "kind": "perimeter_learned",
+      "lr": 0.01,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "perimeter_learned_o1_s1",
+      "kind": "perimeter_learned",
+      "lr": 0.01,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "perimeter_learned_o1_s2",
+      "kind": "perimeter_learned",
+      "lr": 0.01,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "geometry_learned_o0_s0",
+      "kind": "geometry_learned",
+      "lr": 0.003,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "geometry_learned_o0_s1",
+      "kind": "geometry_learned",
+      "lr": 0.003,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "geometry_learned_o0_s2",
+      "kind": "geometry_learned",
+      "lr": 0.003,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "geometry_learned_o1_s0",
+      "kind": "geometry_learned",
+      "lr": 0.01,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "geometry_learned_o1_s1",
+      "kind": "geometry_learned",
+      "lr": 0.01,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "geometry_learned_o1_s2",
+      "kind": "geometry_learned",
+      "lr": 0.01,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "mlp_o0_s0",
+      "kind": "mlp",
+      "lr": 0.003,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "mlp_o0_s1",
+      "kind": "mlp",
+      "lr": 0.003,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "mlp_o0_s2",
+      "kind": "mlp",
+      "lr": 0.003,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "mlp_o1_s0",
+      "kind": "mlp",
+      "lr": 0.01,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "mlp_o1_s1",
+      "kind": "mlp",
+      "lr": 0.01,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "mlp_o1_s2",
+      "kind": "mlp",
+      "lr": 0.01,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "cnn_c1_o0_s0",
+      "kind": "cnn_c1",
+      "lr": 0.003,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "cnn_c1_o0_s1",
+      "kind": "cnn_c1",
+      "lr": 0.003,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "cnn_c1_o0_s2",
+      "kind": "cnn_c1",
+      "lr": 0.003,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "cnn_c1_o1_s0",
+      "kind": "cnn_c1",
+      "lr": 0.01,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "cnn_c1_o1_s1",
+      "kind": "cnn_c1",
+      "lr": 0.01,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "cnn_c1_o1_s2",
+      "kind": "cnn_c1",
+      "lr": 0.01,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "cnn_c2_o0_s0",
+      "kind": "cnn_c2",
+      "lr": 0.003,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "cnn_c2_o0_s1",
+      "kind": "cnn_c2",
+      "lr": 0.003,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "cnn_c2_o0_s2",
+      "kind": "cnn_c2",
+      "lr": 0.003,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "cnn_c2_o1_s0",
+      "kind": "cnn_c2",
+      "lr": 0.01,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "cnn_c2_o1_s1",
+      "kind": "cnn_c2",
+      "lr": 0.01,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "cnn_c2_o1_s2",
+      "kind": "cnn_c2",
+      "lr": 0.01,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "cnn_c4_o0_s0",
+      "kind": "cnn_c4",
+      "lr": 0.003,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "cnn_c4_o0_s1",
+      "kind": "cnn_c4",
+      "lr": 0.003,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "cnn_c4_o0_s2",
+      "kind": "cnn_c4",
+      "lr": 0.003,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "cnn_c4_o1_s0",
+      "kind": "cnn_c4",
+      "lr": 0.01,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "cnn_c4_o1_s1",
+      "kind": "cnn_c4",
+      "lr": 0.01,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "cnn_c4_o1_s2",
+      "kind": "cnn_c4",
+      "lr": 0.01,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "cnn_skip_c1_o0_s0",
+      "kind": "cnn_skip_c1",
+      "lr": 0.003,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "cnn_skip_c1_o0_s1",
+      "kind": "cnn_skip_c1",
+      "lr": 0.003,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "cnn_skip_c1_o0_s2",
+      "kind": "cnn_skip_c1",
+      "lr": 0.003,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "cnn_skip_c1_o1_s0",
+      "kind": "cnn_skip_c1",
+      "lr": 0.01,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "cnn_skip_c1_o1_s1",
+      "kind": "cnn_skip_c1",
+      "lr": 0.01,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "cnn_skip_c1_o1_s2",
+      "kind": "cnn_skip_c1",
+      "lr": 0.01,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "cnn_skip_c2_o0_s0",
+      "kind": "cnn_skip_c2",
+      "lr": 0.003,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "cnn_skip_c2_o0_s1",
+      "kind": "cnn_skip_c2",
+      "lr": 0.003,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "cnn_skip_c2_o0_s2",
+      "kind": "cnn_skip_c2",
+      "lr": 0.003,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "cnn_skip_c2_o1_s0",
+      "kind": "cnn_skip_c2",
+      "lr": 0.01,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "cnn_skip_c2_o1_s1",
+      "kind": "cnn_skip_c2",
+      "lr": 0.01,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "cnn_skip_c2_o1_s2",
+      "kind": "cnn_skip_c2",
+      "lr": 0.01,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "cnn_skip_c4_o0_s0",
+      "kind": "cnn_skip_c4",
+      "lr": 0.003,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "cnn_skip_c4_o0_s1",
+      "kind": "cnn_skip_c4",
+      "lr": 0.003,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "cnn_skip_c4_o0_s2",
+      "kind": "cnn_skip_c4",
+      "lr": 0.003,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "cnn_skip_c4_o1_s0",
+      "kind": "cnn_skip_c4",
+      "lr": 0.01,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "cnn_skip_c4_o1_s1",
+      "kind": "cnn_skip_c4",
+      "lr": 0.01,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "cnn_skip_c4_o1_s2",
+      "kind": "cnn_skip_c4",
+      "lr": 0.01,
+      "seed": 2,
+      "budget": 512
+    }
+  ],
+  "fits": 72,
+  "source_sha256": {
+    "euler_layer.py": "57ed31d7c62e4a202af423b1589b6da79547b4daa293cef08b056a5bc057a3d4",
+    "pilot.py": "f7fc7dbe32e1ae662e35450e594ec4d1241a2b8abe426d3691fb311745d5ffca",
+    "check_layer.py": "bb1767de974fd2ad297384af73577b27e4fe3549b2669536bf71062784deb7d8",
+    "layer_checks.json": "3f6bc85eb9e4a1b1653bf335226609591aca9cd7ee9958beb06df689e2169640"
+  },
+  "cache_sha256": "a9595a4cf4d601476c7fcd8aaec8436c3c107f0fe7d49f683c37a60086b5e3b3",
+  "source_data_sha256": "0d7b054fea010270e9b3f06411c654c5e59547732ad626381980baffe0a23fb0",
+  "test_read": false
+}

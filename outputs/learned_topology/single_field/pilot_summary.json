@@ -1,0 +1,699 @@
+{
+  "created_utc": "2026-09-26T21:03:26.383126+00:00",
+  "scope": "Exploratory TRAIN/CV; no independent-test or significance claim",
+  "protocol_sha256": "fa6f241622c58d965ab71491a46dd791acda5fa49b846cf5495c0dcb9b2968ad",
+  "fits": 30,
+  "selected": {
+    "euler_learned": {
+      "id": "single_euler_learned_o0",
+      "kind": "euler_learned",
+      "lr": 0.003,
+      "trainable_parameters": 506,
+      "stored_parameters": 506,
+      "hidden": 6,
+      "mean_accuracy": 0.9538407329105003,
+      "mean_ce": 0.17137214044729868,
+      "seed_accuracy": [
+        0.9534883720930233,
+        0.9566596194503171,
+        0.9513742071881607
+      ],
+      "selected_epochs": [
+        106,
+        85,
+        110
+      ],
+      "unresolved_runs": 0,
+      "parameter_change": [
+        {
+          "front.thresholds": 0.5865246057510376,
+          "front.conv.weight": 0.6166360974311829,
+          "front.conv.bias": 0.2537204325199127
+        },
+        {
+          "front.thresholds": 0.4876069724559784,
+          "front.conv.weight": 0.19395877420902252,
+          "front.conv.bias": 0.06482014060020447
+        },
+        {
+          "front.thresholds": 0.28696614503860474,
+          "front.conv.weight": 0.2606000006198883,
+          "front.conv.bias": 0.2319982647895813
+        }
+      ],
+      "feature_change": [
+        1.3690791130065918,
+        0.5725154280662537,
+        0.5608087778091431
+      ]
+    },
+    "euler_frozen": {
+      "id": "single_euler_frozen_o0",
+      "kind": "euler_frozen",
+      "lr": 0.003,
+      "trainable_parameters": 492,
+      "stored_parameters": 506,
+      "hidden": 6,
+      "mean_accuracy": 0.9499647639182524,
+      "mean_ce": 0.1878319283326467,
+      "seed_accuracy": [
+        0.9471458773784355,
+        0.9545454545454546,
+        0.9482029598308668
+      ],
+      "selected_epochs": [
+        84,
+        89,
+        140
+      ],
+      "unresolved_runs": 0,
+      "parameter_change": [
+        {
+          "front.thresholds": 0.0,
+          "front.conv.weight": 0.0,
+          "front.conv.bias": 0.0
+        },
+        {
+          "front.thresholds": 0.0,
+          "front.conv.weight": 0.0,
+          "front.conv.bias": 0.0
+        },
+        {
+          "front.thresholds": 0.0,
+          "front.conv.weight": 0.0,
+          "front.conv.bias": 0.0
+        }
+      ],
+      "feature_change": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "area_learned": {
+      "id": "single_area_learned_o0",
+      "kind": "area_learned",
+      "lr": 0.003,
+      "trainable_parameters": 506,
+      "stored_parameters": 506,
+      "hidden": 6,
+      "mean_accuracy": 0.9548978153629316,
+      "mean_ce": 0.18129021922747293,
+      "seed_accuracy": [
+        0.9556025369978859,
+        0.952431289640592,
+        0.9566596194503171
+      ],
+      "selected_epochs": [
+        99,
+        112,
+        114
+      ],
+      "unresolved_runs": 0,
+      "parameter_change": [
+        {
+          "front.thresholds": 0.6849561333656311,
+          "front.conv.weight": 0.8860676884651184,
+          "front.conv.bias": 0.09334998577833176
+        },
+        {
+          "front.thresholds": 0.49977168440818787,
+          "front.conv.weight": 1.40546452999115,
+          "front.conv.bias": 0.15038366615772247
+        },
+        {
+          "front.thresholds": 0.7221278548240662,
+          "front.conv.weight": 0.8087143898010254,
+          "front.conv.bias": 0.1330440640449524
+        }
+      ],
+      "feature_change": [
+        14.010539054870605,
+        14.695560455322266,
+        13.821245193481445
+      ]
+    },
+    "perimeter_learned": {
+      "id": "single_perimeter_learned_o0",
+      "kind": "perimeter_learned",
+      "lr": 0.003,
+      "trainable_parameters": 506,
+      "stored_parameters": 506,
+      "hidden": 6,
+      "mean_accuracy": 0.9513742071881607,
+      "mean_ce": 0.17408990859985352,
+      "seed_accuracy": [
+        0.9460887949260042,
+        0.9556025369978859,
+        0.952431289640592
+      ],
+      "selected_epochs": [
+        97,
+        92,
+        141
+      ],
+      "unresolved_runs": 0,
+      "parameter_change": [
+        {
+          "front.thresholds": 0.5336902141571045,
+          "front.conv.weight": 1.1705002784729004,
+          "front.conv.bias": 0.14075233042240143
+        },
+        {
+          "front.thresholds": 0.5737366080284119,
+          "front.conv.weight": 0.7665446400642395,
+          "front.conv.bias": 0.0400015152990818
+        },
+        {
+          "front.thresholds": 0.5839862823486328,
+          "front.conv.weight": 0.6075659990310669,
+          "front.conv.bias": 0.14154067635536194
+        }
+      ],
+      "feature_change": [
+        9.510734558105469,
+        8.875314712524414,
+        6.007550239562988
+      ]
+    },
+    "geometry_learned": {
+      "id": "single_geometry_learned_o0",
+      "kind": "geometry_learned",
+      "lr": 0.003,
+      "trainable_parameters": 504,
+      "stored_parameters": 504,
+      "hidden": 6,
+      "mean_accuracy": 0.9570119802677942,
+      "mean_ce": 0.16637137532234192,
+      "seed_accuracy": [
+        0.9534883720930233,
+        0.9556025369978859,
+        0.9619450317124736
+      ],
+      "selected_epochs": [
+        96,
+        84,
+        188
+      ],
+      "unresolved_runs": 0,
+      "parameter_change": [
+        {
+          "front.thresholds": 0.23651893436908722,
+          "front.conv.weight": 0.6797122359275818,
+          "front.conv.bias": 0.16737642884254456
+        },
+        {
+          "front.thresholds": 0.21591351926326752,
+          "front.conv.weight": 0.7339940667152405,
+          "front.conv.bias": 0.21594947576522827
+        },
+        {
+          "front.thresholds": 0.4366506338119507,
+          "front.conv.weight": 1.1364704370498657,
+          "front.conv.bias": 0.09496558457612991
+        }
+      ],
+      "feature_change": [
+        12.213247299194336,
+        12.49557876586914,
+        14.193160057067871
+      ]
+    }
+  },
+  "strongest_nontopological_control": {
+    "id": "single_geometry_learned_o0",
+    "kind": "geometry_learned",
+    "lr": 0.003,
+    "trainable_parameters": 504,
+    "stored_parameters": 504,
+    "hidden": 6,
+    "mean_accuracy": 0.9570119802677942,
+    "mean_ce": 0.16637137532234192,
+    "seed_accuracy": [
+      0.9534883720930233,
+      0.9556025369978859,
+      0.9619450317124736
+    ],
+    "selected_epochs": [
+      96,
+      84,
+      188
+    ],
+    "unresolved_runs": 0,
+    "parameter_change": [
+      {
+        "front.thresholds": 0.23651893436908722,
+        "front.conv.weight": 0.6797122359275818,
+        "front.conv.bias": 0.16737642884254456
+      },
+      {
+        "front.thresholds": 0.21591351926326752,
+        "front.conv.weight": 0.7339940667152405,
+        "front.conv.bias": 0.21594947576522827
+      },
+      {
+        "front.thresholds": 0.4366506338119507,
+        "front.conv.weight": 1.1364704370498657,
+        "front.conv.bias": 0.09496558457612991
+      }
+    ],
+    "feature_change": [
+      12.213247299194336,
+      12.49557876586914,
+      14.193160057067871
+    ]
+  },
+  "all_configurations": [
+    {
+      "id": "single_geometry_learned_o0",
+      "kind": "geometry_learned",
+      "lr": 0.003,
+      "trainable_parameters": 504,
+      "stored_parameters": 504,
+      "hidden": 6,
+      "mean_accuracy": 0.9570119802677942,
+      "mean_ce": 0.16637137532234192,
+      "seed_accuracy": [
+        0.9534883720930233,
+        0.9556025369978859,
+        0.9619450317124736
+      ],
+      "selected_epochs": [
+        96,
+        84,
+        188
+      ],
+      "unresolved_runs": 0,
+      "parameter_change": [
+        {
+          "front.thresholds": 0.23651893436908722,
+          "front.conv.weight": 0.6797122359275818,
+          "front.conv.bias": 0.16737642884254456
+        },
+        {
+          "front.thresholds": 0.21591351926326752,
+          "front.conv.weight": 0.7339940667152405,
+          "front.conv.bias": 0.21594947576522827
+        },
+        {
+          "front.thresholds": 0.4366506338119507,
+          "front.conv.weight": 1.1364704370498657,
+          "front.conv.bias": 0.09496558457612991
+        }
+      ],
+      "feature_change": [
+        12.213247299194336,
+        12.49557876586914,
+        14.193160057067871
+      ]
+    },
+    {
+      "id": "single_area_learned_o0",
+      "kind": "area_learned",
+      "lr": 0.003,
+      "trainable_parameters": 506,
+      "stored_parameters": 506,
+      "hidden": 6,
+      "mean_accuracy": 0.9548978153629316,
+      "mean_ce": 0.18129021922747293,
+      "seed_accuracy": [
+        0.9556025369978859,
+        0.952431289640592,
+        0.9566596194503171
+      ],
+      "selected_epochs": [
+        99,
+        112,
+        114
+      ],
+      "unresolved_runs": 0,
+      "parameter_change": [
+        {
+          "front.thresholds": 0.6849561333656311,
+          "front.conv.weight": 0.8860676884651184,
+          "front.conv.bias": 0.09334998577833176
+        },
+        {
+          "front.thresholds": 0.49977168440818787,
+          "front.conv.weight": 1.40546452999115,
+          "front.conv.bias": 0.15038366615772247
+        },
+        {
+          "front.thresholds": 0.7221278548240662,
+          "front.conv.weight": 0.8087143898010254,
+          "front.conv.bias": 0.1330440640449524
+        }
+      ],
+      "feature_change": [
+        14.010539054870605,
+        14.695560455322266,
+        13.821245193481445
+      ]
+    },
+    {
+      "id": "single_geometry_learned_o1",
+      "kind": "geometry_learned",
+      "lr": 0.01,
+      "trainable_parameters": 504,
+      "stored_parameters": 504,
+      "hidden": 6,
+      "mean_accuracy": 0.9541930937279774,
+      "mean_ce": 0.173017347852389,
+      "seed_accuracy": [
+        0.9534883720930233,
+        0.9545454545454546,
+        0.9545454545454546
+      ],
+      "selected_epochs": [
+        45,
+        30,
+        55
+      ],
+      "unresolved_runs": 0,
+      "parameter_change": [
+        {
+          "front.thresholds": 0.26090845465660095,
+          "front.conv.weight": 0.8616944551467896,
+          "front.conv.bias": 0.19599853456020355
+        },
+        {
+          "front.thresholds": 0.04628864303231239,
+          "front.conv.weight": 0.7625117301940918,
+          "front.conv.bias": 0.042518485337495804
+        },
+        {
+          "front.thresholds": 0.4547847807407379,
+          "front.conv.weight": 1.101089596748352,
+          "front.conv.bias": 0.03869457542896271
+        }
+      ],
+      "feature_change": [
+        13.237939834594727,
+        6.636063575744629,
+        14.297818183898926
+      ]
+    },
+    {
+      "id": "single_euler_learned_o0",
+      "kind": "euler_learned",
+      "lr": 0.003,
+      "trainable_parameters": 506,
+      "stored_parameters": 506,
+      "hidden": 6,
+      "mean_accuracy": 0.9538407329105003,
+      "mean_ce": 0.17137214044729868,
+      "seed_accuracy": [
+        0.9534883720930233,
+        0.9566596194503171,
+        0.9513742071881607
+      ],
+      "selected_epochs": [
+        106,
+        85,
+        110
+      ],
+      "unresolved_runs": 0,
+      "parameter_change": [
+        {
+          "front.thresholds": 0.5865246057510376,
+          "front.conv.weight": 0.6166360974311829,
+          "front.conv.bias": 0.2537204325199127
+        },
+        {
+          "front.thresholds": 0.4876069724559784,
+          "front.conv.weight": 0.19395877420902252,
+          "front.conv.bias": 0.06482014060020447
+        },
+        {
+          "front.thresholds": 0.28696614503860474,
+          "front.conv.weight": 0.2606000006198883,
+          "front.conv.bias": 0.2319982647895813
+        }
+      ],
+      "feature_change": [
+        1.3690791130065918,
+        0.5725154280662537,
+        0.5608087778091431
+      ]
+    },
+    {
+      "id": "single_perimeter_learned_o0",
+      "kind": "perimeter_learned",
+      "lr": 0.003,
+      "trainable_parameters": 506,
+      "stored_parameters": 506,
+      "hidden": 6,
+      "mean_accuracy": 0.9513742071881607,
+      "mean_ce": 0.17408990859985352,
+      "seed_accuracy": [
+        0.9460887949260042,
+        0.9556025369978859,
+        0.952431289640592
+      ],
+      "selected_epochs": [
+        97,
+        92,
+        141
+      ],
+      "unresolved_runs": 0,
+      "parameter_change": [
+        {
+          "front.thresholds": 0.5336902141571045,
+          "front.conv.weight": 1.1705002784729004,
+          "front.conv.bias": 0.14075233042240143
+        },
+        {
+          "front.thresholds": 0.5737366080284119,
+          "front.conv.weight": 0.7665446400642395,
+          "front.conv.bias": 0.0400015152990818
+        },
+        {
+          "front.thresholds": 0.5839862823486328,
+          "front.conv.weight": 0.6075659990310669,
+          "front.conv.bias": 0.14154067635536194
+        }
+      ],
+      "feature_change": [
+        9.510734558105469,
+        8.875314712524414,
+        6.007550239562988
+      ]
+    },
+    {
+      "id": "single_euler_frozen_o0",
+      "kind": "euler_frozen",
+      "lr": 0.003,
+      "trainable_parameters": 492,
+      "stored_parameters": 506,
+      "hidden": 6,
+      "mean_accuracy": 0.9499647639182524,
+      "mean_ce": 0.1878319283326467,
+      "seed_accuracy": [
+        0.9471458773784355,
+        0.9545454545454546,
+        0.9482029598308668
+      ],
+      "selected_epochs": [
+        84,
+        89,
+        140
+      ],
+      "unresolved_runs": 0,
+      "parameter_change": [
+        {
+          "front.thresholds": 0.0,
+          "front.conv.weight": 0.0,
+          "front.conv.bias": 0.0
+        },
+        {
+          "front.thresholds": 0.0,
+          "front.conv.weight": 0.0,
+          "front.conv.bias": 0.0
+        },
+        {
+          "front.thresholds": 0.0,
+          "front.conv.weight": 0.0,
+          "front.conv.bias": 0.0
+        }
+      ],
+      "feature_change": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "single_perimeter_learned_o1",
+      "kind": "perimeter_learned",
+      "lr": 0.01,
+      "trainable_parameters": 506,
+      "stored_parameters": 506,
+      "hidden": 6,
+      "mean_accuracy": 0.9492600422832981,
+      "mean_ce": 0.18799075484275818,
+      "seed_accuracy": [
+        0.9418604651162791,
+        0.9545454545454546,
+        0.9513742071881607
+      ],
+      "selected_epochs": [
+        38,
+        30,
+        54
+      ],
+      "unresolved_runs": 0,
+      "parameter_change": [
+        {
+          "front.thresholds": 0.4868622124195099,
+          "front.conv.weight": 1.2169139385223389,
+          "front.conv.bias": 0.12649494409561157
+        },
+        {
+          "front.thresholds": 0.7072783708572388,
+          "front.conv.weight": 0.8068573474884033,
+          "front.conv.bias": 0.07101758569478989
+        },
+        {
+          "front.thresholds": 0.6049602627754211,
+          "front.conv.weight": 0.7436801791191101,
+          "front.conv.bias": 0.1346639096736908
+        }
+      ],
+      "feature_change": [
+        9.844873428344727,
+        10.533507347106934,
+        6.631225109100342
+      ]
+    },
+    {
+      "id": "single_area_learned_o1",
+      "kind": "area_learned",
+      "lr": 0.01,
+      "trainable_parameters": 506,
+      "stored_parameters": 506,
+      "hidden": 6,
+      "mean_accuracy": 0.9478505990133897,
+      "mean_ce": 0.19622999926408133,
+      "seed_accuracy": [
+        0.9492600422832981,
+        0.9492600422832981,
+        0.945031712473573
+      ],
+      "selected_epochs": [
+        44,
+        32,
+        40
+      ],
+      "unresolved_runs": 0,
+      "parameter_change": [
+        {
+          "front.thresholds": 0.7423553466796875,
+          "front.conv.weight": 0.7864179611206055,
+          "front.conv.bias": 0.09368406981229782
+        },
+        {
+          "front.thresholds": 0.8908945322036743,
+          "front.conv.weight": 1.5267153978347778,
+          "front.conv.bias": 0.12290376424789429
+        },
+        {
+          "front.thresholds": 0.7826050519943237,
+          "front.conv.weight": 0.9599449038505554,
+          "front.conv.bias": 0.10717418044805527
+        }
+      ],
+      "feature_change": [
+        16.13623809814453,
+        20.20088768005371,
+        14.193960189819336
+      ]
+    },
+    {
+      "id": "single_euler_frozen_o1",
+      "kind": "euler_frozen",
+      "lr": 0.01,
+      "trainable_parameters": 492,
+      "stored_parameters": 506,
+      "hidden": 6,
+      "mean_accuracy": 0.9460887949260042,
+      "mean_ce": 0.1967179278532664,
+      "seed_accuracy": [
+        0.9386892177589852,
+        0.9492600422832981,
+        0.9503171247357294
+      ],
+      "selected_epochs": [
+        47,
+        29,
+        43
+      ],
+      "unresolved_runs": 0,
+      "parameter_change": [
+        {
+          "front.thresholds": 0.0,
+          "front.conv.weight": 0.0,
+          "front.conv.bias": 0.0
+        },
+        {
+          "front.thresholds": 0.0,
+          "front.conv.weight": 0.0,
+          "front.conv.bias": 0.0
+        },
+        {
+          "front.thresholds": 0.0,
+          "front.conv.weight": 0.0,
+          "front.conv.bias": 0.0
+        }
+      ],
+      "feature_change": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "single_euler_learned_o1",
+      "kind": "euler_learned",
+      "lr": 0.01,
+      "trainable_parameters": 506,
+      "stored_parameters": 506,
+      "hidden": 6,
+      "mean_accuracy": 0.9443269908386188,
+      "mean_ce": 0.17864768207073212,
+      "seed_accuracy": [
+        0.9323467230443975,
+        0.952431289640592,
+        0.9482029598308668
+      ],
+      "selected_epochs": [
+        49,
+        29,
+        43
+      ],
+      "unresolved_runs": 0,
+      "parameter_change": [
+        {
+          "front.thresholds": 0.6565898060798645,
+          "front.conv.weight": 0.7256081104278564,
+          "front.conv.bias": 0.2654915750026703
+        },
+        {
+          "front.thresholds": 0.4113229811191559,
+          "front.conv.weight": 0.4771895110607147,
+          "front.conv.bias": 0.23774512112140656
+        },
+        {
+          "front.thresholds": 0.35669055581092834,
+          "front.conv.weight": 0.5189943909645081,
+          "front.conv.bias": 0.2646613121032715
+        }
+      ],
+      "feature_change": [
+        1.249768853187561,
+        0.7990453243255615,
+        1.0132192373275757
+      ]
+    }
+  ],
+  "test_read": false
+}

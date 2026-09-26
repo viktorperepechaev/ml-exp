@@ -1,0 +1,10 @@
+{
+  "registered_utc": "2026-09-26T20:01:47.477337+00:00",
+  "test_read": false,
+  "timing": "Before any WDEP TEST access and before final freeze; after exploratory MLP size curve, while CNN controls run.",
+  "primary": "Unchanged: global best topology versus global best non-topology under512weights.",
+  "secondary": "Also refit the six TRAIN/CV-selected MLP configurations at256/1024/2048weights,10seeds each, to report a fixed held-out capacity curve. These are descriptive secondary points and cannot replace a failed512primary test or support independent significance claims.",
+  "total_refits": 80,
+  "no_ensemble": true,
+  "reason": "Show whether the apparent dependence on size survives on held-out images; do not infer it only from exploratory CV."
+}

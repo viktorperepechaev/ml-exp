@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-09-26T20:06:52.434953+00:00",
+  "passed": true,
+  "test_read": false,
+  "complete_required": false,
+  "checks": {
+    "exact_weighted_sign_flip_matches_enumeration": true,
+    "betti_features_match_independent_background_hole_count": true,
+    "mlp_prediction_files_verified": 456,
+    "cnn_prediction_files_verified": 105
+  },
+  "verified_prediction_files": 561
+}

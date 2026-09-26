@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "platform": "macOS-15.6-arm64-arm-64bit",
+  "device": "cpu",
+  "packages": {
+    "torch": "2.14.0",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  }
+}

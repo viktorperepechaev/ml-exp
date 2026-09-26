@@ -1,0 +1,254 @@
+{
+  "registered_utc": "2026-09-26T21:01:46.674317+00:00",
+  "timing": "After partial first-pilot development; no new TEST access. Supplementary exploration, not a preregistered independent confirmation.",
+  "rationale": "Two fields/eightoutputs force the head from6to5hidden units under512. One field/fouroutputs gives506weights and6hidden units; apply the same change to all three learned geometric controls and the frozen-Euler ablation.",
+  "inherited_training_protocol_sha256": "a72a1931e2a39aeb30b40ae2239836a97576904900dbad4b53c3b1a08a749019",
+  "training_rule": "Identical optimizer, learning-rate grid, batches, seeds, stopping and automatic500to1000extension as the first pilot. Same TRA/CV arrays.",
+  "counts": {
+    "euler_learned": {
+      "trainable": 506,
+      "stored": 506,
+      "hidden": 6
+    },
+    "euler_frozen": {
+      "trainable": 492,
+      "stored": 506,
+      "hidden": 6
+    },
+    "area_learned": {
+      "trainable": 506,
+      "stored": 506,
+      "hidden": 6
+    },
+    "perimeter_learned": {
+      "trainable": 506,
+      "stored": 506,
+      "hidden": 6
+    },
+    "geometry_learned": {
+      "trainable": 504,
+      "stored": 504,
+      "hidden": 6
+    }
+  },
+  "configs": [
+    {
+      "id": "single_euler_learned_o0_s0",
+      "kind": "euler_learned",
+      "lr": 0.003,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "single_euler_learned_o0_s1",
+      "kind": "euler_learned",
+      "lr": 0.003,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "single_euler_learned_o0_s2",
+      "kind": "euler_learned",
+      "lr": 0.003,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "single_euler_learned_o1_s0",
+      "kind": "euler_learned",
+      "lr": 0.01,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "single_euler_learned_o1_s1",
+      "kind": "euler_learned",
+      "lr": 0.01,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "single_euler_learned_o1_s2",
+      "kind": "euler_learned",
+      "lr": 0.01,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "single_euler_frozen_o0_s0",
+      "kind": "euler_frozen",
+      "lr": 0.003,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "single_euler_frozen_o0_s1",
+      "kind": "euler_frozen",
+      "lr": 0.003,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "single_euler_frozen_o0_s2",
+      "kind": "euler_frozen",
+      "lr": 0.003,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "single_euler_frozen_o1_s0",
+      "kind": "euler_frozen",
+      "lr": 0.01,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "single_euler_frozen_o1_s1",
+      "kind": "euler_frozen",
+      "lr": 0.01,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "single_euler_frozen_o1_s2",
+      "kind": "euler_frozen",
+      "lr": 0.01,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "single_area_learned_o0_s0",
+      "kind": "area_learned",
+      "lr": 0.003,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "single_area_learned_o0_s1",
+      "kind": "area_learned",
+      "lr": 0.003,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "single_area_learned_o0_s2",
+      "kind": "area_learned",
+      "lr": 0.003,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "single_area_learned_o1_s0",
+      "kind": "area_learned",
+      "lr": 0.01,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "single_area_learned_o1_s1",
+      "kind": "area_learned",
+      "lr": 0.01,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "single_area_learned_o1_s2",
+      "kind": "area_learned",
+      "lr": 0.01,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "single_perimeter_learned_o0_s0",
+      "kind": "perimeter_learned",
+      "lr": 0.003,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "single_perimeter_learned_o0_s1",
+      "kind": "perimeter_learned",
+      "lr": 0.003,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "single_perimeter_learned_o0_s2",
+      "kind": "perimeter_learned",
+      "lr": 0.003,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "single_perimeter_learned_o1_s0",
+      "kind": "perimeter_learned",
+      "lr": 0.01,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "single_perimeter_learned_o1_s1",
+      "kind": "perimeter_learned",
+      "lr": 0.01,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "single_perimeter_learned_o1_s2",
+      "kind": "perimeter_learned",
+      "lr": 0.01,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "single_geometry_learned_o0_s0",
+      "kind": "geometry_learned",
+      "lr": 0.003,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "single_geometry_learned_o0_s1",
+      "kind": "geometry_learned",
+      "lr": 0.003,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "single_geometry_learned_o0_s2",
+      "kind": "geometry_learned",
+      "lr": 0.003,
+      "seed": 2,
+      "budget": 512
+    },
+    {
+      "id": "single_geometry_learned_o1_s0",
+      "kind": "geometry_learned",
+      "lr": 0.01,
+      "seed": 0,
+      "budget": 512
+    },
+    {
+      "id": "single_geometry_learned_o1_s1",
+      "kind": "geometry_learned",
+      "lr": 0.01,
+      "seed": 1,
+      "budget": 512
+    },
+    {
+      "id": "single_geometry_learned_o1_s2",
+      "kind": "geometry_learned",
+      "lr": 0.01,
+      "seed": 2,
+      "budget": 512
+    }
+  ],
+  "fits": 30,
+  "source_sha256": {
+    "euler_layer.py": "57ed31d7c62e4a202af423b1589b6da79547b4daa293cef08b056a5bc057a3d4",
+    "pilot.py": "f7fc7dbe32e1ae662e35450e594ec4d1241a2b8abe426d3691fb311745d5ffca",
+    "single_field.py": "89d3194018b6497e298a8083d5f372710f7abf4c3da918b29a4c9ae6666c0324",
+    "single_field_pilot.py": "9470de3b78260e9436b4c04ec2e2fe414df54e7c8277cf94823de1f70ce9538e"
+  },
+  "test_read": false
+}

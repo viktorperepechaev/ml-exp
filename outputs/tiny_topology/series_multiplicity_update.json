@@ -1,0 +1,15 @@
+{
+  "registered_utc": "2026-09-26T19:59:17.415242+00:00",
+  "timing": "Before first small-model WDEP TEST and before RIM-ONE DL TEST; previous USPS comparison negative.",
+  "hypotheses": [
+    "OptDigits-windep",
+    "PenDigits",
+    "CharacterTrajectories",
+    "USPS",
+    "RIM-ONE DL",
+    "OptDigits-wdep tiny512"
+  ],
+  "count": 6,
+  "rule": "For a combined-series positive claim, apply min(1,6*p) to each primary test. Original reports with Bonferroni5 remain the record of those protocols; RIM final p must also be checked against6before declaring completion of the broad research goal.",
+  "model_or_test_data_changes": false
+}

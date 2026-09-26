@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-09-26T19:46:20.098665+00:00",
+  "protocol_sha256": "fc0c991c914d117f418f60a61f5bcb0785bacb90a1884b92ef9767a6c4a6de5a",
+  "reason": "Initial orchestration interrupted while feasibility of256parameter late-HOG configurations was checked. Preserve every completed feasible fit; run only missing feasible jobs. All24excluded jobs are algebraically impossible under their budget, identically for geometry and topology. No outcome-based exclusion or change in training.",
+  "preexisting_fits": 452,
+  "missing_ids": [
+    "b256_pixels_geometry_late_d1_o0_s1",
+    "b256_pixels_geometry_late_d1_o0_s2",
+    "b256_pixels_geometry_late_d1_o1_s1",
+    "b256_pixels_geometry_late_d1_o1_s2"
+  ],
+  "feasibility_audit_sha256": "010614bc713c071587f544cb1c8eb373cc883b937b3deb7cfbbb7e75a22aa85a"
+}
