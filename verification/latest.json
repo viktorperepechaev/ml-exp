@@ -1,19 +1,19 @@
 {
-  "created_utc": "2026-09-26T22:54:04.430129+00:00",
+  "created_utc": "2026-09-27T14:59:51.914799+00:00",
   "passed": true,
   "manifest_files_checked": 2792,
-  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
   "runs": [
     {
       "script": "outputs/tiny_topology/tiny_final_audit.py",
       "returncode": 0,
-      "stdout": "{\n  \"created_utc\": \"2026-09-26T22:53:49.340349+00:00\",\n  \"passed\": true,\n  \"protocol_sha256\": \"73442b8db15697d01c51bce2daf4b8ef3137660c537c2020025a13680d56cedc\",\n  \"probabilities_and_accuracy_recomputed\": true,\n  \"independent_exact_p_via_grouped_binomial_convolution\": 0.00017231517132492889,\n  \"primary_gate_recomputed\": true,\n  \"train_test_identical_bitmap_count\": 0,\n  \"within_test_duplicate_bitmap_count\": 0,\n  \"label_counts\": {\n    \"0\": 100,\n    \"1\": 94,\n    \"2\": 93,\n    \"3\": 105,\n    \"4\": 87,\n    \"5\": 81,\n    \"6\": 95,\n    \"7\": 90,\n    \"8\": 109,\n    \"9\": 89\n  },\n  \"test_n\": 943,\n  \"registered_models_verified\": 80,\n  \"limitation\": \"Exact bitmap duplicate audit only; handwriting authors overlap by design. No independent-writer confidence claim.\"\n}\n",
+      "stdout": "{\n  \"created_utc\": \"2026-09-27T14:59:39.969889+00:00\",\n  \"passed\": true,\n  \"protocol_sha256\": \"73442b8db15697d01c51bce2daf4b8ef3137660c537c2020025a13680d56cedc\",\n  \"probabilities_and_accuracy_recomputed\": true,\n  \"independent_exact_p_via_grouped_binomial_convolution\": 0.00017231517132492889,\n  \"primary_gate_recomputed\": true,\n  \"train_test_identical_bitmap_count\": 0,\n  \"within_test_duplicate_bitmap_count\": 0,\n  \"label_counts\": {\n    \"0\": 100,\n    \"1\": 94,\n    \"2\": 93,\n    \"3\": 105,\n    \"4\": 87,\n    \"5\": 81,\n    \"6\": 95,\n    \"7\": 90,\n    \"8\": 109,\n    \"9\": 89\n  },\n  \"test_n\": 943,\n  \"registered_models_verified\": 80,\n  \"limitation\": \"Exact bitmap duplicate audit only; handwriting authors overlap by design. No independent-writer confidence claim.\"\n}\n",
       "stderr": ""
     },
     {
       "script": "outputs/learned_topology/audit_results.py",
       "returncode": 0,
-      "stdout": "{\n  \"created_utc\": \"2026-09-26T22:53:51.475718+00:00\",\n  \"passed\": true,\n  \"runs_replayed\": 102,\n  \"max_probability_error\": 0.0,\n  \"max_cross_entropy_error\": 0.0,\n  \"train_size\": 1934,\n  \"validation_size\": 946,\n  \"parameter_caps_and_source_hashes_verified\": true,\n  \"learned_frozen_initializations_identical\": true,\n  \"all_learned_euler_runs_have_gradient_and_parameter_changes\": true,\n  \"all_frozen_euler_fronts_unchanged\": true,\n  \"hardcap_unresolved\": 0,\n  \"test_read\": false\n}\n",
+      "stdout": "{\n  \"created_utc\": \"2026-09-27T14:59:41.618433+00:00\",\n  \"passed\": true,\n  \"runs_replayed\": 102,\n  \"max_probability_error\": 0.0,\n  \"max_cross_entropy_error\": 0.0,\n  \"train_size\": 1934,\n  \"validation_size\": 946,\n  \"parameter_caps_and_source_hashes_verified\": true,\n  \"learned_frozen_initializations_identical\": true,\n  \"all_learned_euler_runs_have_gradient_and_parameter_changes\": true,\n  \"all_frozen_euler_fronts_unchanged\": true,\n  \"hardcap_unresolved\": 0,\n  \"test_read\": false\n}\n",
       "stderr": "Matplotlib is building the font cache; this may take a moment.\n"
     }
   ],

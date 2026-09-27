@@ -1,0 +1,17 @@
+[project]
+name = "topological-invariants"
+version = "0.1.0"
+description = "Reproducible OptDigits experiments with topological features and trainable Euler layers"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy==2.3.5",
+    "scipy==1.18.1",
+    "scikit-learn==1.9.1",
+    "torch==2.14.0",
+    "matplotlib==3.11.2",
+]
+
+[tool.uv]
+# Research scripts run directly; no package build or editable installation.
+package = false

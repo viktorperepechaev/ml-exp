@@ -5,7 +5,7 @@
     "learned_topology_study.zip": "adfb46d70c3bda0279f7d36c14018a99c3bbc932a3898f9ef2d2f1b38fcda8b6"
   },
   "files": {
-    "README.md": "67f051c66d0a1bb4d77c66f91eef9bbabbde0175aa56ecf745b80db0fcb5d4c2",
+    "README.md": "5fc4e00c58124b17e2bf6733174cf0e6f81386601caea2db9acb0c3b1a004d0e",
     "outputs/learned_topology/audit_results.py": "99543852290afb9109e1e20ac622d7b0a369c3536e3754caa99924cec97c6471",
     "outputs/learned_topology/check_layer.py": "bb1767de974fd2ad297384af73577b27e4fe3549b2669536bf71062784deb7d8",
     "outputs/learned_topology/environment.json": "2acd8d4e8bbb0dffdfb24b6e7a938c9130c4b7373a6474f86a2e839fe59406f9",
@@ -2798,5 +2798,21 @@
     "work/tiny_topology/mlp_arrays.npz": "d2b7685bc28336872b269950650cc139f4541f692ff9333a5cf87cb966b76834",
     "work/tiny_topology/mlp_arrays_meta.json": "cae506f560aef8c9f5e70759bf83da8345f7db0981807771a57c50d6af4c158b"
   },
-  "scope": "Two completed OptDigits experiments; original data, code, protocols, checkpoints, probabilities and documentation."
+  "scope": "Two completed OptDigits experiments; original data, code, protocols, checkpoints, probabilities and documentation.",
+  "project_documentation_updates": [
+    {
+      "updated_utc": "2026-09-27T14:55:08.176374+00:00",
+      "file": "README.md",
+      "previous_sha256": "67f051c66d0a1bb4d77c66f91eef9bbabbde0175aa56ecf745b80db0fcb5d4c2",
+      "sha256": "6bf13c6ecf5c911d58d6805cf7f01a8474e9eae11b8d4e6c422d0241f7e7df54",
+      "reason": "Add uv installation and execution instructions; all historical experiment file hashes remain unchanged."
+    },
+    {
+      "updated_utc": "2026-09-27T15:06:32.536519+00:00",
+      "file": "README.md",
+      "previous_sha256": "6bf13c6ecf5c911d58d6805cf7f01a8474e9eae11b8d4e6c422d0241f7e7df54",
+      "sha256": "5fc4e00c58124b17e2bf6733174cf0e6f81386601caea2db9acb0c3b1a004d0e",
+      "reason": "Document fresh retraining of the selected508parameter primary pair. Historical experiment hashes unchanged."
+    }
+  ]
 }
