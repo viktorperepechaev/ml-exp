@@ -5,7 +5,7 @@
     "learned_topology_study.zip": "adfb46d70c3bda0279f7d36c14018a99c3bbc932a3898f9ef2d2f1b38fcda8b6"
   },
   "files": {
-    "README.md": "5fc4e00c58124b17e2bf6733174cf0e6f81386601caea2db9acb0c3b1a004d0e",
+    "README.md": "b5bdd4259071d4d99188d14500a0c82e046db9f72047f3ab5acfca95df9ab289",
     "outputs/learned_topology/audit_results.py": "99543852290afb9109e1e20ac622d7b0a369c3536e3754caa99924cec97c6471",
     "outputs/learned_topology/check_layer.py": "bb1767de974fd2ad297384af73577b27e4fe3549b2669536bf71062784deb7d8",
     "outputs/learned_topology/environment.json": "2acd8d4e8bbb0dffdfb24b6e7a938c9130c4b7373a6474f86a2e839fe59406f9",
@@ -2813,6 +2813,13 @@
       "previous_sha256": "6bf13c6ecf5c911d58d6805cf7f01a8474e9eae11b8d4e6c422d0241f7e7df54",
       "sha256": "5fc4e00c58124b17e2bf6733174cf0e6f81386601caea2db9acb0c3b1a004d0e",
       "reason": "Document fresh retraining of the selected508parameter primary pair. Historical experiment hashes unchanged."
+    },
+    {
+      "updated_utc": "2026-09-27T15:24:21.039568+00:00",
+      "file": "README.md",
+      "previous_sha256": "5fc4e00c58124b17e2bf6733174cf0e6f81386601caea2db9acb0c3b1a004d0e",
+      "sha256": "b5bdd4259071d4d99188d14500a0c82e046db9f72047f3ab5acfca95df9ab289",
+      "reason": "Document full fresh102model reproduction of learnedEuler experiment; frozen experiment hashes unchanged."
     }
   ]
 }
