@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "set_based_morphology_and_cell_counts": true,
+  "constructed_508_parameter_classifiers_correct": true,
+  "source_hashes_verified": true,
+  "information_identity_numeric_error": 1.3322676295501878e-15,
+  "scaling_compensation_max_float32_logit_error": 5.960464477539063e-08,
+  "mi_accuracy_counterexample": {
+    "erasure_mi_bits": 0.7,
+    "erasure_bayes_accuracy": 0.85,
+    "bitflip_mi_bits": 0.5310044064107188,
+    "bitflip_bayes_accuracy": 0.9
+  },
+  "connected_hole_search": {
+    "masks_checked": 65536,
+    "raw_beta0": 1,
+    "identical_all_geometry_required": true,
+    "differing_raw_beta1_required": true,
+    "witness": null,
+    "scope": "Only all 4x4 patches embedded in one pooled cell; no statement for larger images."
+  },
+  "population_mutual_information_order_established": false
+}

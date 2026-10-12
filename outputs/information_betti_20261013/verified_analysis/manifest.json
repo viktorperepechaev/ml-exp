@@ -1,0 +1,12 @@
+{
+  "runner_sha256": "f6d17c65a87a2915a7167d2a3d6f61a2d12e321efa85543317474d3d9ed81544",
+  "source_root": "/Users/viktor/MIPT/autumn2026/ML-Projects/topological-invariants",
+  "files": {
+    "synthetic_witnesses.png": "5dec24063420a6511a4651443aaf47b2511f80aa576eeaa4dd2dd006ef422484",
+    "synthetic_witnesses.npz": "a0013cf2d3147c5c4fa6d0751533c9291e13cdcbc612dec7efc15bf03824d3cd",
+    "synthetic_witnesses.svg": "a49de197eecbbf3fa3ffb4f3b23d656696202814129bcb6718f38a50134dca6e",
+    "synthetic_witnesses.json": "40c7bef67b19aa106a5be57294032e4d6ca782b81beb58e53591cee996d6eeb2",
+    "real_data.json": "324bb9eeabe13b649095155424f45c694b99393a8b5a3096d761f6ec34200af0",
+    "logloss_bits.npz": "f2834a315e9600941dc83f064bae2f8b94bfeba10ec7fd0c8e773b8a022a5f0e"
+  }
+}

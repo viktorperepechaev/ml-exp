@@ -1,0 +1,193 @@
+{
+  "entropy_diagnostics": {
+    "tra_cv": {
+      "pixels": {
+        "n": 2880,
+        "distinct": 2880,
+        "singleton_samples": 2880,
+        "empirical_h_feature_bits": 11.491853096329677,
+        "empirical_h_label_bits": 3.3211988563891444,
+        "empirical_h_label_given_feature_bits": -0.0,
+        "empirical_mi_bits": 3.3211988563891444,
+        "shuffled_label_mi_mean_bits": 3.321198856389145,
+        "shuffled_label_mi_sd_bits": 4.452036136345021e-16,
+        "label_permutations": 200,
+        "warning": "Plug-in entropy under the empirical distribution only; high-cardinality features can memorize labels."
+      },
+      "geometry": {
+        "n": 2880,
+        "distinct": 2880,
+        "singleton_samples": 2880,
+        "empirical_h_feature_bits": 11.491853096329677,
+        "empirical_h_label_bits": 3.3211988563891444,
+        "empirical_h_label_given_feature_bits": -0.0,
+        "empirical_mi_bits": 3.3211988563891444,
+        "shuffled_label_mi_mean_bits": 3.321198856389145,
+        "shuffled_label_mi_sd_bits": 4.452036136345021e-16,
+        "label_permutations": 200,
+        "warning": "Plug-in entropy under the empirical distribution only; high-cardinality features can memorize labels."
+      },
+      "topology": {
+        "n": 2880,
+        "distinct": 63,
+        "singleton_samples": 26,
+        "empirical_h_feature_bits": 2.7554938008843073,
+        "empirical_h_label_bits": 3.3211988563891444,
+        "empirical_h_label_given_feature_bits": 2.1257847385717388,
+        "empirical_mi_bits": 1.1954141178174056,
+        "shuffled_label_mi_mean_bits": 0.11208687085285568,
+        "shuffled_label_mi_sd_bits": 0.005378028070707531,
+        "label_permutations": 200,
+        "warning": "Plug-in entropy under the empirical distribution only; high-cardinality features can memorize labels."
+      }
+    },
+    "wdep": {
+      "pixels": {
+        "n": 943,
+        "distinct": 943,
+        "singleton_samples": 943,
+        "empirical_h_feature_bits": 9.8811139606751,
+        "empirical_h_label_bits": 3.316751413046826,
+        "empirical_h_label_given_feature_bits": -0.0,
+        "empirical_mi_bits": 3.316751413046826,
+        "shuffled_label_mi_mean_bits": 3.316751413046826,
+        "shuffled_label_mi_sd_bits": 0.0,
+        "label_permutations": 200,
+        "warning": "Plug-in entropy under the empirical distribution only; high-cardinality features can memorize labels."
+      },
+      "geometry": {
+        "n": 943,
+        "distinct": 943,
+        "singleton_samples": 943,
+        "empirical_h_feature_bits": 9.8811139606751,
+        "empirical_h_label_bits": 3.316751413046826,
+        "empirical_h_label_given_feature_bits": -0.0,
+        "empirical_mi_bits": 3.316751413046826,
+        "shuffled_label_mi_mean_bits": 3.316751413046826,
+        "shuffled_label_mi_sd_bits": 0.0,
+        "label_permutations": 200,
+        "warning": "Plug-in entropy under the empirical distribution only; high-cardinality features can memorize labels."
+      },
+      "topology": {
+        "n": 943,
+        "distinct": 41,
+        "singleton_samples": 12,
+        "empirical_h_feature_bits": 2.8236364622601107,
+        "empirical_h_label_bits": 3.316751413046826,
+        "empirical_h_label_given_feature_bits": 1.9967234110438579,
+        "empirical_mi_bits": 1.3200280020029682,
+        "shuffled_label_mi_mean_bits": 0.23378963150664703,
+        "shuffled_label_mi_sd_bits": 0.011910862502831744,
+        "label_permutations": 200,
+        "warning": "Plug-in entropy under the empirical distribution only; high-cardinality features can memorize labels."
+      }
+    },
+    "combined_pixel_unique": 3823
+  },
+  "model_performance": {
+    "geometry": {
+      "mean_ce_nats": 0.1569974148768861,
+      "mean_logloss_bits": 0.2264993918752707,
+      "seed_logloss_bits": [
+        0.20619333973639042,
+        0.24668350069385475,
+        0.2174992486168246,
+        0.25359970009362726,
+        0.23737282934461618,
+        0.2067563276928122,
+        0.24905200459248622,
+        0.1972842253249327,
+        0.20590180657346177,
+        0.2446509360837013
+      ],
+      "bits_saved_against_train_prior": 3.0994437165174933,
+      "mean_accuracy": 0.9533404029692472
+    },
+    "topology": {
+      "mean_ce_nats": 0.13155326849979715,
+      "mean_logloss_bits": 0.18979124807739162,
+      "seed_logloss_bits": [
+        0.21702156530374225,
+        0.2020793705379079,
+        0.17586025300597646,
+        0.2055485760917575,
+        0.19907200804247108,
+        0.1669523732058947,
+        0.18488055184304017,
+        0.18481880052716151,
+        0.1617165421094358,
+        0.19996244010652878
+      ],
+      "bits_saved_against_train_prior": 3.1361518603153726,
+      "mean_accuracy": 0.9656415694591727
+    }
+  },
+  "logloss_gain": {
+    "mean_bits_per_image": 0.03670814379787912,
+    "seed_mean_bits": [
+      -0.010828225567351855,
+      0.04460413015594688,
+      0.04163899561084815,
+      0.04805112400186973,
+      0.03830082130214513,
+      0.039803954486917474,
+      0.06417145274944605,
+      0.012465424797771187,
+      0.044185264464025965,
+      0.04468849597717252
+    ],
+    "positive_seed_means": 9,
+    "total_bits_per_943_labels_mean_model": 34.615779601400014,
+    "null_predictor_logloss_bits": 3.325943108392764,
+    "meaning": "Reduction in achieved conditional label log-loss; not the difference of Shannon mutual informations or certified optimal V-information."
+  },
+  "per_class": {
+    "0": {
+      "n": 100,
+      "mean_bits_saved": 0.020546969707873012
+    },
+    "1": {
+      "n": 94,
+      "mean_bits_saved": 0.017379208319982995
+    },
+    "2": {
+      "n": 93,
+      "mean_bits_saved": -0.0038722893078177337
+    },
+    "3": {
+      "n": 105,
+      "mean_bits_saved": 0.07673322044860334
+    },
+    "4": {
+      "n": 87,
+      "mean_bits_saved": 0.015465244241105737
+    },
+    "5": {
+      "n": 81,
+      "mean_bits_saved": 0.010304214607148929
+    },
+    "6": {
+      "n": 95,
+      "mean_bits_saved": -0.058873354123764904
+    },
+    "7": {
+      "n": 90,
+      "mean_bits_saved": 0.004807550458133978
+    },
+    "8": {
+      "n": 109,
+      "mean_bits_saved": 0.062903648135796
+    },
+    "9": {
+      "n": 89,
+      "mean_bits_saved": 0.2174634340295122
+    }
+  },
+  "computation": "Stable float64 logsumexp of saved float32 logits; archived CE validated to 5e-8 nats.",
+  "sources": {
+    "runs/wdep-alpha1-20261011/result.json": "9ec0aa571ec4374f748441ed79b0f73cf5587704b69c5bc02d623059db460fbd",
+    "runs/wdep-alpha1-20261011/train_features.npz": "e8f3dc63ce45169edc133f6ee0e4ff7d476b781b6d3726bf78806c3f49398f97",
+    "runs/wdep-alpha1-20261011/wdep_features.npz": "5c55dd273c0e864f4bc775fbe6b25bb225fda3ffc82698982c4877d32ddd6382",
+    "runs/wdep-alpha1-20261011/predictions.npz": "484e6cbe470c3b9ebd0fb3d3384c03ac8ce73aaf95b9779b953e9255c191c3f7"
+  }
+}
