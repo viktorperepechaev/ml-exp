@@ -1,0 +1,89 @@
+{
+  "scope": "Exploratory paired comparison of alpha=0.3 and alpha=1 on reused TRA/CV; no held-out test evaluation.",
+  "architecture": "MLP 72→6→10 ReLU, 508 parameters",
+  "branches": [
+    "geometry",
+    "topology"
+  ],
+  "side_scales": [
+    0.3,
+    1.0
+  ],
+  "learning_rates": [
+    0.0001,
+    0.0002,
+    0.0005,
+    0.001,
+    0.002,
+    0.003,
+    0.005,
+    0.007,
+    0.01,
+    0.015,
+    0.02,
+    0.03,
+    0.05,
+    0.07,
+    0.1
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "optimizer": "AdamW",
+  "weight_decay": 0.01,
+  "batch_size": 256,
+  "max_epochs": 6000,
+  "patience": 150,
+  "improvement_tolerance": 1e-08,
+  "checkpoint_selection": "Minimum validation CE; earliest tie",
+  "rate_selection": "Maximum mean validation accuracy over seeds, then minimum mean CE, then smaller LR",
+  "comparisons": [
+    "Alpha=1 minus alpha=0.3 at every matched LR and branch",
+    "Best LR selected independently for each of four branch/scale combinations",
+    "Scale replacement at previously selected LR: geometry 0.005, topology 0.002",
+    "Topology minus geometry at each alpha, both matched LR and independently selected LR"
+  ],
+  "previous_selected_rates": {
+    "geometry": 0.005,
+    "topology": 0.002
+  },
+  "normalization": "Per-feature mean/std ddof=0 fit only to TRA; small-variance columns zeroed; alpha applied after normalization",
+  "rng": "torch.manual_seed(seed); independent permutation generator 2026092800+seed",
+  "train_n": 1934,
+  "validation_n": 946,
+  "parsed_archive_members": [
+    "optdigits-orig.tra.Z",
+    "optdigits-orig.cv.Z"
+  ],
+  "source_sha256": {
+    "tune_learning_rate.py": "399d1e737d2851ff5bb6c9b77b24db7ddcf8f3161fb6e32c7d22443f985e68ee",
+    "outputs/real_topology/optdigits_pilot.py": "e3c65756022bbabfc254b32914141b32ef4d4af521db645f2d81a51eb8f74a85",
+    "outputs/real_topology/optdigits_ablation.py": "4fd32b012448ee9e4e72919bbc7f8b34d3bb6c318b42a18e123cbf737788dfe7",
+    "outputs/tiny_topology/tiny_mlp_pilot.py": "c2e278474e4b4dffe034b39e3e2d2cd7314707fb33861b45f714822f2977f7c0",
+    "work/real_data/optdigits.zip": "0d7b054fea010270e9b3f06411c654c5e59547732ad626381980baffe0a23fb0",
+    "work/real_data/optdigits_complement_trainval_v1.npz": "1561dcb2709d4e878f1a36a20b3fea225cd0724a1340be335594d7695433a3de"
+  },
+  "runner_sha256": "a89b6ce9d4be0fa9a2afcf2f5d1df26de06e4bfce746e0542a2efaf70edb6f80",
+  "reference": {
+    "path": "runs/lr-search-20261011",
+    "protocol_sha256": "cbde599780416160b31740bfe4dcca15d6319d53a8da13cd0513c9840c2d5245",
+    "result_sha256": "032d154136e18754bb48bd21586cf11c2ad9ba297fedeaad5a80f12140b5160f"
+  },
+  "registered_utc": "2026-10-11T12:11:00.264274+00:00",
+  "arrays_sha256": "1566a4787f03864c60693b5139abb5f4363b51243dd7a3e64332163d78a43033",
+  "environment": {
+    "python": "3.12.12",
+    "torch": "2.14.0",
+    "numpy": "2.3.5",
+    "platform": "macOS-15.6-arm64-arm-64bit"
+  }
+}

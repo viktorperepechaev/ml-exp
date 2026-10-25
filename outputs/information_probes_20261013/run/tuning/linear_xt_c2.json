@@ -1,0 +1,19 @@
+{
+  "id": "linear_xt_c2",
+  "phase": "tuning",
+  "family": "linear",
+  "branch": "xt",
+  "C": 0.1,
+  "warnings": [],
+  "n_iter": [
+    92
+  ],
+  "bits": 0.15213261453296584,
+  "accuracy": 0.9778012684989429,
+  "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+  "files": {
+    ".pkl": "0d73bfb528de2cc4a183de1b1cf78dce496da5c5413534c5ec774010df86bae0",
+    ".npz": "d44bb38b9019224700854d48b3e4aa957f5b4cecb3e680133c7d128358120aa3"
+  },
+  "seconds": 0.037480916013009846
+}

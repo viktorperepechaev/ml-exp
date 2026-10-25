@@ -1,0 +1,19 @@
+{
+  "id": "linear_x_c3",
+  "phase": "tuning",
+  "family": "linear",
+  "branch": "x",
+  "C": 1.0,
+  "warnings": [],
+  "n_iter": [
+    204
+  ],
+  "bits": 0.1402324322204002,
+  "accuracy": 0.9714587737843552,
+  "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+  "files": {
+    ".pkl": "4a51b36c5f5aa0d80eff5e5bba0265a457608befe218c87416aea7c2ff9a3bcb",
+    ".npz": "af256522212966fb4f4c6e6af69c95d16e45323030a57973fc479684f40b499d"
+  },
+  "seconds": 0.07892745902063325
+}

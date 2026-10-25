@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "protocol_sha256": "5c7f3e6cb08d4114094c2e06216de8febed0d4d40beb538eee43709cf8999269",
+  "verified_models": 20,
+  "reloaded_checkpoint_logits_probabilities_predictions_exact": true,
+  "normalization_fit_to_tra_cv_only": true,
+  "identical_initial_weights_between_branches": true,
+  "fixed_weights_receipt_before_wdep_read": true,
+  "windep_parsed": false
+}

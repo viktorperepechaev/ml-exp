@@ -1,0 +1,7 @@
+{
+  "predicted_utc": "2026-10-11T12:59:00.572196+00:00",
+  "protocol_sha256": "5c7f3e6cb08d4114094c2e06216de8febed0d4d40beb538eee43709cf8999269",
+  "predictions_sha256": "484e6cbe470c3b9ebd0fb3d3384c03ac8ce73aaf95b9779b953e9255c191c3f7",
+  "metrics_computed": false,
+  "note": "Labels are parsed beside images but are not used to compute predictions."
+}

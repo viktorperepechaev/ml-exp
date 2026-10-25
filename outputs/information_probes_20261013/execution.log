@@ -1,0 +1,9 @@
+{"phase": "tuning", "done": 83, "total": 510, "seconds": 25.1}
+{"phase": "tuning", "done": 181, "total": 510, "seconds": 50.9}
+{"phase": "tuning", "done": 298, "total": 510, "seconds": 76.2}
+{"phase": "tuning", "done": 396, "total": 510, "seconds": 101.3}
+{"phase": "tuning", "done": 510, "total": 510, "seconds": 119.1}
+{"selection_complete": true, "fits": 510, "censored": 0, "warnings": 36}
+{"phase": "final", "done": 148, "total": 158, "seconds": 25.0}
+{"phase": "final", "done": 158, "total": 158, "seconds": 26.1}
+{"evaluation_complete": true, "models": 158}

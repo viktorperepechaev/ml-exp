@@ -1,0 +1,23 @@
+{
+  "family": "mlp",
+  "width": 6,
+  "branch": "xshuffle",
+  "lr": 0.01,
+  "wd": 0.01,
+  "epochs": 32,
+  "id": "mlp6_xshuffle_s19",
+  "phase": "final",
+  "seed": 19,
+  "selected_epoch": 32,
+  "epochs_run": 32,
+  "censored": false,
+  "nominal_parameters": 556,
+  "effective_parameters": 508,
+  "initial_sha256": "f23bd330275a182ff9bca0dc8d843d986ce744d76b77354dadb859eedd51a557",
+  "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+  "files": {
+    ".pt": "82acc91aea84ed83d8a5a3407b0a617a8a56c7d90393ab2d86d14ea0792195be",
+    ".npz": "d5fd117495c9c95fddef5cbedfb1a31cc59ed0d925cacb4ba487ab19f0d2680c"
+  },
+  "seconds": 0.12972291599726304
+}

@@ -1,0 +1,10 @@
+{
+  "read_utc": "2026-10-11T12:59:00.505328+00:00",
+  "protocol_sha256": "5c7f3e6cb08d4114094c2e06216de8febed0d4d40beb538eee43709cf8999269",
+  "weights_receipt_sha256": "4c5de978c59ad66899b9f54390f7b93ed35db043412ec1fd109cba1b3601c204",
+  "member": "optdigits-orig.wdep.Z",
+  "compressed_member_sha256": "a00344425906c79e59b9903a738249863805da67cfeeb27b3a2f4125e7c4926f",
+  "images": 943,
+  "features_sha256": "5c55dd273c0e864f4bc775fbe6b25bb225fda3ffc82698982c4877d32ddd6382",
+  "metrics_computed": false
+}

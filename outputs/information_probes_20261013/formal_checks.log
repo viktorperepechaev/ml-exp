@@ -1,0 +1,575 @@
+{
+  "linear_certificates": {
+    "x": {
+      "C": 1.0,
+      "n": 2880,
+      "lambda_": 0.00034722222222222224,
+      "primal_nats": 0.06099135186814404,
+      "dual_nats": 0.0609913518625121,
+      "numerical_duality_gap_nats": 5.631939359318494e-12,
+      "gradient_weight_max_abs": 2.726741279112082e-09,
+      "gradient_intercept_max_abs": 3.7010726118016876e-09,
+      "balancing_iterations": 937,
+      "dual_denominator": 1099511627776,
+      "exact_integer_dual_feasibility": true,
+      "scope": "Certificate for the regularized empirical training objective only; arithmetic evaluation in float64, not interval arithmetic. Not a population entropy or MI certificate."
+    },
+    "xg": {
+      "C": 1.0,
+      "n": 2880,
+      "lambda_": 0.00034722222222222224,
+      "primal_nats": 0.04855478985073602,
+      "dual_nats": 0.048554789846132845,
+      "numerical_duality_gap_nats": 4.6031720102313045e-12,
+      "gradient_weight_max_abs": 4.774418862497752e-09,
+      "gradient_intercept_max_abs": 1.856567720686522e-09,
+      "balancing_iterations": 917,
+      "dual_denominator": 1099511627776,
+      "exact_integer_dual_feasibility": true,
+      "scope": "Certificate for the regularized empirical training objective only; arithmetic evaluation in float64, not interval arithmetic. Not a population entropy or MI certificate."
+    },
+    "xt": {
+      "C": 1.0,
+      "n": 2880,
+      "lambda_": 0.00034722222222222224,
+      "primal_nats": 0.041977758925533265,
+      "dual_nats": 0.041977758921357224,
+      "numerical_duality_gap_nats": 4.176041457082391e-12,
+      "gradient_weight_max_abs": 3.5594439633811857e-09,
+      "gradient_intercept_max_abs": 3.2971893588371324e-09,
+      "balancing_iterations": 1213,
+      "dual_denominator": 1099511627776,
+      "exact_integer_dual_feasibility": true,
+      "scope": "Certificate for the regularized empirical training objective only; arithmetic evaluation in float64, not interval arithmetic. Not a population entropy or MI certificate."
+    },
+    "xgt": {
+      "C": 1.0,
+      "n": 2880,
+      "lambda_": 0.00034722222222222224,
+      "primal_nats": 0.036700009209791426,
+      "dual_nats": 0.036700009206448364,
+      "numerical_duality_gap_nats": 3.343061938387848e-12,
+      "gradient_weight_max_abs": 2.265234311982407e-09,
+      "gradient_intercept_max_abs": 3.5738561957830174e-09,
+      "balancing_iterations": 1357,
+      "dual_denominator": 1099511627776,
+      "exact_integer_dual_feasibility": true,
+      "scope": "Certificate for the regularized empirical training objective only; arithmetic evaluation in float64, not interval arithmetic. Not a population entropy or MI certificate."
+    }
+  },
+  "compact_models": [
+    {
+      "seed": 10,
+      "parameters": 484,
+      "wdep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.174884769072712,
+        "accuracy": 0.9628844114528102
+      },
+      "windep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.31605665302310987,
+        "accuracy": 0.9393433500278241
+      },
+      "sha256": "de273f528233f6af31ad39aaebc2809dc5b02fd025d807e99d4dd84343499846"
+    },
+    {
+      "seed": 11,
+      "parameters": 484,
+      "wdep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.22408888684874614,
+        "accuracy": 0.9554612937433722
+      },
+      "windep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.3478194829921905,
+        "accuracy": 0.9348914858096828
+      },
+      "sha256": "163edb48f85e0e028faaf5a119c1553acb98bd91f04cd55abddfa15cc95d646e"
+    },
+    {
+      "seed": 12,
+      "parameters": 484,
+      "wdep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.19542282567703162,
+        "accuracy": 0.9660657476139979
+      },
+      "windep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.23985639147239204,
+        "accuracy": 0.9482470784641068
+      },
+      "sha256": "bbdf6714f3028d4a67f95f852f3c6614c3cf7bdd4e20c15d02b2e37ce022e105"
+    },
+    {
+      "seed": 13,
+      "parameters": 484,
+      "wdep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.12544960245503048,
+        "accuracy": 0.9766702014846236
+      },
+      "windep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.23390534661340975,
+        "accuracy": 0.9526989426822482
+      },
+      "sha256": "120b393c9de53f279767c48503148cdfa4c2ce556b643217658ee5da08e78cf0"
+    },
+    {
+      "seed": 14,
+      "parameters": 484,
+      "wdep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.18022499320004423,
+        "accuracy": 0.9724284199363733
+      },
+      "windep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.3425781537644498,
+        "accuracy": 0.9371174179187535
+      },
+      "sha256": "e48da885476b1b7fe83e7761d892d92bda8d7798445b8596694f1c1cf1546a09"
+    },
+    {
+      "seed": 15,
+      "parameters": 484,
+      "wdep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.15852195334185254,
+        "accuracy": 0.9703075291622482
+      },
+      "windep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.2790455452121392,
+        "accuracy": 0.9421257651641625
+      },
+      "sha256": "760f93b0ed1490be3e6883600ffea768add86e7abb7b95068829d3f1e7c062c1"
+    },
+    {
+      "seed": 16,
+      "parameters": 484,
+      "wdep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.16944498762462398,
+        "accuracy": 0.9703075291622482
+      },
+      "windep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.2748782164731332,
+        "accuracy": 0.9493600445186422
+      },
+      "sha256": "1516d914ddca5fe0779dc2d526ed741b83bae17fb1edef840584878fbe65c7c0"
+    },
+    {
+      "seed": 17,
+      "parameters": 484,
+      "wdep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.15885905025666225,
+        "accuracy": 0.9671261930010604
+      },
+      "windep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.29203458029126017,
+        "accuracy": 0.9404563160823595
+      },
+      "sha256": "c54d7a01aa60130ef4b55916e9cef3b405e4947421409b713dfb1a43cf97c8e3"
+    },
+    {
+      "seed": 18,
+      "parameters": 484,
+      "wdep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.18135641416339782,
+        "accuracy": 0.9671261930010604
+      },
+      "windep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.2849242771032576,
+        "accuracy": 0.9432387312186978
+      },
+      "sha256": "e2f21394b6c579d4380ef2f7f28f5b4c84c327d85c740eedf6f6351bd5f4d32b"
+    },
+    {
+      "seed": 19,
+      "parameters": 484,
+      "wdep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.17373643125400973,
+        "accuracy": 0.9607635206786851
+      },
+      "windep": {
+        "max_logit_error": 0.0,
+        "predictions_identical": true,
+        "bits": 0.3065555775381924,
+        "accuracy": 0.9421257651641625
+      },
+      "sha256": "3cb1c028c9d56e997ebff3cc90ce18f6fbedf7099b7a2240333689508d4f0abc"
+    }
+  ],
+  "holes_comparisons": {
+    "xg": {
+      "wdep": {
+        "bits": {
+          "mean": 0.03634349757866374,
+          "ci95": [
+            0.00335202881657728,
+            0.06917776812191928
+          ],
+          "ci975": [
+            -0.001358261819325847,
+            0.07252727590164967
+          ],
+          "positive_seeds": 9,
+          "seeds": 10,
+          "seed_means": [
+            0.016474651092615193,
+            -0.022720324610317203,
+            0.01973202223807631,
+            0.05843140632987272,
+            0.05259444711539295,
+            0.09490460811397974,
+            0.029769625607015036,
+            0.04879402379781205,
+            0.03356921055206679,
+            0.03188530555012383
+          ],
+          "seed_sd": 0.030851658602501653,
+          "caveat": "Paired crossed bootstrap, digit-stratified images; descriptive, no writer clustering or adaptive test-reuse correction."
+        },
+        "accuracy_pp": {
+          "mean": 1.1452810180275717,
+          "ci95": [
+            0.25450689289501593,
+            2.0360551431601275
+          ],
+          "ci975": [
+            0.127253446447508,
+            2.1581389183457027
+          ],
+          "positive_seeds": 9,
+          "seeds": 10,
+          "seed_means": [
+            0.5302226935312832,
+            -1.1664899257688228,
+            1.5906680805938493,
+            1.9088016967126193,
+            2.3329798515376456,
+            2.3329798515376456,
+            0.5302226935312832,
+            1.378579003181336,
+            1.0604453870625663,
+            0.9544008483563097
+          ],
+          "seed_sd": 1.0435797981254968,
+          "caveat": "Paired crossed bootstrap, digit-stratified images; descriptive, no writer clustering or adaptive test-reuse correction."
+        },
+        "status": "Exploratory contrast inspected after the main run; no new model selection or training."
+      },
+      "windep": {
+        "bits": {
+          "mean": 0.06731682137278566,
+          "ci95": [
+            0.033772432500903796,
+            0.10273344354641158
+          ],
+          "ci975": [
+            0.029027396526050186,
+            0.10702727755959404
+          ],
+          "positive_seeds": 9,
+          "seeds": 10,
+          "seed_means": [
+            0.04942746429554859,
+            -0.002114029380253759,
+            0.10210678295695183,
+            0.08979421781519879,
+            0.09879487558627735,
+            0.04628827454963476,
+            0.06274040967352823,
+            0.06957873249450934,
+            0.11618614999836586,
+            0.04036533573809553
+          ],
+          "seed_sd": 0.03563700984080299,
+          "caveat": "Paired crossed bootstrap, digit-stratified images; descriptive, no writer clustering or adaptive test-reuse correction."
+        },
+        "accuracy_pp": {
+          "mean": 1.4079020589872009,
+          "ci95": [
+            0.6956037840845855,
+            2.125765164162493
+          ],
+          "ci975": [
+            0.5954368391764051,
+            2.2314969393433497
+          ],
+          "positive_seeds": 9,
+          "seeds": 10,
+          "seed_means": [
+            1.05731775180857,
+            -0.11129660545353366,
+            1.725097384529772,
+            2.448525319977741,
+            0.8347245409015025,
+            1.279910962715637,
+            1.8363939899833055,
+            0.6121313299944352,
+            2.559821925431274,
+            1.8363939899833055
+          ],
+          "seed_sd": 0.8357750145151706,
+          "caveat": "Paired crossed bootstrap, digit-stratified images; descriptive, no writer clustering or adaptive test-reuse correction."
+        },
+        "status": "Exploratory contrast inspected after the main run; no new model selection or training."
+      }
+    },
+    "xt": {
+      "wdep": {
+        "bits": {
+          "mean": 0.019207350452600636,
+          "ci95": [
+            -0.008606980407671959,
+            0.05710652891153753
+          ],
+          "ci975": [
+            -0.01270252733398107,
+            0.06505791852577425
+          ],
+          "positive_seeds": 7,
+          "seeds": 10,
+          "seed_means": [
+            0.0069085435717472134,
+            -0.025125055141038074,
+            -0.007312652660800327,
+            0.008024509603946697,
+            0.051713200876417474,
+            0.027896040294265043,
+            0.03159781713937174,
+            -0.00145789800932219,
+            0.05627278589672572,
+            0.04355621295469308
+          ],
+          "seed_sd": 0.027130144657946907,
+          "caveat": "Paired crossed bootstrap, digit-stratified images; descriptive, no writer clustering or adaptive test-reuse correction."
+        },
+        "accuracy_pp": {
+          "mean": 0.2863202545068929,
+          "ci95": [
+            -0.349946977730647,
+            0.944061505832446
+          ],
+          "ci975": [
+            -0.46659597030752925,
+            1.0498409331919407
+          ],
+          "positive_seeds": 7,
+          "seeds": 10,
+          "seed_means": [
+            -0.4241781548250265,
+            -1.0604453870625663,
+            0.4241781548250265,
+            -0.21208907741251326,
+            0.6362672322375398,
+            0.5302226935312832,
+            0.6362672322375398,
+            0.3181336161187699,
+            1.4846235418875928,
+            0.5302226935312832
+          ],
+          "seed_sd": 0.6981601040746567,
+          "caveat": "Paired crossed bootstrap, digit-stratified images; descriptive, no writer clustering or adaptive test-reuse correction."
+        },
+        "status": "Exploratory contrast inspected after the main run; no new model selection or training."
+      },
+      "windep": {
+        "bits": {
+          "mean": 0.04514691809105564,
+          "ci95": [
+            0.007643186860400332,
+            0.09257698103801267
+          ],
+          "ci975": [
+            0.0029169754247629883,
+            0.10429158254102437
+          ],
+          "positive_seeds": 9,
+          "seeds": 10,
+          "seed_means": [
+            0.07231648262148398,
+            -0.031866389962568485,
+            0.10822306903019539,
+            0.015423179600343893,
+            0.11974186973269947,
+            0.0051164594370305015,
+            0.02938224300466836,
+            0.009604568255232617,
+            0.057473843085004854,
+            0.06605385610646583
+          ],
+          "seed_sd": 0.04807288156907144,
+          "caveat": "Paired crossed bootstrap, digit-stratified images; descriptive, no writer clustering or adaptive test-reuse correction."
+        },
+        "accuracy_pp": {
+          "mean": 0.44518642181413465,
+          "ci95": [
+            -0.05564830272676681,
+            0.9682804674457426
+          ],
+          "ci975": [
+            -0.1335559265442403,
+            1.05731775180857
+          ],
+          "positive_seeds": 9,
+          "seeds": 10,
+          "seed_means": [
+            0.9460211463550362,
+            -0.5564830272676683,
+            0.7234279354479688,
+            0.22259321090706732,
+            0.1669449081803005,
+            0.1669449081803005,
+            0.6121313299944352,
+            0.1669449081803005,
+            1.05731775180857,
+            0.9460211463550362
+          ],
+          "seed_sd": 0.5018641906313739,
+          "caveat": "Paired crossed bootstrap, digit-stratified images; descriptive, no writer clustering or adaptive test-reuse correction."
+        },
+        "status": "Exploratory contrast inspected after the main run; no new model selection or training."
+      }
+    }
+  },
+  "raw_topology_profiles": {
+    "tra": {
+      "beta0_counts": {
+        "1": 1932,
+        "2": 2
+      },
+      "beta1_counts": {
+        "0": 1140,
+        "1": 578,
+        "2": 185,
+        "3": 19,
+        "4": 7,
+        "5": 4,
+        "6": 1
+      },
+      "fraction_holes_by_digit": {
+        "0": 0.9523809523809523,
+        "1": 0.030303030303030304,
+        "2": 0.035897435897435895,
+        "3": 0.05527638190954774,
+        "4": 0.12903225806451613,
+        "5": 0.0427807486631016,
+        "6": 0.9435897435897436,
+        "7": 0.029850746268656716,
+        "8": 0.9722222222222222,
+        "9": 0.946078431372549
+      }
+    },
+    "cv": {
+      "beta0_counts": {
+        "1": 943,
+        "2": 3
+      },
+      "beta1_counts": {
+        "0": 566,
+        "1": 276,
+        "2": 86,
+        "3": 13,
+        "4": 2,
+        "5": 3
+      },
+      "fraction_holes_by_digit": {
+        "0": 0.9655172413793104,
+        "1": 0.010309278350515464,
+        "2": 0.06521739130434782,
+        "3": 0.10588235294117647,
+        "4": 0.13157894736842105,
+        "5": 0.06481481481481481,
+        "6": 0.9425287356321839,
+        "7": 0.08333333333333333,
+        "8": 0.9560439560439561,
+        "9": 0.9101123595505618
+      }
+    },
+    "wdep": {
+      "beta0_counts": {
+        "1": 938,
+        "2": 5
+      },
+      "beta1_counts": {
+        "0": 527,
+        "1": 303,
+        "2": 98,
+        "3": 13,
+        "4": 1,
+        "5": 1
+      },
+      "fraction_holes_by_digit": {
+        "0": 0.97,
+        "1": 0.031914893617021274,
+        "2": 0.07526881720430108,
+        "3": 0.05714285714285714,
+        "4": 0.10344827586206896,
+        "5": 0.06172839506172839,
+        "6": 0.9578947368421052,
+        "7": 0.05555555555555555,
+        "8": 0.963302752293578,
+        "9": 0.9887640449438202
+      }
+    },
+    "windep": {
+      "beta0_counts": {
+        "1": 1794,
+        "2": 3
+      },
+      "beta1_counts": {
+        "0": 1014,
+        "1": 575,
+        "2": 174,
+        "3": 22,
+        "4": 8,
+        "5": 4
+      },
+      "fraction_holes_by_digit": {
+        "0": 0.9662921348314607,
+        "1": 0.027472527472527472,
+        "2": 0.06779661016949153,
+        "3": 0.04371584699453552,
+        "4": 0.23204419889502761,
+        "5": 0.04945054945054945,
+        "6": 0.9613259668508287,
+        "7": 0.08379888268156424,
+        "8": 0.9942528735632183,
+        "9": 0.9611111111111111
+      }
+    }
+  },
+  "formal_data_processing": "T1 is a deterministic projection of T: I(Y;X,T1)<=I(Y;X,T). This theorem does not require estimating MI.",
+  "code_sha256": "2ef2afcd21ebeca93393e81284cd40fa28296d49403422665f1b593eddd3ab2a"
+}

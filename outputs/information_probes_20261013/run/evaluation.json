@@ -1,0 +1,5198 @@
+{
+  "rows": [
+    {
+      "family": "linear",
+      "branch": "x",
+      "C": 1.0,
+      "id": "linear_x",
+      "phase": "final",
+      "warnings": [],
+      "n_iter": [
+        192
+      ],
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pkl": "32d6a1395759410208b08cec8b513c497cdbb0c1e334977e6fbe4544b829fc0a"
+      },
+      "seconds": 0.10168208403047174,
+      "wdep": {
+        "bits": 0.15246964455169365,
+        "accuracy": 0.9650053022269353
+      },
+      "windep": {
+        "bits": 0.2428773885468029,
+        "accuracy": 0.9499165275459098
+      },
+      "prediction_sha256": "708f743b92dd0bfc17cc6837ea556c6e86633b6ac17aeb2879c384da5c533bf2"
+    },
+    {
+      "family": "linear",
+      "branch": "xg",
+      "C": 1.0,
+      "id": "linear_xg",
+      "phase": "final",
+      "warnings": [],
+      "n_iter": [
+        186
+      ],
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pkl": "21f693072969b21ba4e201ad98d816174afbb23ba4710eff3516e81093594e7b"
+      },
+      "seconds": 0.10618391598109156,
+      "wdep": {
+        "bits": 0.11139655483957137,
+        "accuracy": 0.9745493107104984
+      },
+      "windep": {
+        "bits": 0.20354980322590518,
+        "accuracy": 0.9571508069003896
+      },
+      "prediction_sha256": "f7bf75a9537a7b591c20a303599bb8700288cd9aaf7306cbc2737cb00c487dcd"
+    },
+    {
+      "family": "linear",
+      "branch": "xgt",
+      "C": 1.0,
+      "id": "linear_xgt",
+      "phase": "final",
+      "warnings": [],
+      "n_iter": [
+        179
+      ],
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pkl": "cef9e8fa7f86edb84e6b7897d93f56c454515ae79bc2b68e1b017c73586ffbb1"
+      },
+      "seconds": 0.15535312501015142,
+      "wdep": {
+        "bits": 0.07896264660545385,
+        "accuracy": 0.9862142099681867
+      },
+      "windep": {
+        "bits": 0.160905040890657,
+        "accuracy": 0.9621591541457986
+      },
+      "prediction_sha256": "2c500bac45cf5ea73fb625873a7992785663b18d79f89eec21fc2d8530b3f74c"
+    },
+    {
+      "family": "linear",
+      "branch": "xt",
+      "C": 1.0,
+      "id": "linear_xt",
+      "phase": "final",
+      "warnings": [],
+      "n_iter": [
+        168
+      ],
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pkl": "2c17c466fa15e06cb973f264691234899ae418d9f1e08882c60880acd18b4951"
+      },
+      "seconds": 0.08779099996900186,
+      "wdep": {
+        "bits": 0.09277099686546875,
+        "accuracy": 0.9819724284199364
+      },
+      "windep": {
+        "bits": 0.15765916343460898,
+        "accuracy": 0.9638286032276016
+      },
+      "prediction_sha256": "0e6a23af20b460fe367e19fc752d058630768c31a3f960958f8ff3cc509c429c"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 151,
+      "id": "mlp128_x_s10",
+      "phase": "final",
+      "seed": 10,
+      "selected_epoch": 151,
+      "epochs_run": 151,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 9610,
+      "initial_sha256": "2195b7296cb90ab2875822e9294f93d7f8c5c1b260c5c1dcd371a111613874fd",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "6afd4decb1d4544f700d13edcd1b681caea24410b9d59e4f32c8d437835e3661",
+        ".npz": "502d745fc6267a75339c84cff8122488a9b383f94251d27a14884b1b1c3e82c6"
+      },
+      "seconds": 1.634501916996669,
+      "wdep": {
+        "bits": 0.08420309323324981,
+        "accuracy": 0.9862142099681867
+      },
+      "windep": {
+        "bits": 0.17515764221993788,
+        "accuracy": 0.9643850862548692
+      },
+      "prediction_sha256": "e811f1438cb150be617a5778ecb387a3ab2c56e9f50a210ba907546b75f9a8e9"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 151,
+      "id": "mlp128_x_s11",
+      "phase": "final",
+      "seed": 11,
+      "selected_epoch": 151,
+      "epochs_run": 151,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 9610,
+      "initial_sha256": "5158afa2f5bc93dd52bd508bfc0ba712433988e411449848d2e30c90259e48fe",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "6f70305b7095d4340684b9de53b5edeaac75eb88736d49dd4d77a437d9aca02a",
+        ".npz": "10c0f4e9411d9853508d01926b6ce70bd8177a11c1a87ea9ce32c57c6cb079ca"
+      },
+      "seconds": 1.6673726249719039,
+      "wdep": {
+        "bits": 0.09002930429901038,
+        "accuracy": 0.9830328738069989
+      },
+      "windep": {
+        "bits": 0.19496004819103896,
+        "accuracy": 0.9627156371730662
+      },
+      "prediction_sha256": "e85d4f9a385cef5747a01eb3b4bef4eb1f9d67afa8fa6c57e7ebbd0ef910c1a3"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 151,
+      "id": "mlp128_x_s12",
+      "phase": "final",
+      "seed": 12,
+      "selected_epoch": 151,
+      "epochs_run": 151,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 9610,
+      "initial_sha256": "cbf5f2645ae8554ab20b60a4fc27d2d73622ec322a6e7c19de0184f1f5fe63b0",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "52fd66122a2fb3df25edcc4ca4b76a86c5a1c42fcce1084e16fc66bfcf5c98bb",
+        ".npz": "58b62e5d3ed6392197b809b85dea69f6129365b0d626e42c7e7e5eea6f8dccd6"
+      },
+      "seconds": 1.6336618330096826,
+      "wdep": {
+        "bits": 0.0803095348192802,
+        "accuracy": 0.9840933191940615
+      },
+      "windep": {
+        "bits": 0.18030449874897633,
+        "accuracy": 0.9632721202003339
+      },
+      "prediction_sha256": "9bcd5015393a3eae142ff7f818b42e94f14207fec715504a542d17215506ec06"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 151,
+      "id": "mlp128_x_s13",
+      "phase": "final",
+      "seed": 13,
+      "selected_epoch": 151,
+      "epochs_run": 151,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 9610,
+      "initial_sha256": "b68d546b18c699c31a489b322856453a73709f4edf6862f1e602c0b52d2fa357",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "084a21f96cf6bb331bd1b82d0b5d45963d823c608739bbdec1994bbcfcfb7559",
+        ".npz": "13a6132f5dd4972505e0b74f9211df3cb4643ae17b55f32dc41ec16636100cbf"
+      },
+      "seconds": 1.5988670000224374,
+      "wdep": {
+        "bits": 0.07721605398782973,
+        "accuracy": 0.9872746553552492
+      },
+      "windep": {
+        "bits": 0.19182537863985802,
+        "accuracy": 0.9638286032276016
+      },
+      "prediction_sha256": "18c12bb37be093ff2eabc862432e9e753e9d84eb7fe4b8661307b914cffb7e45"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 151,
+      "id": "mlp128_x_s14",
+      "phase": "final",
+      "seed": 14,
+      "selected_epoch": 151,
+      "epochs_run": 151,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 9610,
+      "initial_sha256": "25dcd87d8f78c1826a6b5c364bf85c6371e42049aff9614ab3338399e68feb28",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "ea9bff48a8e39f40511835328f16e9ba7fedb36d5841444b398ed56208fe28b1",
+        ".npz": "3a5a1caacd9962b04d53a47f07682d39b981b6c1d02ae2f0e3d6aaa1ae262a88"
+      },
+      "seconds": 0.6408074580249377,
+      "wdep": {
+        "bits": 0.08848717541657018,
+        "accuracy": 0.9830328738069989
+      },
+      "windep": {
+        "bits": 0.1786799233022445,
+        "accuracy": 0.9632721202003339
+      },
+      "prediction_sha256": "c7cffdbc5408cfc915f2f95974c5ecae08c72471798566b44f6ed7ff091d9e15"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 151,
+      "id": "mlp128_x_s15",
+      "phase": "final",
+      "seed": 15,
+      "selected_epoch": 151,
+      "epochs_run": 151,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 9610,
+      "initial_sha256": "25ae8deaef457522c6bfda079a08acd4535fd3d97fe4de1fc911f248840b0e03",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "4e5ee6145516afcf991306271499f559d6b726257a049f2fa7a7265f2513274e",
+        ".npz": "2367a0c72cbd93231458319a570542c0e5f9edce42599f0af1e2b4475377419b"
+      },
+      "seconds": 0.6427430409821682,
+      "wdep": {
+        "bits": 0.08607543916495652,
+        "accuracy": 0.985153764581124
+      },
+      "windep": {
+        "bits": 0.19500399811396935,
+        "accuracy": 0.9604897050639956
+      },
+      "prediction_sha256": "41cb53c8c08fd8ff63a8109285066e33acc602053c6fcd2f9b00daaeb02c8841"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 151,
+      "id": "mlp128_x_s16",
+      "phase": "final",
+      "seed": 16,
+      "selected_epoch": 151,
+      "epochs_run": 151,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 9610,
+      "initial_sha256": "e68ff4d5b178ab84cffb1d20560ba47030fcd66721b90738b3ad3391156e2c81",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "d03de0fa0cb9cfdfdf2b14fb3b004a7aba6a4a1e030497232aa360bf21ee491e",
+        ".npz": "0332fdde22f4efe9ebeaebe40479243fd9e77f8ab2ed9c1c26254078cc7d7477"
+      },
+      "seconds": 0.6407764999894425,
+      "wdep": {
+        "bits": 0.09686384419978099,
+        "accuracy": 0.9830328738069989
+      },
+      "windep": {
+        "bits": 0.19116563728148867,
+        "accuracy": 0.9604897050639956
+      },
+      "prediction_sha256": "f02b116c2fe9e80717cf2a904088945d5f505331045beb3888549cf431a9b4c2"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 151,
+      "id": "mlp128_x_s17",
+      "phase": "final",
+      "seed": 17,
+      "selected_epoch": 151,
+      "epochs_run": 151,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 9610,
+      "initial_sha256": "d7f207a44657f66c2686bd652cfe37e59faa3410eaa35549ca690b834a61884c",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "b832cb9a7e7f6ce06eb45177b3b2f099f2c33b5d96bc9a4b4e929a1b697358f2",
+        ".npz": "a0a9e381d62515ef1905664162926186e1d36266356b00760d834fc0d1df3628"
+      },
+      "seconds": 0.642218166962266,
+      "wdep": {
+        "bits": 0.08529026807724636,
+        "accuracy": 0.9872746553552492
+      },
+      "windep": {
+        "bits": 0.18216237559296963,
+        "accuracy": 0.9649415692821369
+      },
+      "prediction_sha256": "f2231a664ff9d26d5b79e277a4234fc4f5d492c8c473c35b89f4bb4fc891f50a"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 151,
+      "id": "mlp128_x_s18",
+      "phase": "final",
+      "seed": 18,
+      "selected_epoch": 151,
+      "epochs_run": 151,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 9610,
+      "initial_sha256": "9a7d410c166029b46312ec962d441fcc054fd18649d18f62183d451242903d49",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "cbb68d685d4aa07a966f3252594f3f636ab12e0ee825899f3edf13b3243bd21e",
+        ".npz": "7e48a852bcc512594902103893d222c008a2a974a5e4126b1e6fb0c8506a1563"
+      },
+      "seconds": 0.7371971660177223,
+      "wdep": {
+        "bits": 0.09023715122237819,
+        "accuracy": 0.9830328738069989
+      },
+      "windep": {
+        "bits": 0.17639582258378347,
+        "accuracy": 0.9654980523094046
+      },
+      "prediction_sha256": "40349fa0c08b8598b25952f83d8e263457a33228301f13a8ef42094b8b4c15bc"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 151,
+      "id": "mlp128_x_s19",
+      "phase": "final",
+      "seed": 19,
+      "selected_epoch": 151,
+      "epochs_run": 151,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 9610,
+      "initial_sha256": "3893e552452acfbd9d2117eaba1e265a3b1853bd1d50ed0bd538e711be49e0ea",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "0c19e0dd17b763bd1b9359c4af46b63b1f3dce9678d0a61b9cbbde23c0618193",
+        ".npz": "ccab1eb871732ff173d6cc604d1799eb1a550630f2abb7f9dab43d011540a80c"
+      },
+      "seconds": 0.7350636249757372,
+      "wdep": {
+        "bits": 0.0844820003808815,
+        "accuracy": 0.9830328738069989
+      },
+      "windep": {
+        "bits": 0.2039063621955674,
+        "accuracy": 0.9577072899276572
+      },
+      "prediction_sha256": "75ab44dac408e912ae428aaefc0a208f2a7baed44aba53dcb77b434f66e6820b"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xg",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 124,
+      "id": "mlp128_xg_s10",
+      "phase": "final",
+      "seed": 10,
+      "selected_epoch": 124,
+      "epochs_run": 124,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "2195b7296cb90ab2875822e9294f93d7f8c5c1b260c5c1dcd371a111613874fd",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "1d6e1167706bdc640fd0d1697f088be3913203ca3eddb034f8ba488d6bafc7f9",
+        ".npz": "87e8972e606848c877a43c748dc7a67a5d579b4579917952fec1401e7202fc1c"
+      },
+      "seconds": 0.616295000014361,
+      "wdep": {
+        "bits": 0.0745178076636511,
+        "accuracy": 0.985153764581124
+      },
+      "windep": {
+        "bits": 0.1622850716908317,
+        "accuracy": 0.9677239844184753
+      },
+      "prediction_sha256": "34aa1937921632a6ceb599a11c9baebc4310fb09b7098e085a8cabcb06ad3f60"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xg",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 124,
+      "id": "mlp128_xg_s11",
+      "phase": "final",
+      "seed": 11,
+      "selected_epoch": 124,
+      "epochs_run": 124,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "5158afa2f5bc93dd52bd508bfc0ba712433988e411449848d2e30c90259e48fe",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "8d4d235f7d0295dd8d68345e9891c162e9804f706fc4333e448fcd61f12196e6",
+        ".npz": "ba05b89c4fd1e4b7fc75e836172f5069c2b8026a0c3ce64d78aa7c0044039526"
+      },
+      "seconds": 0.6323648329707794,
+      "wdep": {
+        "bits": 0.07787322816077544,
+        "accuracy": 0.9840933191940615
+      },
+      "windep": {
+        "bits": 0.16729236813693943,
+        "accuracy": 0.9671675013912076
+      },
+      "prediction_sha256": "d65c4525c1fb7871d0cf5dafb03b416d04932d40a2a1850468a5b69b61c283e6"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xg",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 124,
+      "id": "mlp128_xg_s12",
+      "phase": "final",
+      "seed": 12,
+      "selected_epoch": 124,
+      "epochs_run": 124,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "cbf5f2645ae8554ab20b60a4fc27d2d73622ec322a6e7c19de0184f1f5fe63b0",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "abc6b3cac0e379c7ab93166a354a10d1d5bd54a8872dbb695add0b4115efbbda",
+        ".npz": "3743334cc53bca403540b47814074a8a77d12ca7769ee39ef9c43e21f63c16c8"
+      },
+      "seconds": 0.5446253749541938,
+      "wdep": {
+        "bits": 0.06663478205989123,
+        "accuracy": 0.9872746553552492
+      },
+      "windep": {
+        "bits": 0.168741994494345,
+        "accuracy": 0.9654980523094046
+      },
+      "prediction_sha256": "cbd2442626fb9ab768a04a9328d1a01802cb16786faed887d52034cb614fb55a"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xg",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 124,
+      "id": "mlp128_xg_s13",
+      "phase": "final",
+      "seed": 13,
+      "selected_epoch": 124,
+      "epochs_run": 124,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "b68d546b18c699c31a489b322856453a73709f4edf6862f1e602c0b52d2fa357",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "07467124c85cec6342241cd53f3a5883965233aac4ad4593f46032065039a3e7",
+        ".npz": "e12497dada0018b05090ef5e025f85c9eeb5eb2158f0c9c71c8bda75c9b33597"
+      },
+      "seconds": 0.5577465829555877,
+      "wdep": {
+        "bits": 0.07011345058729743,
+        "accuracy": 0.985153764581124
+      },
+      "windep": {
+        "bits": 0.1759574071590754,
+        "accuracy": 0.9632721202003339
+      },
+      "prediction_sha256": "6fdcc8eb6bc33a4d1970b286d6336aea5dfa916d84855b621536e59c0b4b481e"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xg",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 124,
+      "id": "mlp128_xg_s14",
+      "phase": "final",
+      "seed": 14,
+      "selected_epoch": 124,
+      "epochs_run": 124,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "25dcd87d8f78c1826a6b5c364bf85c6371e42049aff9614ab3338399e68feb28",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "c849723cae63c84e51ddc126dd7bb3ecfc39e0e7f64f0e72ba79bfda457447f0",
+        ".npz": "b9df035cffbbe52e2c886d49c39eefba8030a5a3bae365f5e2a91acb904c3c5b"
+      },
+      "seconds": 0.5382681670016609,
+      "wdep": {
+        "bits": 0.07335728686999297,
+        "accuracy": 0.9862142099681867
+      },
+      "windep": {
+        "bits": 0.1537122457486869,
+        "accuracy": 0.9688369504730105
+      },
+      "prediction_sha256": "5d80c090a5f7d907ac4a2107b861d8621a107955df5b4cc2c02fa0b8ebebbaf7"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xg",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 124,
+      "id": "mlp128_xg_s15",
+      "phase": "final",
+      "seed": 15,
+      "selected_epoch": 124,
+      "epochs_run": 124,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "25ae8deaef457522c6bfda079a08acd4535fd3d97fe4de1fc911f248840b0e03",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "5932dc5e601a42f1976f13d10b4ac2629f93d34b750690320cb8a53f53f67f07",
+        ".npz": "3ed5495e659bbe458e28803d4f0360a022ae5bd2080c066124ad834141e81b33"
+      },
+      "seconds": 0.5322352919611149,
+      "wdep": {
+        "bits": 0.07970984899596277,
+        "accuracy": 0.9840933191940615
+      },
+      "windep": {
+        "bits": 0.16973671598005838,
+        "accuracy": 0.9632721202003339
+      },
+      "prediction_sha256": "4d0e602bcd2f89d27b32959b82b5ea7d410dcb50aac50a000a9fbef9571358b2"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xg",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 124,
+      "id": "mlp128_xg_s16",
+      "phase": "final",
+      "seed": 16,
+      "selected_epoch": 124,
+      "epochs_run": 124,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "e68ff4d5b178ab84cffb1d20560ba47030fcd66721b90738b3ad3391156e2c81",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "9b69e6f8b550d4c236dad4bd70a4513ea6d8273c769e9c5578382a54f127cb9a",
+        ".npz": "a43b49f0944e147f32a43d1612e08afc8607fac0ab502d55616d7820f46aad96"
+      },
+      "seconds": 0.5669294159743004,
+      "wdep": {
+        "bits": 0.07979547014255862,
+        "accuracy": 0.9840933191940615
+      },
+      "windep": {
+        "bits": 0.17113945292801871,
+        "accuracy": 0.9638286032276016
+      },
+      "prediction_sha256": "0b1b2d1f1c82264b76103a5f4ab324f62958293652c7374cce264100c6a0c4ae"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xg",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 124,
+      "id": "mlp128_xg_s17",
+      "phase": "final",
+      "seed": 17,
+      "selected_epoch": 124,
+      "epochs_run": 124,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "d7f207a44657f66c2686bd652cfe37e59faa3410eaa35549ca690b834a61884c",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "fad02f8d04edf670f54715b43a726a2da103e38cbfe9fe3c2ba506114ff10195",
+        ".npz": "46cbe60d8f8f050e3c0022d49fc4778cdb895a7768efb5a2cc04cc8c4c6698db"
+      },
+      "seconds": 0.5568379579926841,
+      "wdep": {
+        "bits": 0.08092169595280703,
+        "accuracy": 0.9830328738069989
+      },
+      "windep": {
+        "bits": 0.16377288390551178,
+        "accuracy": 0.9627156371730662
+      },
+      "prediction_sha256": "5f3ea89b0837c893820c43c5101f0693a552b0c862f94e79f24ac4b0e5e7df36"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xg",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 124,
+      "id": "mlp128_xg_s18",
+      "phase": "final",
+      "seed": 18,
+      "selected_epoch": 124,
+      "epochs_run": 124,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "9a7d410c166029b46312ec962d441fcc054fd18649d18f62183d451242903d49",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "1059d8a3b42fc01447aaa84381641233591f32cfa42915148ade945d992697e2",
+        ".npz": "cbf933c04ace0872a22a3f26df0d0beb93ee607935addc6596609a397a574195"
+      },
+      "seconds": 0.5600572919938713,
+      "wdep": {
+        "bits": 0.0790120961611117,
+        "accuracy": 0.985153764581124
+      },
+      "windep": {
+        "bits": 0.16711143449716678,
+        "accuracy": 0.9643850862548692
+      },
+      "prediction_sha256": "d867a3b3db4d85eec9bafceb21b6b2ab78a3697da2c29e9ecffd9d70c3505ef6"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xg",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 124,
+      "id": "mlp128_xg_s19",
+      "phase": "final",
+      "seed": 19,
+      "selected_epoch": 124,
+      "epochs_run": 124,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "3893e552452acfbd9d2117eaba1e265a3b1853bd1d50ed0bd538e711be49e0ea",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "31a582bb4e48eac4bcc4058a60718c9c66739d183ded8827e67adf2135fe7d9f",
+        ".npz": "1fbbc8aea2eca54f044d032e6b731b277753858c13192786d6447d94b313570d"
+      },
+      "seconds": 0.5515752919600345,
+      "wdep": {
+        "bits": 0.07423569645023287,
+        "accuracy": 0.9830328738069989
+      },
+      "windep": {
+        "bits": 0.17784182584511413,
+        "accuracy": 0.9632721202003339
+      },
+      "prediction_sha256": "d2ec6089f0a6e34df75c7012652a53d5236729ec2104ea9c0da88124fe0be24f"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xgt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 307,
+      "id": "mlp128_xgt_s10",
+      "phase": "final",
+      "seed": 10,
+      "selected_epoch": 307,
+      "epochs_run": 307,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 11658,
+      "initial_sha256": "2195b7296cb90ab2875822e9294f93d7f8c5c1b260c5c1dcd371a111613874fd",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "2dff7343399a1e1749c9273653edfcd383422681db745e3e2f93c5ffe83cdbef",
+        ".npz": "1f138fdee493ecf9011c545df2aaaffd08e615380ff1892c79b96bae073a89f4"
+      },
+      "seconds": 1.7663544160313904,
+      "wdep": {
+        "bits": 0.0625553627683831,
+        "accuracy": 0.9893955461293743
+      },
+      "windep": {
+        "bits": 0.13848847326925157,
+        "accuracy": 0.9699499165275459
+      },
+      "prediction_sha256": "d9e4fd8954743b0c7d790a5a404754e3cb287fdc159a8bccc1273cefc30e0e75"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xgt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 307,
+      "id": "mlp128_xgt_s11",
+      "phase": "final",
+      "seed": 11,
+      "selected_epoch": 307,
+      "epochs_run": 307,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 11658,
+      "initial_sha256": "5158afa2f5bc93dd52bd508bfc0ba712433988e411449848d2e30c90259e48fe",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "3d7356a024c4a9e8191ab369aace506a23f38f04346e54109300276030b6dee1",
+        ".npz": "8cf26218cb30cc5c7c7caf11ea085009604fba137c432639fa76e04da97b3868"
+      },
+      "seconds": 1.7997698750114068,
+      "wdep": {
+        "bits": 0.06369014208913533,
+        "accuracy": 0.9872746553552492
+      },
+      "windep": {
+        "bits": 0.13978033166003748,
+        "accuracy": 0.9682804674457429
+      },
+      "prediction_sha256": "62084ef55f8776a179683c23973c3840c3273019ca092d90042b9371672c3110"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xgt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 307,
+      "id": "mlp128_xgt_s12",
+      "phase": "final",
+      "seed": 12,
+      "selected_epoch": 307,
+      "epochs_run": 307,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 11658,
+      "initial_sha256": "cbf5f2645ae8554ab20b60a4fc27d2d73622ec322a6e7c19de0184f1f5fe63b0",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "bbb5f06e93f8dfa0bfd8ba276f2b4de30c6e2f6b72b8ff6a026c05e1dbed5e4d",
+        ".npz": "fb425e1bae2d5e9ade80ef0b8731ce3ab57ae15dbd2f62fed589453eb9b5b9cd"
+      },
+      "seconds": 1.7781498749973252,
+      "wdep": {
+        "bits": 0.061075748394812134,
+        "accuracy": 0.9883351007423118
+      },
+      "windep": {
+        "bits": 0.1282532035825945,
+        "accuracy": 0.9688369504730105
+      },
+      "prediction_sha256": "66ed63bb0668337efd2539cf46d4058ba2cccd538c89ab55c2f2168336c5b37b"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xgt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 307,
+      "id": "mlp128_xgt_s13",
+      "phase": "final",
+      "seed": 13,
+      "selected_epoch": 307,
+      "epochs_run": 307,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 11658,
+      "initial_sha256": "b68d546b18c699c31a489b322856453a73709f4edf6862f1e602c0b52d2fa357",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "c37050109423f6c78859325583e4d5a73d7f04929b2e7206b97091739ef3676f",
+        ".npz": "03900f8fc8711e39f008a7b6431c894427beb48a55e8464873ca6a226fd79b6b"
+      },
+      "seconds": 1.8007351669948548,
+      "wdep": {
+        "bits": 0.05883648086837624,
+        "accuracy": 0.9883351007423118
+      },
+      "windep": {
+        "bits": 0.13378893775112458,
+        "accuracy": 0.9688369504730105
+      },
+      "prediction_sha256": "44da48473b02ffa3a37a7e0c0d10d027ddf994431535833720bde81c84e732d2"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xgt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 307,
+      "id": "mlp128_xgt_s14",
+      "phase": "final",
+      "seed": 14,
+      "selected_epoch": 307,
+      "epochs_run": 307,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 11658,
+      "initial_sha256": "25dcd87d8f78c1826a6b5c364bf85c6371e42049aff9614ab3338399e68feb28",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "9512c0a6bf04523b1d1af00380137726ddc1f8a871571df93e4edfd22d3dcd22",
+        ".npz": "0a028b3ac0ed41ea7506609a083d9ea97e8a5b545969dc67944bc84eafd64a30"
+      },
+      "seconds": 1.5965594580047764,
+      "wdep": {
+        "bits": 0.06051636668064623,
+        "accuracy": 0.9883351007423118
+      },
+      "windep": {
+        "bits": 0.127995613469164,
+        "accuracy": 0.9699499165275459
+      },
+      "prediction_sha256": "d1c20285b3a0bd63d9f852c86e50338ba29425c7638e91fc71b8ad99d31f8140"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xgt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 307,
+      "id": "mlp128_xgt_s15",
+      "phase": "final",
+      "seed": 15,
+      "selected_epoch": 307,
+      "epochs_run": 307,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 11658,
+      "initial_sha256": "25ae8deaef457522c6bfda079a08acd4535fd3d97fe4de1fc911f248840b0e03",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "db9f8828ecb5404123e14527f04bc13c54f6f307fc6297552b3cf27db4b29997",
+        ".npz": "0b7399e369a07f9fd92e6b62f2868f1c4aa599d8ae1cebd7dbf4b43590e34c1a"
+      },
+      "seconds": 1.5501598339760676,
+      "wdep": {
+        "bits": 0.06772335489653654,
+        "accuracy": 0.9862142099681867
+      },
+      "windep": {
+        "bits": 0.14742742201144626,
+        "accuracy": 0.9666110183639399
+      },
+      "prediction_sha256": "da6af73030b12625940a4387d4ec29458c5cb5f9ddf689541a3e66ff7c81bc3c"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xgt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 307,
+      "id": "mlp128_xgt_s16",
+      "phase": "final",
+      "seed": 16,
+      "selected_epoch": 307,
+      "epochs_run": 307,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 11658,
+      "initial_sha256": "e68ff4d5b178ab84cffb1d20560ba47030fcd66721b90738b3ad3391156e2c81",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "91a2f2c457430a0cc8247d977830a6f5ba416150e2620f6bd975cb239dc12b84",
+        ".npz": "e8c0e257b4f960f29518fd7bf8303337170594080fe9e331efb61b7c1bee7814"
+      },
+      "seconds": 1.5853890840080567,
+      "wdep": {
+        "bits": 0.06351450604161588,
+        "accuracy": 0.9883351007423118
+      },
+      "windep": {
+        "bits": 0.14065697226673532,
+        "accuracy": 0.9666110183639399
+      },
+      "prediction_sha256": "96eb1d4d43f92e1cf8c66e65f5173619623f4a2d1fe7a797d46fac63c0a66014"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xgt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 307,
+      "id": "mlp128_xgt_s17",
+      "phase": "final",
+      "seed": 17,
+      "selected_epoch": 307,
+      "epochs_run": 307,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 11658,
+      "initial_sha256": "d7f207a44657f66c2686bd652cfe37e59faa3410eaa35549ca690b834a61884c",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "a9b17abd28af8c64610625d3b0f09b8e96d7ad6f391e48915d52e0c15fdc644b",
+        ".npz": "4377a056b1d21ef097e5d300c93ac07190112f5ac0b65f5b127c333e30394aad"
+      },
+      "seconds": 1.509472208970692,
+      "wdep": {
+        "bits": 0.06130821308874169,
+        "accuracy": 0.9862142099681867
+      },
+      "windep": {
+        "bits": 0.13549477538333604,
+        "accuracy": 0.9677239844184753
+      },
+      "prediction_sha256": "539a78006c452c15d42924099a4ffe692f42c2aa2797428315a1b1cc0704c3c8"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xgt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 307,
+      "id": "mlp128_xgt_s18",
+      "phase": "final",
+      "seed": 18,
+      "selected_epoch": 307,
+      "epochs_run": 307,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 11658,
+      "initial_sha256": "9a7d410c166029b46312ec962d441fcc054fd18649d18f62183d451242903d49",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "ccd4db3aa50fe72c63703654f7bf198374f83a07bc87244219ca7e1710db3bad",
+        ".npz": "611ac417b5a910d21fd952390ba95fd6f8c6dd453d673cdd2ded30e28a8c7341"
+      },
+      "seconds": 1.4899346249876544,
+      "wdep": {
+        "bits": 0.06537991731067895,
+        "accuracy": 0.9862142099681867
+      },
+      "windep": {
+        "bits": 0.12299752150946656,
+        "accuracy": 0.9727323316638843
+      },
+      "prediction_sha256": "6bc96f11c2f5a456bca66346dc71f2f03d866781e8ebdd6fd229cd7743b08bff"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xgt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 307,
+      "id": "mlp128_xgt_s19",
+      "phase": "final",
+      "seed": 19,
+      "selected_epoch": 307,
+      "epochs_run": 307,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 11658,
+      "initial_sha256": "3893e552452acfbd9d2117eaba1e265a3b1853bd1d50ed0bd538e711be49e0ea",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "2840ac3a2d6f622518041db9240014768b483c40b30733b9cc7452521b80f27a",
+        ".npz": "bf1a057ab7f4227a13902e6048849d582f3f33fa715370f9dea1aff923b5d3e5"
+      },
+      "seconds": 1.4973475830047391,
+      "wdep": {
+        "bits": 0.06291987408613384,
+        "accuracy": 0.9872746553552492
+      },
+      "windep": {
+        "bits": 0.14295977635322282,
+        "accuracy": 0.9666110183639399
+      },
+      "prediction_sha256": "32ad92a8219c887505660cf50686852692e662029b04092d6789024ebd0240eb"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 306,
+      "id": "mlp128_xt_s10",
+      "phase": "final",
+      "seed": 10,
+      "selected_epoch": 306,
+      "epochs_run": 306,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "2195b7296cb90ab2875822e9294f93d7f8c5c1b260c5c1dcd371a111613874fd",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "5be17a58145acd1afc8059eec0e1fdd4d85a1350193de24c2c3fe4020821c4c7",
+        ".npz": "2c83b48be1afb3cb02ff52872063b93748af520da0563625452c5f45d93b44f6"
+      },
+      "seconds": 1.4784731660038233,
+      "wdep": {
+        "bits": 0.07472120549650256,
+        "accuracy": 0.9840933191940615
+      },
+      "windep": {
+        "bits": 0.13338789128405854,
+        "accuracy": 0.9693934335002783
+      },
+      "prediction_sha256": "f0c1639e80a65dbb75742fb848348c94012c3a2b5e98bb1ac4d1e30484e9d239"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 306,
+      "id": "mlp128_xt_s11",
+      "phase": "final",
+      "seed": 11,
+      "selected_epoch": 306,
+      "epochs_run": 306,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "5158afa2f5bc93dd52bd508bfc0ba712433988e411449848d2e30c90259e48fe",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "3b7d5c5d17abd59ea5d5ee66e4ab83ea0aeb79c4fcc98d8c4f79460c7d14c7e2",
+        ".npz": "9095750ab7bc7909bd0dab7e798dbbf127a53d4729f8c810f6aaea4e09199c50"
+      },
+      "seconds": 1.5181667910073884,
+      "wdep": {
+        "bits": 0.07212563429118733,
+        "accuracy": 0.985153764581124
+      },
+      "windep": {
+        "bits": 0.14067592307181817,
+        "accuracy": 0.9682804674457429
+      },
+      "prediction_sha256": "d9ef80144d00bbc159adb1de864ce546e6edba40c27fdd443a3bb7e8846a1995"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 306,
+      "id": "mlp128_xt_s12",
+      "phase": "final",
+      "seed": 12,
+      "selected_epoch": 306,
+      "epochs_run": 306,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "cbf5f2645ae8554ab20b60a4fc27d2d73622ec322a6e7c19de0184f1f5fe63b0",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "a8b31dd913826676c4aee19e85d52923f2d2563af57f738b4761721d646d5eec",
+        ".npz": "3684c671eaaf9acd7497510fa330e35cefe78ddc3756d368c9032fd944b8a4f4"
+      },
+      "seconds": 1.4129263749928214,
+      "wdep": {
+        "bits": 0.06440454171840472,
+        "accuracy": 0.9862142099681867
+      },
+      "windep": {
+        "bits": 0.13462439975327936,
+        "accuracy": 0.9710628825820813
+      },
+      "prediction_sha256": "f5871e17de66d99f15952518d75b46b61663572144be81dc573e55a0803aa376"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 306,
+      "id": "mlp128_xt_s13",
+      "phase": "final",
+      "seed": 13,
+      "selected_epoch": 306,
+      "epochs_run": 306,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "b68d546b18c699c31a489b322856453a73709f4edf6862f1e602c0b52d2fa357",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "98d615ac07574144f8d86764b91f7a03f07433bb1e5cc5694bea296d50f0ed43",
+        ".npz": "c2d54818f723ae368d12ff504714fed63303aa6d1ed35ccc738abdb247988b3c"
+      },
+      "seconds": 1.4208649169886485,
+      "wdep": {
+        "bits": 0.06596527221662175,
+        "accuracy": 0.9883351007423118
+      },
+      "windep": {
+        "bits": 0.13721692351359935,
+        "accuracy": 0.9682804674457429
+      },
+      "prediction_sha256": "7a47adda5d931c737960e56df4a29edd60faa7d61d71c2d526f69f0b81526dce"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 306,
+      "id": "mlp128_xt_s14",
+      "phase": "final",
+      "seed": 14,
+      "selected_epoch": 306,
+      "epochs_run": 306,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "25dcd87d8f78c1826a6b5c364bf85c6371e42049aff9614ab3338399e68feb28",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "bf1b31c145b4f53a443178dfa797136a01475f6640a360525b8b14f3211810b5",
+        ".npz": "c7be70eeea281b7dc23f00d7b7ea9ce1a9294d0d9245ef74390a6200c81913ae"
+      },
+      "seconds": 1.3846778329461813,
+      "wdep": {
+        "bits": 0.06496172358521769,
+        "accuracy": 0.9862142099681867
+      },
+      "windep": {
+        "bits": 0.12590135609013248,
+        "accuracy": 0.9727323316638843
+      },
+      "prediction_sha256": "c666a618e665af1888f7627f29de2f390b25b5c60d2446e9527cd7efe9f16df1"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 306,
+      "id": "mlp128_xt_s15",
+      "phase": "final",
+      "seed": 15,
+      "selected_epoch": 306,
+      "epochs_run": 306,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "25ae8deaef457522c6bfda079a08acd4535fd3d97fe4de1fc911f248840b0e03",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "40484112ad419b654e56003fc1476edd6ac4c70e8efca5717925f68b24627e4d",
+        ".npz": "86d4eb629b28825fe304dc8d1467a145bec31001a15c254b5a75ab314fdd31cc"
+      },
+      "seconds": 1.3870279580005445,
+      "wdep": {
+        "bits": 0.0688504181981054,
+        "accuracy": 0.985153764581124
+      },
+      "windep": {
+        "bits": 0.13391370490047694,
+        "accuracy": 0.9693934335002783
+      },
+      "prediction_sha256": "b0af3d5a35de31f542c4e3ba57d4724f1517c99936b89daa7d1eb88c4bbba2b5"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 306,
+      "id": "mlp128_xt_s16",
+      "phase": "final",
+      "seed": 16,
+      "selected_epoch": 306,
+      "epochs_run": 306,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "e68ff4d5b178ab84cffb1d20560ba47030fcd66721b90738b3ad3391156e2c81",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "a9e1f1d3cf63e018f19f2a442e7ade04c957b8095648c5728614be29ead4ef88",
+        ".npz": "d1f285535ceea67852411773e7ebe241702652ffd567823d73904b10cac715f8"
+      },
+      "seconds": 1.26989166601561,
+      "wdep": {
+        "bits": 0.07328311615526127,
+        "accuracy": 0.9862142099681867
+      },
+      "windep": {
+        "bits": 0.1440979709777559,
+        "accuracy": 0.9666110183639399
+      },
+      "prediction_sha256": "86d7c230c63308fd4c92395ef5c96bfac78768d3267db10a7f48017afd992489"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 306,
+      "id": "mlp128_xt_s17",
+      "phase": "final",
+      "seed": 17,
+      "selected_epoch": 306,
+      "epochs_run": 306,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "d7f207a44657f66c2686bd652cfe37e59faa3410eaa35549ca690b834a61884c",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "df8be8c3415ef483c8ebe76125be980aa6f5f52bdcde905ca23014c3ae6a06ff",
+        ".npz": "8d84656fae24521baa40f0c9eba72e7078a4856c071f9959e10a09f0627c0bd7"
+      },
+      "seconds": 1.2763638329925016,
+      "wdep": {
+        "bits": 0.07570769218755717,
+        "accuracy": 0.985153764581124
+      },
+      "windep": {
+        "bits": 0.14495969020087124,
+        "accuracy": 0.9682804674457429
+      },
+      "prediction_sha256": "000c462af6ac6b8c30e1349badf0f7554125c5ce5f3aa17970122bcfee2fdfeb"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 306,
+      "id": "mlp128_xt_s18",
+      "phase": "final",
+      "seed": 18,
+      "selected_epoch": 306,
+      "epochs_run": 306,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "9a7d410c166029b46312ec962d441fcc054fd18649d18f62183d451242903d49",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "f5519b66a2e62845439aa8a921cfaed8ad41f90ef70a5ed75750523cc9960a49",
+        ".npz": "b2230345ccbae1f9cb1a8971913a665810fef2f40cb5f7ef0fe7781d33de4ed8"
+      },
+      "seconds": 1.2459961250424385,
+      "wdep": {
+        "bits": 0.07434447123582151,
+        "accuracy": 0.985153764581124
+      },
+      "windep": {
+        "bits": 0.13926712527266696,
+        "accuracy": 0.9693934335002783
+      },
+      "prediction_sha256": "0de5399a33e2b0a76a37405ee6468201be1fdc771bf2e17923470797304bddeb"
+    },
+    {
+      "family": "mlp",
+      "width": 128,
+      "branch": "xt",
+      "lr": 0.0003,
+      "wd": 0.01,
+      "epochs": 306,
+      "id": "mlp128_xt_s19",
+      "phase": "final",
+      "seed": 19,
+      "selected_epoch": 306,
+      "epochs_run": 306,
+      "censored": false,
+      "nominal_parameters": 11658,
+      "effective_parameters": 10634,
+      "initial_sha256": "3893e552452acfbd9d2117eaba1e265a3b1853bd1d50ed0bd538e711be49e0ea",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "0dae314a4fcc6505f68cebc51705f791d32359984ff505e6f7f19a6e40abf46f",
+        ".npz": "b15212b0fc468efc8e7a8aa74e84c683d8843c9a15439727f7ce1acf9a106a58"
+      },
+      "seconds": 1.269633999967482,
+      "wdep": {
+        "bits": 0.06546298086123065,
+        "accuracy": 0.9862142099681867
+      },
+      "windep": {
+        "bits": 0.1334462025296517,
+        "accuracy": 0.9688369504730105
+      },
+      "prediction_sha256": "d2b18d82a65de2a578e7bc369122d74fcae640ae839a7101db5e42645b787a13"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 152,
+      "id": "mlp32_x_s10",
+      "phase": "final",
+      "seed": 10,
+      "selected_epoch": 152,
+      "epochs_run": 152,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2410,
+      "initial_sha256": "964564f83fceacaa2535db9d02def74640a969272e667846264520ed10333613",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "802b0e4dc5cd1722c980a8f45442a8e6ea172c82dd098635d230d9754d32c8f0",
+        ".npz": "9eca6bcbbca5fdf2cb223689f58d3c71d956da7e561657179b3aef695fcb5ebc"
+      },
+      "seconds": 0.5434727079700679,
+      "wdep": {
+        "bits": 0.10039967766523916,
+        "accuracy": 0.9798515376458112
+      },
+      "windep": {
+        "bits": 0.1963580734090761,
+        "accuracy": 0.9577072899276572
+      },
+      "prediction_sha256": "df875b90b1942635978cc3655711016eb7f92819b445dd2745871c55f178f882"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 152,
+      "id": "mlp32_x_s11",
+      "phase": "final",
+      "seed": 11,
+      "selected_epoch": 152,
+      "epochs_run": 152,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2410,
+      "initial_sha256": "df493db3bcfde1e0b4899f972f232258fad8e6e8f45b3cbda6edea2d18d14239",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "1926c5fbaaca370f6b6768955e83e4c47b05de93d5546126d81bba76414931c4",
+        ".npz": "103bc4e16ccf8be8a174d8fe2efe2aed62334dfa3db214a72c662be731b91d57"
+      },
+      "seconds": 0.5379449580213986,
+      "wdep": {
+        "bits": 0.10994511160923572,
+        "accuracy": 0.9777306468716861
+      },
+      "windep": {
+        "bits": 0.20460600330494347,
+        "accuracy": 0.9554813578185866
+      },
+      "prediction_sha256": "fc5731a2ae43af7348b9e48198010d5057524f9d671c9b2af385ede1d46b7bae"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 152,
+      "id": "mlp32_x_s12",
+      "phase": "final",
+      "seed": 12,
+      "selected_epoch": 152,
+      "epochs_run": 152,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2410,
+      "initial_sha256": "fadedf27f3a11de5ad06777623b554fa3af74c9007445f71970887a2ad34bd79",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "7f29cb313e91834f05001fc212735194c91e59984b860b1aee2b447a2c3963d8",
+        ".npz": "bde2708b29235e9d7286a9ac0c65418d9a6f3ce53e81abe7c00e755cf2fb93c7"
+      },
+      "seconds": 0.5361622920027003,
+      "wdep": {
+        "bits": 0.10168797591652022,
+        "accuracy": 0.9830328738069989
+      },
+      "windep": {
+        "bits": 0.18371172089470636,
+        "accuracy": 0.9616026711185309
+      },
+      "prediction_sha256": "5a2e4b298e2a4b0e73fffff3ff5c94bc234862639136e11df93f1995ebb93ead"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 152,
+      "id": "mlp32_x_s13",
+      "phase": "final",
+      "seed": 13,
+      "selected_epoch": 152,
+      "epochs_run": 152,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2410,
+      "initial_sha256": "5087c942449665e7eab2765d1c68d7765a57dd201ad8776a55b87bed91395713",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "01ded201fc38845b0c2d95f13b53b363a2a685987224993bbbfee58276b18c4c",
+        ".npz": "d0f6926b125e98f4b33a447c0930d70b48c35245c1f652be79dc6844c07f7766"
+      },
+      "seconds": 0.5317546249716543,
+      "wdep": {
+        "bits": 0.1037858654039624,
+        "accuracy": 0.9777306468716861
+      },
+      "windep": {
+        "bits": 0.22238968284846763,
+        "accuracy": 0.9526989426822482
+      },
+      "prediction_sha256": "0d853139c6dc8f943588b9cb32e55bcff17cc63a7f3ad2eff267b14440d9db1e"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 152,
+      "id": "mlp32_x_s14",
+      "phase": "final",
+      "seed": 14,
+      "selected_epoch": 152,
+      "epochs_run": 152,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2410,
+      "initial_sha256": "34fb3f68e2cc62fd5861a47d0bdbdc0a751ba61826b96965a39167c6df62a392",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "b68ab4132803b113e5f2392f8585abf5500748e9dddb4ebf68671afdea15c499",
+        ".npz": "bedf98c3f0c5a0e99ed49192010f35b30bd796bec3d5ad1c0f4e162084231d48"
+      },
+      "seconds": 0.5380191250005737,
+      "wdep": {
+        "bits": 0.10619910929818617,
+        "accuracy": 0.9798515376458112
+      },
+      "windep": {
+        "bits": 0.20649359597147268,
+        "accuracy": 0.9571508069003896
+      },
+      "prediction_sha256": "76c713dfbf2ca1913d0e27d158e89cc074b578a4f1582b754bec0a8155ea2133"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 152,
+      "id": "mlp32_x_s15",
+      "phase": "final",
+      "seed": 15,
+      "selected_epoch": 152,
+      "epochs_run": 152,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2410,
+      "initial_sha256": "bea494f320d46f65e499e8aab6e42a882df25a98185d3f8d908d1303e4eb415b",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "ef69fb52ae2209c1c197542f944a3cf510fbfa19ab79ce53e734c2fd48c8c0ef",
+        ".npz": "a39b8944eb68c9cae09a15cb4511e6dcac8f5dd879fb6e99e1f04edb0f2cb1ea"
+      },
+      "seconds": 0.5338992920005694,
+      "wdep": {
+        "bits": 0.11815112562180985,
+        "accuracy": 0.9777306468716861
+      },
+      "windep": {
+        "bits": 0.22498882022986993,
+        "accuracy": 0.9549248747913188
+      },
+      "prediction_sha256": "cd2a1f3bbc15e3d61f6520e62939b1817ffa119c57a468498db340214c51be40"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 152,
+      "id": "mlp32_x_s16",
+      "phase": "final",
+      "seed": 16,
+      "selected_epoch": 152,
+      "epochs_run": 152,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2410,
+      "initial_sha256": "d041bce62016daa99679431628921adcb002ba818b2d4d1d0bfd7976f3ea7c8e",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "d7a978332b943757c64fa37ceb74ecae675d25a968f4f06b4018e331f3c4a1e8",
+        ".npz": "c61ffbc58b61f9586a4314510b2619d0b02dc755e9310320477471c621065cf6"
+      },
+      "seconds": 0.5275611249962822,
+      "wdep": {
+        "bits": 0.10041842424815875,
+        "accuracy": 0.9819724284199364
+      },
+      "windep": {
+        "bits": 0.2046041842769459,
+        "accuracy": 0.9543683917640512
+      },
+      "prediction_sha256": "f117ab6c39a7c95407dfdff2b19b220dbd2c5d9364f75b4e1c0151db70f70349"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 152,
+      "id": "mlp32_x_s17",
+      "phase": "final",
+      "seed": 17,
+      "selected_epoch": 152,
+      "epochs_run": 152,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2410,
+      "initial_sha256": "b1d6d961ee449fcb7463769c92ab3ab0f0c8c6ffecdf5b878c5c70dccf637e4b",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "7600cf15dd4d37a67e46cbb8f98a8e32ac610747eb6838e8796c47dcc92509a5",
+        ".npz": "ebe427040b4bdc736cf1a9d4c10ab747ba91a8b2e84539390851c18f2f7702c5"
+      },
+      "seconds": 0.52201374998549,
+      "wdep": {
+        "bits": 0.10139529382411527,
+        "accuracy": 0.9766702014846236
+      },
+      "windep": {
+        "bits": 0.20228727906757699,
+        "accuracy": 0.9599332220367279
+      },
+      "prediction_sha256": "91817bc83e57e1a0aea3d3b9b0f3b0dd1d915ffa6ecefdcb59296a6bedb6699f"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 152,
+      "id": "mlp32_x_s18",
+      "phase": "final",
+      "seed": 18,
+      "selected_epoch": 152,
+      "epochs_run": 152,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2410,
+      "initial_sha256": "2cb05776d946a7b76601a765dd2232a3596cd49745a0d73dc2367a74fd2aa256",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "4ebd624c0219edb1c2349ceef252bc73cb499823b87b1177a2037388936896f6",
+        ".npz": "b68ff5a14f5e5abe46d09d0b7a69e616bf381a6caf62ba5081e0abbe695634dc"
+      },
+      "seconds": 0.5187203749665059,
+      "wdep": {
+        "bits": 0.10665323134665877,
+        "accuracy": 0.9819724284199364
+      },
+      "windep": {
+        "bits": 0.22291661880102834,
+        "accuracy": 0.9532554257095158
+      },
+      "prediction_sha256": "8a1f82504a05d3775200045c894f8da173547c09f57e0bd6c3490ff290b05d21"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "x",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 152,
+      "id": "mlp32_x_s19",
+      "phase": "final",
+      "seed": 19,
+      "selected_epoch": 152,
+      "epochs_run": 152,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2410,
+      "initial_sha256": "11d29c78bf7e0eadc094b0d4c39aa5998fc803d39e4d2d07b79be3dacb20e02a",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "07f0d13d0bf169a998dcd7743e632bea363a012f5ca86726201cab24fdfaf535",
+        ".npz": "94438b1b5a52552ee15dd08f5c2fbb8cc2d72ae64d612421f16067db14ac1eea"
+      },
+      "seconds": 0.5184574169688858,
+      "wdep": {
+        "bits": 0.11185805950830456,
+        "accuracy": 0.9766702014846236
+      },
+      "windep": {
+        "bits": 0.1818588484441498,
+        "accuracy": 0.9638286032276016
+      },
+      "prediction_sha256": "5fdc5b5fae333792583c52eebf3dd36e8ea8209594d8a93c42aefcd54a3dcccb"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xg",
+      "lr": 0.0003,
+      "wd": 0.0,
+      "epochs": 449,
+      "id": "mlp32_xg_s10",
+      "phase": "final",
+      "seed": 10,
+      "selected_epoch": 449,
+      "epochs_run": 449,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "964564f83fceacaa2535db9d02def74640a969272e667846264520ed10333613",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "8f7f8770b7edb35ce0c8f9468108dc0d19ccdd7d12d2f6143d923b9a5098ca7e",
+        ".npz": "f6a7edc8c65ca5170fb5b6f9bc1d0d238efd2e88d6601e56e5d1a016fd4b1198"
+      },
+      "seconds": 1.4837641660124063,
+      "wdep": {
+        "bits": 0.08301963118308006,
+        "accuracy": 0.985153764581124
+      },
+      "windep": {
+        "bits": 0.19885509474985102,
+        "accuracy": 0.9604897050639956
+      },
+      "prediction_sha256": "52234b1caac4bfb3246709329786ebafc67bccde8d98351150bd232995e5d11d"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xg",
+      "lr": 0.0003,
+      "wd": 0.0,
+      "epochs": 449,
+      "id": "mlp32_xg_s11",
+      "phase": "final",
+      "seed": 11,
+      "selected_epoch": 449,
+      "epochs_run": 449,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "df493db3bcfde1e0b4899f972f232258fad8e6e8f45b3cbda6edea2d18d14239",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "f4965175f3ae225b7a248cb39d84e4bbf2b503d3948ef8a53df99b7c3205b754",
+        ".npz": "ce5481175dcf56a389ef702de19e235d1eea375def34bd4c1b2694aec0a993eb"
+      },
+      "seconds": 1.458411082974635,
+      "wdep": {
+        "bits": 0.10039584983747656,
+        "accuracy": 0.9787910922587487
+      },
+      "windep": {
+        "bits": 0.18498413238874822,
+        "accuracy": 0.9604897050639956
+      },
+      "prediction_sha256": "19a82891fc378744f954ec261fa43725100ae6f98eb0ba8cf8d151f8235d29e7"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xg",
+      "lr": 0.0003,
+      "wd": 0.0,
+      "epochs": 449,
+      "id": "mlp32_xg_s12",
+      "phase": "final",
+      "seed": 12,
+      "selected_epoch": 449,
+      "epochs_run": 449,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "fadedf27f3a11de5ad06777623b554fa3af74c9007445f71970887a2ad34bd79",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "6c9bbd82f98d56c293fd85eca883936fcfc4a1725fcdebc7ade6243aaeb0ecc8",
+        ".npz": "df017dd858057206986b7e52d28a3a3a8434a224bb64ae7c9d77ea70006b1208"
+      },
+      "seconds": 1.4926577089936472,
+      "wdep": {
+        "bits": 0.08486497173584075,
+        "accuracy": 0.9840933191940615
+      },
+      "windep": {
+        "bits": 0.18573358518772165,
+        "accuracy": 0.9627156371730662
+      },
+      "prediction_sha256": "3a34345853d63efeb7b48d5d1fc275274e1191d05e65a839b6dff1f1593bfac9"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xg",
+      "lr": 0.0003,
+      "wd": 0.0,
+      "epochs": 449,
+      "id": "mlp32_xg_s13",
+      "phase": "final",
+      "seed": 13,
+      "selected_epoch": 449,
+      "epochs_run": 449,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "5087c942449665e7eab2765d1c68d7765a57dd201ad8776a55b87bed91395713",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "cf167d552d9b418fb5d77c112dedb4d92a6f7d24da18d0f5c56295dd5df58d39",
+        ".npz": "749c56a7cad2bd294664edfc91a19bd8c678095945bdba21271510a1686ab259"
+      },
+      "seconds": 1.4818723749485798,
+      "wdep": {
+        "bits": 0.08742134339479239,
+        "accuracy": 0.9840933191940615
+      },
+      "windep": {
+        "bits": 0.19030349432477692,
+        "accuracy": 0.9588202559821926
+      },
+      "prediction_sha256": "6e398cc85dee72a675fbf68ead379a03605886a15109eb12d616b3c2950a21af"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xg",
+      "lr": 0.0003,
+      "wd": 0.0,
+      "epochs": 449,
+      "id": "mlp32_xg_s14",
+      "phase": "final",
+      "seed": 14,
+      "selected_epoch": 449,
+      "epochs_run": 449,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "34fb3f68e2cc62fd5861a47d0bdbdc0a751ba61826b96965a39167c6df62a392",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "bf3322eb5f5cd63d3f57c65fedce9f9f7177024d69086c55a94de35d4720d9c8",
+        ".npz": "a2cda56ee4bbfb341077dc9f09a20e2aa7aa69c13e4aedcb94f8e30f2f1189cd"
+      },
+      "seconds": 1.5358617080491967,
+      "wdep": {
+        "bits": 0.08400544943718301,
+        "accuracy": 0.9819724284199364
+      },
+      "windep": {
+        "bits": 0.18404077362828292,
+        "accuracy": 0.9610461880912632
+      },
+      "prediction_sha256": "a7978fd0790296f68662acc3fa44c2ece1ce990f5929401f9f83cef328830d34"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xg",
+      "lr": 0.0003,
+      "wd": 0.0,
+      "epochs": 449,
+      "id": "mlp32_xg_s15",
+      "phase": "final",
+      "seed": 15,
+      "selected_epoch": 449,
+      "epochs_run": 449,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "bea494f320d46f65e499e8aab6e42a882df25a98185d3f8d908d1303e4eb415b",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "ecf07281f870a5c02c9b87fecf5bf2dc7e4e4222874593b561729db1641ad5ed",
+        ".npz": "67bd86c8ed10a8e6cdee0e4ba73a4d5c869b8bcf97774d0c8075c24cd42ce38f"
+      },
+      "seconds": 1.5473443749942817,
+      "wdep": {
+        "bits": 0.10202497454877317,
+        "accuracy": 0.9787910922587487
+      },
+      "windep": {
+        "bits": 0.19374724222334258,
+        "accuracy": 0.9627156371730662
+      },
+      "prediction_sha256": "a61e810efbaf0d6a6db6fcc86b338cd56ad777ec473ae57a8e33245a1a6021e4"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xg",
+      "lr": 0.0003,
+      "wd": 0.0,
+      "epochs": 449,
+      "id": "mlp32_xg_s16",
+      "phase": "final",
+      "seed": 16,
+      "selected_epoch": 449,
+      "epochs_run": 449,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "d041bce62016daa99679431628921adcb002ba818b2d4d1d0bfd7976f3ea7c8e",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "8323b83f47fb052fda1b3be0f02dabea26e8e31f02193de75fa0195031787598",
+        ".npz": "1c7be2870f284864f54f788e98ea5d423abdbb4b260cd6b17fe14424cba08a74"
+      },
+      "seconds": 1.5778458749991842,
+      "wdep": {
+        "bits": 0.09216023026275866,
+        "accuracy": 0.9830328738069989
+      },
+      "windep": {
+        "bits": 0.17662711739073716,
+        "accuracy": 0.9554813578185866
+      },
+      "prediction_sha256": "336d907a39250a2de840c814979149506445920393dc94ce111e4583ac46e1da"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xg",
+      "lr": 0.0003,
+      "wd": 0.0,
+      "epochs": 449,
+      "id": "mlp32_xg_s17",
+      "phase": "final",
+      "seed": 17,
+      "selected_epoch": 449,
+      "epochs_run": 449,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "b1d6d961ee449fcb7463769c92ab3ab0f0c8c6ffecdf5b878c5c70dccf637e4b",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "8f3242fe79f29e46f4dc0c36839105d174f8f9d4673a9c5e158ba29c1ab299fd",
+        ".npz": "d7a6da5e597a90b30b244edb65d73307e52777b9b0adcaac00e1893450b2d02d"
+      },
+      "seconds": 1.5926489160046913,
+      "wdep": {
+        "bits": 0.07712020129442898,
+        "accuracy": 0.9830328738069989
+      },
+      "windep": {
+        "bits": 0.19820912775300692,
+        "accuracy": 0.9577072899276572
+      },
+      "prediction_sha256": "e8bc5bf66d1497983272253316056622317e1ed97deb9b8f60ab481eb3ad5166"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xg",
+      "lr": 0.0003,
+      "wd": 0.0,
+      "epochs": 449,
+      "id": "mlp32_xg_s18",
+      "phase": "final",
+      "seed": 18,
+      "selected_epoch": 449,
+      "epochs_run": 449,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "2cb05776d946a7b76601a765dd2232a3596cd49745a0d73dc2367a74fd2aa256",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "1bb1860461d9523f3900e08c6de106fd2e6caa192f9511a5794ce28ef1b08325",
+        ".npz": "613a3258a554ae6d15b679607deeb6094ea961ea7f28d617eadc4067c072d7b2"
+      },
+      "seconds": 1.5111799159785733,
+      "wdep": {
+        "bits": 0.09142728318480725,
+        "accuracy": 0.9830328738069989
+      },
+      "windep": {
+        "bits": 0.18124537791254428,
+        "accuracy": 0.9627156371730662
+      },
+      "prediction_sha256": "855a86896ef37612b9d51b6a15a2ed43c11095b47862f0b73ad57f583340e3a0"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xg",
+      "lr": 0.0003,
+      "wd": 0.0,
+      "epochs": 449,
+      "id": "mlp32_xg_s19",
+      "phase": "final",
+      "seed": 19,
+      "selected_epoch": 449,
+      "epochs_run": 449,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "11d29c78bf7e0eadc094b0d4c39aa5998fc803d39e4d2d07b79be3dacb20e02a",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "2fd045c172155e9128289c8b63948dc7e38a7e4e7b16c2a976d7cd995f395a48",
+        ".npz": "018dc56640a3e57cdda7ec5756b90b363e70ffa0112dc15ef9eb41f9a98da267"
+      },
+      "seconds": 1.4821903749834746,
+      "wdep": {
+        "bits": 0.0908291557980896,
+        "accuracy": 0.9809119830328739
+      },
+      "windep": {
+        "bits": 0.19868916012480844,
+        "accuracy": 0.9604897050639956
+      },
+      "prediction_sha256": "99985e9849af46200fc2f3761215266f528356e2a88cb189818aec818cb741d3"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xgt",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 155,
+      "id": "mlp32_xgt_s10",
+      "phase": "final",
+      "seed": 10,
+      "selected_epoch": 155,
+      "epochs_run": 155,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2922,
+      "initial_sha256": "964564f83fceacaa2535db9d02def74640a969272e667846264520ed10333613",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "bc3feb6ff7ff178db04273d8bd164e1a0d7c957c6bb66d4ff01e5a5df4a305ba",
+        ".npz": "4775342127b78258c80218e023fc0e83342dc573e568482a6e610ec3867a8042"
+      },
+      "seconds": 0.53809170803288,
+      "wdep": {
+        "bits": 0.07296054097774456,
+        "accuracy": 0.9862142099681867
+      },
+      "windep": {
+        "bits": 0.13877135475358127,
+        "accuracy": 0.9654980523094046
+      },
+      "prediction_sha256": "bb51c5cbe89c7c46dff5ac1b417fa707158b75b8cb18aad700762686310efa07"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xgt",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 155,
+      "id": "mlp32_xgt_s11",
+      "phase": "final",
+      "seed": 11,
+      "selected_epoch": 155,
+      "epochs_run": 155,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2922,
+      "initial_sha256": "df493db3bcfde1e0b4899f972f232258fad8e6e8f45b3cbda6edea2d18d14239",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "6e6396baad293d7815b066eb67bb2fca9eecc2726ccbc621e024318759071aae",
+        ".npz": "f94ce3675a55b9f461671a5297338bba23b5270b1b7922fed1c93ba934458cf4"
+      },
+      "seconds": 0.5376092920196243,
+      "wdep": {
+        "bits": 0.06722123700417115,
+        "accuracy": 0.985153764581124
+      },
+      "windep": {
+        "bits": 0.14839510228988204,
+        "accuracy": 0.9643850862548692
+      },
+      "prediction_sha256": "386ea185faaf2455afc5e36cc9780ef4cfb116e5cba931609c2edd4c7736d079"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xgt",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 155,
+      "id": "mlp32_xgt_s12",
+      "phase": "final",
+      "seed": 12,
+      "selected_epoch": 155,
+      "epochs_run": 155,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2922,
+      "initial_sha256": "fadedf27f3a11de5ad06777623b554fa3af74c9007445f71970887a2ad34bd79",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "6f2e16738fe48c7bb3b4fa77b1cdbc80950c2231575701bde6c3700fd87e47c9",
+        ".npz": "d2825d0a868291173f4f0108a3bd390ea5d21b506489a75961fcda98e497cce8"
+      },
+      "seconds": 0.5235767079866491,
+      "wdep": {
+        "bits": 0.06387449487199537,
+        "accuracy": 0.9840933191940615
+      },
+      "windep": {
+        "bits": 0.1343305168594688,
+        "accuracy": 0.9666110183639399
+      },
+      "prediction_sha256": "2dfb52648b9c4c697f5214f07d926c9360a69b0c6b7c7948e8a408323ced76b1"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xgt",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 155,
+      "id": "mlp32_xgt_s13",
+      "phase": "final",
+      "seed": 13,
+      "selected_epoch": 155,
+      "epochs_run": 155,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2922,
+      "initial_sha256": "5087c942449665e7eab2765d1c68d7765a57dd201ad8776a55b87bed91395713",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "83a9f2d9d8d303a3d6cfcf9e0a6e2dac187f90619e616b6ad40cd1020949d774",
+        ".npz": "ccaf3192625f8eb3b3f1f660371e1c97e8f350bda06f67302f154b42eeb40e38"
+      },
+      "seconds": 0.5262761670164764,
+      "wdep": {
+        "bits": 0.07894528739527856,
+        "accuracy": 0.985153764581124
+      },
+      "windep": {
+        "bits": 0.15750355130640886,
+        "accuracy": 0.9643850862548692
+      },
+      "prediction_sha256": "3f8d4bb66376c7bf8b3ad59ff6a0ec55f6997113844148464315542477e7f8b3"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xgt",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 155,
+      "id": "mlp32_xgt_s14",
+      "phase": "final",
+      "seed": 14,
+      "selected_epoch": 155,
+      "epochs_run": 155,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2922,
+      "initial_sha256": "34fb3f68e2cc62fd5861a47d0bdbdc0a751ba61826b96965a39167c6df62a392",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "0d0a6e68329121cc087e9509d5976b83eaa844ab720dc216fc378b7c499c8058",
+        ".npz": "c7d3dab4612f6aa56a2631360acd564ca285db1bc88cd99d324b53ec1a2ce385"
+      },
+      "seconds": 0.5293247080408037,
+      "wdep": {
+        "bits": 0.07039316798521165,
+        "accuracy": 0.9872746553552492
+      },
+      "windep": {
+        "bits": 0.15863800340564216,
+        "accuracy": 0.9610461880912632
+      },
+      "prediction_sha256": "1396f94f8e9807fc20ec7f5522df45680c34652ce825c106f8cf9bd6b369b032"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xgt",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 155,
+      "id": "mlp32_xgt_s15",
+      "phase": "final",
+      "seed": 15,
+      "selected_epoch": 155,
+      "epochs_run": 155,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2922,
+      "initial_sha256": "bea494f320d46f65e499e8aab6e42a882df25a98185d3f8d908d1303e4eb415b",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "d903732654ed0941c0dac3dc23ef23729665f7ef27f7d8e6b358b89d80ddf1c4",
+        ".npz": "b66ec2695d2063315130192c079c52dab730b45098f2b5b93a76f9cbdac3092d"
+      },
+      "seconds": 0.525518334005028,
+      "wdep": {
+        "bits": 0.0709164180073416,
+        "accuracy": 0.9862142099681867
+      },
+      "windep": {
+        "bits": 0.15604526956876213,
+        "accuracy": 0.9638286032276016
+      },
+      "prediction_sha256": "f25e11d101fe49b601943ab966f560d5a2b2486ef028fbd03cd045731f98a3fc"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xgt",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 155,
+      "id": "mlp32_xgt_s16",
+      "phase": "final",
+      "seed": 16,
+      "selected_epoch": 155,
+      "epochs_run": 155,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2922,
+      "initial_sha256": "d041bce62016daa99679431628921adcb002ba818b2d4d1d0bfd7976f3ea7c8e",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "7010bb1c39f2fc4d5385f454cd18eb2a5066c430bbd0991b8106554079beb98b",
+        ".npz": "4fc33cc2659afd0b9ca755253be70c49a5c5d3b57f112f65e502fd5dd77f5a4e"
+      },
+      "seconds": 0.5237353750271723,
+      "wdep": {
+        "bits": 0.07620464029750018,
+        "accuracy": 0.9830328738069989
+      },
+      "windep": {
+        "bits": 0.1448799014133145,
+        "accuracy": 0.9666110183639399
+      },
+      "prediction_sha256": "ed2414b9c403cd63c6da1b3cb2bbf7f6b6ac28c0a9b13cfcb83695279597e8bd"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xgt",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 155,
+      "id": "mlp32_xgt_s17",
+      "phase": "final",
+      "seed": 17,
+      "selected_epoch": 155,
+      "epochs_run": 155,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2922,
+      "initial_sha256": "b1d6d961ee449fcb7463769c92ab3ab0f0c8c6ffecdf5b878c5c70dccf637e4b",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "6994a12ca395d11331a59c31e1e2339234185da6451121f36b0c417e83ece5d4",
+        ".npz": "440a131c07fe0d8472df92be56032a2b146fab66df59d14016504174b0980935"
+      },
+      "seconds": 0.530265583016444,
+      "wdep": {
+        "bits": 0.06772131696207953,
+        "accuracy": 0.9872746553552492
+      },
+      "windep": {
+        "bits": 0.15685783124407995,
+        "accuracy": 0.9643850862548692
+      },
+      "prediction_sha256": "e9aa8b1c41a2eef0a2c90dff612d5c60dbca5f7cf56183182fcb3dfa76c5d3c4"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xgt",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 155,
+      "id": "mlp32_xgt_s18",
+      "phase": "final",
+      "seed": 18,
+      "selected_epoch": 155,
+      "epochs_run": 155,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2922,
+      "initial_sha256": "2cb05776d946a7b76601a765dd2232a3596cd49745a0d73dc2367a74fd2aa256",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "f910e19185330ec93c539cbd290ddfa1e658e62972594bf00dfdfd45b05402eb",
+        ".npz": "eea91d4f28ac9fada560c360afe04596b2d77d2dcf521defa94c8eb8b3956a2f"
+      },
+      "seconds": 0.52286266698502,
+      "wdep": {
+        "bits": 0.06839973057685395,
+        "accuracy": 0.9883351007423118
+      },
+      "windep": {
+        "bits": 0.15014167229856248,
+        "accuracy": 0.9688369504730105
+      },
+      "prediction_sha256": "07826b98d6aac7a77fa38c143fdde1e0d6824eefb002ecd5bb44877b6fdb0259"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xgt",
+      "lr": 0.001,
+      "wd": 0.01,
+      "epochs": 155,
+      "id": "mlp32_xgt_s19",
+      "phase": "final",
+      "seed": 19,
+      "selected_epoch": 155,
+      "epochs_run": 155,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2922,
+      "initial_sha256": "11d29c78bf7e0eadc094b0d4c39aa5998fc803d39e4d2d07b79be3dacb20e02a",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "837b4e59ffd5a5ceb6bcd366fd8a7d2c6ba7f37dc85cc3b43449356f5a9d9c18",
+        ".npz": "5f36fa5b0d631044af9130326788ddb74868f9d73ee5ea578dd6b507f054bcf8"
+      },
+      "seconds": 0.5159857500111684,
+      "wdep": {
+        "bits": 0.07535501662102297,
+        "accuracy": 0.9872746553552492
+      },
+      "windep": {
+        "bits": 0.168546078610157,
+        "accuracy": 0.9593767390094602
+      },
+      "prediction_sha256": "0576287d71dcaf25896b385696256c96b90c13f4aba38ec4411b6a6c6d6b3cac"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.0,
+      "epochs": 66,
+      "id": "mlp32_xt_s10",
+      "phase": "final",
+      "seed": 10,
+      "selected_epoch": 66,
+      "epochs_run": 66,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "964564f83fceacaa2535db9d02def74640a969272e667846264520ed10333613",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "cd370d45433b6524b5ad052cef8aced42cbf51138b4c6631dfa241c990421c46",
+        ".npz": "c419d2ee4dab3d3084b16f35e006eb12d230124ea59f5e3381792f31494d728c"
+      },
+      "seconds": 0.2144743749522604,
+      "wdep": {
+        "bits": 0.07879460859561732,
+        "accuracy": 0.985153764581124
+      },
+      "windep": {
+        "bits": 0.1512888772048943,
+        "accuracy": 0.9627156371730662
+      },
+      "prediction_sha256": "77d0a8c25317d2625e9a28f81875e348d2a8ca7035f1f20761990c083163ae60"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.0,
+      "epochs": 66,
+      "id": "mlp32_xt_s11",
+      "phase": "final",
+      "seed": 11,
+      "selected_epoch": 66,
+      "epochs_run": 66,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "df493db3bcfde1e0b4899f972f232258fad8e6e8f45b3cbda6edea2d18d14239",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "5cde9bb46fb6ffd3a26eebd8d718faaf4311e879e61aa5a37208540dc6d50f72",
+        ".npz": "3fa7666c8d449779b042955c696b41d8ca3ab40b8e878488d947fdfc7252ac3a"
+      },
+      "seconds": 0.22049954195972532,
+      "wdep": {
+        "bits": 0.06788563334856286,
+        "accuracy": 0.9862142099681867
+      },
+      "windep": {
+        "bits": 0.1578442834498794,
+        "accuracy": 0.9632721202003339
+      },
+      "prediction_sha256": "23f9166c01de73af0d25e3117c14d4cabb0f6f7cf1214937e7815f31e028f231"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.0,
+      "epochs": 66,
+      "id": "mlp32_xt_s12",
+      "phase": "final",
+      "seed": 12,
+      "selected_epoch": 66,
+      "epochs_run": 66,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "fadedf27f3a11de5ad06777623b554fa3af74c9007445f71970887a2ad34bd79",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "884551a063a2affa98f3fe47d7de38d6e990404293dd2c92c7701d51fe75a1a9",
+        ".npz": "4437cf12b2a7bb3de021d860c06ea786309071b3592548493fd9f0b1c5067d70"
+      },
+      "seconds": 0.21819133299868554,
+      "wdep": {
+        "bits": 0.08600646939269473,
+        "accuracy": 0.985153764581124
+      },
+      "windep": {
+        "bits": 0.13868738903419964,
+        "accuracy": 0.9693934335002783
+      },
+      "prediction_sha256": "cc5b584ea51a56d7903f622f96869077ac35c124dc40190c455dd0bd7983f953"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.0,
+      "epochs": 66,
+      "id": "mlp32_xt_s13",
+      "phase": "final",
+      "seed": 13,
+      "selected_epoch": 66,
+      "epochs_run": 66,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "5087c942449665e7eab2765d1c68d7765a57dd201ad8776a55b87bed91395713",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "024be1ad5aaef62d4361a3ef84bb3fb27c768cea08bea9e36e3f80829b791171",
+        ".npz": "587e5e474ff5ada7d3bf317302ac767cc83f987d9d4877dcd7c8d5c6c744e1a9"
+      },
+      "seconds": 0.22372775000985712,
+      "wdep": {
+        "bits": 0.08194324480927291,
+        "accuracy": 0.9830328738069989
+      },
+      "windep": {
+        "bits": 0.18291634505844356,
+        "accuracy": 0.9616026711185309
+      },
+      "prediction_sha256": "4db233063132155ff3b57e89cadb27fa0bb360f66f318b836d5afe4c2a5be638"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.0,
+      "epochs": 66,
+      "id": "mlp32_xt_s14",
+      "phase": "final",
+      "seed": 14,
+      "selected_epoch": 66,
+      "epochs_run": 66,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "34fb3f68e2cc62fd5861a47d0bdbdc0a751ba61826b96965a39167c6df62a392",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "5a12832aaa12260bd9c058c8827d8ca44a80e0bfb7c68bf3bdeb4451f0840fe2",
+        ".npz": "1b781a80d3799f34bb7af2ab787c121af05ee5eebe4248c2c796df0fe7b71968"
+      },
+      "seconds": 0.22235129197360948,
+      "wdep": {
+        "bits": 0.06986901347334315,
+        "accuracy": 0.9872746553552492
+      },
+      "windep": {
+        "bits": 0.1672939990134204,
+        "accuracy": 0.9638286032276016
+      },
+      "prediction_sha256": "6925cec1d8f69a5b02bac4505dc6951757649ccdd2843165c28d4db105a24e16"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.0,
+      "epochs": 66,
+      "id": "mlp32_xt_s15",
+      "phase": "final",
+      "seed": 15,
+      "selected_epoch": 66,
+      "epochs_run": 66,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "bea494f320d46f65e499e8aab6e42a882df25a98185d3f8d908d1303e4eb415b",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "5e8177cc85bac23b021d25fe93fb5769590e6edb982ce463184a856ccf32e0f1",
+        ".npz": "ac9359e69b7d1444b6302c327be2c126908ff975d005047ca7aa92e8bdf7b28d"
+      },
+      "seconds": 0.21787425002548844,
+      "wdep": {
+        "bits": 0.08425174636277034,
+        "accuracy": 0.985153764581124
+      },
+      "windep": {
+        "bits": 0.16978403742636605,
+        "accuracy": 0.9649415692821369
+      },
+      "prediction_sha256": "6103069b43cd7653b4294b347cdfb6b41593bc752ad5657efe8df6d6acc5aba2"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.0,
+      "epochs": 66,
+      "id": "mlp32_xt_s16",
+      "phase": "final",
+      "seed": 16,
+      "selected_epoch": 66,
+      "epochs_run": 66,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "d041bce62016daa99679431628921adcb002ba818b2d4d1d0bfd7976f3ea7c8e",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "abb409288093f1e45ebcf2f7b55399a7454c470d6113105dcd8c78acedb87290",
+        ".npz": "8374ab63b0215bae932475536a951034abc87a46b695dc581f37e1b0d78cff01"
+      },
+      "seconds": 0.22024558298289776,
+      "wdep": {
+        "bits": 0.08000160372264807,
+        "accuracy": 0.985153764581124
+      },
+      "windep": {
+        "bits": 0.1560455119346203,
+        "accuracy": 0.9621591541457986
+      },
+      "prediction_sha256": "e81870b4f04226ce94ea69e93a3dd9967ff59e9b2d66faa3a98574eea55282e6"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.0,
+      "epochs": 66,
+      "id": "mlp32_xt_s17",
+      "phase": "final",
+      "seed": 17,
+      "selected_epoch": 66,
+      "epochs_run": 66,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "b1d6d961ee449fcb7463769c92ab3ab0f0c8c6ffecdf5b878c5c70dccf637e4b",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "553f23a34c9d60f12cff6c552395b7ef2b56265b093945082a2cccf1c352a79a",
+        ".npz": "c0261cbc91b99b5e25117b7b68212725df876232a88573557b48f9389af08c96"
+      },
+      "seconds": 0.22067008301382884,
+      "wdep": {
+        "bits": 0.1000451013322612,
+        "accuracy": 0.985153764581124
+      },
+      "windep": {
+        "bits": 0.1914613925022831,
+        "accuracy": 0.9599332220367279
+      },
+      "prediction_sha256": "54407b030ea28ddedc1b38c4260fa9c48e1ab37150eee1521f531fa348c3b45b"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.0,
+      "epochs": 66,
+      "id": "mlp32_xt_s18",
+      "phase": "final",
+      "seed": 18,
+      "selected_epoch": 66,
+      "epochs_run": 66,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "2cb05776d946a7b76601a765dd2232a3596cd49745a0d73dc2367a74fd2aa256",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "0b4d82c3a3339bbd603904ca86ba861c4a1b0cd09dab8fff2cb514628fc80b45",
+        ".npz": "71a62a05ca002078f8ae994cf5b9a6bcbba86e333f236499c10b9892f5437b80"
+      },
+      "seconds": 0.22040104202460498,
+      "wdep": {
+        "bits": 0.08322693960517177,
+        "accuracy": 0.985153764581124
+      },
+      "windep": {
+        "bits": 0.14902871963243997,
+        "accuracy": 0.9654980523094046
+      },
+      "prediction_sha256": "9c637484e6c61ad1da2e78016392f745627c59db58af8a2ee71fa9dcf39a594f"
+    },
+    {
+      "family": "mlp",
+      "width": 32,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.0,
+      "epochs": 66,
+      "id": "mlp32_xt_s19",
+      "phase": "final",
+      "seed": 19,
+      "selected_epoch": 66,
+      "epochs_run": 66,
+      "censored": false,
+      "nominal_parameters": 2922,
+      "effective_parameters": 2666,
+      "initial_sha256": "11d29c78bf7e0eadc094b0d4c39aa5998fc803d39e4d2d07b79be3dacb20e02a",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "32656ed4673b96ccf0711a81cf23a86b9eddc795105a9a198a505e49bbb65ebf",
+        ".npz": "da1bd2f0933d1b1719557813f1c75aae32803d66d4bb303397d683bc8525a912"
+      },
+      "seconds": 0.22165641700848937,
+      "wdep": {
+        "bits": 0.08370173691752122,
+        "accuracy": 0.9862142099681867
+      },
+      "windep": {
+        "bits": 0.14596430158227972,
+        "accuracy": 0.9677239844184753
+      },
+      "prediction_sha256": "555886f81c09dde90730f1464c78c60b4aadd8bb8a8328248d036e2c7be7ca4f"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "x",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 39,
+      "id": "mlp6_x_s10",
+      "phase": "final",
+      "seed": 10,
+      "selected_epoch": 39,
+      "epochs_run": 39,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 460,
+      "initial_sha256": "6adcfa3485c1ecdbaae8e3e2624e2708068f25f7bca16c87a747da8859a78a19",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "3ca4694bcae2c97a6e348f891c2ab13bc64395a2699392a0b5261883ed5f9b04",
+        ".npz": "daafbe5ec3e7cbe9a86561771416a3ac931e138bb3ff8b2632aef7d64bb6275b"
+      },
+      "seconds": 0.14099595800507814,
+      "wdep": {
+        "bits": 0.24167355386725933,
+        "accuracy": 0.9501590668080594
+      },
+      "windep": {
+        "bits": 0.4431475721494995,
+        "accuracy": 0.9220923761825265
+      },
+      "prediction_sha256": "c878a65372a168d33ae8368ca15eade2fcb43936573df1b23071f3cab2e02c12"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "x",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 39,
+      "id": "mlp6_x_s11",
+      "phase": "final",
+      "seed": 11,
+      "selected_epoch": 39,
+      "epochs_run": 39,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 460,
+      "initial_sha256": "becb4f41c21e9b667b0a524ec357d71b0e10ecd6bda5d389586899f554e414ac",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "594b0d028aed717e7334376f2c63eeac52db6d467016f978cbccd50347adf841",
+        ".npz": "9defa93e5774ab75505a3a2b3cbe8e451ff17cbbac94486b641cbc113c169c33"
+      },
+      "seconds": 0.13756454200483859,
+      "wdep": {
+        "bits": 0.28585419217678437,
+        "accuracy": 0.9384941675503712
+      },
+      "windep": {
+        "bits": 0.45511432895594717,
+        "accuracy": 0.9048414023372288
+      },
+      "prediction_sha256": "4a8dcdefa794fe4b38284b41bf39d317779fb384f0d1230670ed51fe6018cc4a"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "x",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 39,
+      "id": "mlp6_x_s12",
+      "phase": "final",
+      "seed": 12,
+      "selected_epoch": 39,
+      "epochs_run": 39,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 460,
+      "initial_sha256": "49bcf31e6f4010392c7e19894b036ab981a66c42fac457f40a6908de022fe133",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "749713ab2dee69e5635c33d160d6462edbfaff435add9d4f9b220b406cb4d99f",
+        ".npz": "bb03c16e198dc7cae27fc7002c7be29d6edc4d945f1aca70c6b6d729e7705f6a"
+      },
+      "seconds": 0.13709187501808628,
+      "wdep": {
+        "bits": 0.23335903688136206,
+        "accuracy": 0.9522799575821845
+      },
+      "windep": {
+        "bits": 0.45134318478626134,
+        "accuracy": 0.9193099610461881
+      },
+      "prediction_sha256": "daad88033b67c48ce04ab1ccb68a514742fee3f76313136c7bbaf4062ab5306c"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "x",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 39,
+      "id": "mlp6_x_s13",
+      "phase": "final",
+      "seed": 13,
+      "selected_epoch": 39,
+      "epochs_run": 39,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 460,
+      "initial_sha256": "765b9ac4eea6e1dc3d199125ec106404ff9181e8fcb4f7474e3aa74867a439f9",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "d2942f612c22f63152b675e4a698c801ee073038f7a0a03390d322a246dc9940",
+        ".npz": "c13d2553a9a13a9d8f1ac1ee3e179f4974fce61848694c157f07b2d288cddca2"
+      },
+      "seconds": 0.14134816703153774,
+      "wdep": {
+        "bits": 0.19784678506867148,
+        "accuracy": 0.9607635206786851
+      },
+      "windep": {
+        "bits": 0.4081360096728579,
+        "accuracy": 0.9198664440734557
+      },
+      "prediction_sha256": "2a62c46b47e0c2ebb341011969d5b3ebef5b31914595ca78da78fb6a788b1061"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "x",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 39,
+      "id": "mlp6_x_s14",
+      "phase": "final",
+      "seed": 14,
+      "selected_epoch": 39,
+      "epochs_run": 39,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 460,
+      "initial_sha256": "6db48f3ad030611b1f1ecfc03f1c505bec7b64af89f5cb792a18e4c99035cd33",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "f38c2bd149ee4852e2fbb57111c292d7decf7bee024ef17e4f1151606bc7ae5d",
+        ".npz": "846c53f5641ba9afadf613ab9a16172111774145b4899e7440e7a308a8d4c280"
+      },
+      "seconds": 0.1375766250421293,
+      "wdep": {
+        "bits": 0.34010261136901193,
+        "accuracy": 0.9342523860021209
+      },
+      "windep": {
+        "bits": 0.5448216644778604,
+        "accuracy": 0.9053978853644964
+      },
+      "prediction_sha256": "19d57086bcf2f4e6e5638383f937142cd1931842ab9e78ef5fb62dcef6858d60"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "x",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 39,
+      "id": "mlp6_x_s15",
+      "phase": "final",
+      "seed": 15,
+      "selected_epoch": 39,
+      "epochs_run": 39,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 460,
+      "initial_sha256": "d22fe66c6b31e2e1ea32c4d551c827ccdf5fae81ec3efb8ee17ce32c0f598e38",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "797ba16a812ea3eab91a9041c9a76e75db312489a6d499c506a31afd430ba4b3",
+        ".npz": "d3c7527baf308fbc8414a6ae6996f7462fd3ea7aac5fe5969f0f3fbe43acbfbe"
+      },
+      "seconds": 0.14106141700176522,
+      "wdep": {
+        "bits": 0.2756267164233609,
+        "accuracy": 0.9416755037115588
+      },
+      "windep": {
+        "bits": 0.43910918082747735,
+        "accuracy": 0.9198664440734557
+      },
+      "prediction_sha256": "6263929efbfbe781da8260db6c7241a918af09217a57d4aac17d55001c39f586"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "x",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 39,
+      "id": "mlp6_x_s16",
+      "phase": "final",
+      "seed": 16,
+      "selected_epoch": 39,
+      "epochs_run": 39,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 460,
+      "initial_sha256": "d57572f0dbb937b968011ebb387ecef9e248d337b075d215bb9b96b48e70ca6e",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "ec4a750e3138853d61ed851db40661ce64e38061b51c9ebf39cc33150c714ebe",
+        ".npz": "1a8d159437c46274c1606e51fe9c6952814a17cfb2eda59fe6da476e2c235c48"
+      },
+      "seconds": 0.13910887500969693,
+      "wdep": {
+        "bits": 0.2647446898778403,
+        "accuracy": 0.943796394485684
+      },
+      "windep": {
+        "bits": 0.4329239929172315,
+        "accuracy": 0.9176405119643851
+      },
+      "prediction_sha256": "c90fa1af696e2b9bd09dc58da05a0a50e1e56d14c7a09a21785c6a8f0ffabafd"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "x",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 39,
+      "id": "mlp6_x_s17",
+      "phase": "final",
+      "seed": 17,
+      "selected_epoch": 39,
+      "epochs_run": 39,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 460,
+      "initial_sha256": "9eb40fd2de660ac8251dc54cf58567bc3ce9cbe5eb179d3db053eee865134bf9",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "f7c0b941246557ceacc6e42bc19b6ac547c814e8ef6654623647d65327e6d465",
+        ".npz": "1749ed6fb74815e0689bb8b4d11116dde073a7072d6f631cbca4896e82562292"
+      },
+      "seconds": 0.14470695902127773,
+      "wdep": {
+        "bits": 0.26790208121641634,
+        "accuracy": 0.9480381760339343
+      },
+      "windep": {
+        "bits": 0.42948623926638263,
+        "accuracy": 0.9170840289371174
+      },
+      "prediction_sha256": "4d803dd4a35607709c0a0406bf1b13e1e6d57975b4f1d1cbd64bc8a8e469ca9d"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "x",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 39,
+      "id": "mlp6_x_s18",
+      "phase": "final",
+      "seed": 18,
+      "selected_epoch": 39,
+      "epochs_run": 39,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 460,
+      "initial_sha256": "8b3e3077b61dbf4a758b2b11468ebb399add1d74aacd41116f049a25ec6c5a07",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "4d38b05e33e505394c3b92d4184aafc096307b46903b0dd3dba4d9f3843b2af1",
+        ".npz": "9d9e8e361d9a4cf3041aff3d031d405d1b1f0441044040f1f9cee0522b9982fc"
+      },
+      "seconds": 0.1374573329812847,
+      "wdep": {
+        "bits": 0.29546046547143545,
+        "accuracy": 0.9395546129374337
+      },
+      "windep": {
+        "bits": 0.39582978799979035,
+        "accuracy": 0.910962715637173
+      },
+      "prediction_sha256": "021c79387d8d296f213bbf36b102a60e05ab748409f885ea42ca7e996e6e1cb3"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "x",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 39,
+      "id": "mlp6_x_s19",
+      "phase": "final",
+      "seed": 19,
+      "selected_epoch": 39,
+      "epochs_run": 39,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 460,
+      "initial_sha256": "f23bd330275a182ff9bca0dc8d843d986ce744d76b77354dadb859eedd51a557",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "e40b8c7a951ad17c07ac7513b2687268e3e2d84dfc07af5d57edc651263eb62b",
+        ".npz": "a48ffe3801f839def6efa8855a80feea1688a1249ee6e3ec2d2687541ea5df7a"
+      },
+      "seconds": 0.1387628329684958,
+      "wdep": {
+        "bits": 0.24924938288212473,
+        "accuracy": 0.9469777306468717
+      },
+      "windep": {
+        "bits": 0.46437515556298503,
+        "accuracy": 0.9193099610461881
+      },
+      "prediction_sha256": "95a9f618d480aa35db0cde3fc34c039800cbc99d8e45c3123f71fc54eaa6ba1f"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb0",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 34,
+      "id": "mlp6_xb0_s10",
+      "phase": "final",
+      "seed": 10,
+      "selected_epoch": 34,
+      "epochs_run": 34,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "6adcfa3485c1ecdbaae8e3e2624e2708068f25f7bca16c87a747da8859a78a19",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "6a04fd224a2f8bf73ad74fdd2aa6243bdf9615d4149a593c8f61c5f3696fb467",
+        ".npz": "356e47afaa0d10dce7391585203fe46ea958d805e9e5f3e8b3fd9987c1f265a4"
+      },
+      "seconds": 0.12313608400290832,
+      "wdep": {
+        "bits": 0.23990233690160906,
+        "accuracy": 0.953340402969247
+      },
+      "windep": {
+        "bits": 0.42517393623910876,
+        "accuracy": 0.9176405119643851
+      },
+      "prediction_sha256": "8622ef4294a360516d609f17c93f309c198d8e1246de73dc26479f2981a7578a"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb0",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 34,
+      "id": "mlp6_xb0_s11",
+      "phase": "final",
+      "seed": 11,
+      "selected_epoch": 34,
+      "epochs_run": 34,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "becb4f41c21e9b667b0a524ec357d71b0e10ecd6bda5d389586899f554e414ac",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "e6c10b0c4ca16ae1f123edc6ea8e422a1bc8183ddefc11d36d83e8aa0eddfd56",
+        ".npz": "fd996e135d36a61e5fd2d70bbc8f137b63f191b8c81c9b509d5f5a5716ab8360"
+      },
+      "seconds": 0.12968025001464412,
+      "wdep": {
+        "bits": 0.3077255612889396,
+        "accuracy": 0.936373276776246
+      },
+      "windep": {
+        "bits": 0.46660530832102515,
+        "accuracy": 0.907623817473567
+      },
+      "prediction_sha256": "c7daed0b4b487d68670e4fa1c9ff5c35e0f41267be39d6377631334053ba3ac8"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb0",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 34,
+      "id": "mlp6_xb0_s12",
+      "phase": "final",
+      "seed": 12,
+      "selected_epoch": 34,
+      "epochs_run": 34,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "49bcf31e6f4010392c7e19894b036ab981a66c42fac457f40a6908de022fe133",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "0c623928d8fee15a837f33efc872629a89a8cd93d9428099ca719153d719418c",
+        ".npz": "121d7206d14c7b3b7b7078f28b8cf06ecbab9c891459a6df46ec93ce575afcee"
+      },
+      "seconds": 0.12956508295610547,
+      "wdep": {
+        "bits": 0.2582461077001064,
+        "accuracy": 0.9448568398727466
+      },
+      "windep": {
+        "bits": 0.44956345584980517,
+        "accuracy": 0.9237618252643295
+      },
+      "prediction_sha256": "8b65c3e84834a948aaa80697c0a21fcd9e26a9a14d63fce23ed7417714d7bfa4"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb0",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 34,
+      "id": "mlp6_xb0_s13",
+      "phase": "final",
+      "seed": 13,
+      "selected_epoch": 34,
+      "epochs_run": 34,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "765b9ac4eea6e1dc3d199125ec106404ff9181e8fcb4f7474e3aa74867a439f9",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "e71f16d58be776e45bd16e69fd1805304dcf7989284b5710dfd98a65af9d3ecc",
+        ".npz": "c78ad89759254d43828d5aa31abcd56346803342f38defa145b09314cdc05a52"
+      },
+      "seconds": 0.12939962500240654,
+      "wdep": {
+        "bits": 0.22906492043317886,
+        "accuracy": 0.9554612937433722
+      },
+      "windep": {
+        "bits": 0.4281060158815312,
+        "accuracy": 0.9198664440734557
+      },
+      "prediction_sha256": "dd2c4604e8edf934d8180146a76daeb80712390250864dbc331a8d44faa01f9e"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb0",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 34,
+      "id": "mlp6_xb0_s14",
+      "phase": "final",
+      "seed": 14,
+      "selected_epoch": 34,
+      "epochs_run": 34,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "6db48f3ad030611b1f1ecfc03f1c505bec7b64af89f5cb792a18e4c99035cd33",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "8f2e086d5f04d778e4fac0883ca06d288d9b1ece91aaf1107db77c3c6e94e560",
+        ".npz": "88a165682f493ed35291081dfeb5cdab0f6e3e211b2e37e7114ac63823b7a3bd"
+      },
+      "seconds": 0.12997370900120586,
+      "wdep": {
+        "bits": 0.3462000674434553,
+        "accuracy": 0.9300106044538706
+      },
+      "windep": {
+        "bits": 0.5462234084543542,
+        "accuracy": 0.9053978853644964
+      },
+      "prediction_sha256": "e3e5e92f94f9948e58b0f3e9950d2bb4a6ef064aebef73c123c994b7d1a5dd8e"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb0",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 34,
+      "id": "mlp6_xb0_s15",
+      "phase": "final",
+      "seed": 15,
+      "selected_epoch": 34,
+      "epochs_run": 34,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "d22fe66c6b31e2e1ea32c4d551c827ccdf5fae81ec3efb8ee17ce32c0f598e38",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "fb1691e57e0b4b43a2756acc7927fea6c8d7330235f348f879bd81cee8e06725",
+        ".npz": "23880f759eb71df9416d85bdd7580f805e05c925ad693ac27bbe7a4b08a30716"
+      },
+      "seconds": 0.1254576250212267,
+      "wdep": {
+        "bits": 0.3214236661768739,
+        "accuracy": 0.9374337221633086
+      },
+      "windep": {
+        "bits": 0.4392742033563993,
+        "accuracy": 0.9165275459098498
+      },
+      "prediction_sha256": "5a54d601d981228c2237b4a282fb646bc27b1cd2129e8b5bc18081905e78e8ae"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb0",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 34,
+      "id": "mlp6_xb0_s16",
+      "phase": "final",
+      "seed": 16,
+      "selected_epoch": 34,
+      "epochs_run": 34,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "d57572f0dbb937b968011ebb387ecef9e248d337b075d215bb9b96b48e70ca6e",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "a277021d1a7b74ad52d5e2e88d5a32ef9c9d5106e46c6b0fb08df96552a288e8",
+        ".npz": "473381b8558ff7f9987fcf537d40640c96849fb37cf23e5656efd72dc228889d"
+      },
+      "seconds": 0.12473020795732737,
+      "wdep": {
+        "bits": 0.27538773271922723,
+        "accuracy": 0.9427359490986215
+      },
+      "windep": {
+        "bits": 0.42488964514507405,
+        "accuracy": 0.9104062326099054
+      },
+      "prediction_sha256": "e0b1bc2f597c3b6cac6ceecb8e454b5153444657c963fcd1eff6609db91f1aba"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb0",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 34,
+      "id": "mlp6_xb0_s17",
+      "phase": "final",
+      "seed": 17,
+      "selected_epoch": 34,
+      "epochs_run": 34,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "9eb40fd2de660ac8251dc54cf58567bc3ce9cbe5eb179d3db053eee865134bf9",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "681faa8c2d497d3553a9ca2db4674cc4cbe714de2e95cea750600664592cac77",
+        ".npz": "f8b55b7a67561de24a17686d44cf221347093b21204fe8e280fbe83e4e7c8b97"
+      },
+      "seconds": 0.12361645797500387,
+      "wdep": {
+        "bits": 0.2824101720452035,
+        "accuracy": 0.9374337221633086
+      },
+      "windep": {
+        "bits": 0.42715729162380994,
+        "accuracy": 0.9165275459098498
+      },
+      "prediction_sha256": "9805c0d17bc09979ecf8718c9914631cf14337f2845cccba91f83a239c8aa510"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb0",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 34,
+      "id": "mlp6_xb0_s18",
+      "phase": "final",
+      "seed": 18,
+      "selected_epoch": 34,
+      "epochs_run": 34,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "8b3e3077b61dbf4a758b2b11468ebb399add1d74aacd41116f049a25ec6c5a07",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "541dcc2953113795b43d4a92a96e89ce128b3cb2ce105f6297825d846cbcb2d4",
+        ".npz": "8a94c4ca33831617cddd4d1a48128e4a39e03b2d2e66f9d00fcd919bdbebac81"
+      },
+      "seconds": 0.12085929099703208,
+      "wdep": {
+        "bits": 0.3207516883583951,
+        "accuracy": 0.9321314952279958
+      },
+      "windep": {
+        "bits": 0.4087510076327568,
+        "accuracy": 0.9131886477462438
+      },
+      "prediction_sha256": "4215a8aba97575eb18354d6032c74e5bacbca407499e973b07e034a54c99f24e"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb0",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 34,
+      "id": "mlp6_xb0_s19",
+      "phase": "final",
+      "seed": 19,
+      "selected_epoch": 34,
+      "epochs_run": 34,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "f23bd330275a182ff9bca0dc8d843d986ce744d76b77354dadb859eedd51a557",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "75c985c5d536b5bd0c6776c1be3f7346f98fe9700520f8d670eb079ff375e967",
+        ".npz": "404ac16559f026dedb0804bfd155434f0f2946e21c882e607a1408a79a737b85"
+      },
+      "seconds": 0.12692850001621991,
+      "wdep": {
+        "bits": 0.2562044802288843,
+        "accuracy": 0.943796394485684
+      },
+      "windep": {
+        "bits": 0.4593859001534317,
+        "accuracy": 0.9259877573734001
+      },
+      "prediction_sha256": "721c7f4aab1b9b1d57c094cdd0af3ba0efbe109d4cadc9b8b1e0316919387711"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb1",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 92,
+      "id": "mlp6_xb1_s10",
+      "phase": "final",
+      "seed": 10,
+      "selected_epoch": 92,
+      "epochs_run": 92,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "6adcfa3485c1ecdbaae8e3e2624e2708068f25f7bca16c87a747da8859a78a19",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "de1cdb631748faf001ee881a5be75939cf86fdf9c44b5c379b28f617ad989f3f",
+        ".npz": "dc81e49a089e0aa2ee74f31fd75503ebd35cfb3b548b97b9977e26695926847f"
+      },
+      "seconds": 0.32773304102011025,
+      "wdep": {
+        "bits": 0.174884769072712,
+        "accuracy": 0.9628844114528102
+      },
+      "windep": {
+        "bits": 0.31605665302310987,
+        "accuracy": 0.9393433500278241
+      },
+      "prediction_sha256": "b0b043bce88e8c6604f9f632069ecb0c51614bf18cf7dbb87c09ebe4c6adf2c1"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb1",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 92,
+      "id": "mlp6_xb1_s11",
+      "phase": "final",
+      "seed": 11,
+      "selected_epoch": 92,
+      "epochs_run": 92,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "becb4f41c21e9b667b0a524ec357d71b0e10ecd6bda5d389586899f554e414ac",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "d19f5cc803133174adef90c867a803b9953ba03fcc83e0bf9af393e47e0b1fb3",
+        ".npz": "c527cf617f115ff66a5cbead5686998c579a6bccbae48a4ace44b12d9daf8d5f"
+      },
+      "seconds": 0.3259914579684846,
+      "wdep": {
+        "bits": 0.22408888684874614,
+        "accuracy": 0.9554612937433722
+      },
+      "windep": {
+        "bits": 0.3478194829921905,
+        "accuracy": 0.9348914858096828
+      },
+      "prediction_sha256": "29ad104821797c3e7660271fb55dc007a46902d729bbdf8e71ab4661a25a37ed"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb1",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 92,
+      "id": "mlp6_xb1_s12",
+      "phase": "final",
+      "seed": 12,
+      "selected_epoch": 92,
+      "epochs_run": 92,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "49bcf31e6f4010392c7e19894b036ab981a66c42fac457f40a6908de022fe133",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "7b0386c823bfc4d309392c9b1c85a02bcf902bc12a64a2614ad010ae621a3376",
+        ".npz": "757c724854fd70d245c0a6758f3cc16d8f88ed4e1af31c741d9f3ae0d9d086a7"
+      },
+      "seconds": 0.326405750005506,
+      "wdep": {
+        "bits": 0.19542282567703162,
+        "accuracy": 0.9660657476139979
+      },
+      "windep": {
+        "bits": 0.23985639147239204,
+        "accuracy": 0.9482470784641068
+      },
+      "prediction_sha256": "524ce4143ae2b801e683d8da323a4cf9a94807501aca515e114b306b1a807854"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb1",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 92,
+      "id": "mlp6_xb1_s13",
+      "phase": "final",
+      "seed": 13,
+      "selected_epoch": 92,
+      "epochs_run": 92,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "765b9ac4eea6e1dc3d199125ec106404ff9181e8fcb4f7474e3aa74867a439f9",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "1caedc8df2323de7bd23893d3b1e0cbfb141eba1ce91f9fea9f50eb1571c440e",
+        ".npz": "cdfec5b0804e3fe93682f75315adb912f4c7b44108c94d6169bf266d6952c21a"
+      },
+      "seconds": 0.3398638750077225,
+      "wdep": {
+        "bits": 0.12544960245503048,
+        "accuracy": 0.9766702014846236
+      },
+      "windep": {
+        "bits": 0.23390534661340975,
+        "accuracy": 0.9526989426822482
+      },
+      "prediction_sha256": "d37f4dd97cbd5b56a76a48a0551ae9e4147597e3396bafe3a2b817ca0e0bfcdc"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb1",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 92,
+      "id": "mlp6_xb1_s14",
+      "phase": "final",
+      "seed": 14,
+      "selected_epoch": 92,
+      "epochs_run": 92,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "6db48f3ad030611b1f1ecfc03f1c505bec7b64af89f5cb792a18e4c99035cd33",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "b5981352e8469c0812e8bc66773e14bf349ca14b3a59588c70d28e50eaae610d",
+        ".npz": "5e3dad18c5c30b721b4b37e360f1c33e75c29c8cbd63b7e5a69567f24b98b702"
+      },
+      "seconds": 0.3292314170394093,
+      "wdep": {
+        "bits": 0.18022499320004423,
+        "accuracy": 0.9724284199363733
+      },
+      "windep": {
+        "bits": 0.3425781537644498,
+        "accuracy": 0.9371174179187535
+      },
+      "prediction_sha256": "db0cbf290142c8a57209f733dc248d939cb0cfb1f7c4bb6967ce4ba3ecb66885"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb1",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 92,
+      "id": "mlp6_xb1_s15",
+      "phase": "final",
+      "seed": 15,
+      "selected_epoch": 92,
+      "epochs_run": 92,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "d22fe66c6b31e2e1ea32c4d551c827ccdf5fae81ec3efb8ee17ce32c0f598e38",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "72d2d4c7718626cf5fc2ba79ce812ee9a85a01ab972bb4f4c052640cf0d4df62",
+        ".npz": "47a937cf3a40f379388338cb24fe0c00c14ee4fc5386ecf95181dd77f8aa4463"
+      },
+      "seconds": 0.33254329103510827,
+      "wdep": {
+        "bits": 0.15852195334185254,
+        "accuracy": 0.9703075291622482
+      },
+      "windep": {
+        "bits": 0.2790455452121392,
+        "accuracy": 0.9421257651641625
+      },
+      "prediction_sha256": "0a84672077f000adcbbd60b298bef1b28317fa040bfb89637ac859584bf68ca8"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb1",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 92,
+      "id": "mlp6_xb1_s16",
+      "phase": "final",
+      "seed": 16,
+      "selected_epoch": 92,
+      "epochs_run": 92,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "d57572f0dbb937b968011ebb387ecef9e248d337b075d215bb9b96b48e70ca6e",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "7f52cc496c967fea5093ec0c5b07067d4738f4dd7e8b9d7db54be1632a80c671",
+        ".npz": "58819882365338b3b6d419bbf6c03b1d32c37598aad9a00e00a08ec2d4e95a2a"
+      },
+      "seconds": 0.32611858303425834,
+      "wdep": {
+        "bits": 0.16944498762462398,
+        "accuracy": 0.9703075291622482
+      },
+      "windep": {
+        "bits": 0.2748782164731332,
+        "accuracy": 0.9493600445186422
+      },
+      "prediction_sha256": "a44a31292ac138377c7ce8dad765302b6972b5542392c3b29e23bbbb24125bac"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb1",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 92,
+      "id": "mlp6_xb1_s17",
+      "phase": "final",
+      "seed": 17,
+      "selected_epoch": 92,
+      "epochs_run": 92,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "9eb40fd2de660ac8251dc54cf58567bc3ce9cbe5eb179d3db053eee865134bf9",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "221afae214dcd2b5758a877975ebb9d5820cf000368df49f1fe29b7cd933c71d",
+        ".npz": "9a6ba502387df92459e8dd181ad660a3b6c5ef68deb1088c538b5c3fa064f031"
+      },
+      "seconds": 0.3359916670015082,
+      "wdep": {
+        "bits": 0.15885905025666225,
+        "accuracy": 0.9671261930010604
+      },
+      "windep": {
+        "bits": 0.29203458029126017,
+        "accuracy": 0.9404563160823595
+      },
+      "prediction_sha256": "9dba156c9d03004427d4b7528c661c622ce7fb95b14e2e2bb12e8a7e96e50169"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb1",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 92,
+      "id": "mlp6_xb1_s18",
+      "phase": "final",
+      "seed": 18,
+      "selected_epoch": 92,
+      "epochs_run": 92,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "8b3e3077b61dbf4a758b2b11468ebb399add1d74aacd41116f049a25ec6c5a07",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "80177a6d820fd969004d029bb811e65f68aaf1c01cc459e18028712b1385f59b",
+        ".npz": "d6420e61c42ba4697c22f61d440e1f8805e2c9a9377caa912aeb9add603281db"
+      },
+      "seconds": 0.32557408401044086,
+      "wdep": {
+        "bits": 0.18135641416339782,
+        "accuracy": 0.9671261930010604
+      },
+      "windep": {
+        "bits": 0.2849242771032576,
+        "accuracy": 0.9432387312186978
+      },
+      "prediction_sha256": "270719f2d90f84c36679b7285a9947a7ce77c6ecbce29d61b402105a341aea7a"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xb1",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 92,
+      "id": "mlp6_xb1_s19",
+      "phase": "final",
+      "seed": 19,
+      "selected_epoch": 92,
+      "epochs_run": 92,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 484,
+      "initial_sha256": "f23bd330275a182ff9bca0dc8d843d986ce744d76b77354dadb859eedd51a557",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "8f23804281b1c0e32d9c957bd98e60705f90c57b5f7f23584e26192fa473dd84",
+        ".npz": "ad4bf5e87fb078f7cbcd8506d6cb165b10d7827c173ec98049703852c83af086"
+      },
+      "seconds": 0.32897875003982335,
+      "wdep": {
+        "bits": 0.17373643125400973,
+        "accuracy": 0.9607635206786851
+      },
+      "windep": {
+        "bits": 0.3065555775381924,
+        "accuracy": 0.9421257651641625
+      },
+      "prediction_sha256": "7193a5ef2fef6574a8492e08dffc09804539f30ef951acc05523e8cbc979111b"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xg",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 33,
+      "id": "mlp6_xg_s10",
+      "phase": "final",
+      "seed": 10,
+      "selected_epoch": 33,
+      "epochs_run": 33,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "6adcfa3485c1ecdbaae8e3e2624e2708068f25f7bca16c87a747da8859a78a19",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "93d6261532746e396637cefdb6bb1087a3f2103939b1d62ec8f0fd19b74a9794",
+        ".npz": "cc565ad45aaae12715312dda7e13a963fc808771f67cad2b599668c8942f40d8"
+      },
+      "seconds": 0.11978708300739527,
+      "wdep": {
+        "bits": 0.19135942016532717,
+        "accuracy": 0.9575821845174973
+      },
+      "windep": {
+        "bits": 0.36548411731865843,
+        "accuracy": 0.9287701725097385
+      },
+      "prediction_sha256": "a0d6299eb3309609d76699d06d1f32d3196e035a1dc8171fffa1ffe7cf529de3"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xg",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 33,
+      "id": "mlp6_xg_s11",
+      "phase": "final",
+      "seed": 11,
+      "selected_epoch": 33,
+      "epochs_run": 33,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "becb4f41c21e9b667b0a524ec357d71b0e10ecd6bda5d389586899f554e414ac",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "0c4eff97a5b0c1969c96e23b8806d8f23fce41a4aad2f888a1f49d642d161603",
+        ".npz": "c8ffc6b1747e86507d70443541a7682cb61689678cf3ab78236eb6544f6b61d6"
+      },
+      "seconds": 0.11984350002603605,
+      "wdep": {
+        "bits": 0.20136856223842894,
+        "accuracy": 0.9671261930010604
+      },
+      "windep": {
+        "bits": 0.3457054536119368,
+        "accuracy": 0.9360044518642181
+      },
+      "prediction_sha256": "7550b592150e3d2425166a51b6620c8539901778a3d7537f7dee238d2b7d1eb1"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xg",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 33,
+      "id": "mlp6_xg_s12",
+      "phase": "final",
+      "seed": 12,
+      "selected_epoch": 33,
+      "epochs_run": 33,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "49bcf31e6f4010392c7e19894b036ab981a66c42fac457f40a6908de022fe133",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "91a3ee7e58178dd52e603bb5944f58f66c31f752711e4543dbc37c2a3b5cd8e6",
+        ".npz": "5c5b65b6b84ef0104840e1230c79ead8d1dae66163c49d0e2cca9b5ab944e948"
+      },
+      "seconds": 0.11748554196674377,
+      "wdep": {
+        "bits": 0.21515484791510792,
+        "accuracy": 0.9501590668080594
+      },
+      "windep": {
+        "bits": 0.3419631744293439,
+        "accuracy": 0.9309961046188091
+      },
+      "prediction_sha256": "11739cecc1b40d13a36402ca2ac0b49ed55300b806d1bdcdf95d8449d9b1bc27"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xg",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 33,
+      "id": "mlp6_xg_s13",
+      "phase": "final",
+      "seed": 13,
+      "selected_epoch": 33,
+      "epochs_run": 33,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "765b9ac4eea6e1dc3d199125ec106404ff9181e8fcb4f7474e3aa74867a439f9",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "5eb6760baa2f42349ed68a801a89b65d70909d7177887c1ebc439178bfcc1b65",
+        ".npz": "f18d473115db2e74e31f94f08b7c7706cde7f1d500cdd7daa74af7a73db5b9d3"
+      },
+      "seconds": 0.11850745900301263,
+      "wdep": {
+        "bits": 0.18388100878490318,
+        "accuracy": 0.9575821845174973
+      },
+      "windep": {
+        "bits": 0.32369956442860853,
+        "accuracy": 0.9282136894824707
+      },
+      "prediction_sha256": "cc458724cf9ffbf170921ab6ae79153efa7abf4dc1e8b798856663d46edcf7c7"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xg",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 33,
+      "id": "mlp6_xg_s14",
+      "phase": "final",
+      "seed": 14,
+      "selected_epoch": 33,
+      "epochs_run": 33,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "6db48f3ad030611b1f1ecfc03f1c505bec7b64af89f5cb792a18e4c99035cd33",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "b77f8390004a5e4173c1467bb91270b9bec2db36f73e94ffa43b574709b311f6",
+        ".npz": "92fd674aefd3517c5d00631c352a78b66ccdfdfc9b87793dcceb802af9515ec0"
+      },
+      "seconds": 0.11693324998486787,
+      "wdep": {
+        "bits": 0.2328194403154372,
+        "accuracy": 0.9490986214209968
+      },
+      "windep": {
+        "bits": 0.44137302935072714,
+        "accuracy": 0.9287701725097385
+      },
+      "prediction_sha256": "784ae549ea7cec306e20f22f8539206fdfc426cc9802d0442520e3fece4362ea"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xg",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 33,
+      "id": "mlp6_xg_s15",
+      "phase": "final",
+      "seed": 15,
+      "selected_epoch": 33,
+      "epochs_run": 33,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "d22fe66c6b31e2e1ea32c4d551c827ccdf5fae81ec3efb8ee17ce32c0f598e38",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "19edc09e02cf74beeed90de9849293ce9bd14b2d23f645f61d564a8db3bf8eaf",
+        ".npz": "650b805f92e15a47ffb5f08b01b3ac179a1daa448c7aa2cee0836869c3f21150"
+      },
+      "seconds": 0.1189469579840079,
+      "wdep": {
+        "bits": 0.25342656145583226,
+        "accuracy": 0.9469777306468717
+      },
+      "windep": {
+        "bits": 0.3253338197617739,
+        "accuracy": 0.9293266555370061
+      },
+      "prediction_sha256": "75e213c7f3dd467d91ec01ef2edc3ba811e31891f9229535ccf68052b573606b"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xg",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 33,
+      "id": "mlp6_xg_s16",
+      "phase": "final",
+      "seed": 16,
+      "selected_epoch": 33,
+      "epochs_run": 33,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "d57572f0dbb937b968011ebb387ecef9e248d337b075d215bb9b96b48e70ca6e",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "124ceff83c20bd51eda08b90cc63a701b8e3aba87b928b2be8be56369dce9bdf",
+        ".npz": "8c8b49c10c03302008e8b102c828baca3d5488542704a2b9d079aa3bf2e237a6"
+      },
+      "seconds": 0.12498245795723051,
+      "wdep": {
+        "bits": 0.19921461323163903,
+        "accuracy": 0.9650053022269353
+      },
+      "windep": {
+        "bits": 0.33761862614666144,
+        "accuracy": 0.9309961046188091
+      },
+      "prediction_sha256": "d78d7625906e691b49c5c9056483ff2e89780dbd695d33dfa17a06458bae361a"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xg",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 33,
+      "id": "mlp6_xg_s17",
+      "phase": "final",
+      "seed": 17,
+      "selected_epoch": 33,
+      "epochs_run": 33,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "9eb40fd2de660ac8251dc54cf58567bc3ce9cbe5eb179d3db053eee865134bf9",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "218d43361d5dd7061e8e96b90a86c2d0a1aa3a59b4636120bf9293c4cc4669c9",
+        ".npz": "4c51238139f0e637b4f6ef8c8d8ca15b93e77c5c1f8f82dc5b0b78672b24637e"
+      },
+      "seconds": 0.12809083296451718,
+      "wdep": {
+        "bits": 0.2076530740544743,
+        "accuracy": 0.953340402969247
+      },
+      "windep": {
+        "bits": 0.3616133127857695,
+        "accuracy": 0.9343350027824151
+      },
+      "prediction_sha256": "82ff614c26bef5cb267ad95cadabc760d286c1aefc77cc2b5b17380692eacb56"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xg",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 33,
+      "id": "mlp6_xg_s18",
+      "phase": "final",
+      "seed": 18,
+      "selected_epoch": 33,
+      "epochs_run": 33,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "8b3e3077b61dbf4a758b2b11468ebb399add1d74aacd41116f049a25ec6c5a07",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "a97a7276bb86cddc906a1fc7897136dbe3424b0214d55bb0816c6df7639b9936",
+        ".npz": "6f33a9747e4caa7053950dd1d81d8af248dbfe60c3eb420afdab535eaeb85dfa"
+      },
+      "seconds": 0.12880524998763576,
+      "wdep": {
+        "bits": 0.21492562471546459,
+        "accuracy": 0.9565217391304348
+      },
+      "windep": {
+        "bits": 0.4011104271016235,
+        "accuracy": 0.9176405119643851
+      },
+      "prediction_sha256": "7490a02fd1814501c58ab4d8b5e647b0d9047f5b23e157d470aed72ff7281fd7"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xg",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 33,
+      "id": "mlp6_xg_s19",
+      "phase": "final",
+      "seed": 19,
+      "selected_epoch": 33,
+      "epochs_run": 33,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "f23bd330275a182ff9bca0dc8d843d986ce744d76b77354dadb859eedd51a557",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "1894007b606531f241d626c7777c185f6bba7aec87cedcd56575c3df8531f4d0",
+        ".npz": "3576ca215448ef6f598f3712f154d410d5000ad41d85b82f973acebc6d8bfb22"
+      },
+      "seconds": 0.12606587499612942,
+      "wdep": {
+        "bits": 0.20562173680413356,
+        "accuracy": 0.9512195121951219
+      },
+      "windep": {
+        "bits": 0.3469209132762879,
+        "accuracy": 0.9237618252643295
+      },
+      "prediction_sha256": "d4ac02f961a73d06a28907f7a919827bc748a232c400a2a8fa75f1b9d8d89dbd"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xgt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 98,
+      "id": "mlp6_xgt_s10",
+      "phase": "final",
+      "seed": 10,
+      "selected_epoch": 98,
+      "epochs_run": 98,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 556,
+      "initial_sha256": "6adcfa3485c1ecdbaae8e3e2624e2708068f25f7bca16c87a747da8859a78a19",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "c8a421f52d3843309385868be76038b331649b499b24685822557e9845fcfe0b",
+        ".npz": "e21b39f75bfbea2ef30e996a24ea9d52ee6881137739ec048ebf46953eef9063"
+      },
+      "seconds": 0.3553194999694824,
+      "wdep": {
+        "bits": 0.1646373249887067,
+        "accuracy": 0.9650053022269353
+      },
+      "windep": {
+        "bits": 0.28919527703111236,
+        "accuracy": 0.9360044518642181
+      },
+      "prediction_sha256": "3204212060d96f87f8b4a13b236247ee45d5c58a9cd203815ce0b3d6e85e3407"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xgt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 98,
+      "id": "mlp6_xgt_s11",
+      "phase": "final",
+      "seed": 11,
+      "selected_epoch": 98,
+      "epochs_run": 98,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 556,
+      "initial_sha256": "becb4f41c21e9b667b0a524ec357d71b0e10ecd6bda5d389586899f554e414ac",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "3d3a9cde0fbcdaf666544db62212f8c79ef02668ab67805ea073f017f19aaf40",
+        ".npz": "63360f7e5fc9c0152167702afa401d3cc413f49a73ddf2acac591c9f37c9b7fd"
+      },
+      "seconds": 0.36539345799246803,
+      "wdep": {
+        "bits": 0.1809903547672979,
+        "accuracy": 0.9639448568398727
+      },
+      "windep": {
+        "bits": 0.30726640843976205,
+        "accuracy": 0.9460211463550362
+      },
+      "prediction_sha256": "81f55eb98b90c5e09f92b9a721c81cdafc51a761ae8ee1e1199fa6446617d39d"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xgt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 98,
+      "id": "mlp6_xgt_s12",
+      "phase": "final",
+      "seed": 12,
+      "selected_epoch": 98,
+      "epochs_run": 98,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 556,
+      "initial_sha256": "49bcf31e6f4010392c7e19894b036ab981a66c42fac457f40a6908de022fe133",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "eded0d69df74f1edffaa7241ac9434948b514a18c5d127b5e464a5a802c62f37",
+        ".npz": "3e3004f7e6abaf914e1a10a4b090ff5abc1c3d8321830cce660966407bd0f9d2"
+      },
+      "seconds": 0.35928741696989164,
+      "wdep": {
+        "bits": 0.19349656442206992,
+        "accuracy": 0.9650053022269353
+      },
+      "windep": {
+        "bits": 0.2992625980721231,
+        "accuracy": 0.9398998330550918
+      },
+      "prediction_sha256": "7052a165e1bab4043405c6fe2c701e01738cab2d6018ee48e83dffac489d00e6"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xgt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 98,
+      "id": "mlp6_xgt_s13",
+      "phase": "final",
+      "seed": 13,
+      "selected_epoch": 98,
+      "epochs_run": 98,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 556,
+      "initial_sha256": "765b9ac4eea6e1dc3d199125ec106404ff9181e8fcb4f7474e3aa74867a439f9",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "c0d0ed1f65173c33c84b5cdc6b2cdad80dcf884a5a25d14990ca2d78e342775b",
+        ".npz": "f9d552a9e77675390123bae95356bfc02095a59efce4aa83e4b814abaaacac26"
+      },
+      "seconds": 0.36193391698179767,
+      "wdep": {
+        "bits": 0.14199683106944844,
+        "accuracy": 0.9766702014846236
+      },
+      "windep": {
+        "bits": 0.24331091141953193,
+        "accuracy": 0.9532554257095158
+      },
+      "prediction_sha256": "eafdc78591d826e1d127928bf6bb99d6df387cf1994e71c5e7bc8211eaad9739"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xgt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 98,
+      "id": "mlp6_xgt_s14",
+      "phase": "final",
+      "seed": 14,
+      "selected_epoch": 98,
+      "epochs_run": 98,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 556,
+      "initial_sha256": "6db48f3ad030611b1f1ecfc03f1c505bec7b64af89f5cb792a18e4c99035cd33",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "31a5fc7fcd17992602dd87c33f113cf3111fcf98441ef2202aea885df9e23131",
+        ".npz": "72ab165feef2ea5ea668cf80b1d4efa349dc41326c3dca4f1f36f9ae62fcee35"
+      },
+      "seconds": 0.36197862500557676,
+      "wdep": {
+        "bits": 0.1940178367896667,
+        "accuracy": 0.9671261930010604
+      },
+      "windep": {
+        "bits": 0.36333892105421844,
+        "accuracy": 0.9410127991096272
+      },
+      "prediction_sha256": "7c2b534f246aaadb3f5eac46d0dcdd0e9399e1a3ae430bfa79e4decbfc1cdb97"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xgt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 98,
+      "id": "mlp6_xgt_s15",
+      "phase": "final",
+      "seed": 15,
+      "selected_epoch": 98,
+      "epochs_run": 98,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 556,
+      "initial_sha256": "d22fe66c6b31e2e1ea32c4d551c827ccdf5fae81ec3efb8ee17ce32c0f598e38",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "fc8d7fc34531cb0939cbdf18205b6dd12035a890789f856833e51bd011826f1f",
+        ".npz": "b0854e52c3f89f3e839f2eeef2470a3040a24737c85c9e5b482f6ab2420b1910"
+      },
+      "seconds": 0.35255137499189004,
+      "wdep": {
+        "bits": 0.16642730747611323,
+        "accuracy": 0.9692470837751855
+      },
+      "windep": {
+        "bits": 0.3121938499308641,
+        "accuracy": 0.9432387312186978
+      },
+      "prediction_sha256": "09bb02a7fadd8bf7cec34874431dd4af4e533f7f3ae7e080235e83ac6edf2716"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xgt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 98,
+      "id": "mlp6_xgt_s16",
+      "phase": "final",
+      "seed": 16,
+      "selected_epoch": 98,
+      "epochs_run": 98,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 556,
+      "initial_sha256": "d57572f0dbb937b968011ebb387ecef9e248d337b075d215bb9b96b48e70ca6e",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "ce70fb13b57f947e04513db5c8c80cded73df92486c1519ac3e38063ec1c3134",
+        ".npz": "046f3d444c5bfa440fc739d27b56fd65f36bc82d0652815cd0f0058e0830e83e"
+      },
+      "seconds": 0.35118854203028604,
+      "wdep": {
+        "bits": 0.1764316047555273,
+        "accuracy": 0.9671261930010604
+      },
+      "windep": {
+        "bits": 0.2532319698680299,
+        "accuracy": 0.9488035614913745
+      },
+      "prediction_sha256": "415dec7b27c48082c671a5cbb8a9a281b09cd268ef263f8e8c38dfc44ce356d6"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xgt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 98,
+      "id": "mlp6_xgt_s17",
+      "phase": "final",
+      "seed": 17,
+      "selected_epoch": 98,
+      "epochs_run": 98,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 556,
+      "initial_sha256": "9eb40fd2de660ac8251dc54cf58567bc3ce9cbe5eb179d3db053eee865134bf9",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "bff01bd34f01d0b85da8638b3c2071697bfc0ab9d808d00480225c72d88bbec3",
+        ".npz": "8d12ac215c8a329aba647c55f0db546ccd801e2617627bef3b04a972c0fadcd2"
+      },
+      "seconds": 0.35261379199801013,
+      "wdep": {
+        "bits": 0.17143256521734176,
+        "accuracy": 0.9639448568398727
+      },
+      "windep": {
+        "bits": 0.3155788669314082,
+        "accuracy": 0.9365609348914858
+      },
+      "prediction_sha256": "bd6453658436dea3d74992003dd1e26f45b96a2836f7536304f2782ba3836f49"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xgt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 98,
+      "id": "mlp6_xgt_s18",
+      "phase": "final",
+      "seed": 18,
+      "selected_epoch": 98,
+      "epochs_run": 98,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 556,
+      "initial_sha256": "8b3e3077b61dbf4a758b2b11468ebb399add1d74aacd41116f049a25ec6c5a07",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "befb7817bf3fadb4cf1c85d61bbdf239b5bc92036ac40bec947cc42e0b6861b2",
+        ".npz": "df07333f93833ff96b89d1419fa2abe6dbda70115445080ba5ff3afb8f7188fb"
+      },
+      "seconds": 0.3490166669944301,
+      "wdep": {
+        "bits": 0.1946322854316836,
+        "accuracy": 0.9671261930010604
+      },
+      "windep": {
+        "bits": 0.28657449258772955,
+        "accuracy": 0.9371174179187535
+      },
+      "prediction_sha256": "11e3116dd608ac174c2c914713794013130073f01535bab92614b7529407e71d"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xgt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 98,
+      "id": "mlp6_xgt_s19",
+      "phase": "final",
+      "seed": 19,
+      "selected_epoch": 98,
+      "epochs_run": 98,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 556,
+      "initial_sha256": "f23bd330275a182ff9bca0dc8d843d986ce744d76b77354dadb859eedd51a557",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "7a6d23b3f1e28ec376a43b5eb5762a4cb269c3683f56b687f09c2633b7bdbf91",
+        ".npz": "0616bd54d2ae5b089e55f134f515adac21e468464fc9b8fbdf9d6cbe728907db"
+      },
+      "seconds": 0.3501164579647593,
+      "wdep": {
+        "bits": 0.1589965315869259,
+        "accuracy": 0.9639448568398727
+      },
+      "windep": {
+        "bits": 0.32297032834067574,
+        "accuracy": 0.9465776293823038
+      },
+      "prediction_sha256": "acc544bcecc3e4ecbb775773c0f7417894a973cf62632c93145ad48474c99274"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xshuffle",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 32,
+      "id": "mlp6_xshuffle_s10",
+      "phase": "final",
+      "seed": 10,
+      "selected_epoch": 32,
+      "epochs_run": 32,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "6adcfa3485c1ecdbaae8e3e2624e2708068f25f7bca16c87a747da8859a78a19",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "f4676649847cad30c05707faa3caf339bc3634711f3b3dee255436b452b555d8",
+        ".npz": "a03840cef6c56c1e90e01f8dc9d954010b3f681d948feb74458badb02340f7e0"
+      },
+      "seconds": 0.11490645800950006,
+      "wdep": {
+        "bits": 0.2542437810409773,
+        "accuracy": 0.9469777306468717
+      },
+      "windep": {
+        "bits": 0.42527655193795033,
+        "accuracy": 0.9187534780189204
+      },
+      "prediction_sha256": "336356efee2c1ec0dfe1fad79ac333198045569ba55bbf2c7fbe0abe39149487"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xshuffle",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 32,
+      "id": "mlp6_xshuffle_s11",
+      "phase": "final",
+      "seed": 11,
+      "selected_epoch": 32,
+      "epochs_run": 32,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "becb4f41c21e9b667b0a524ec357d71b0e10ecd6bda5d389586899f554e414ac",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "cbb0aeb19dff8b13734f4ae133c2d54631ce007d19c4779daa48bdc90a43cd3c",
+        ".npz": "89addf60bac680c7bef730c251ff06acc241d3097f214ae8f512f40727166c03"
+      },
+      "seconds": 0.11330483300844207,
+      "wdep": {
+        "bits": 0.3343614272680495,
+        "accuracy": 0.9289501590668081
+      },
+      "windep": {
+        "bits": 0.456927082329602,
+        "accuracy": 0.9053978853644964
+      },
+      "prediction_sha256": "8629eaab911a6343b19e68e1d36f77c4efc371e0edfb359af39cc0b80ec8a30f"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xshuffle",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 32,
+      "id": "mlp6_xshuffle_s12",
+      "phase": "final",
+      "seed": 12,
+      "selected_epoch": 32,
+      "epochs_run": 32,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "49bcf31e6f4010392c7e19894b036ab981a66c42fac457f40a6908de022fe133",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "9ac90d5d8b4c27dc0036b1755be34b87ff12fea8f7377501b9f4cded069e5d96",
+        ".npz": "da273e659a6add18dccacda93c7ce6541bcf4f70a760520636cb9c205ea02014"
+      },
+      "seconds": 0.11188070802018046,
+      "wdep": {
+        "bits": 0.3243955617114063,
+        "accuracy": 0.9384941675503712
+      },
+      "windep": {
+        "bits": 0.46027750141535095,
+        "accuracy": 0.9181969949916527
+      },
+      "prediction_sha256": "b8d22fbedb659e0314ccf4a0da963acf9a3b8a6af7ef11d8173d8971a1ba3115"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xshuffle",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 32,
+      "id": "mlp6_xshuffle_s13",
+      "phase": "final",
+      "seed": 13,
+      "selected_epoch": 32,
+      "epochs_run": 32,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "765b9ac4eea6e1dc3d199125ec106404ff9181e8fcb4f7474e3aa74867a439f9",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "e98bab6118a719ee581ba552ea52b462b2a78db2b76923fb999b10585fac7024",
+        ".npz": "e5d42463caac9be616a534866e709bf42b9ef2ca5807c2036582f3222e2ffce5"
+      },
+      "seconds": 0.11410154099576175,
+      "wdep": {
+        "bits": 0.22161903535796068,
+        "accuracy": 0.953340402969247
+      },
+      "windep": {
+        "bits": 0.404328717574054,
+        "accuracy": 0.9204229271007234
+      },
+      "prediction_sha256": "3c1c800413272a773650b9875b7907b706b8033713e0b649b01165beb4753624"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xshuffle",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 32,
+      "id": "mlp6_xshuffle_s14",
+      "phase": "final",
+      "seed": 14,
+      "selected_epoch": 32,
+      "epochs_run": 32,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "6db48f3ad030611b1f1ecfc03f1c505bec7b64af89f5cb792a18e4c99035cd33",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "6a024d58e332da51cda095c943164093162d9948ca5b3245e57a1a438f2fb920",
+        ".npz": "250e7c78c10a2509896332e8bd5cf87bad01c32fdc3ded4a806f5eff8da420b4"
+      },
+      "seconds": 0.1210258339997381,
+      "wdep": {
+        "bits": 0.36836549481042324,
+        "accuracy": 0.9278897136797455
+      },
+      "windep": {
+        "bits": 0.5190490624285592,
+        "accuracy": 0.9070673344462994
+      },
+      "prediction_sha256": "d17302b0056162c8ea2c9cd890fc798017762b147771f0ab39e42f0bfbadb0dd"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xshuffle",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 32,
+      "id": "mlp6_xshuffle_s15",
+      "phase": "final",
+      "seed": 15,
+      "selected_epoch": 32,
+      "epochs_run": 32,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "d22fe66c6b31e2e1ea32c4d551c827ccdf5fae81ec3efb8ee17ce32c0f598e38",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "b953717ea39a7177208ec684a9cf326b0921403d3c7e1819d7c84071ab405e1e",
+        ".npz": "032f989a8f771a996a359fb24cd776ba50c2fdbd115aadf7a80c7a37a2d2f935"
+      },
+      "seconds": 0.1318086669780314,
+      "wdep": {
+        "bits": 0.3006889817140988,
+        "accuracy": 0.9374337221633086
+      },
+      "windep": {
+        "bits": 0.44918536472564796,
+        "accuracy": 0.9181969949916527
+      },
+      "prediction_sha256": "ec0b1616dbadbabe358fc37de73bd3ce74d8353e99f74d805da8ce6bdfb4b337"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xshuffle",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 32,
+      "id": "mlp6_xshuffle_s16",
+      "phase": "final",
+      "seed": 16,
+      "selected_epoch": 32,
+      "epochs_run": 32,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "d57572f0dbb937b968011ebb387ecef9e248d337b075d215bb9b96b48e70ca6e",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "7631a7075607d74935e963458c66f1f793f346015b204b856266c97b79e9a13e",
+        ".npz": "2c97002402ed01d8288dfda93b7ee68b7d4c6d1f02557c3330c7bc5c80a7ec3f"
+      },
+      "seconds": 0.13433370797429234,
+      "wdep": {
+        "bits": 0.28137874808215857,
+        "accuracy": 0.9406150583244963
+      },
+      "windep": {
+        "bits": 0.41408593839799546,
+        "accuracy": 0.9198664440734557
+      },
+      "prediction_sha256": "91fb92bba2ba5431f70c83792d75f115e418630982c4d5341268bb6a1db5d554"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xshuffle",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 32,
+      "id": "mlp6_xshuffle_s17",
+      "phase": "final",
+      "seed": 17,
+      "selected_epoch": 32,
+      "epochs_run": 32,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "9eb40fd2de660ac8251dc54cf58567bc3ce9cbe5eb179d3db053eee865134bf9",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "490738fc6ba49aa5fb8537413cad992959307b29b0cc5263faea21be3ec55245",
+        ".npz": "8b4ddc4dded88dec572f2d9e26dfb8c6b41de5e1ef2758d6ab95078547e6f70b"
+      },
+      "seconds": 0.1445318750338629,
+      "wdep": {
+        "bits": 0.2778326683643377,
+        "accuracy": 0.9406150583244963
+      },
+      "windep": {
+        "bits": 0.4214219696026805,
+        "accuracy": 0.9176405119643851
+      },
+      "prediction_sha256": "4b9408e536430b0c5f145bdd93558677b88956d23e04cb67759ad5ef542a7f67"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xshuffle",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 32,
+      "id": "mlp6_xshuffle_s18",
+      "phase": "final",
+      "seed": 18,
+      "selected_epoch": 32,
+      "epochs_run": 32,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "8b3e3077b61dbf4a758b2b11468ebb399add1d74aacd41116f049a25ec6c5a07",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "ba6a5140641dbac2f856bdc8722341a32d670bfd90c217589f93e41ca3538b73",
+        ".npz": "b3673ce3855490cfbedaadb9ccf9895a49b7bc550cfe79b0c6cf8e7356e44165"
+      },
+      "seconds": 0.14538424997590482,
+      "wdep": {
+        "bits": 0.3162347780508002,
+        "accuracy": 0.9300106044538706
+      },
+      "windep": {
+        "bits": 0.4075190357418732,
+        "accuracy": 0.9104062326099054
+      },
+      "prediction_sha256": "fa1ab76149a5bcc4762c8d374d0d9c53db45ac724b33f7d6f2ddee5e4b377234"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xshuffle",
+      "lr": 0.01,
+      "wd": 0.01,
+      "epochs": 32,
+      "id": "mlp6_xshuffle_s19",
+      "phase": "final",
+      "seed": 19,
+      "selected_epoch": 32,
+      "epochs_run": 32,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "f23bd330275a182ff9bca0dc8d843d986ce744d76b77354dadb859eedd51a557",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "82acc91aea84ed83d8a5a3407b0a617a8a56c7d90393ab2d86d14ea0792195be",
+        ".npz": "d5fd117495c9c95fddef5cbedfb1a31cc59ed0d925cacb4ba487ab19f0d2680c"
+      },
+      "seconds": 0.12972291599726304,
+      "wdep": {
+        "bits": 0.32818913720847237,
+        "accuracy": 0.9384941675503712
+      },
+      "windep": {
+        "bits": 0.4887534557880269,
+        "accuracy": 0.9187534780189204
+      },
+      "prediction_sha256": "3f9b3288cf0c565a989adfd9d09c65ec6e9ce9a22c7ba4cc8bac6fb6481c4959"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 108,
+      "id": "mlp6_xt_s10",
+      "phase": "final",
+      "seed": 10,
+      "selected_epoch": 108,
+      "epochs_run": 108,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "6adcfa3485c1ecdbaae8e3e2624e2708068f25f7bca16c87a747da8859a78a19",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "cc60925905150eda42a5edc08a40aa7a2ca873beaa5dcb9cfbb0b635a6555846",
+        ".npz": "4a52176e36345352590c7f78bc5857488c9d012832c79affcd7ff4cc28bab771"
+      },
+      "seconds": 0.39298991701798514,
+      "wdep": {
+        "bits": 0.1817933126444592,
+        "accuracy": 0.9671261930010604
+      },
+      "windep": {
+        "bits": 0.3883731356445938,
+        "accuracy": 0.9298831385642737
+      },
+      "prediction_sha256": "9ae205a15a334c027e144bcc7a1fa7cbd2652c14180bee516eb4502b270d58a6"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 108,
+      "id": "mlp6_xt_s11",
+      "phase": "final",
+      "seed": 11,
+      "selected_epoch": 108,
+      "epochs_run": 108,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "becb4f41c21e9b667b0a524ec357d71b0e10ecd6bda5d389586899f554e414ac",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "d487e8a843d55d2afa07dcbadc2458197a17abd750d21d7887b5f53bc4adce9e",
+        ".npz": "ca4b162027b2d055fadc0a145d73077c137cd63bcdc1afb86e56e12fecb9aefc"
+      },
+      "seconds": 0.390044207975734,
+      "wdep": {
+        "bits": 0.19896383170770807,
+        "accuracy": 0.9660657476139979
+      },
+      "windep": {
+        "bits": 0.315953093029622,
+        "accuracy": 0.9404563160823595
+      },
+      "prediction_sha256": "a816c0287036205f25475ca99ae22ba753018ad7ca3e96dffd7c2df02b3c48e5"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 108,
+      "id": "mlp6_xt_s12",
+      "phase": "final",
+      "seed": 12,
+      "selected_epoch": 108,
+      "epochs_run": 108,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "49bcf31e6f4010392c7e19894b036ab981a66c42fac457f40a6908de022fe133",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "da5505cc5e0f2f69d9d8e726755c5192d6834c3323ae536d7881e9a77dae8a5a",
+        ".npz": "5bfa4f6a442c7b793617e4add34577ec4bf1c0fde752bc0bb31a2af0242b19cd"
+      },
+      "seconds": 0.37447495898231864,
+      "wdep": {
+        "bits": 0.1881101730162313,
+        "accuracy": 0.9618239660657476
+      },
+      "windep": {
+        "bits": 0.3480794605025874,
+        "accuracy": 0.9410127991096272
+      },
+      "prediction_sha256": "a2e076cad21cb0eb3d668b1928cf5971b0d1106d393cc6cd3489ff9bd5f78c73"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 108,
+      "id": "mlp6_xt_s13",
+      "phase": "final",
+      "seed": 13,
+      "selected_epoch": 108,
+      "epochs_run": 108,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "765b9ac4eea6e1dc3d199125ec106404ff9181e8fcb4f7474e3aa74867a439f9",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "3168e1886b0a5e3f3af24407283624e776d43b5c7252f9178a572ae39c193faa",
+        ".npz": "3a654378e6f4a75101f4d255d0f88fd356a4bd3d0bcd732365fee05a579523d1"
+      },
+      "seconds": 0.38123308296781033,
+      "wdep": {
+        "bits": 0.13347411205897716,
+        "accuracy": 0.9787910922587487
+      },
+      "windep": {
+        "bits": 0.24932852621375365,
+        "accuracy": 0.9504730105731776
+      },
+      "prediction_sha256": "bbc2e717a422e87a7a49bbdb74c2d37eb173741265309bdab24b6b08eb2b2ef1"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 108,
+      "id": "mlp6_xt_s14",
+      "phase": "final",
+      "seed": 14,
+      "selected_epoch": 108,
+      "epochs_run": 108,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "6db48f3ad030611b1f1ecfc03f1c505bec7b64af89f5cb792a18e4c99035cd33",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "ea90f1889929480f4b22b09e987ed081bcc849810a082ae898756ec4e50fd829",
+        ".npz": "494326073738e90abdfc977dfd5c0567bcab0ec977a6a5f281b5f8992038b965"
+      },
+      "seconds": 0.38190616702195257,
+      "wdep": {
+        "bits": 0.23193819407646177,
+        "accuracy": 0.9660657476139979
+      },
+      "windep": {
+        "bits": 0.46232002349714935,
+        "accuracy": 0.9354479688369505
+      },
+      "prediction_sha256": "61c9d59727ebc7dab5955f41de3c01879a2d8649c10f1216ed479ce3a5c50735"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 108,
+      "id": "mlp6_xt_s15",
+      "phase": "final",
+      "seed": 15,
+      "selected_epoch": 108,
+      "epochs_run": 108,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "d22fe66c6b31e2e1ea32c4d551c827ccdf5fae81ec3efb8ee17ce32c0f598e38",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "62ede01753ebb08a73a940600e45e4529d5d9fff8c9ac48c4a657bbcbf5eb4d7",
+        ".npz": "040450e3bd4a66f657f0c1d20d536f5fb2ee26fe62034b321c1f2e47d3dd0cf5"
+      },
+      "seconds": 0.3875911249779165,
+      "wdep": {
+        "bits": 0.18641799363611758,
+        "accuracy": 0.9650053022269353
+      },
+      "windep": {
+        "bits": 0.2841620046491697,
+        "accuracy": 0.9404563160823595
+      },
+      "prediction_sha256": "d9d01fc51641d10a81f6b2e52f136f5028edbddccd29a0d207c0c0b1069cffab"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 108,
+      "id": "mlp6_xt_s16",
+      "phase": "final",
+      "seed": 16,
+      "selected_epoch": 108,
+      "epochs_run": 108,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "d57572f0dbb937b968011ebb387ecef9e248d337b075d215bb9b96b48e70ca6e",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "81431f9842f3192669108a8526f284db9928c845cdf4d62c98f833de2e997e17",
+        ".npz": "2a10af37defc6eb4e3ec2b4ae216304d8101bd4a927d2a6a85f527d27451452a"
+      },
+      "seconds": 0.37363000004552305,
+      "wdep": {
+        "bits": 0.2010428047639957,
+        "accuracy": 0.9639448568398727
+      },
+      "windep": {
+        "bits": 0.30426045947780156,
+        "accuracy": 0.9432387312186978
+      },
+      "prediction_sha256": "f8ab3c3688a9052488b3831b763bd824f1b9dfeab49020273aaa59ca1f66d922"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 108,
+      "id": "mlp6_xt_s17",
+      "phase": "final",
+      "seed": 17,
+      "selected_epoch": 108,
+      "epochs_run": 108,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "9eb40fd2de660ac8251dc54cf58567bc3ce9cbe5eb179d3db053eee865134bf9",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "e8524f85068c7a086b6e56e9fcdb0c2678cc8a28ff463cabf2e9170edadafd5b",
+        ".npz": "e5e690182b52b1a273aeeedbd8a5a698500b399c8c62099fa1c3ead68bb8e3a7"
+      },
+      "seconds": 0.37791237502824515,
+      "wdep": {
+        "bits": 0.15740115224734008,
+        "accuracy": 0.9639448568398727
+      },
+      "windep": {
+        "bits": 0.30163914854649276,
+        "accuracy": 0.9387868670005565
+      },
+      "prediction_sha256": "811db2a8213b7502ef9362f969004e2763eb8cd4cf7160d8824cddac796af9e7"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 108,
+      "id": "mlp6_xt_s18",
+      "phase": "final",
+      "seed": 18,
+      "selected_epoch": 108,
+      "epochs_run": 108,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "8b3e3077b61dbf4a758b2b11468ebb399add1d74aacd41116f049a25ec6c5a07",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "3e074c29ba41de764e9080a8671e8a17697d26d99c358b28f327b5641e1e15a5",
+        ".npz": "637048f2f065398fe3219d1dbdbb51d10ff3959185fe22d535d6127f4e9f32dc"
+      },
+      "seconds": 0.36559370800387114,
+      "wdep": {
+        "bits": 0.23762920006012353,
+        "accuracy": 0.9522799575821845
+      },
+      "windep": {
+        "bits": 0.34239812018826243,
+        "accuracy": 0.9326655537006121
+      },
+      "prediction_sha256": "61e6b37d94bc865d6b848aa8a8658b9fe2fcb27847a53aa38fff126aa9fa9c60"
+    },
+    {
+      "family": "mlp",
+      "width": 6,
+      "branch": "xt",
+      "lr": 0.003,
+      "wd": 0.01,
+      "epochs": 108,
+      "id": "mlp6_xt_s19",
+      "phase": "final",
+      "seed": 19,
+      "selected_epoch": 108,
+      "epochs_run": 108,
+      "censored": false,
+      "nominal_parameters": 556,
+      "effective_parameters": 508,
+      "initial_sha256": "f23bd330275a182ff9bca0dc8d843d986ce744d76b77354dadb859eedd51a557",
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pt": "648eb6d8bf48d33f646db957c2e2a7d7b5c6846f6dac5bf24f8b53bcd7da5465",
+        ".npz": "72a3dc257fba245684591647b49ec50dfb4fec2d0e76589fd29bdf3cf97cb8a4"
+      },
+      "seconds": 0.3683089169790037,
+      "wdep": {
+        "bits": 0.2172926442087028,
+        "accuracy": 0.9554612937433722
+      },
+      "windep": {
+        "bits": 0.37260943364465815,
+        "accuracy": 0.9326655537006121
+      },
+      "prediction_sha256": "137278d9b97f09b47f18db1ed22a6ea358c3e3a5c487e65f573451a06dfba126"
+    },
+    {
+      "family": "rbf",
+      "branch": "x",
+      "C": 10.0,
+      "gamma": 0.01,
+      "id": "rbf_x",
+      "phase": "final",
+      "warnings": [
+        "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+      ],
+      "n_iter": [
+        107,
+        94,
+        80,
+        159,
+        175,
+        172,
+        116,
+        125,
+        113,
+        236,
+        223,
+        272,
+        247,
+        184,
+        233,
+        369,
+        306,
+        256,
+        181,
+        283,
+        189,
+        215,
+        312,
+        214,
+        150,
+        321,
+        140,
+        218,
+        310,
+        454,
+        224,
+        193,
+        306,
+        214,
+        381,
+        222,
+        207,
+        296,
+        332,
+        131,
+        188,
+        143,
+        212,
+        273,
+        340
+      ],
+      "support_vectors": 901,
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pkl": "203512b014982aa01095b6400add96e26bd1a01c6fa7f258ad0988dc0dbe4dca"
+      },
+      "seconds": 0.4100889579858631,
+      "wdep": {
+        "bits": 0.09238983971024459,
+        "accuracy": 0.9893955461293743
+      },
+      "windep": {
+        "bits": 0.1558972116935199,
+        "accuracy": 0.9749582637729549
+      },
+      "prediction_sha256": "f4f50ddf8aca0b5fd5d5801e612546b40ae980629aa69161b2ad9dd20563a489"
+    },
+    {
+      "family": "rbf",
+      "branch": "xg",
+      "C": 100.0,
+      "gamma": 0.01,
+      "id": "rbf_xg",
+      "phase": "final",
+      "warnings": [
+        "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+      ],
+      "n_iter": [
+        130,
+        137,
+        116,
+        171,
+        149,
+        145,
+        110,
+        129,
+        187,
+        217,
+        168,
+        282,
+        194,
+        187,
+        254,
+        247,
+        301,
+        279,
+        194,
+        269,
+        203,
+        219,
+        327,
+        279,
+        166,
+        349,
+        152,
+        204,
+        311,
+        465,
+        243,
+        220,
+        308,
+        247,
+        369,
+        178,
+        213,
+        300,
+        364,
+        152,
+        192,
+        166,
+        232,
+        281,
+        333
+      ],
+      "support_vectors": 942,
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pkl": "b58b2710d292d210905a067d0752ff8c67a82ac2c4c44ae280e577bd0e7d4fc3"
+      },
+      "seconds": 0.4423037500237115,
+      "wdep": {
+        "bits": 0.08857082471794553,
+        "accuracy": 0.9883351007423118
+      },
+      "windep": {
+        "bits": 0.15064842490723876,
+        "accuracy": 0.9749582637729549
+      },
+      "prediction_sha256": "95d753d615d635a6ea29e702e89c4664ccc88528618b6b6e8cf5c643708e2188"
+    },
+    {
+      "family": "rbf",
+      "branch": "xgt",
+      "C": 100.0,
+      "gamma": 0.01,
+      "id": "rbf_xgt",
+      "phase": "final",
+      "warnings": [
+        "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+      ],
+      "n_iter": [
+        96,
+        103,
+        117,
+        151,
+        156,
+        164,
+        120,
+        134,
+        190,
+        214,
+        194,
+        303,
+        214,
+        159,
+        255,
+        210,
+        262,
+        298,
+        193,
+        276,
+        189,
+        236,
+        200,
+        272,
+        181,
+        349,
+        176,
+        231,
+        206,
+        362,
+        273,
+        228,
+        319,
+        222,
+        356,
+        218,
+        238,
+        213,
+        333,
+        157,
+        208,
+        189,
+        205,
+        307,
+        334
+      ],
+      "support_vectors": 927,
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pkl": "3489c00745692793bfeef943238e9231465869acbcb16f3c28808f62fcec3a88"
+      },
+      "seconds": 0.4400115830358118,
+      "wdep": {
+        "bits": 0.0857382730637232,
+        "accuracy": 0.9925768822905621
+      },
+      "windep": {
+        "bits": 0.13931891254714904,
+        "accuracy": 0.9816360601001669
+      },
+      "prediction_sha256": "4eb2f4b77c204118e3a4f16c64c11137b8a4baf4dfe941b6a0d776e73e8162d8"
+    },
+    {
+      "family": "rbf",
+      "branch": "xt",
+      "C": 100.0,
+      "gamma": 0.01,
+      "id": "rbf_xt",
+      "phase": "final",
+      "warnings": [
+        "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+      ],
+      "n_iter": [
+        98,
+        101,
+        86,
+        142,
+        133,
+        140,
+        121,
+        128,
+        160,
+        260,
+        206,
+        284,
+        248,
+        153,
+        237,
+        249,
+        248,
+        251,
+        177,
+        281,
+        194,
+        198,
+        230,
+        238,
+        168,
+        294,
+        148,
+        248,
+        185,
+        341,
+        235,
+        230,
+        297,
+        247,
+        352,
+        216,
+        214,
+        217,
+        315,
+        139,
+        212,
+        169,
+        177,
+        248,
+        307
+      ],
+      "support_vectors": 869,
+      "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+      "files": {
+        ".pkl": "4991a1edfbdbf3396c4997a0c76f080a1e377a294f7ac7c7f6772b5b0a86b36c"
+      },
+      "seconds": 0.40292495902394876,
+      "wdep": {
+        "bits": 0.08963776657246049,
+        "accuracy": 0.9893955461293743
+      },
+      "windep": {
+        "bits": 0.13938089491193564,
+        "accuracy": 0.9799666110183639
+      },
+      "prediction_sha256": "95fe937247e6d9360a027f1d053fe1c938fc4be9c4ca9ad696c91475548f1621"
+    }
+  ],
+  "completed_utc": "2026-10-12T22:50:44.387492+00:00",
+  "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "geometry_lr09_s2",
+  "branch": "geometry",
+  "lr": 0.015,
+  "seed": 2,
+  "parameters": 508,
+  "accuracy": 0.9482029598308668,
+  "ce": 0.19330647587776184,
+  "selected_epoch": 25,
+  "epochs_run": 175,
+  "stop_reason": "patience",
+  "convergence_censored": false,
+  "seconds": 0.47067033298662864,
+  "initial_parameters_sha256": "9a8a24b06eaad71b8a323503e5f1ed98fb7aa3fd49e9fe3da69da074c91db7da",
+  "protocol_sha256": "cbde599780416160b31740bfe4dcca15d6319d53a8da13cd0513c9840c2d5245",
+  "legacy": {
+    "accuracy": 0.9482029598308668,
+    "ce": 0.19330647587776184,
+    "selected_epoch": 25,
+    "epochs_run": 55,
+    "schedule_complete": true
+  },
+  "weight_sha256": "c8a33ad42b3fb04b44b1439a6e0edbfd780919657101e373b8fe90d608d69358",
+  "predictions_sha256": "74a38fdb3fb72ef853b34a56c2805ae8dc34acd5390e9b9a375d42f35b7bff35"
+}

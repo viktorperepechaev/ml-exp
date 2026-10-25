@@ -1,0 +1,19 @@
+{
+  "id": "linear_xgt_c3",
+  "phase": "tuning",
+  "family": "linear",
+  "branch": "xgt",
+  "C": 1.0,
+  "warnings": [],
+  "n_iter": [
+    158
+  ],
+  "bits": 0.10541840946914068,
+  "accuracy": 0.9809725158562368,
+  "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+  "files": {
+    ".pkl": "1d70b68cd9af9cefb67b84daf8d7340f069a4c0b4f45cac834a776aa190bf7d3",
+    ".npz": "336363e23a5d0b8b7857d90db3c2e4028820c09438cec3e1c3f16db30df1d8a8"
+  },
+  "seconds": 0.08045604202197865
+}

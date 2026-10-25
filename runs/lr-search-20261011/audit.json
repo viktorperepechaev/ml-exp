@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checkpoint_predictions_verified": 300,
+  "identical_initial_weights_across_branches_and_rates": true,
+  "historical_schedule_exact_probability_matches": [
+    "b512_pixels_geometry_early_d1_o0_s0",
+    "b512_pixels_geometry_early_d1_o0_s1",
+    "b512_pixels_geometry_early_d1_o0_s2",
+    "b512_pixels_geometry_early_d1_o1_s0",
+    "b512_pixels_geometry_early_d1_o1_s1",
+    "b512_pixels_geometry_early_d1_o1_s2",
+    "b512_pixels_topology_early_d1_o0_s0",
+    "b512_pixels_topology_early_d1_o0_s1",
+    "b512_pixels_topology_early_d1_o0_s2",
+    "b512_pixels_topology_early_d1_o1_s0",
+    "b512_pixels_topology_early_d1_o1_s1",
+    "b512_pixels_topology_early_d1_o1_s2"
+  ],
+  "test_partitions_parsed": [],
+  "protocol_sha256": "cbde599780416160b31740bfe4dcca15d6319d53a8da13cd0513c9840c2d5245"
+}

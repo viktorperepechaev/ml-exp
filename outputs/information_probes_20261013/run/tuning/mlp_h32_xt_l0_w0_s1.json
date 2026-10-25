@@ -1,0 +1,24 @@
+{
+  "id": "mlp_h32_xt_l0_w0_s1",
+  "phase": "tuning",
+  "family": "mlp",
+  "width": 32,
+  "branch": "xt",
+  "lr": 0.0003,
+  "wd": 0.0,
+  "seed": 1,
+  "selected_epoch": 409,
+  "epochs_run": 529,
+  "censored": false,
+  "nominal_parameters": 2922,
+  "effective_parameters": 2666,
+  "initial_sha256": "6c54e8f29539567da8d4dc8055437f9985cf0644baddaa46f08a2c501b55f470",
+  "bits": 0.10709633480123122,
+  "accuracy": 0.9788583509513742,
+  "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+  "files": {
+    ".pt": "a98807fb3c8df65a4d3afdf5b8555c983a52d2a7fdf72eb4c777011bb7494581",
+    ".npz": "49511b97a00223df7316ddf30e51e12534fc5666cf5855ec2ed71f09597aacee"
+  },
+  "seconds": 1.3165524170035496
+}

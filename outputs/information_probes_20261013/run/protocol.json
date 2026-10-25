@@ -1,0 +1,111 @@
+{
+  "created_utc": "2026-10-12T22:47:50.999257+00:00",
+  "question": "Does topology supply usable class information beyond geometry, and is its benefit specific to tiny decoders?",
+  "design": "Exploratory frozen follow-up. WDEP and WINDEP were previously used. Not a fresh confirmatory holdout.",
+  "primary": "MLP width6 on WINDEP: xg minus xt logloss; xg minus xgt logloss. Positive means topology helps.",
+  "secondary": "WDEP; widths32/128; linear/RBF; beta0/beta1/shuffled topology ablations at width6; width interaction.",
+  "train": "TRA1934; tuning on CV946; fixed refit TRA+CV2880; WDEP943/WINDEP1797 only after weights frozen.",
+  "features": "Original 32x32 binary input: X64 block means, G8 area/perimeter and T8 beta0/beta1 for independent disk closings r0,1,2,3. Side scale1.",
+  "branches": [
+    "x",
+    "xg",
+    "xt",
+    "xgt"
+  ],
+  "ablations": [
+    "xb0",
+    "xb1",
+    "xshuffle"
+  ],
+  "widths": [
+    6,
+    32,
+    128
+  ],
+  "inputs": "All decoders receive 80 slots: X then G or T in same8 slots, zeros to80; XGT uses G then T. XB0/XB1 have4 features then zeros. Zero weights are nominal parameters but not effective capacity.",
+  "normalization": "Training-partition-only mean/std(ddof0); std<1e-10 -> zero; refit on TRA+CV.",
+  "shuffle": "T rows permuted independently within each partition, RNG2026101300+part index(tra0,cv1,full2,wdep3,windep4); fixed across seeds; never condition on labels.",
+  "mlp": {
+    "rates": [
+      0.0003,
+      0.001,
+      0.003,
+      0.01,
+      0.03
+    ],
+    "weight_decays": [
+      0.0,
+      0.01
+    ],
+    "tune_seeds": [
+      0,
+      1,
+      2
+    ],
+    "final_seeds": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "max_epochs": 3000,
+    "patience": 120,
+    "batch_size": 256,
+    "optimizer": "AdamW",
+    "activation": "ReLU",
+    "selection": "Minimum mean3seed CV cross-entropy; ties LR then WD. Per-run lowest CV CE checkpoint; refit epochs = integer median3 selected epochs.",
+    "initialization": "torch seed; independent minibatch RNG202610130+seed; same across branches."
+  },
+  "linear": {
+    "Cs": [
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "solver": "lbfgs",
+    "max_iter": 4000,
+    "tol": 1e-09
+  },
+  "rbf": {
+    "Cs": [
+      1.0,
+      10.0,
+      100.0
+    ],
+    "gammas": [
+      0.001,
+      0.01,
+      0.1
+    ],
+    "probability": true,
+    "random_state": 20261013
+  },
+  "classical_selection": "Minimum CV logloss; tie by job id. Refit once on TRA+CV. SVC probability calibration uses internal training-only folds.",
+  "uncertainty": "5000 paired crossed seed/image bootstrap replicates, images stratified by digit; 95% descriptive intervals. Primary2 contrasts also97.5% marginal intervals (Bonferroni2). No writer-cluster adjustment: no writer IDs. No confirmatory p-value.",
+  "code_and_data_prior_exposure": "Protocol fixed before this run, not preregistration before data exposure. Prior results influenced choice of features and architecture.",
+  "population_shannon_mi": "Not identified by finite-sample probe losses. No claim that trained MLPs achieve family/global infima.",
+  "runner_sha256": "ad284ff9a08d2e9c0f29d6f024a6f82dacea9067e0a32b32e1ea81b8206c7e8c",
+  "source_sha256": {
+    "outputs/real_topology/optdigits_pilot.py": "e3c65756022bbabfc254b32914141b32ef4d4af521db645f2d81a51eb8f74a85",
+    "outputs/real_topology/optdigits_ablation.py": "4fd32b012448ee9e4e72919bbc7f8b34d3bb6c318b42a18e123cbf737788dfe7",
+    "work/real_data/optdigits.zip": "0d7b054fea010270e9b3f06411c654c5e59547732ad626381980baffe0a23fb0",
+    "pyproject.toml": "61eb11ceaacc8376852f086889cc031f31252cafed6c83a9480c87e74107afa6",
+    "uv.lock": "79ad1ccfe0d109f92ef93745dd264bda84a9d1982ab86701fd4742b1674087d6"
+  },
+  "development_sha256": "5013af47ea630c6de41bb6e08583b5cb2f7b839888f057eca110297d660c16b5",
+  "versions": {
+    "python": "3.12.12",
+    "numpy": "2.3.5",
+    "torch": "2.14.0",
+    "sklearn": "1.9.1"
+  }
+}

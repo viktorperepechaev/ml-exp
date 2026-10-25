@@ -1,0 +1,16 @@
+{
+  "family": "linear",
+  "branch": "xt",
+  "C": 1.0,
+  "id": "linear_xt",
+  "phase": "final",
+  "warnings": [],
+  "n_iter": [
+    168
+  ],
+  "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+  "files": {
+    ".pkl": "2c17c466fa15e06cb973f264691234899ae418d9f1e08882c60880acd18b4951"
+  },
+  "seconds": 0.08779099996900186
+}

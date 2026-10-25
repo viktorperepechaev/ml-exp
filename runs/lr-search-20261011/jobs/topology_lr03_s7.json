@@ -1,0 +1,25 @@
+{
+  "id": "topology_lr03_s7",
+  "branch": "topology",
+  "lr": 0.001,
+  "seed": 7,
+  "parameters": 508,
+  "accuracy": 0.9482029598308668,
+  "ce": 0.203134223818779,
+  "selected_epoch": 306,
+  "epochs_run": 456,
+  "stop_reason": "patience",
+  "convergence_censored": false,
+  "seconds": 1.1954362499818671,
+  "initial_parameters_sha256": "6a693a8fea9f53184a73f11dbde4178df1061b5a2dc3173d74fc56bd53dd6ae2",
+  "protocol_sha256": "cbde599780416160b31740bfe4dcca15d6319d53a8da13cd0513c9840c2d5245",
+  "legacy": {
+    "accuracy": 0.9418604651162791,
+    "ce": 0.20865154266357422,
+    "selected_epoch": 250,
+    "epochs_run": 250,
+    "schedule_complete": true
+  },
+  "weight_sha256": "21f9d7cd9a0d161a9f13853905b12758f95cafed120e2a236bb3a014b67c835f",
+  "predictions_sha256": "0043a48b411a985e8f9f201bc5d68b03dbf7b67d0d74044caee0f98b7993e87d"
+}

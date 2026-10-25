@@ -1,0 +1,19 @@
+{
+  "id": "a1_topology_lr08_s7",
+  "alpha": 1.0,
+  "branch": "topology",
+  "lr": 0.01,
+  "seed": 7,
+  "parameters": 508,
+  "accuracy": 0.952431289640592,
+  "ce": 0.17842772603034973,
+  "selected_epoch": 43,
+  "epochs_run": 193,
+  "stop_reason": "patience",
+  "convergence_censored": false,
+  "seconds": 0.6482657499727793,
+  "initial_parameters_sha256": "6a693a8fea9f53184a73f11dbde4178df1061b5a2dc3173d74fc56bd53dd6ae2",
+  "protocol_sha256": "74e624660c4adb056b24c7488676b4d35a3dff714a5ec1face15c638ce5e03d3",
+  "weight_sha256": "7454795eae36219623a302c8d949ea5e144713cc7a0da8ba9e6ee8321766eeda",
+  "predictions_sha256": "cc1b5206ee65eb6e7c854037a8fd286ce4eb166869124673113864f45459beca"
+}

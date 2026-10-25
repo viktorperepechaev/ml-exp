@@ -1,0 +1,24 @@
+{
+  "id": "mlp_h128_xgt_l1_w1_s0",
+  "phase": "tuning",
+  "family": "mlp",
+  "width": 128,
+  "branch": "xgt",
+  "lr": 0.001,
+  "wd": 0.01,
+  "seed": 0,
+  "selected_epoch": 110,
+  "epochs_run": 230,
+  "censored": false,
+  "nominal_parameters": 11658,
+  "effective_parameters": 11658,
+  "initial_sha256": "5240911c20afaf0789185f326a80185213933dd4e74a138b4e22f7a7bbe16278",
+  "bits": 0.0899755493669901,
+  "accuracy": 0.9820295983086681,
+  "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+  "files": {
+    ".pt": "385a7f5ea45d3e31b98b1e42f7341bda3821c6d283a4f6c7f9e5f32bf6830a0d",
+    ".npz": "7391cb9d0cb3b45513784256722be77e930e002b3ac22a9c38fdc6763fab0f70"
+  },
+  "seconds": 0.8845011250232346
+}

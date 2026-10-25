@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "tuning_checkpoints": 510,
+  "final_checkpoints": 158,
+  "prediction_arrays_replayed": 826,
+  "bitwise_exact_arrays": 826,
+  "max_logit_error": 0.0,
+  "normalization_independently_recomputed": true,
+  "source_hashes_verified": true,
+  "cv_selection_verified": true,
+  "test_read_after_all_weights": true,
+  "wdep_matches_historical_features": true,
+  "no_test_selection_in_this_run": true,
+  "no_population_mi_or_family_optimality_certification": true,
+  "auditor_sha256": "d513014b94c56340413a4e408ecfba061424729693859cec70fd3e7adbd5e927"
+}

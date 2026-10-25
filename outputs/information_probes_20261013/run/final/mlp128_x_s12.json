@@ -1,0 +1,23 @@
+{
+  "family": "mlp",
+  "width": 128,
+  "branch": "x",
+  "lr": 0.001,
+  "wd": 0.01,
+  "epochs": 151,
+  "id": "mlp128_x_s12",
+  "phase": "final",
+  "seed": 12,
+  "selected_epoch": 151,
+  "epochs_run": 151,
+  "censored": false,
+  "nominal_parameters": 11658,
+  "effective_parameters": 9610,
+  "initial_sha256": "cbf5f2645ae8554ab20b60a4fc27d2d73622ec322a6e7c19de0184f1f5fe63b0",
+  "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+  "files": {
+    ".pt": "52fd66122a2fb3df25edcc4ca4b76a86c5a1c42fcce1084e16fc66bfcf5c98bb",
+    ".npz": "58b62e5d3ed6392197b809b85dea69f6129365b0d626e42c7e7e5eea6f8dccd6"
+  },
+  "seconds": 1.6336618330096826
+}

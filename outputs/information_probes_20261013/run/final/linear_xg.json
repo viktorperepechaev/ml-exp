@@ -1,0 +1,16 @@
+{
+  "family": "linear",
+  "branch": "xg",
+  "C": 1.0,
+  "id": "linear_xg",
+  "phase": "final",
+  "warnings": [],
+  "n_iter": [
+    186
+  ],
+  "protocol_sha256": "5c36f86a3e97fde621ce8cf307f6cd68dbf3c467f9b0c064ef73e037d817e6f1",
+  "files": {
+    ".pkl": "21f693072969b21ba4e201ad98d816174afbb23ba4710eff3516e81093594e7b"
+  },
+  "seconds": 0.10618391598109156
+}

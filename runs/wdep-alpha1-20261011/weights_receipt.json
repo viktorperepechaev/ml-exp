@@ -1,0 +1,27 @@
+{
+  "frozen_utc": "2026-10-11T12:59:00.195825+00:00",
+  "protocol_sha256": "5c7f3e6cb08d4114094c2e06216de8febed0d4d40beb538eee43709cf8999269",
+  "weights": {
+    "topology_s0.pt": "8dd243e8a8b6d4db7da6d8e3ad0c442636d5967334dfa526ab2ae786409128c5",
+    "topology_s4.pt": "c866edd051664a99896603bc5df8f1b8f60bee26951aa3ea44959556d229f65d",
+    "geometry_s9.pt": "4eddf7519684dbb8bf2dd599179aee128c257e064eb2f1d0715d2563c6ed8f3b",
+    "topology_s5.pt": "718abc5e73cf3a832927988c3e2398618e8c62caf0533f90b63335948f1a696f",
+    "geometry_s8.pt": "53c0738ed2818e32b797ba2c0d2151b62dba206d6334e33a530499341f920f6f",
+    "topology_s1.pt": "aeb72ddb5a7be52f7cdb6afd82fcc8932cf9e8e816e024dd6aa17da49b25a812",
+    "geometry_s7.pt": "ca9bee09e9a1760b5da8be6427f6107bb4f9261466117ec8a86483bf93265477",
+    "geometry_s3.pt": "449bfb013553c1f3fc67ee95fc7b06c39ac98cb69e9c7f17c8e775ba4626d687",
+    "geometry_s2.pt": "45642fa572b5caf748d2e0f14ed2f75d52e5c99eeee83755f5afe321ffe77ca7",
+    "geometry_s6.pt": "7ee4a0306b07e0704057c4fe0d426c3adce4d712388665218ba8489347879d2b",
+    "geometry_s1.pt": "435e3dfb5be60381d3bb27f59fd4620df4ccc88b8bae722822768db6ae08a352",
+    "geometry_s5.pt": "b82bc673d8556fbfe3062f78e1095a612961507923e7aa20a015db352ce70c40",
+    "topology_s8.pt": "a2f3053621584434c4c6f3a7c4e535c28cd83210de5a6b9843d7740c5508d02b",
+    "geometry_s4.pt": "70766fd2c141e206f3a722836b96bdb8347e6d5c1fc26875191fc92cf1c1b1ec",
+    "topology_s9.pt": "b8f980c7020f718ac5314ba0b790c3009d96ac95a55a6b9dd5213a884209b6ff",
+    "geometry_s0.pt": "41a52bf599af68c5c949eada6ef4dd8ab83830f5442a5a65475179ea156efde4",
+    "topology_s6.pt": "3ab8ebd6e13df795e6c2b452aea9d7a725887ff2c1b6d92b0a00f0757f87c0ea",
+    "topology_s2.pt": "5ee0f349989836bbbeba6a96ea21aae776e0036bbe6ad7ca33b67e0c43520b90",
+    "topology_s3.pt": "352befb0cc3a07e984ca1da4ad764a473513662553c8e531636876840b87b0a2",
+    "topology_s7.pt": "d8d33bee725299217b3ce823a358e510551d41c8dff28f90c9bda1d9f023d384"
+  },
+  "wdep_read": false
+}

@@ -1,0 +1,97 @@
+{
+  "registered_utc": "2026-10-11T12:58:52.354015+00:00",
+  "purpose": "Refit CV-selected alpha=1 OptDigits MLPs on TRA+CV and evaluate WDEP.\n\nLR and fixed training epochs are derived only from the archived CV search.\nAll 20 weights are frozen before reading WDEP. WDEP was used previously;\nthis is a descriptive evaluation of the updated configurations, not a new\nindependent confirmation. WINDEP is never parsed.\n",
+  "configs": {
+    "geometry": {
+      "branch": "geometry",
+      "alpha": 1.0,
+      "parameters": 508,
+      "lr": 0.007,
+      "epochs": 47,
+      "cv_selected_epochs": [
+        42,
+        49,
+        58,
+        63,
+        61,
+        46,
+        47,
+        47,
+        42,
+        38
+      ],
+      "cv_median_selected_epoch": 47.0,
+      "cv_mean_accuracy": 0.9486257928118395
+    },
+    "topology": {
+      "branch": "topology",
+      "alpha": 1.0,
+      "parameters": 508,
+      "lr": 0.003,
+      "epochs": 94,
+      "cv_selected_epochs": [
+        77,
+        77,
+        85,
+        89,
+        126,
+        89,
+        114,
+        107,
+        100,
+        99
+      ],
+      "cv_median_selected_epoch": 94.0,
+      "cv_mean_accuracy": 0.9547568710359409
+    }
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "architecture": "MLP 72→6→10 ReLU, 508 parameters",
+  "side_scale": 1.0,
+  "epoch_rule": "int(median(CV-selected minimum-CE epochs at selected LR across all ten seeds)); no WDEP stopping",
+  "optimizer": "AdamW",
+  "weight_decay": 0.01,
+  "batch_size": 256,
+  "normalization": "Per-feature mean/std ddof=0 refitted on TRA+CV only; std<1e-10 columns zeroed",
+  "rng": "torch.manual_seed(seed); independent permutation generator 2026092800+seed",
+  "train_n": 2880,
+  "test_n": 943,
+  "previous_wdep_exposure": true,
+  "parsed_archive_members": [
+    "optdigits-orig.tra.Z",
+    "optdigits-orig.cv.Z",
+    "optdigits-orig.wdep.Z"
+  ],
+  "cv_reference": "runs/feature-scale-20261011",
+  "cv_reference_sha256": {
+    "protocol.json": "74e624660c4adb056b24c7488676b4d35a3dff714a5ec1face15c638ce5e03d3",
+    "result.json": "293e4081fa90a4111495a3fceb441736bcb8541afa91018dde9384e4f3ffc82c",
+    "audit.json": "f990afcb08b9bbc64a35744c78201fc691e5354471b55b8a10a967a0b66f01e8"
+  },
+  "source_sha256": {
+    "tune_learning_rate.py": "399d1e737d2851ff5bb6c9b77b24db7ddcf8f3161fb6e32c7d22443f985e68ee",
+    "outputs/real_topology/optdigits_pilot.py": "e3c65756022bbabfc254b32914141b32ef4d4af521db645f2d81a51eb8f74a85",
+    "outputs/real_topology/optdigits_ablation.py": "4fd32b012448ee9e4e72919bbc7f8b34d3bb6c318b42a18e123cbf737788dfe7",
+    "outputs/tiny_topology/tiny_mlp_pilot.py": "c2e278474e4b4dffe034b39e3e2d2cd7314707fb33861b45f714822f2977f7c0",
+    "work/real_data/optdigits.zip": "0d7b054fea010270e9b3f06411c654c5e59547732ad626381980baffe0a23fb0",
+    "work/real_data/optdigits_complement_trainval_v1.npz": "1561dcb2709d4e878f1a36a20b3fea225cd0724a1340be335594d7695433a3de"
+  },
+  "runner_sha256": "256c1030911549f90133aa950b89ee2d078eb44b977e9f6b7d7af70d79a6f607",
+  "environment": {
+    "python": "3.12.12",
+    "numpy": "2.3.5",
+    "torch": "2.14.0",
+    "platform": "macOS-15.6-arm64-arm-64bit"
+  }
+}
